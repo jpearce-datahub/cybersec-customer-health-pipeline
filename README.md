@@ -1,9 +1,8 @@
 # Cybersecurity Customer Health Analytics Pipeline
 
-A comprehensive data pipeline for tracking customer health analytics with interactive web dashboard and dbt transformations. This system transforms complex operational data into actionable insights for customer journey mapping, support optimization, and churn prevention.
+A comprehensive data pipeline for tracking customer health analytics with interactive web dashboard and dbt transformations.
 
 ## Features
-- **Interactive Web Dashboard**: GitHub dark-themed webapp with customer-specific metrics
 - **dbt Data Transformations**: Staging and mart models for advanced analytics
 - **DBeaver Integration**: Dual database setup for raw and transformed data
 - **Customer Health Scoring**: Composite metrics combining usage, support, security, and satisfaction data
@@ -115,7 +114,6 @@ dbt run --profiles-dir .
 
 ## Web Dashboard Features
 
-- **GitHub Dark Theme**: Professional dark interface with green accents
 - **Customer Selection**: Filter metrics by individual customer or view averages
 - **Focus Areas**:
   - Customer Health Analysis: Sentiment, incident volume, health score
