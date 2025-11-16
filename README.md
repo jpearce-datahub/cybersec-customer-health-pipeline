@@ -156,7 +156,8 @@ The pipeline integrates data from:
 - `security_predictive_analytics` - Predictive modeling
 
 ### Data Flow
-- Key Components:
+**Key Components**:
+
 - Data Sources: 5 input systems (support tickets, security incidents, product usage, customer feedback, contract events)
 - Extract Layer: Python scripts that process and load data
 - Raw Storage: DuckDB database storing unprocessed CSV data
@@ -165,6 +166,7 @@ The pipeline integrates data from:
 - Output Layer: Multiple consumption interfaces (console, web, DBeaver, scoring engine)
 
 **Data Flow Path**:
+
 Sources → Extract Scripts → Raw DuckDB → dbt Models → Analytics DuckDB → Outputs
 
 ## Next Steps
