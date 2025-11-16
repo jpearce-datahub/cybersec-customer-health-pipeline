@@ -1,0 +1,28 @@
+{
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "alerts@company.com",
+    "sender_password": "your_app_password",
+    "recipients": [
+      "customer-success@company.com",
+      "sales@company.com",
+      "management@company.com"
+    ]
+  },
+  "thresholds": {
+    "high_churn_probability": 0.7,
+    "medium_churn_probability": 0.3,
+    "high_value_customer": 50000,
+    "critical_incidents": 5,
+    "low_satisfaction": 3.0
+  },
+  "alert_frequency": "daily",
+  "alert_types": {
+    "HIGH_CHURN_RISK": true,
+    "HIGH_VALUE_AT_RISK": true,
+    "CRITICAL_INCIDENTS": true,
+    "LOW_SATISFACTION": true,
+    "USAGE_DECLINE": true
+  }
+}
