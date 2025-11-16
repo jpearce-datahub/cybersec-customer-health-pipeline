@@ -1,0 +1,2240 @@
+[0m13:10:18.069940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D62286590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D622C1310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D62285E50>]}
+
+
+============================== 13:10:18.072588 | 0b233c73-d5fe-4eab-9d73-a1ff15897e27 ==============================
+[0m13:10:18.072588 [info ] [MainThread]: Running with dbt=1.10.15
+[0m13:10:18.072588 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'target_path': 'None', 'printer_width': '80', 'profiles_dir': '.', 'no_print': 'None', 'warn_error': 'None', 'log_path': 'c:\\Users\\pearc\\cyberproject\\cybersec-customer-health-pipeline\\dbt\\logs', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'False', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt ', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m13:10:18.312535 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0b233c73-d5fe-4eab-9d73-a1ff15897e27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D634453D0>]}
+[0m13:10:18.358662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0b233c73-d5fe-4eab-9d73-a1ff15897e27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D5EC61D50>]}
+[0m13:10:18.360662 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m13:10:18.580309 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m13:10:18.580309 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m13:10:18.580309 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0b233c73-d5fe-4eab-9d73-a1ff15897e27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D62335710>]}
+[0m13:10:19.449218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0b233c73-d5fe-4eab-9d73-a1ff15897e27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D634EC710>]}
+[0m13:10:19.503356 [debug] [MainThread]: Wrote artifact WritableManifest to c:\Users\pearc\cyberproject\cybersec-customer-health-pipeline\dbt\target\manifest.json
+[0m13:10:19.510291 [debug] [MainThread]: Wrote artifact SemanticManifest to c:\Users\pearc\cyberproject\cybersec-customer-health-pipeline\dbt\target\semantic_manifest.json
+[0m13:10:19.535774 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0b233c73-d5fe-4eab-9d73-a1ff15897e27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D5F8D1F10>]}
+[0m13:10:19.535774 [info ] [MainThread]: Found 12 models, 1 test, 458 macros
+[0m13:10:19.535774 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0b233c73-d5fe-4eab-9d73-a1ff15897e27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D63A815D0>]}
+[0m13:10:19.537775 [info ] [MainThread]: 
+[0m13:10:19.537775 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:10:19.538871 [info ] [MainThread]: 
+[0m13:10:19.538871 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m13:10:19.543956 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_cybersec_health_dbt'
+[0m13:10:19.599356 [debug] [ThreadPool]: Using duckdb connection "list_cybersec_health_dbt"
+[0m13:10:19.599356 [debug] [ThreadPool]: On list_cybersec_health_dbt: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "connection_name": "list_cybersec_health_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"cybersec_health_dbt"'
+    
+  
+  
+[0m13:10:19.600357 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:10:19.699894 [debug] [ThreadPool]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "connection_name": "list_cybersec_health_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"cybersec_health_dbt"'
+    
+  
+  
+[0m13:10:19.700903 [debug] [ThreadPool]: DuckDB adapter: Rolling back transaction.
+[0m13:10:19.701895 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:10:19.701895 [debug] [MainThread]: Connection 'list_cybersec_health_dbt' was properly closed.
+[0m13:10:19.701895 [info ] [MainThread]: 
+[0m13:10:19.701895 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.16 seconds (0.16s).
+[0m13:10:19.703694 [error] [MainThread]: Encountered an error:
+Runtime Error
+  IO Error: Cannot open file "c:\users\pearc\cyberproject\cybersec-customer-health-pipeline\dbt\..\data\cybersec_health_dbt.duckdb": The process cannot access the file because it is being used by another process.
+  
+  File is already open in 
+  C:\Users\pearc\AppData\Local\DBeaver\dbeaver.exe (PID 21688)
+[0m13:10:19.704702 [debug] [MainThread]: Command `-c run` failed at 13:10:19.704702 after 1.79 seconds
+[0m13:10:19.704702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D6202D7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D622A5C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D63A17FD0>]}
+[0m13:10:19.705803 [debug] [MainThread]: Flushing usage events
+[0m13:10:20.234023 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:10:35.930314 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820C5A5CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820C609850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820C60B390>]}
+
+
+============================== 13:10:35.931369 | 3503fca0-a639-4a22-bf25-1cda9d9c81df ==============================
+[0m13:10:35.931369 [info ] [MainThread]: Running with dbt=1.10.15
+[0m13:10:35.931369 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '.', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'no_print': 'None', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'log_path': 'c:\\Users\\pearc\\cyberproject\\cybersec-customer-health-pipeline\\dbt\\logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'False', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt ', 'printer_width': '80', 'write_json': 'True'}
+[0m13:10:36.121033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820C66BC90>]}
+[0m13:10:36.162847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028208F73210>]}
+[0m13:10:36.162847 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m13:10:36.362405 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m13:10:36.441466 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:10:36.441466 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:10:36.465635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820DB7C090>]}
+[0m13:10:36.526519 [debug] [MainThread]: Wrote artifact WritableManifest to c:\Users\pearc\cyberproject\cybersec-customer-health-pipeline\dbt\target\manifest.json
+[0m13:10:36.529197 [debug] [MainThread]: Wrote artifact SemanticManifest to c:\Users\pearc\cyberproject\cybersec-customer-health-pipeline\dbt\target\semantic_manifest.json
+[0m13:10:36.543352 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820C66CD90>]}
+[0m13:10:36.544361 [info ] [MainThread]: Found 12 models, 1 test, 458 macros
+[0m13:10:36.544683 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820D75DBD0>]}
+[0m13:10:36.545818 [info ] [MainThread]: 
+[0m13:10:36.545818 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:10:36.545818 [info ] [MainThread]: 
+[0m13:10:36.545818 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m13:10:36.553334 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_cybersec_health_dbt'
+[0m13:10:36.608552 [debug] [ThreadPool]: Using duckdb connection "list_cybersec_health_dbt"
+[0m13:10:36.608552 [debug] [ThreadPool]: On list_cybersec_health_dbt: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "connection_name": "list_cybersec_health_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"cybersec_health_dbt"'
+    
+  
+  
+[0m13:10:36.609553 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:10:36.622590 [debug] [ThreadPool]: SQL status: OK in 0.013 seconds
+[0m13:10:36.623631 [debug] [ThreadPool]: On list_cybersec_health_dbt: Close
+[0m13:10:36.624583 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_cybersec_health_dbt, now create_cybersec_health_dbt_main)
+[0m13:10:36.624583 [debug] [ThreadPool]: Creating schema "database: "cybersec_health_dbt"
+schema: "main"
+"
+[0m13:10:36.630238 [debug] [ThreadPool]: Using duckdb connection "create_cybersec_health_dbt_main"
+[0m13:10:36.630761 [debug] [ThreadPool]: On create_cybersec_health_dbt_main: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "connection_name": "create_cybersec_health_dbt_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='cybersec_health_dbt'
+        and type='sqlite'
+    
+  
+[0m13:10:36.630761 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m13:10:36.631773 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m13:10:36.632778 [debug] [ThreadPool]: Using duckdb connection "create_cybersec_health_dbt_main"
+[0m13:10:36.633794 [debug] [ThreadPool]: On create_cybersec_health_dbt_main: BEGIN
+[0m13:10:36.633794 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m13:10:36.633794 [debug] [ThreadPool]: Using duckdb connection "create_cybersec_health_dbt_main"
+[0m13:10:36.634848 [debug] [ThreadPool]: On create_cybersec_health_dbt_main: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "connection_name": "create_cybersec_health_dbt_main"} */
+
+    
+    
+        create schema if not exists "cybersec_health_dbt"."main"
+    
+[0m13:10:36.634848 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m13:10:36.635783 [debug] [ThreadPool]: On create_cybersec_health_dbt_main: COMMIT
+[0m13:10:36.635783 [debug] [ThreadPool]: Using duckdb connection "create_cybersec_health_dbt_main"
+[0m13:10:36.636460 [debug] [ThreadPool]: On create_cybersec_health_dbt_main: COMMIT
+[0m13:10:36.636460 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m13:10:36.636460 [debug] [ThreadPool]: On create_cybersec_health_dbt_main: Close
+[0m13:10:36.638612 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_cybersec_health_dbt_main'
+[0m13:10:36.642667 [debug] [ThreadPool]: Using duckdb connection "list_cybersec_health_dbt_main"
+[0m13:10:36.643667 [debug] [ThreadPool]: On list_cybersec_health_dbt_main: BEGIN
+[0m13:10:36.643667 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:10:36.644652 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m13:10:36.644652 [debug] [ThreadPool]: Using duckdb connection "list_cybersec_health_dbt_main"
+[0m13:10:36.644652 [debug] [ThreadPool]: On list_cybersec_health_dbt_main: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "connection_name": "list_cybersec_health_dbt_main"} */
+select
+      'cybersec_health_dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'cybersec_health_dbt'
+  
+[0m13:10:36.654593 [debug] [ThreadPool]: SQL status: OK in 0.011 seconds
+[0m13:10:36.657159 [debug] [ThreadPool]: On list_cybersec_health_dbt_main: ROLLBACK
+[0m13:10:36.658477 [debug] [ThreadPool]: Failed to rollback 'list_cybersec_health_dbt_main'
+[0m13:10:36.658477 [debug] [ThreadPool]: On list_cybersec_health_dbt_main: Close
+[0m13:10:36.658477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820D76C110>]}
+[0m13:10:36.661203 [debug] [MainThread]: Using duckdb connection "master"
+[0m13:10:36.661203 [debug] [MainThread]: On master: BEGIN
+[0m13:10:36.662115 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:10:36.662115 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m13:10:36.663191 [debug] [MainThread]: On master: COMMIT
+[0m13:10:36.663191 [debug] [MainThread]: Using duckdb connection "master"
+[0m13:10:36.664234 [debug] [MainThread]: On master: COMMIT
+[0m13:10:36.664234 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m13:10:36.664234 [debug] [MainThread]: On master: Close
+[0m13:10:36.674350 [debug] [Thread-1 (]: Began running node model.cybersec_health.stg_customers
+[0m13:10:36.675350 [debug] [Thread-2 (]: Began running node model.cybersec_health.stg_security_incidents
+[0m13:10:36.676441 [info ] [Thread-1 (]: 1 of 12 START sql view model main.stg_customers ................................ [RUN]
+[0m13:10:36.676441 [info ] [Thread-2 (]: 2 of 12 START sql view model main.stg_security_incidents ....................... [RUN]
+[0m13:10:36.678321 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.cybersec_health.stg_customers'
+[0m13:10:36.678321 [debug] [Thread-2 (]: Acquiring new duckdb connection 'model.cybersec_health.stg_security_incidents'
+[0m13:10:36.679381 [debug] [Thread-1 (]: Began compiling node model.cybersec_health.stg_customers
+[0m13:10:36.679381 [debug] [Thread-2 (]: Began compiling node model.cybersec_health.stg_security_incidents
+[0m13:10:36.684406 [debug] [Thread-1 (]: Writing injected SQL for node "model.cybersec_health.stg_customers"
+[0m13:10:36.723925 [debug] [Thread-2 (]: Writing injected SQL for node "model.cybersec_health.stg_security_incidents"
+[0m13:10:36.726895 [debug] [Thread-1 (]: Began executing node model.cybersec_health.stg_customers
+[0m13:10:36.744901 [debug] [Thread-2 (]: Began executing node model.cybersec_health.stg_security_incidents
+[0m13:10:36.749990 [debug] [Thread-1 (]: Writing runtime sql for node "model.cybersec_health.stg_customers"
+[0m13:10:36.751993 [debug] [Thread-2 (]: Writing runtime sql for node "model.cybersec_health.stg_security_incidents"
+[0m13:10:36.755551 [debug] [Thread-1 (]: Using duckdb connection "model.cybersec_health.stg_customers"
+[0m13:10:36.756548 [debug] [Thread-1 (]: On model.cybersec_health.stg_customers: BEGIN
+[0m13:10:36.756548 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m13:10:36.757556 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.stg_security_incidents"
+[0m13:10:36.757556 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m13:10:36.758558 [debug] [Thread-2 (]: On model.cybersec_health.stg_security_incidents: BEGIN
+[0m13:10:36.758558 [debug] [Thread-1 (]: Using duckdb connection "model.cybersec_health.stg_customers"
+[0m13:10:36.759961 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m13:10:36.759961 [debug] [Thread-1 (]: On model.cybersec_health.stg_customers: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.stg_customers"} */
+
+  
+  create view "cybersec_health_dbt"."main"."stg_customers__dbt_tmp" as (
+    select
+    customer_id,
+    customer_name,
+    industry,
+    company_size,
+    contract_start_date::date as contract_start_date,
+    contract_end_date::date as contract_end_date,
+    monthly_recurring_revenue::decimal(10,2) as mrr,
+    account_manager
+from read_csv_auto('../data/raw/customers.csv')
+  );
+
+[0m13:10:36.761055 [debug] [Thread-2 (]: SQL status: OK in 0.002 seconds
+[0m13:10:36.762167 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.stg_security_incidents"
+[0m13:10:36.762167 [debug] [Thread-2 (]: On model.cybersec_health.stg_security_incidents: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.stg_security_incidents"} */
+
+  
+  create view "cybersec_health_dbt"."main"."stg_security_incidents__dbt_tmp" as (
+    select
+    "customer_id",
+    "Timestamp"::timestamp as incident_timestamp,
+    "Source IP Address" as source_ip,
+    "Destination IP Address" as dest_ip,
+    "Protocol",
+    "Attack Type" as attack_type,
+    "Severity Level" as severity_level,
+    "Action Taken" as action_taken,
+    "Malware Indicators" as malware_indicators,
+    "Anomaly Scores"::float as anomaly_score,
+    "Alerts/Warnings" as alerts_warnings,
+    "Log Source" as log_source,
+    "Network Segment" as network_segment,
+    "Geo-location Data" as geo_location,
+    
+    -- Derived fields
+    case 
+        when "Severity Level" = 'Critical' then 4
+        when "Severity Level" = 'High' then 3
+        when "Severity Level" = 'Medium' then 2
+        when "Severity Level" = 'Low' then 1
+        else 0
+    end as severity_score,
+    
+    case 
+        when "Action Taken" = 'Blocked' then 'Prevented'
+        when "Action Taken" = 'Logged' then 'Detected'
+        when "Action Taken" = 'Ignored' then 'Ignored'
+        else 'Unknown'
+    end as response_category,
+    
+    case 
+        when "Malware Indicators" = 'IoC Detected' then true
+        else false
+    end as has_malware_indicators,
+    
+    case 
+        when "Alerts/Warnings" = 'Alert Triggered' then true
+        else false
+    end as alert_triggered,
+    
+    -- Threat intelligence enrichment
+    case 
+        when "Source IP Address" like '10.%' or "Source IP Address" like '192.168.%' or "Source IP Address" like '172.%' then 'Internal'
+        else 'External'
+    end as ip_classification,
+    
+    -- Geographic risk assessment
+    case 
+        when "Geo-location Data" like '%China%' or "Geo-location Data" like '%Russia%' or "Geo-location Data" like '%North Korea%' then 'High Risk Geography'
+        when "Geo-location Data" like '%US%' or "Geo-location Data" like '%UK%' or "Geo-location Data" like '%Canada%' then 'Low Risk Geography'
+        else 'Medium Risk Geography'
+    end as geo_risk_level,
+    
+    -- Port analysis
+    "Source Port"::int as source_port,
+    "Destination Port"::int as dest_port,
+    case 
+        when "Destination Port"::int in (22, 23, 3389, 5900) then 'Remote Access'
+        when "Destination Port"::int in (80, 443, 8080, 8443) then 'Web Services'
+        when "Destination Port"::int in (21, 22, 25, 53, 110, 143) then 'Standard Services'
+        when "Destination Port"::int > 1024 then 'High Port'
+        else 'System Port'
+    end as port_category,
+    
+    -- Attack sophistication
+    case 
+        when "Attack Signature" = 'Known Pattern A' and "Malware Indicators" = 'IoC Detected' then 'Advanced'
+        when "Attack Signature" = 'Known Pattern B' then 'Intermediate'
+        else 'Basic'
+    end as attack_sophistication
+    
+from read_csv_auto('../data/raw/security_incidents.csv')
+  );
+
+[0m13:10:36.794705 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.stg_customers"} */
+
+  
+  create view "cybersec_health_dbt"."main"."stg_customers__dbt_tmp" as (
+    select
+    customer_id,
+    customer_name,
+    industry,
+    company_size,
+    contract_start_date::date as contract_start_date,
+    contract_end_date::date as contract_end_date,
+    monthly_recurring_revenue::decimal(10,2) as mrr,
+    account_manager
+from read_csv_auto('../data/raw/customers.csv')
+  );
+
+[0m13:10:36.795822 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m13:10:36.795822 [debug] [Thread-1 (]: On model.cybersec_health.stg_customers: ROLLBACK
+[0m13:10:36.800871 [debug] [Thread-1 (]: Failed to rollback 'model.cybersec_health.stg_customers'
+[0m13:10:36.800871 [debug] [Thread-1 (]: On model.cybersec_health.stg_customers: Close
+[0m13:10:36.803674 [debug] [Thread-1 (]: Runtime Error in model stg_customers (models\staging\stg_customers.sql)
+  Binder Error: Referenced column "customer_name" not found in FROM clause!
+  Candidate bindings: "customer_id", "company_name", "contract_start_date", "license_utilization", "industry"
+  
+  LINE 7:     customer_name,
+              ^
+[0m13:10:36.804680 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820E000210>]}
+[0m13:10:36.805716 [error] [Thread-1 (]: 1 of 12 ERROR creating sql view model main.stg_customers ....................... [[31mERROR[0m in 0.13s]
+[0m13:10:36.806732 [debug] [Thread-1 (]: Finished running node model.cybersec_health.stg_customers
+[0m13:10:36.806732 [debug] [Thread-7 (]: Marking all children of 'model.cybersec_health.stg_customers' to be skipped because of status 'error'.  Reason: Runtime Error in model stg_customers (models\staging\stg_customers.sql)
+  Binder Error: Referenced column "customer_name" not found in FROM clause!
+  Candidate bindings: "customer_id", "company_name", "contract_start_date", "license_utilization", "industry"
+  
+  LINE 7:     customer_name,
+              ^.
+[0m13:10:36.868007 [debug] [Thread-2 (]: SQL status: OK in 0.106 seconds
+[0m13:10:36.874525 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.stg_security_incidents"
+[0m13:10:36.874525 [debug] [Thread-2 (]: On model.cybersec_health.stg_security_incidents: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.stg_security_incidents"} */
+alter view "cybersec_health_dbt"."main"."stg_security_incidents__dbt_tmp" rename to "stg_security_incidents"
+[0m13:10:36.875519 [debug] [Thread-2 (]: SQL status: OK in 0.000 seconds
+[0m13:10:36.882958 [debug] [Thread-2 (]: On model.cybersec_health.stg_security_incidents: COMMIT
+[0m13:10:36.882958 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.stg_security_incidents"
+[0m13:10:36.883932 [debug] [Thread-2 (]: On model.cybersec_health.stg_security_incidents: COMMIT
+[0m13:10:36.886328 [debug] [Thread-2 (]: SQL status: OK in 0.002 seconds
+[0m13:10:36.891347 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.stg_security_incidents"
+[0m13:10:36.892347 [debug] [Thread-2 (]: On model.cybersec_health.stg_security_incidents: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.stg_security_incidents"} */
+
+      drop view if exists "cybersec_health_dbt"."main"."stg_security_incidents__dbt_backup" cascade
+    
+[0m13:10:36.893347 [debug] [Thread-2 (]: SQL status: OK in 0.000 seconds
+[0m13:10:36.895587 [debug] [Thread-2 (]: On model.cybersec_health.stg_security_incidents: Close
+[0m13:10:36.895587 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820E007A10>]}
+[0m13:10:36.896585 [info ] [Thread-2 (]: 2 of 12 OK created sql view model main.stg_security_incidents .................. [[32mOK[0m in 0.22s]
+[0m13:10:36.897597 [debug] [Thread-2 (]: Finished running node model.cybersec_health.stg_security_incidents
+[0m13:10:36.898591 [debug] [Thread-4 (]: Began running node model.cybersec_health.customer_health_scores
+[0m13:10:36.899548 [debug] [Thread-3 (]: Began running node model.cybersec_health.security_attack_patterns
+[0m13:10:36.899548 [info ] [Thread-4 (]: 3 of 12 SKIP relation main.customer_health_scores .............................. [[33mSKIP[0m]
+[0m13:10:36.899548 [debug] [Thread-1 (]: Began running node model.cybersec_health.security_clustering_analysis
+[0m13:10:36.901027 [debug] [Thread-2 (]: Began running node model.cybersec_health.security_incident_analytics
+[0m13:10:36.902120 [info ] [Thread-3 (]: 4 of 12 START sql table model main.security_attack_patterns .................... [RUN]
+[0m13:10:36.902120 [debug] [Thread-4 (]: Finished running node model.cybersec_health.customer_health_scores
+[0m13:10:36.903120 [info ] [Thread-1 (]: 5 of 12 START sql table model main.security_clustering_analysis ................ [RUN]
+[0m13:10:36.903783 [info ] [Thread-2 (]: 6 of 12 START sql table model main.security_incident_analytics ................. [RUN]
+[0m13:10:36.903783 [debug] [Thread-3 (]: Acquiring new duckdb connection 'model.cybersec_health.security_attack_patterns'
+[0m13:10:36.904828 [debug] [Thread-4 (]: Began running node model.cybersec_health.security_incidents_daily
+[0m13:10:36.904828 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.cybersec_health.stg_customers, now model.cybersec_health.security_clustering_analysis)
+[0m13:10:36.905830 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.cybersec_health.stg_security_incidents, now model.cybersec_health.security_incident_analytics)
+[0m13:10:36.906881 [debug] [Thread-3 (]: Began compiling node model.cybersec_health.security_attack_patterns
+[0m13:10:36.906881 [info ] [Thread-4 (]: 7 of 12 START sql table model main.security_incidents_daily .................... [RUN]
+[0m13:10:36.907882 [debug] [Thread-1 (]: Began compiling node model.cybersec_health.security_clustering_analysis
+[0m13:10:36.908882 [debug] [Thread-2 (]: Began compiling node model.cybersec_health.security_incident_analytics
+[0m13:10:36.911294 [debug] [Thread-3 (]: Writing injected SQL for node "model.cybersec_health.security_attack_patterns"
+[0m13:10:36.912001 [debug] [Thread-4 (]: Acquiring new duckdb connection 'model.cybersec_health.security_incidents_daily'
+[0m13:10:36.914560 [debug] [Thread-1 (]: Writing injected SQL for node "model.cybersec_health.security_clustering_analysis"
+[0m13:10:36.917559 [debug] [Thread-2 (]: Writing injected SQL for node "model.cybersec_health.security_incident_analytics"
+[0m13:10:36.918559 [debug] [Thread-4 (]: Began compiling node model.cybersec_health.security_incidents_daily
+[0m13:10:36.921207 [debug] [Thread-4 (]: Writing injected SQL for node "model.cybersec_health.security_incidents_daily"
+[0m13:10:36.922314 [debug] [Thread-3 (]: Began executing node model.cybersec_health.security_attack_patterns
+[0m13:10:36.922314 [debug] [Thread-2 (]: Began executing node model.cybersec_health.security_incident_analytics
+[0m13:10:36.923519 [debug] [Thread-1 (]: Began executing node model.cybersec_health.security_clustering_analysis
+[0m13:10:36.939511 [debug] [Thread-3 (]: Writing runtime sql for node "model.cybersec_health.security_attack_patterns"
+[0m13:10:36.939511 [debug] [Thread-4 (]: Began executing node model.cybersec_health.security_incidents_daily
+[0m13:10:36.942508 [debug] [Thread-2 (]: Writing runtime sql for node "model.cybersec_health.security_incident_analytics"
+[0m13:10:36.946146 [debug] [Thread-1 (]: Writing runtime sql for node "model.cybersec_health.security_clustering_analysis"
+[0m13:10:36.949436 [debug] [Thread-4 (]: Writing runtime sql for node "model.cybersec_health.security_incidents_daily"
+[0m13:10:36.950447 [debug] [Thread-3 (]: Using duckdb connection "model.cybersec_health.security_attack_patterns"
+[0m13:10:36.950447 [debug] [Thread-3 (]: On model.cybersec_health.security_attack_patterns: BEGIN
+[0m13:10:36.951733 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m13:10:36.952895 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.security_incident_analytics"
+[0m13:10:36.952895 [debug] [Thread-2 (]: On model.cybersec_health.security_incident_analytics: BEGIN
+[0m13:10:36.953553 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m13:10:36.953553 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m13:10:36.954800 [debug] [Thread-1 (]: Using duckdb connection "model.cybersec_health.security_clustering_analysis"
+[0m13:10:36.954800 [debug] [Thread-2 (]: SQL status: OK in 0.002 seconds
+[0m13:10:36.955515 [debug] [Thread-3 (]: Using duckdb connection "model.cybersec_health.security_attack_patterns"
+[0m13:10:36.955515 [debug] [Thread-4 (]: Using duckdb connection "model.cybersec_health.security_incidents_daily"
+[0m13:10:36.956538 [debug] [Thread-1 (]: On model.cybersec_health.security_clustering_analysis: BEGIN
+[0m13:10:36.956538 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.security_incident_analytics"
+[0m13:10:36.956538 [debug] [Thread-3 (]: On model.cybersec_health.security_attack_patterns: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_attack_patterns"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_attack_patterns__dbt_tmp"
+  
+    as (
+      with incident_sequences as (
+    select
+        customer_id,
+        incident_timestamp,
+        attack_type,
+        severity_level,
+        source_ip,
+        network_segment,
+        lag(attack_type) over (partition by customer_id order by incident_timestamp) as prev_attack_type,
+        lag(incident_timestamp) over (partition by customer_id order by incident_timestamp) as prev_timestamp,
+        lead(attack_type) over (partition by customer_id order by incident_timestamp) as next_attack_type,
+        lead(incident_timestamp) over (partition by customer_id order by incident_timestamp) as next_timestamp
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+),
+
+attack_chains as (
+    select
+        customer_id,
+        incident_timestamp,
+        attack_type,
+        severity_level,
+        source_ip,
+        network_segment,
+        prev_attack_type,
+        next_attack_type,
+        case 
+            when prev_timestamp is not null then 
+                extract(epoch from (incident_timestamp - prev_timestamp)) / 60.0
+            else null
+        end as minutes_since_prev,
+        case 
+            when next_timestamp is not null then 
+                extract(epoch from (next_timestamp - incident_timestamp)) / 60.0
+            else null
+        end as minutes_to_next,
+        
+        -- Identify potential attack chains
+        case 
+            when prev_attack_type is not null and 
+                 extract(epoch from (incident_timestamp - prev_timestamp)) / 60.0 <= 60
+            then concat(prev_attack_type, ' -> ', attack_type)
+            else null
+        end as attack_sequence
+    from incident_sequences
+),
+
+pattern_analysis as (
+    select
+        customer_id,
+        attack_sequence,
+        count(*) as sequence_count,
+        avg(minutes_since_prev) as avg_time_between,
+        min(incident_timestamp) as first_occurrence,
+        max(incident_timestamp) as last_occurrence
+    from attack_chains
+    where attack_sequence is not null
+    group by customer_id, attack_sequence
+),
+
+customer_patterns as (
+    select
+        customer_id,
+        count(distinct attack_type) as unique_attack_types,
+        count(distinct source_ip) as unique_source_ips,
+        count(distinct network_segment) as segments_affected,
+        
+        -- Time-based patterns
+        extract(hour from incident_timestamp) as attack_hour,
+        extract(dow from incident_timestamp) as attack_dow,
+        
+        -- Escalation patterns
+        case 
+            when severity_level = 'Low' and next_attack_type is not null and minutes_to_next <= 30 then 'Potential Escalation'
+            when prev_attack_type = 'Intrusion' and attack_type = 'Malware' and minutes_since_prev <= 60 then 'Intrusion to Malware'
+            when prev_attack_type = 'DDoS' and attack_type = 'Intrusion' and minutes_since_prev <= 120 then 'DDoS to Intrusion'
+            else 'Isolated'
+        end as pattern_type
+        
+    from attack_chains
+    group by customer_id, incident_timestamp, attack_type, severity_level, next_attack_type, prev_attack_type, minutes_to_next, minutes_since_prev
+)
+
+select
+    customer_id,
+    pattern_type,
+    count(*) as pattern_occurrences,
+    avg(unique_attack_types) as avg_attack_variety,
+    avg(unique_source_ips) as avg_ip_variety,
+    avg(segments_affected) as avg_segments_affected,
+    
+    -- Time patterns
+    mode() within group (order by attack_hour) as most_common_hour,
+    mode() within group (order by attack_dow) as most_common_day,
+    
+    -- Risk assessment
+    case 
+        when pattern_type in ('Potential Escalation', 'Intrusion to Malware') then 'High Risk'
+        when pattern_type = 'DDoS to Intrusion' then 'Medium Risk'
+        else 'Low Risk'
+    end as pattern_risk_level
+
+from customer_patterns
+group by customer_id, pattern_type
+order by customer_id, pattern_occurrences desc
+    );
+  
+  
+[0m13:10:36.957551 [debug] [Thread-4 (]: On model.cybersec_health.security_incidents_daily: BEGIN
+[0m13:10:36.957551 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:10:36.958566 [debug] [Thread-2 (]: On model.cybersec_health.security_incident_analytics: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_incident_analytics"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_incident_analytics__dbt_tmp"
+  
+    as (
+      with incident_metrics as (
+    select
+        customer_id,
+        count(*) as total_incidents,
+        count(case when severity_level = 'Critical' then 1 end) as critical_incidents,
+        count(case when severity_level = 'High' then 1 end) as high_incidents,
+        count(case when severity_level = 'Medium' then 1 end) as medium_incidents,
+        count(case when severity_level = 'Low' then 1 end) as low_incidents,
+        
+        -- Attack type distribution
+        count(case when attack_type = 'Malware' then 1 end) as malware_incidents,
+        count(case when attack_type = 'DDoS' then 1 end) as ddos_incidents,
+        count(case when attack_type = 'Intrusion' then 1 end) as intrusion_incidents,
+        
+        -- Response effectiveness
+        count(case when response_category = 'Prevented' then 1 end) as prevented_incidents,
+        count(case when response_category = 'Detected' then 1 end) as detected_incidents,
+        count(case when response_category = 'Ignored' then 1 end) as ignored_incidents,
+        
+        -- Malware and alert metrics
+        count(case when has_malware_indicators then 1 end) as incidents_with_malware,
+        count(case when alert_triggered then 1 end) as incidents_with_alerts,
+        
+        -- Severity scoring
+        avg(severity_score) as avg_severity_score,
+        max(severity_score) as max_severity_score,
+        avg(anomaly_score) as avg_anomaly_score,
+        max(anomaly_score) as max_anomaly_score,
+        
+        -- Time-based metrics
+        min(incident_timestamp) as first_incident_date,
+        max(incident_timestamp) as latest_incident_date,
+        count(case when incident_timestamp >= current_date - interval '30 days' then 1 end) as incidents_last_30_days,
+        count(case when incident_timestamp >= current_date - interval '7 days' then 1 end) as incidents_last_7_days
+        
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+    group by customer_id
+),
+
+risk_scoring as (
+    select
+        *,
+        -- Calculate risk scores
+        case 
+            when critical_incidents > 0 then 'Critical'
+            when high_incidents >= 3 or (high_incidents >= 1 and incidents_last_7_days >= 5) then 'High'
+            when medium_incidents >= 5 or incidents_last_30_days >= 10 then 'Medium'
+            else 'Low'
+        end as security_risk_level,
+        
+        -- Prevention effectiveness ratio
+        case 
+            when total_incidents > 0 then 
+                round((prevented_incidents::float / total_incidents::float) * 100, 2)
+            else 0
+        end as prevention_rate_pct,
+        
+        -- Alert coverage ratio
+        case 
+            when total_incidents > 0 then 
+                round((incidents_with_alerts::float / total_incidents::float) * 100, 2)
+            else 0
+        end as alert_coverage_pct
+        
+    from incident_metrics
+)
+
+select
+    customer_id,
+    total_incidents,
+    critical_incidents,
+    high_incidents,
+    medium_incidents,
+    low_incidents,
+    malware_incidents,
+    ddos_incidents,
+    intrusion_incidents,
+    prevented_incidents,
+    detected_incidents,
+    ignored_incidents,
+    incidents_with_malware,
+    incidents_with_alerts,
+    round(avg_severity_score, 2) as avg_severity_score,
+    max_severity_score,
+    round(avg_anomaly_score, 2) as avg_anomaly_score,
+    round(max_anomaly_score, 2) as max_anomaly_score,
+    first_incident_date,
+    latest_incident_date,
+    incidents_last_30_days,
+    incidents_last_7_days,
+    security_risk_level,
+    prevention_rate_pct,
+    alert_coverage_pct,
+    
+    -- Additional derived metrics
+    case 
+        when prevention_rate_pct >= 80 then 'Excellent'
+        when prevention_rate_pct >= 60 then 'Good'
+        when prevention_rate_pct >= 40 then 'Fair'
+        else 'Poor'
+    end as prevention_effectiveness,
+    
+    case 
+        when alert_coverage_pct >= 90 then 'Excellent'
+        when alert_coverage_pct >= 70 then 'Good'
+        when alert_coverage_pct >= 50 then 'Fair'
+        else 'Poor'
+    end as alert_coverage_rating
+
+from risk_scoring
+order by 
+    case security_risk_level
+        when 'Critical' then 1
+        when 'High' then 2
+        when 'Medium' then 3
+        when 'Low' then 4
+    end,
+    total_incidents desc
+    );
+  
+  
+[0m13:10:36.959555 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m13:10:36.960563 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m13:10:36.962245 [debug] [Thread-4 (]: SQL status: OK in 0.002 seconds
+[0m13:10:36.962245 [debug] [Thread-1 (]: Using duckdb connection "model.cybersec_health.security_clustering_analysis"
+[0m13:10:36.963128 [debug] [Thread-4 (]: Using duckdb connection "model.cybersec_health.security_incidents_daily"
+[0m13:10:36.963128 [debug] [Thread-1 (]: On model.cybersec_health.security_clustering_analysis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_clustering_analysis"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_clustering_analysis__dbt_tmp"
+  
+    as (
+      with customer_features as (
+    select
+        customer_id,
+        count(*) as incident_count,
+        avg(severity_score) as avg_severity,
+        avg(anomaly_score) as avg_anomaly,
+        count(distinct attack_type) as attack_variety,
+        count(distinct source_ip) as unique_ips,
+        count(distinct network_segment) as segments_affected,
+        count(case when response_category = 'Prevented' then 1 end)::float / count(*) as prevention_rate,
+        
+        -- Time patterns
+        stddev(extract(hour from incident_timestamp)) as hour_variance,
+        count(case when extract(hour from incident_timestamp) between 0 and 6 then 1 end) as night_incidents,
+        count(case when extract(dow from incident_timestamp) in (0,6) then 1 end) as weekend_incidents,
+        
+        -- Attack sophistication
+        count(case when attack_sophistication = 'Advanced' then 1 end) as advanced_attacks,
+        count(case when geo_risk_level = 'High Risk Geography' then 1 end) as high_risk_geo_attacks
+        
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+    group by customer_id
+),
+
+normalized_features as (
+    select
+        customer_id,
+        -- Normalize features for clustering (0-1 scale)
+        (incident_count - min(incident_count) over()) / nullif(max(incident_count) over() - min(incident_count) over(), 0) as norm_incident_count,
+        (avg_severity - min(avg_severity) over()) / nullif(max(avg_severity) over() - min(avg_severity) over(), 0) as norm_avg_severity,
+        (avg_anomaly - min(avg_anomaly) over()) / nullif(max(avg_anomaly) over() - min(avg_anomaly) over(), 0) as norm_avg_anomaly,
+        (attack_variety - min(attack_variety) over()) / nullif(max(attack_variety) over() - min(attack_variety) over(), 0) as norm_attack_variety,
+        prevention_rate as norm_prevention_rate,
+        (advanced_attacks - min(advanced_attacks) over()) / nullif(max(advanced_attacks) over() - min(advanced_attacks) over(), 0) as norm_advanced_attacks,
+        
+        -- Original values for interpretation
+        incident_count,
+        avg_severity,
+        avg_anomaly,
+        attack_variety,
+        prevention_rate,
+        advanced_attacks,
+        high_risk_geo_attacks
+    from customer_features
+),
+
+customer_clusters as (
+    select
+        customer_id,
+        incident_count,
+        round(avg_severity, 2) as avg_severity,
+        round(avg_anomaly, 2) as avg_anomaly,
+        attack_variety,
+        round(prevention_rate * 100, 2) as prevention_rate_pct,
+        advanced_attacks,
+        high_risk_geo_attacks,
+        
+        -- Simple clustering based on key metrics
+        case 
+            when norm_incident_count >= 0.8 and norm_avg_severity >= 0.7 then 'High Volume High Severity'
+            when norm_incident_count >= 0.8 and norm_avg_severity < 0.7 then 'High Volume Low Severity'
+            when norm_incident_count < 0.8 and norm_avg_severity >= 0.7 then 'Low Volume High Severity'
+            when norm_advanced_attacks >= 0.5 then 'Advanced Threat Targets'
+            when norm_prevention_rate <= 0.3 then 'Poor Defense'
+            when norm_prevention_rate >= 0.8 then 'Strong Defense'
+            else 'Standard Profile'
+        end as customer_cluster,
+        
+        -- Risk score calculation
+        round(
+            (norm_incident_count * 0.3 + 
+             norm_avg_severity * 0.3 + 
+             norm_avg_anomaly * 0.2 + 
+             norm_advanced_attacks * 0.2) * 100, 2
+        ) as composite_risk_score
+        
+    from normalized_features
+)
+
+select
+    customer_cluster,
+    count(*) as customers_in_cluster,
+    round(avg(incident_count), 1) as avg_incidents,
+    round(avg(avg_severity), 2) as cluster_avg_severity,
+    round(avg(avg_anomaly), 2) as cluster_avg_anomaly,
+    round(avg(prevention_rate_pct), 2) as cluster_avg_prevention_rate,
+    round(avg(composite_risk_score), 2) as cluster_avg_risk_score,
+    
+    -- Cluster characteristics
+    case 
+        when customer_cluster = 'High Volume High Severity' then 'Critical - Immediate attention required'
+        when customer_cluster = 'Advanced Threat Targets' then 'High - Enhanced monitoring needed'
+        when customer_cluster = 'Poor Defense' then 'High - Security improvements needed'
+        when customer_cluster = 'Low Volume High Severity' then 'Medium - Monitor for escalation'
+        when customer_cluster = 'Strong Defense' then 'Low - Maintain current posture'
+        else 'Medium - Standard monitoring'
+    end as cluster_priority,
+    
+    -- Recommended actions
+    case 
+        when customer_cluster = 'High Volume High Severity' then 'Deploy additional security controls, incident response team engagement'
+        when customer_cluster = 'Advanced Threat Targets' then 'Threat hunting, advanced detection rules, security assessment'
+        when customer_cluster = 'Poor Defense' then 'Security architecture review, prevention capability enhancement'
+        when customer_cluster = 'Low Volume High Severity' then 'Root cause analysis, targeted security measures'
+        when customer_cluster = 'Strong Defense' then 'Continue current practices, periodic review'
+        else 'Regular monitoring and standard security practices'
+    end as recommended_actions
+
+from customer_clusters
+group by customer_cluster
+order by cluster_avg_risk_score desc
+    );
+  
+  
+[0m13:10:36.963982 [debug] [Thread-4 (]: On model.cybersec_health.security_incidents_daily: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_incidents_daily"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_incidents_daily__dbt_tmp"
+  
+    as (
+      with daily_incidents as (
+    select
+        date_trunc('day', incident_timestamp) as incident_date,
+        customer_id,
+        attack_type,
+        severity_level,
+        response_category,
+        count(*) as incident_count,
+        avg(severity_score) as avg_severity_score,
+        avg(anomaly_score) as avg_anomaly_score,
+        count(case when has_malware_indicators then 1 end) as malware_count,
+        count(case when alert_triggered then 1 end) as alert_count
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+    group by 1, 2, 3, 4, 5
+),
+
+daily_summary as (
+    select
+        incident_date,
+        customer_id,
+        sum(incident_count) as total_daily_incidents,
+        sum(case when severity_level = 'Critical' then incident_count else 0 end) as critical_count,
+        sum(case when severity_level = 'High' then incident_count else 0 end) as high_count,
+        sum(case when severity_level = 'Medium' then incident_count else 0 end) as medium_count,
+        sum(case when severity_level = 'Low' then incident_count else 0 end) as low_count,
+        
+        sum(case when attack_type = 'Malware' then incident_count else 0 end) as malware_incidents,
+        sum(case when attack_type = 'DDoS' then incident_count else 0 end) as ddos_incidents,
+        sum(case when attack_type = 'Intrusion' then incident_count else 0 end) as intrusion_incidents,
+        
+        sum(case when response_category = 'Prevented' then incident_count else 0 end) as prevented_count,
+        sum(case when response_category = 'Detected' then incident_count else 0 end) as detected_count,
+        sum(case when response_category = 'Ignored' then incident_count else 0 end) as ignored_count,
+        
+        sum(malware_count) as total_malware_indicators,
+        sum(alert_count) as total_alerts,
+        
+        avg(avg_severity_score) as daily_avg_severity,
+        avg(avg_anomaly_score) as daily_avg_anomaly
+        
+    from daily_incidents
+    group by 1, 2
+)
+
+select
+    incident_date,
+    customer_id,
+    total_daily_incidents,
+    critical_count,
+    high_count,
+    medium_count,
+    low_count,
+    malware_incidents,
+    ddos_incidents,
+    intrusion_incidents,
+    prevented_count,
+    detected_count,
+    ignored_count,
+    total_malware_indicators,
+    total_alerts,
+    round(daily_avg_severity, 2) as daily_avg_severity,
+    round(daily_avg_anomaly, 2) as daily_avg_anomaly,
+    
+    -- Calculate prevention rate for the day
+    case 
+        when total_daily_incidents > 0 then 
+            round((prevented_count::float / total_daily_incidents::float) * 100, 2)
+        else 0
+    end as daily_prevention_rate_pct,
+    
+    -- Risk level for the day
+    case 
+        when critical_count > 0 then 'Critical'
+        when high_count >= 2 then 'High'
+        when high_count >= 1 or medium_count >= 3 then 'Medium'
+        else 'Low'
+    end as daily_risk_level,
+    
+    -- Moving averages (7-day window)
+    avg(total_daily_incidents) over (
+        partition by customer_id 
+        order by incident_date 
+        rows between 6 preceding and current row
+    ) as incidents_7day_avg,
+    
+    avg(daily_avg_severity) over (
+        partition by customer_id 
+        order by incident_date 
+        rows between 6 preceding and current row
+    ) as severity_7day_avg
+
+from daily_summary
+order by customer_id, incident_date desc
+    );
+  
+  
+[0m13:10:37.138388 [debug] [Thread-1 (]: SQL status: OK in 0.173 seconds
+[0m13:10:37.147005 [debug] [Thread-1 (]: Using duckdb connection "model.cybersec_health.security_clustering_analysis"
+[0m13:10:37.147005 [debug] [Thread-2 (]: SQL status: OK in 0.186 seconds
+[0m13:10:37.148114 [debug] [Thread-1 (]: On model.cybersec_health.security_clustering_analysis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_clustering_analysis"} */
+alter table "cybersec_health_dbt"."main"."security_clustering_analysis__dbt_tmp" rename to "security_clustering_analysis"
+[0m13:10:37.152951 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.security_incident_analytics"
+[0m13:10:37.154949 [debug] [Thread-2 (]: On model.cybersec_health.security_incident_analytics: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_incident_analytics"} */
+alter table "cybersec_health_dbt"."main"."security_incident_analytics__dbt_tmp" rename to "security_incident_analytics"
+[0m13:10:37.156170 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.157569 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m13:10:37.164838 [debug] [Thread-2 (]: On model.cybersec_health.security_incident_analytics: COMMIT
+[0m13:10:37.167838 [debug] [Thread-1 (]: On model.cybersec_health.security_clustering_analysis: COMMIT
+[0m13:10:37.168836 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.security_incident_analytics"
+[0m13:10:37.169600 [debug] [Thread-1 (]: Using duckdb connection "model.cybersec_health.security_clustering_analysis"
+[0m13:10:37.169600 [debug] [Thread-2 (]: On model.cybersec_health.security_incident_analytics: COMMIT
+[0m13:10:37.169600 [debug] [Thread-1 (]: On model.cybersec_health.security_clustering_analysis: COMMIT
+[0m13:10:37.173966 [debug] [Thread-2 (]: SQL status: OK in 0.003 seconds
+[0m13:10:37.175007 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m13:10:37.178392 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.security_incident_analytics"
+[0m13:10:37.182503 [debug] [Thread-1 (]: Using duckdb connection "model.cybersec_health.security_clustering_analysis"
+[0m13:10:37.184505 [debug] [Thread-2 (]: On model.cybersec_health.security_incident_analytics: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_incident_analytics"} */
+
+      drop table if exists "cybersec_health_dbt"."main"."security_incident_analytics__dbt_backup" cascade
+    
+[0m13:10:37.185497 [debug] [Thread-1 (]: On model.cybersec_health.security_clustering_analysis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_clustering_analysis"} */
+
+      drop table if exists "cybersec_health_dbt"."main"."security_clustering_analysis__dbt_backup" cascade
+    
+[0m13:10:37.186025 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.187174 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.189147 [debug] [Thread-2 (]: On model.cybersec_health.security_incident_analytics: Close
+[0m13:10:37.190325 [debug] [Thread-1 (]: On model.cybersec_health.security_clustering_analysis: Close
+[0m13:10:37.191620 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820E193A50>]}
+[0m13:10:37.192675 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820C6BBB50>]}
+[0m13:10:37.194404 [info ] [Thread-2 (]: 6 of 12 OK created sql table model main.security_incident_analytics ............ [[32mOK[0m in 0.29s]
+[0m13:10:37.195488 [info ] [Thread-1 (]: 5 of 12 OK created sql table model main.security_clustering_analysis ........... [[32mOK[0m in 0.29s]
+[0m13:10:37.196486 [debug] [Thread-2 (]: Finished running node model.cybersec_health.security_incident_analytics
+[0m13:10:37.196486 [debug] [Thread-1 (]: Finished running node model.cybersec_health.security_clustering_analysis
+[0m13:10:37.197515 [debug] [Thread-2 (]: Began running node model.cybersec_health.security_ip_analysis
+[0m13:10:37.198425 [debug] [Thread-1 (]: Began running node model.cybersec_health.security_kpi_dashboard
+[0m13:10:37.199291 [info ] [Thread-2 (]: 8 of 12 START sql table model main.security_ip_analysis ........................ [RUN]
+[0m13:10:37.199863 [info ] [Thread-1 (]: 9 of 12 START sql table model main.security_kpi_dashboard ...................... [RUN]
+[0m13:10:37.199863 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.cybersec_health.security_incident_analytics, now model.cybersec_health.security_ip_analysis)
+[0m13:10:37.199863 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.cybersec_health.security_clustering_analysis, now model.cybersec_health.security_kpi_dashboard)
+[0m13:10:37.201872 [debug] [Thread-2 (]: Began compiling node model.cybersec_health.security_ip_analysis
+[0m13:10:37.201872 [debug] [Thread-1 (]: Began compiling node model.cybersec_health.security_kpi_dashboard
+[0m13:10:37.207818 [debug] [Thread-2 (]: Writing injected SQL for node "model.cybersec_health.security_ip_analysis"
+[0m13:10:37.215277 [debug] [Thread-1 (]: Writing injected SQL for node "model.cybersec_health.security_kpi_dashboard"
+[0m13:10:37.216276 [debug] [Thread-2 (]: Began executing node model.cybersec_health.security_ip_analysis
+[0m13:10:37.221568 [debug] [Thread-2 (]: Writing runtime sql for node "model.cybersec_health.security_ip_analysis"
+[0m13:10:37.222571 [debug] [Thread-1 (]: Began executing node model.cybersec_health.security_kpi_dashboard
+[0m13:10:37.225682 [debug] [Thread-1 (]: Writing runtime sql for node "model.cybersec_health.security_kpi_dashboard"
+[0m13:10:37.226682 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.security_ip_analysis"
+[0m13:10:37.226682 [debug] [Thread-2 (]: On model.cybersec_health.security_ip_analysis: BEGIN
+[0m13:10:37.227710 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m13:10:37.228331 [debug] [Thread-1 (]: Using duckdb connection "model.cybersec_health.security_kpi_dashboard"
+[0m13:10:37.228331 [debug] [Thread-1 (]: On model.cybersec_health.security_kpi_dashboard: BEGIN
+[0m13:10:37.229517 [debug] [Thread-2 (]: SQL status: OK in 0.002 seconds
+[0m13:10:37.229517 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:10:37.229517 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.security_ip_analysis"
+[0m13:10:37.230866 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.230866 [debug] [Thread-2 (]: On model.cybersec_health.security_ip_analysis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_ip_analysis"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_ip_analysis__dbt_tmp"
+  
+    as (
+      with ip_incidents as (
+    select
+        source_ip,
+        count(*) as total_incidents,
+        count(distinct customer_id) as customers_affected,
+        count(distinct geo_location) as locations_count,
+        avg(severity_score) as avg_severity,
+        max(severity_score) as max_severity,
+        count(case when attack_type = 'Malware' then 1 end) as malware_attacks,
+        count(case when attack_type = 'DDoS' then 1 end) as ddos_attacks,
+        count(case when attack_type = 'Intrusion' then 1 end) as intrusion_attacks,
+        count(case when response_category = 'Prevented' then 1 end) as prevented_count,
+        min(incident_timestamp) as first_seen,
+        max(incident_timestamp) as last_seen,
+        count(case when incident_timestamp >= current_date - interval '7 days' then 1 end) as recent_activity
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+    group by source_ip
+),
+
+ip_reputation as (
+    select
+        *,
+        case 
+            when customers_affected >= 5 and avg_severity >= 3 then 'High Risk'
+            when customers_affected >= 3 or avg_severity >= 2.5 then 'Medium Risk'
+            when total_incidents >= 10 then 'Suspicious'
+            else 'Low Risk'
+        end as threat_level,
+        
+        case 
+            when malware_attacks >= ddos_attacks and malware_attacks >= intrusion_attacks then 'Malware'
+            when ddos_attacks >= intrusion_attacks then 'DDoS'
+            else 'Intrusion'
+        end as primary_attack_type,
+        
+        round((prevented_count::float / total_incidents::float) * 100, 2) as prevention_rate_pct
+    from ip_incidents
+)
+
+select
+    source_ip,
+    total_incidents,
+    customers_affected,
+    locations_count,
+    round(avg_severity, 2) as avg_severity,
+    max_severity,
+    malware_attacks,
+    ddos_attacks,
+    intrusion_attacks,
+    prevented_count,
+    first_seen,
+    last_seen,
+    recent_activity,
+    threat_level,
+    primary_attack_type,
+    prevention_rate_pct,
+    
+    -- Calculate persistence score
+    case 
+        when recent_activity > 0 and total_incidents >= 5 then 'Persistent'
+        when recent_activity > 0 then 'Active'
+        when last_seen >= current_date - interval '30 days' then 'Recent'
+        else 'Historical'
+    end as activity_status
+    
+from ip_reputation
+order by 
+    case threat_level
+        when 'High Risk' then 1
+        when 'Medium Risk' then 2
+        when 'Suspicious' then 3
+        else 4
+    end,
+    total_incidents desc
+    );
+  
+  
+[0m13:10:37.232169 [debug] [Thread-1 (]: Using duckdb connection "model.cybersec_health.security_kpi_dashboard"
+[0m13:10:37.233168 [debug] [Thread-1 (]: On model.cybersec_health.security_kpi_dashboard: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_kpi_dashboard"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_kpi_dashboard__dbt_tmp"
+  
+    as (
+      with current_metrics as (
+    select
+        count(distinct customer_id) as total_customers,
+        count(*) as total_incidents,
+        count(case when severity_level = 'Critical' then 1 end) as critical_incidents,
+        count(case when severity_level = 'High' then 1 end) as high_incidents,
+        count(case when response_category = 'Prevented' then 1 end) as prevented_incidents,
+        count(case when alert_triggered then 1 end) as alerted_incidents,
+        count(case when incident_timestamp >= current_date - interval '24 hours' then 1 end) as incidents_24h,
+        count(case when incident_timestamp >= current_date - interval '7 days' then 1 end) as incidents_7d,
+        count(case when incident_timestamp >= current_date - interval '30 days' then 1 end) as incidents_30d,
+        avg(anomaly_score) as avg_anomaly_score
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+),
+
+previous_period as (
+    select
+        count(*) as prev_total_incidents,
+        count(case when severity_level = 'Critical' then 1 end) as prev_critical_incidents,
+        count(case when response_category = 'Prevented' then 1 end) as prev_prevented_incidents
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+    where incident_timestamp >= current_date - interval '60 days'
+    and incident_timestamp < current_date - interval '30 days'
+),
+
+sla_metrics as (
+    select
+        -- Mean Time to Detection (simulated)
+        avg(case when alert_triggered then 15 else 45 end) as mttr_minutes,
+        
+        -- Prevention rate
+        round((prevented_incidents::float / total_incidents::float) * 100, 2) as prevention_rate,
+        
+        -- Alert coverage
+        round((alerted_incidents::float / total_incidents::float) * 100, 2) as alert_coverage,
+        
+        -- Critical incident rate
+        round((critical_incidents::float / total_incidents::float) * 100, 2) as critical_rate
+        
+    from current_metrics
+),
+
+trend_analysis as (
+    select
+        cm.*,
+        pp.*,
+        sm.*,
+        
+        -- Calculate trends
+        case 
+            when pp.prev_total_incidents > 0 then
+                round(((cm.incidents_30d - pp.prev_total_incidents)::float / pp.prev_total_incidents::float) * 100, 2)
+            else 0
+        end as incident_trend_pct,
+        
+        case 
+            when pp.prev_critical_incidents > 0 then
+                round(((cm.critical_incidents - pp.prev_critical_incidents)::float / pp.prev_critical_incidents::float) * 100, 2)
+            else 0
+        end as critical_trend_pct,
+        
+        case 
+            when pp.prev_prevented_incidents > 0 then
+                round(((cm.prevented_incidents - pp.prev_prevented_incidents)::float / pp.prev_prevented_incidents::float) * 100, 2)
+            else 0
+        end as prevention_trend_pct
+        
+    from current_metrics cm
+    cross join previous_period pp
+    cross join sla_metrics sm
+)
+
+select
+    -- Current state
+    total_customers,
+    total_incidents,
+    critical_incidents,
+    high_incidents,
+    incidents_24h,
+    incidents_7d,
+    incidents_30d,
+    
+    -- Performance metrics
+    prevention_rate,
+    alert_coverage,
+    critical_rate,
+    round(avg_anomaly_score, 2) as avg_anomaly_score,
+    round(mttr_minutes, 1) as mttr_minutes,
+    
+    -- Trends
+    incident_trend_pct,
+    critical_trend_pct,
+    prevention_trend_pct,
+    
+    -- Status indicators
+    case 
+        when critical_rate > 20 then 'Critical'
+        when critical_rate > 10 then 'High'
+        when critical_rate > 5 then 'Medium'
+        else 'Good'
+    end as security_posture,
+    
+    case 
+        when prevention_rate >= 80 then 'Excellent'
+        when prevention_rate >= 60 then 'Good'
+        when prevention_rate >= 40 then 'Fair'
+        else 'Poor'
+    end as prevention_status,
+    
+    case 
+        when alert_coverage >= 90 then 'Excellent'
+        when alert_coverage >= 70 then 'Good'
+        when alert_coverage >= 50 then 'Fair'
+        else 'Poor'
+    end as detection_status,
+    
+    case 
+        when incident_trend_pct <= -10 then 'Improving'
+        when incident_trend_pct <= 10 then 'Stable'
+        when incident_trend_pct <= 25 then 'Concerning'
+        else 'Critical'
+    end as trend_status,
+    
+    current_timestamp as last_updated
+
+from trend_analysis
+    );
+  
+  
+[0m13:10:37.245948 [debug] [Thread-3 (]: SQL status: OK in 0.287 seconds
+[0m13:10:37.250174 [debug] [Thread-3 (]: Using duckdb connection "model.cybersec_health.security_attack_patterns"
+[0m13:10:37.250174 [debug] [Thread-3 (]: On model.cybersec_health.security_attack_patterns: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_attack_patterns"} */
+alter table "cybersec_health_dbt"."main"."security_attack_patterns__dbt_tmp" rename to "security_attack_patterns"
+[0m13:10:37.252171 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.253365 [debug] [Thread-3 (]: On model.cybersec_health.security_attack_patterns: COMMIT
+[0m13:10:37.253365 [debug] [Thread-3 (]: Using duckdb connection "model.cybersec_health.security_attack_patterns"
+[0m13:10:37.254370 [debug] [Thread-3 (]: On model.cybersec_health.security_attack_patterns: COMMIT
+[0m13:10:37.256376 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.258385 [debug] [Thread-3 (]: Using duckdb connection "model.cybersec_health.security_attack_patterns"
+[0m13:10:37.259385 [debug] [Thread-3 (]: On model.cybersec_health.security_attack_patterns: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_attack_patterns"} */
+
+      drop table if exists "cybersec_health_dbt"."main"."security_attack_patterns__dbt_backup" cascade
+    
+[0m13:10:37.259385 [debug] [Thread-3 (]: SQL status: OK in 0.000 seconds
+[0m13:10:37.261674 [debug] [Thread-3 (]: On model.cybersec_health.security_attack_patterns: Close
+[0m13:10:37.262678 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820D76F950>]}
+[0m13:10:37.262678 [info ] [Thread-3 (]: 4 of 12 OK created sql table model main.security_attack_patterns ............... [[32mOK[0m in 0.36s]
+[0m13:10:37.263695 [debug] [Thread-3 (]: Finished running node model.cybersec_health.security_attack_patterns
+[0m13:10:37.264694 [debug] [Thread-3 (]: Began running node model.cybersec_health.security_network_analysis
+[0m13:10:37.264694 [info ] [Thread-3 (]: 10 of 12 START sql table model main.security_network_analysis .................. [RUN]
+[0m13:10:37.265693 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.cybersec_health.security_attack_patterns, now model.cybersec_health.security_network_analysis)
+[0m13:10:37.265693 [debug] [Thread-3 (]: Began compiling node model.cybersec_health.security_network_analysis
+[0m13:10:37.270589 [debug] [Thread-3 (]: Writing injected SQL for node "model.cybersec_health.security_network_analysis"
+[0m13:10:37.271094 [debug] [Thread-4 (]: SQL status: OK in 0.305 seconds
+[0m13:10:37.273103 [debug] [Thread-4 (]: Using duckdb connection "model.cybersec_health.security_incidents_daily"
+[0m13:10:37.274102 [debug] [Thread-4 (]: On model.cybersec_health.security_incidents_daily: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_incidents_daily"} */
+alter table "cybersec_health_dbt"."main"."security_incidents_daily__dbt_tmp" rename to "security_incidents_daily"
+[0m13:10:37.274102 [debug] [Thread-3 (]: Began executing node model.cybersec_health.security_network_analysis
+[0m13:10:37.277872 [debug] [Thread-3 (]: Writing runtime sql for node "model.cybersec_health.security_network_analysis"
+[0m13:10:37.278519 [debug] [Thread-4 (]: SQL status: OK in 0.004 seconds
+[0m13:10:37.279506 [debug] [Thread-4 (]: On model.cybersec_health.security_incidents_daily: COMMIT
+[0m13:10:37.280573 [debug] [Thread-4 (]: Using duckdb connection "model.cybersec_health.security_incidents_daily"
+[0m13:10:37.280573 [debug] [Thread-3 (]: Using duckdb connection "model.cybersec_health.security_network_analysis"
+[0m13:10:37.281584 [debug] [Thread-4 (]: On model.cybersec_health.security_incidents_daily: COMMIT
+[0m13:10:37.281584 [debug] [Thread-3 (]: On model.cybersec_health.security_network_analysis: BEGIN
+[0m13:10:37.282581 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m13:10:37.282581 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.283623 [debug] [Thread-3 (]: Using duckdb connection "model.cybersec_health.security_network_analysis"
+[0m13:10:37.283623 [debug] [Thread-3 (]: On model.cybersec_health.security_network_analysis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_network_analysis"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_network_analysis__dbt_tmp"
+  
+    as (
+      with network_incidents as (
+    select
+        network_segment,
+        attack_type,
+        severity_level,
+        protocol,
+        log_source,
+        count(*) as incident_count,
+        count(distinct customer_id) as affected_customers,
+        avg(severity_score) as avg_severity_score,
+        avg(anomaly_score) as avg_anomaly_score,
+        count(case when has_malware_indicators then 1 end) as malware_incidents,
+        count(case when alert_triggered then 1 end) as alert_incidents,
+        count(case when response_category = 'Prevented' then 1 end) as prevented_incidents
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+    group by 1, 2, 3, 4, 5
+),
+
+segment_summary as (
+    select
+        network_segment,
+        sum(incident_count) as total_incidents,
+        sum(affected_customers) as total_affected_customers,
+        
+        -- Attack type breakdown
+        sum(case when attack_type = 'Malware' then incident_count else 0 end) as malware_count,
+        sum(case when attack_type = 'DDoS' then incident_count else 0 end) as ddos_count,
+        sum(case when attack_type = 'Intrusion' then incident_count else 0 end) as intrusion_count,
+        
+        -- Severity breakdown
+        sum(case when severity_level = 'Critical' then incident_count else 0 end) as critical_count,
+        sum(case when severity_level = 'High' then incident_count else 0 end) as high_count,
+        sum(case when severity_level = 'Medium' then incident_count else 0 end) as medium_count,
+        sum(case when severity_level = 'Low' then incident_count else 0 end) as low_count,
+        
+        -- Protocol breakdown
+        sum(case when protocol = 'TCP' then incident_count else 0 end) as tcp_incidents,
+        sum(case when protocol = 'UDP' then incident_count else 0 end) as udp_incidents,
+        sum(case when protocol = 'ICMP' then incident_count else 0 end) as icmp_incidents,
+        
+        -- Source breakdown
+        sum(case when log_source = 'Firewall' then incident_count else 0 end) as firewall_incidents,
+        sum(case when log_source = 'Server' then incident_count else 0 end) as server_incidents,
+        
+        sum(malware_incidents) as total_malware_indicators,
+        sum(alert_incidents) as total_alerts,
+        sum(prevented_incidents) as total_prevented,
+        
+        avg(avg_severity_score) as segment_avg_severity,
+        avg(avg_anomaly_score) as segment_avg_anomaly
+        
+    from network_incidents
+    group by 1
+)
+
+select
+    network_segment,
+    total_incidents,
+    total_affected_customers,
+    malware_count,
+    ddos_count,
+    intrusion_count,
+    critical_count,
+    high_count,
+    medium_count,
+    low_count,
+    tcp_incidents,
+    udp_incidents,
+    icmp_incidents,
+    firewall_incidents,
+    server_incidents,
+    total_malware_indicators,
+    total_alerts,
+    total_prevented,
+    round(segment_avg_severity, 2) as segment_avg_severity,
+    round(segment_avg_anomaly, 2) as segment_avg_anomaly,
+    
+    -- Calculate percentages
+    round((malware_count::float / total_incidents::float) * 100, 2) as malware_pct,
+    round((ddos_count::float / total_incidents::float) * 100, 2) as ddos_pct,
+    round((intrusion_count::float / total_incidents::float) * 100, 2) as intrusion_pct,
+    
+    round((critical_count::float / total_incidents::float) * 100, 2) as critical_pct,
+    round((high_count::float / total_incidents::float) * 100, 2) as high_pct,
+    
+    round((total_prevented::float / total_incidents::float) * 100, 2) as prevention_rate_pct,
+    round((total_alerts::float / total_incidents::float) * 100, 2) as alert_rate_pct,
+    
+    -- Risk assessment per segment
+    case 
+        when critical_count > 0 and critical_pct > 20 then 'Critical'
+        when high_count > 0 and (critical_pct + high_pct) > 30 then 'High'
+        when (critical_pct + high_pct + medium_pct) > 50 then 'Medium'
+        else 'Low'
+    end as segment_risk_level,
+    
+    -- Most common attack type
+    case 
+        when malware_count >= ddos_count and malware_count >= intrusion_count then 'Malware'
+        when ddos_count >= intrusion_count then 'DDoS'
+        else 'Intrusion'
+    end as primary_attack_type,
+    
+    -- Most common protocol
+    case 
+        when tcp_incidents >= udp_incidents and tcp_incidents >= icmp_incidents then 'TCP'
+        when udp_incidents >= icmp_incidents then 'UDP'
+        else 'ICMP'
+    end as primary_protocol
+
+from segment_summary
+order by total_incidents desc, segment_avg_severity desc
+    );
+  
+  
+[0m13:10:37.299956 [debug] [Thread-4 (]: SQL status: OK in 0.018 seconds
+[0m13:10:37.301952 [debug] [Thread-4 (]: Using duckdb connection "model.cybersec_health.security_incidents_daily"
+[0m13:10:37.302894 [debug] [Thread-4 (]: On model.cybersec_health.security_incidents_daily: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_incidents_daily"} */
+
+      drop table if exists "cybersec_health_dbt"."main"."security_incidents_daily__dbt_backup" cascade
+    
+[0m13:10:37.303585 [debug] [Thread-4 (]: SQL status: OK in 0.000 seconds
+[0m13:10:37.304624 [debug] [Thread-4 (]: On model.cybersec_health.security_incidents_daily: Close
+[0m13:10:37.304624 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820DCB1010>]}
+[0m13:10:37.305635 [info ] [Thread-4 (]: 7 of 12 OK created sql table model main.security_incidents_daily ............... [[32mOK[0m in 0.39s]
+[0m13:10:37.305635 [debug] [Thread-4 (]: Finished running node model.cybersec_health.security_incidents_daily
+[0m13:10:37.306645 [debug] [Thread-4 (]: Began running node model.cybersec_health.security_predictive_analytics
+[0m13:10:37.307547 [info ] [Thread-4 (]: 11 of 12 START sql table model main.security_predictive_analytics .............. [RUN]
+[0m13:10:37.307547 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.cybersec_health.security_incidents_daily, now model.cybersec_health.security_predictive_analytics)
+[0m13:10:37.308601 [debug] [Thread-4 (]: Began compiling node model.cybersec_health.security_predictive_analytics
+[0m13:10:37.311288 [debug] [Thread-4 (]: Writing injected SQL for node "model.cybersec_health.security_predictive_analytics"
+[0m13:10:37.312548 [debug] [Thread-4 (]: Began executing node model.cybersec_health.security_predictive_analytics
+[0m13:10:37.315268 [debug] [Thread-4 (]: Writing runtime sql for node "model.cybersec_health.security_predictive_analytics"
+[0m13:10:37.316377 [debug] [Thread-4 (]: Using duckdb connection "model.cybersec_health.security_predictive_analytics"
+[0m13:10:37.316804 [debug] [Thread-4 (]: On model.cybersec_health.security_predictive_analytics: BEGIN
+[0m13:10:37.316804 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m13:10:37.316804 [debug] [Thread-4 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.316804 [debug] [Thread-4 (]: Using duckdb connection "model.cybersec_health.security_predictive_analytics"
+[0m13:10:37.318812 [debug] [Thread-4 (]: On model.cybersec_health.security_predictive_analytics: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_predictive_analytics"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_predictive_analytics__dbt_tmp"
+  
+    as (
+      with customer_history as (
+    select
+        customer_id,
+        extract(hour from incident_timestamp) as incident_hour,
+        extract(dow from incident_timestamp) as incident_dow,
+        attack_type,
+        severity_score,
+        anomaly_score,
+        network_segment,
+        
+        -- Time-based features
+        row_number() over (partition by customer_id order by incident_timestamp desc) as recency_rank,
+        count(*) over (partition by customer_id) as total_incidents,
+        avg(severity_score) over (partition by customer_id) as avg_customer_severity,
+        
+        -- Sequence features
+        lag(attack_type) over (partition by customer_id order by incident_timestamp) as prev_attack,
+        lag(severity_score) over (partition by customer_id order by incident_timestamp) as prev_severity,
+        
+        -- Time gaps
+        case 
+            when lag(incident_timestamp) over (partition by customer_id order by incident_timestamp) is not null then
+                extract(epoch from (incident_timestamp - lag(incident_timestamp) over (partition by customer_id order by incident_timestamp))) / 3600.0
+            else null
+        end as hours_since_last
+        
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+),
+
+risk_patterns as (
+    select
+        customer_id,
+        
+        -- Behavioral patterns
+        mode() within group (order by incident_hour) as peak_attack_hour,
+        mode() within group (order by incident_dow) as peak_attack_day,
+        mode() within group (order by attack_type) as most_common_attack,
+        
+        -- Risk indicators
+        avg(severity_score) as avg_severity,
+        max(severity_score) as max_severity,
+        avg(anomaly_score) as avg_anomaly,
+        stddev(anomaly_score) as anomaly_variance,
+        
+        -- Frequency patterns
+        count(*) as incident_count,
+        avg(hours_since_last) as avg_time_between_incidents,
+        min(hours_since_last) as min_time_between_incidents,
+        
+        -- Escalation patterns
+        count(case when prev_severity < severity_score then 1 end) as escalation_count,
+        count(case when prev_attack != attack_type then 1 end) as attack_type_changes,
+        
+        -- Recent activity
+        count(case when recency_rank <= 5 then 1 end) as recent_incidents,
+        avg(case when recency_rank <= 5 then severity_score end) as recent_avg_severity
+        
+    from customer_history
+    group by customer_id
+),
+
+predictive_scores as (
+    select
+        *,
+        
+        -- Next attack likelihood (0-100)
+        least(100, greatest(0, 
+            case 
+                when avg_time_between_incidents <= 24 then 85
+                when avg_time_between_incidents <= 72 then 65
+                when avg_time_between_incidents <= 168 then 45
+                else 25
+            end +
+            case when recent_avg_severity >= 3 then 15 else 0 end +
+            case when escalation_count > 0 then 10 else 0 end +
+            case when anomaly_variance > 20 then 10 else 0 end
+        )) as next_attack_probability,
+        
+        -- Severity prediction
+        case 
+            when recent_avg_severity >= 3.5 then 'Critical'
+            when recent_avg_severity >= 2.5 then 'High'
+            when recent_avg_severity >= 1.5 then 'Medium'
+            else 'Low'
+        end as predicted_next_severity,
+        
+        -- Time to next incident (hours)
+        case 
+            when avg_time_between_incidents is not null then
+                round(avg_time_between_incidents * 
+                    case 
+                        when recent_incidents >= 3 then 0.7  -- More frequent if recent activity
+                        when escalation_count > 0 then 0.8
+                        else 1.0
+                    end, 1)
+            else null
+        end as predicted_hours_to_next,
+        
+        -- Risk classification
+        case 
+            when next_attack_probability >= 80 then 'Imminent'
+            when next_attack_probability >= 60 then 'High Risk'
+            when next_attack_probability >= 40 then 'Medium Risk'
+            else 'Low Risk'
+        end as risk_classification
+        
+    from risk_patterns
+)
+
+select
+    customer_id,
+    peak_attack_hour,
+    peak_attack_day,
+    most_common_attack,
+    round(avg_severity, 2) as avg_severity,
+    max_severity,
+    round(avg_anomaly, 2) as avg_anomaly,
+    round(anomaly_variance, 2) as anomaly_variance,
+    incident_count,
+    round(avg_time_between_incidents, 1) as avg_time_between_incidents,
+    round(min_time_between_incidents, 1) as min_time_between_incidents,
+    escalation_count,
+    attack_type_changes,
+    recent_incidents,
+    round(recent_avg_severity, 2) as recent_avg_severity,
+    next_attack_probability,
+    predicted_next_severity,
+    predicted_hours_to_next,
+    risk_classification,
+    
+    -- Recommended actions
+    case 
+        when risk_classification = 'Imminent' then 'Immediate monitoring and preventive measures'
+        when risk_classification = 'High Risk' then 'Enhanced monitoring and security controls'
+        when risk_classification = 'Medium Risk' then 'Regular monitoring and review'
+        else 'Standard monitoring'
+    end as recommended_action,
+    
+    current_timestamp as prediction_timestamp
+
+from predictive_scores
+order by next_attack_probability desc, recent_avg_severity desc
+    );
+  
+  
+[0m13:10:37.417092 [debug] [Thread-3 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_network_analysis"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_network_analysis__dbt_tmp"
+  
+    as (
+      with network_incidents as (
+    select
+        network_segment,
+        attack_type,
+        severity_level,
+        protocol,
+        log_source,
+        count(*) as incident_count,
+        count(distinct customer_id) as affected_customers,
+        avg(severity_score) as avg_severity_score,
+        avg(anomaly_score) as avg_anomaly_score,
+        count(case when has_malware_indicators then 1 end) as malware_incidents,
+        count(case when alert_triggered then 1 end) as alert_incidents,
+        count(case when response_category = 'Prevented' then 1 end) as prevented_incidents
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+    group by 1, 2, 3, 4, 5
+),
+
+segment_summary as (
+    select
+        network_segment,
+        sum(incident_count) as total_incidents,
+        sum(affected_customers) as total_affected_customers,
+        
+        -- Attack type breakdown
+        sum(case when attack_type = 'Malware' then incident_count else 0 end) as malware_count,
+        sum(case when attack_type = 'DDoS' then incident_count else 0 end) as ddos_count,
+        sum(case when attack_type = 'Intrusion' then incident_count else 0 end) as intrusion_count,
+        
+        -- Severity breakdown
+        sum(case when severity_level = 'Critical' then incident_count else 0 end) as critical_count,
+        sum(case when severity_level = 'High' then incident_count else 0 end) as high_count,
+        sum(case when severity_level = 'Medium' then incident_count else 0 end) as medium_count,
+        sum(case when severity_level = 'Low' then incident_count else 0 end) as low_count,
+        
+        -- Protocol breakdown
+        sum(case when protocol = 'TCP' then incident_count else 0 end) as tcp_incidents,
+        sum(case when protocol = 'UDP' then incident_count else 0 end) as udp_incidents,
+        sum(case when protocol = 'ICMP' then incident_count else 0 end) as icmp_incidents,
+        
+        -- Source breakdown
+        sum(case when log_source = 'Firewall' then incident_count else 0 end) as firewall_incidents,
+        sum(case when log_source = 'Server' then incident_count else 0 end) as server_incidents,
+        
+        sum(malware_incidents) as total_malware_indicators,
+        sum(alert_incidents) as total_alerts,
+        sum(prevented_incidents) as total_prevented,
+        
+        avg(avg_severity_score) as segment_avg_severity,
+        avg(avg_anomaly_score) as segment_avg_anomaly
+        
+    from network_incidents
+    group by 1
+)
+
+select
+    network_segment,
+    total_incidents,
+    total_affected_customers,
+    malware_count,
+    ddos_count,
+    intrusion_count,
+    critical_count,
+    high_count,
+    medium_count,
+    low_count,
+    tcp_incidents,
+    udp_incidents,
+    icmp_incidents,
+    firewall_incidents,
+    server_incidents,
+    total_malware_indicators,
+    total_alerts,
+    total_prevented,
+    round(segment_avg_severity, 2) as segment_avg_severity,
+    round(segment_avg_anomaly, 2) as segment_avg_anomaly,
+    
+    -- Calculate percentages
+    round((malware_count::float / total_incidents::float) * 100, 2) as malware_pct,
+    round((ddos_count::float / total_incidents::float) * 100, 2) as ddos_pct,
+    round((intrusion_count::float / total_incidents::float) * 100, 2) as intrusion_pct,
+    
+    round((critical_count::float / total_incidents::float) * 100, 2) as critical_pct,
+    round((high_count::float / total_incidents::float) * 100, 2) as high_pct,
+    
+    round((total_prevented::float / total_incidents::float) * 100, 2) as prevention_rate_pct,
+    round((total_alerts::float / total_incidents::float) * 100, 2) as alert_rate_pct,
+    
+    -- Risk assessment per segment
+    case 
+        when critical_count > 0 and critical_pct > 20 then 'Critical'
+        when high_count > 0 and (critical_pct + high_pct) > 30 then 'High'
+        when (critical_pct + high_pct + medium_pct) > 50 then 'Medium'
+        else 'Low'
+    end as segment_risk_level,
+    
+    -- Most common attack type
+    case 
+        when malware_count >= ddos_count and malware_count >= intrusion_count then 'Malware'
+        when ddos_count >= intrusion_count then 'DDoS'
+        else 'Intrusion'
+    end as primary_attack_type,
+    
+    -- Most common protocol
+    case 
+        when tcp_incidents >= udp_incidents and tcp_incidents >= icmp_incidents then 'TCP'
+        when udp_incidents >= icmp_incidents then 'UDP'
+        else 'ICMP'
+    end as primary_protocol
+
+from segment_summary
+order by total_incidents desc, segment_avg_severity desc
+    );
+  
+  
+[0m13:10:37.418104 [debug] [Thread-3 (]: DuckDB adapter: Rolling back transaction.
+[0m13:10:37.419490 [debug] [Thread-3 (]: On model.cybersec_health.security_network_analysis: ROLLBACK
+[0m13:10:37.422164 [debug] [Thread-3 (]: Failed to rollback 'model.cybersec_health.security_network_analysis'
+[0m13:10:37.422164 [debug] [Thread-3 (]: On model.cybersec_health.security_network_analysis: Close
+[0m13:10:37.425504 [debug] [Thread-3 (]: Runtime Error in model security_network_analysis (models\marts\security_network_analysis.sql)
+  Binder Error: Referenced column "medium_pct" not found in FROM clause!
+  Candidate bindings: "medium_count", "udp_incidents", "malware_count", "intrusion_count", "ddos_count"
+  
+  LINE 103:         when (critical_pct + high_pct + medium_pct) > 50 then 'Medium'
+                                                    ^
+[0m13:10:37.426501 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820DBF6B10>]}
+[0m13:10:37.427087 [error] [Thread-3 (]: 10 of 12 ERROR creating sql table model main.security_network_analysis ......... [[31mERROR[0m in 0.16s]
+[0m13:10:37.427760 [debug] [Thread-3 (]: Finished running node model.cybersec_health.security_network_analysis
+[0m13:10:37.428896 [debug] [Thread-3 (]: Began running node model.cybersec_health.security_seasonal_trends
+[0m13:10:37.428896 [debug] [Thread-7 (]: Marking all children of 'model.cybersec_health.security_network_analysis' to be skipped because of status 'error'.  Reason: Runtime Error in model security_network_analysis (models\marts\security_network_analysis.sql)
+  Binder Error: Referenced column "medium_pct" not found in FROM clause!
+  Candidate bindings: "medium_count", "udp_incidents", "malware_count", "intrusion_count", "ddos_count"
+  
+  LINE 103:         when (critical_pct + high_pct + medium_pct) > 50 then 'Medium'
+                                                    ^.
+[0m13:10:37.430202 [info ] [Thread-3 (]: 12 of 12 START sql table model main.security_seasonal_trends ................... [RUN]
+[0m13:10:37.432819 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.cybersec_health.security_network_analysis, now model.cybersec_health.security_seasonal_trends)
+[0m13:10:37.433810 [debug] [Thread-3 (]: Began compiling node model.cybersec_health.security_seasonal_trends
+[0m13:10:37.441763 [debug] [Thread-2 (]: SQL status: OK in 0.209 seconds
+[0m13:10:37.442554 [debug] [Thread-3 (]: Writing injected SQL for node "model.cybersec_health.security_seasonal_trends"
+[0m13:10:37.445139 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.security_ip_analysis"
+[0m13:10:37.447256 [debug] [Thread-2 (]: On model.cybersec_health.security_ip_analysis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_ip_analysis"} */
+alter table "cybersec_health_dbt"."main"."security_ip_analysis__dbt_tmp" rename to "security_ip_analysis"
+[0m13:10:37.447256 [debug] [Thread-3 (]: Began executing node model.cybersec_health.security_seasonal_trends
+[0m13:10:37.447256 [debug] [Thread-2 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.451362 [debug] [Thread-3 (]: Writing runtime sql for node "model.cybersec_health.security_seasonal_trends"
+[0m13:10:37.453232 [debug] [Thread-2 (]: On model.cybersec_health.security_ip_analysis: COMMIT
+[0m13:10:37.454244 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.security_ip_analysis"
+[0m13:10:37.455242 [debug] [Thread-2 (]: On model.cybersec_health.security_ip_analysis: COMMIT
+[0m13:10:37.455242 [debug] [Thread-3 (]: Using duckdb connection "model.cybersec_health.security_seasonal_trends"
+[0m13:10:37.456244 [debug] [Thread-3 (]: On model.cybersec_health.security_seasonal_trends: BEGIN
+[0m13:10:37.456244 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m13:10:37.457263 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.457263 [debug] [Thread-3 (]: Using duckdb connection "model.cybersec_health.security_seasonal_trends"
+[0m13:10:37.458371 [debug] [Thread-3 (]: On model.cybersec_health.security_seasonal_trends: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_seasonal_trends"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_seasonal_trends__dbt_tmp"
+  
+    as (
+      with time_series_data as (
+    select
+        date_trunc('week', incident_timestamp) as week_start,
+        date_trunc('month', incident_timestamp) as month_start,
+        extract(hour from incident_timestamp) as hour_of_day,
+        extract(dow from incident_timestamp) as day_of_week,
+        extract(month from incident_timestamp) as month_of_year,
+        extract(quarter from incident_timestamp) as quarter,
+        
+        attack_type,
+        severity_level,
+        customer_id,
+        
+        count(*) as incident_count,
+        avg(severity_score) as avg_severity,
+        avg(anomaly_score) as avg_anomaly
+        
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+    group by 1, 2, 3, 4, 5, 6, 7, 8, 9
+),
+
+hourly_patterns as (
+    select
+        hour_of_day,
+        sum(incident_count) as total_incidents,
+        avg(avg_severity) as avg_hourly_severity,
+        count(distinct customer_id) as customers_affected,
+        
+        -- Attack type distribution by hour
+        sum(case when attack_type = 'Malware' then incident_count else 0 end) as malware_incidents,
+        sum(case when attack_type = 'DDoS' then incident_count else 0 end) as ddos_incidents,
+        sum(case when attack_type = 'Intrusion' then incident_count else 0 end) as intrusion_incidents
+        
+    from time_series_data
+    group by hour_of_day
+),
+
+daily_patterns as (
+    select
+        case day_of_week
+            when 0 then 'Sunday'
+            when 1 then 'Monday'
+            when 2 then 'Tuesday'
+            when 3 then 'Wednesday'
+            when 4 then 'Thursday'
+            when 5 then 'Friday'
+            when 6 then 'Saturday'
+        end as day_name,
+        day_of_week,
+        sum(incident_count) as total_incidents,
+        avg(avg_severity) as avg_daily_severity,
+        count(distinct customer_id) as customers_affected
+        
+    from time_series_data
+    group by day_of_week
+),
+
+monthly_patterns as (
+    select
+        case month_of_year
+            when 1 then 'January' when 2 then 'February' when 3 then 'March'
+            when 4 then 'April' when 5 then 'May' when 6 then 'June'
+            when 7 then 'July' when 8 then 'August' when 9 then 'September'
+            when 10 then 'October' when 11 then 'November' when 12 then 'December'
+        end as month_name,
+        month_of_year,
+        sum(incident_count) as total_incidents,
+        avg(avg_severity) as avg_monthly_severity,
+        count(distinct customer_id) as customers_affected
+        
+    from time_series_data
+    group by month_of_year
+),
+
+quarterly_trends as (
+    select
+        quarter,
+        sum(incident_count) as total_incidents,
+        avg(avg_severity) as avg_quarterly_severity,
+        count(distinct customer_id) as customers_affected,
+        
+        -- Calculate quarter-over-quarter growth
+        lag(sum(incident_count)) over (order by quarter) as prev_quarter_incidents,
+        case 
+            when lag(sum(incident_count)) over (order by quarter) > 0 then
+                round(((sum(incident_count) - lag(sum(incident_count)) over (order by quarter))::float / 
+                       lag(sum(incident_count)) over (order by quarter)::float) * 100, 2)
+            else null
+        end as qoq_growth_pct
+        
+    from time_series_data
+    group by quarter
+),
+
+peak_analysis as (
+    select
+        'Hourly' as time_dimension,
+        (select hour_of_day from hourly_patterns order by total_incidents desc limit 1) as peak_time,
+        (select total_incidents from hourly_patterns order by total_incidents desc limit 1) as peak_incidents,
+        'Peak attack hour' as description
+    
+    union all
+    
+    select
+        'Daily' as time_dimension,
+        (select day_name from daily_patterns order by total_incidents desc limit 1) as peak_time,
+        (select total_incidents from daily_patterns order by total_incidents desc limit 1) as peak_incidents,
+        'Peak attack day' as description
+    
+    union all
+    
+    select
+        'Monthly' as time_dimension,
+        (select month_name from monthly_patterns order by total_incidents desc limit 1) as peak_time,
+        (select total_incidents from monthly_patterns order by total_incidents desc limit 1) as peak_incidents,
+        'Peak attack month' as description
+)
+
+-- Final output combining all patterns
+select
+    'Summary' as analysis_type,
+    json_object(
+        'peak_hour', (select peak_time from peak_analysis where time_dimension = 'Hourly'),
+        'peak_day', (select peak_time from peak_analysis where time_dimension = 'Daily'),
+        'peak_month', (select peak_time from peak_analysis where time_dimension = 'Monthly'),
+        'total_incidents', (select sum(total_incidents) from hourly_patterns),
+        'avg_severity', (select round(avg(avg_hourly_severity), 2) from hourly_patterns)
+    ) as trend_summary,
+    current_timestamp as analysis_timestamp
+
+union all
+
+select
+    'Hourly Distribution' as analysis_type,
+    json_object(
+        'hour', hour_of_day,
+        'incidents', total_incidents,
+        'severity', round(avg_hourly_severity, 2),
+        'customers', customers_affected
+    ) as trend_summary,
+    current_timestamp as analysis_timestamp
+from hourly_patterns
+order by 
+    case when analysis_type = 'Summary' then 0 else 1 end,
+    trend_summary
+    );
+  
+  
+[0m13:10:37.469537 [debug] [Thread-2 (]: SQL status: OK in 0.014 seconds
+[0m13:10:37.472966 [debug] [Thread-2 (]: Using duckdb connection "model.cybersec_health.security_ip_analysis"
+[0m13:10:37.472966 [debug] [Thread-2 (]: On model.cybersec_health.security_ip_analysis: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_ip_analysis"} */
+
+      drop table if exists "cybersec_health_dbt"."main"."security_ip_analysis__dbt_backup" cascade
+    
+[0m13:10:37.473963 [debug] [Thread-2 (]: SQL status: OK in 0.000 seconds
+[0m13:10:37.476532 [debug] [Thread-2 (]: On model.cybersec_health.security_ip_analysis: Close
+[0m13:10:37.476532 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820E1C0050>]}
+[0m13:10:37.477844 [info ] [Thread-2 (]: 8 of 12 OK created sql table model main.security_ip_analysis ................... [[32mOK[0m in 0.28s]
+[0m13:10:37.477844 [debug] [Thread-2 (]: Finished running node model.cybersec_health.security_ip_analysis
+[0m13:10:37.497387 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_kpi_dashboard"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_kpi_dashboard__dbt_tmp"
+  
+    as (
+      with current_metrics as (
+    select
+        count(distinct customer_id) as total_customers,
+        count(*) as total_incidents,
+        count(case when severity_level = 'Critical' then 1 end) as critical_incidents,
+        count(case when severity_level = 'High' then 1 end) as high_incidents,
+        count(case when response_category = 'Prevented' then 1 end) as prevented_incidents,
+        count(case when alert_triggered then 1 end) as alerted_incidents,
+        count(case when incident_timestamp >= current_date - interval '24 hours' then 1 end) as incidents_24h,
+        count(case when incident_timestamp >= current_date - interval '7 days' then 1 end) as incidents_7d,
+        count(case when incident_timestamp >= current_date - interval '30 days' then 1 end) as incidents_30d,
+        avg(anomaly_score) as avg_anomaly_score
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+),
+
+previous_period as (
+    select
+        count(*) as prev_total_incidents,
+        count(case when severity_level = 'Critical' then 1 end) as prev_critical_incidents,
+        count(case when response_category = 'Prevented' then 1 end) as prev_prevented_incidents
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+    where incident_timestamp >= current_date - interval '60 days'
+    and incident_timestamp < current_date - interval '30 days'
+),
+
+sla_metrics as (
+    select
+        -- Mean Time to Detection (simulated)
+        avg(case when alert_triggered then 15 else 45 end) as mttr_minutes,
+        
+        -- Prevention rate
+        round((prevented_incidents::float / total_incidents::float) * 100, 2) as prevention_rate,
+        
+        -- Alert coverage
+        round((alerted_incidents::float / total_incidents::float) * 100, 2) as alert_coverage,
+        
+        -- Critical incident rate
+        round((critical_incidents::float / total_incidents::float) * 100, 2) as critical_rate
+        
+    from current_metrics
+),
+
+trend_analysis as (
+    select
+        cm.*,
+        pp.*,
+        sm.*,
+        
+        -- Calculate trends
+        case 
+            when pp.prev_total_incidents > 0 then
+                round(((cm.incidents_30d - pp.prev_total_incidents)::float / pp.prev_total_incidents::float) * 100, 2)
+            else 0
+        end as incident_trend_pct,
+        
+        case 
+            when pp.prev_critical_incidents > 0 then
+                round(((cm.critical_incidents - pp.prev_critical_incidents)::float / pp.prev_critical_incidents::float) * 100, 2)
+            else 0
+        end as critical_trend_pct,
+        
+        case 
+            when pp.prev_prevented_incidents > 0 then
+                round(((cm.prevented_incidents - pp.prev_prevented_incidents)::float / pp.prev_prevented_incidents::float) * 100, 2)
+            else 0
+        end as prevention_trend_pct
+        
+    from current_metrics cm
+    cross join previous_period pp
+    cross join sla_metrics sm
+)
+
+select
+    -- Current state
+    total_customers,
+    total_incidents,
+    critical_incidents,
+    high_incidents,
+    incidents_24h,
+    incidents_7d,
+    incidents_30d,
+    
+    -- Performance metrics
+    prevention_rate,
+    alert_coverage,
+    critical_rate,
+    round(avg_anomaly_score, 2) as avg_anomaly_score,
+    round(mttr_minutes, 1) as mttr_minutes,
+    
+    -- Trends
+    incident_trend_pct,
+    critical_trend_pct,
+    prevention_trend_pct,
+    
+    -- Status indicators
+    case 
+        when critical_rate > 20 then 'Critical'
+        when critical_rate > 10 then 'High'
+        when critical_rate > 5 then 'Medium'
+        else 'Good'
+    end as security_posture,
+    
+    case 
+        when prevention_rate >= 80 then 'Excellent'
+        when prevention_rate >= 60 then 'Good'
+        when prevention_rate >= 40 then 'Fair'
+        else 'Poor'
+    end as prevention_status,
+    
+    case 
+        when alert_coverage >= 90 then 'Excellent'
+        when alert_coverage >= 70 then 'Good'
+        when alert_coverage >= 50 then 'Fair'
+        else 'Poor'
+    end as detection_status,
+    
+    case 
+        when incident_trend_pct <= -10 then 'Improving'
+        when incident_trend_pct <= 10 then 'Stable'
+        when incident_trend_pct <= 25 then 'Concerning'
+        else 'Critical'
+    end as trend_status,
+    
+    current_timestamp as last_updated
+
+from trend_analysis
+    );
+  
+  
+[0m13:10:37.498386 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m13:10:37.499793 [debug] [Thread-1 (]: On model.cybersec_health.security_kpi_dashboard: ROLLBACK
+[0m13:10:37.503392 [debug] [Thread-1 (]: Failed to rollback 'model.cybersec_health.security_kpi_dashboard'
+[0m13:10:37.504398 [debug] [Thread-1 (]: On model.cybersec_health.security_kpi_dashboard: Close
+[0m13:10:37.507741 [debug] [Thread-1 (]: Runtime Error in model security_kpi_dashboard (models\marts\security_kpi_dashboard.sql)
+  Binder Error: Referenced column "alert_triggered" not found in FROM clause!
+  Candidate bindings: "alerted_incidents", "total_incidents", "total_customers"
+  
+  LINE 39:         avg(case when alert_triggered then 15 else 45 end) as mttr_minutes,
+                                 ^
+[0m13:10:37.508739 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820C5F4AD0>]}
+[0m13:10:37.508739 [error] [Thread-1 (]: 9 of 12 ERROR creating sql table model main.security_kpi_dashboard ............. [[31mERROR[0m in 0.31s]
+[0m13:10:37.509739 [debug] [Thread-1 (]: Finished running node model.cybersec_health.security_kpi_dashboard
+[0m13:10:37.511092 [debug] [Thread-7 (]: Marking all children of 'model.cybersec_health.security_kpi_dashboard' to be skipped because of status 'error'.  Reason: Runtime Error in model security_kpi_dashboard (models\marts\security_kpi_dashboard.sql)
+  Binder Error: Referenced column "alert_triggered" not found in FROM clause!
+  Candidate bindings: "alerted_incidents", "total_incidents", "total_customers"
+  
+  LINE 39:         avg(case when alert_triggered then 15 else 45 end) as mttr_minutes,
+                                 ^.
+[0m13:10:37.521501 [debug] [Thread-4 (]: SQL status: OK in 0.203 seconds
+[0m13:10:37.521501 [debug] [Thread-4 (]: Using duckdb connection "model.cybersec_health.security_predictive_analytics"
+[0m13:10:37.521501 [debug] [Thread-4 (]: On model.cybersec_health.security_predictive_analytics: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_predictive_analytics"} */
+alter table "cybersec_health_dbt"."main"."security_predictive_analytics__dbt_tmp" rename to "security_predictive_analytics"
+[0m13:10:37.527078 [debug] [Thread-4 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.528351 [debug] [Thread-4 (]: On model.cybersec_health.security_predictive_analytics: COMMIT
+[0m13:10:37.528351 [debug] [Thread-4 (]: Using duckdb connection "model.cybersec_health.security_predictive_analytics"
+[0m13:10:37.529368 [debug] [Thread-4 (]: On model.cybersec_health.security_predictive_analytics: COMMIT
+[0m13:10:37.530378 [debug] [Thread-4 (]: SQL status: OK in 0.001 seconds
+[0m13:10:37.532378 [debug] [Thread-4 (]: Using duckdb connection "model.cybersec_health.security_predictive_analytics"
+[0m13:10:37.533378 [debug] [Thread-4 (]: On model.cybersec_health.security_predictive_analytics: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_predictive_analytics"} */
+
+      drop table if exists "cybersec_health_dbt"."main"."security_predictive_analytics__dbt_backup" cascade
+    
+[0m13:10:37.533378 [debug] [Thread-4 (]: SQL status: OK in 0.000 seconds
+[0m13:10:37.534378 [debug] [Thread-4 (]: On model.cybersec_health.security_predictive_analytics: Close
+[0m13:10:37.535378 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820DF8B2D0>]}
+[0m13:10:37.536378 [info ] [Thread-4 (]: 11 of 12 OK created sql table model main.security_predictive_analytics ......... [[32mOK[0m in 0.23s]
+[0m13:10:37.536378 [debug] [Thread-4 (]: Finished running node model.cybersec_health.security_predictive_analytics
+[0m13:10:37.572635 [debug] [Thread-3 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "cybersec_health", "target_name": "dev", "node_id": "model.cybersec_health.security_seasonal_trends"} */
+
+  
+    
+    
+
+    create  table
+      "cybersec_health_dbt"."main"."security_seasonal_trends__dbt_tmp"
+  
+    as (
+      with time_series_data as (
+    select
+        date_trunc('week', incident_timestamp) as week_start,
+        date_trunc('month', incident_timestamp) as month_start,
+        extract(hour from incident_timestamp) as hour_of_day,
+        extract(dow from incident_timestamp) as day_of_week,
+        extract(month from incident_timestamp) as month_of_year,
+        extract(quarter from incident_timestamp) as quarter,
+        
+        attack_type,
+        severity_level,
+        customer_id,
+        
+        count(*) as incident_count,
+        avg(severity_score) as avg_severity,
+        avg(anomaly_score) as avg_anomaly
+        
+    from "cybersec_health_dbt"."main"."stg_security_incidents"
+    group by 1, 2, 3, 4, 5, 6, 7, 8, 9
+),
+
+hourly_patterns as (
+    select
+        hour_of_day,
+        sum(incident_count) as total_incidents,
+        avg(avg_severity) as avg_hourly_severity,
+        count(distinct customer_id) as customers_affected,
+        
+        -- Attack type distribution by hour
+        sum(case when attack_type = 'Malware' then incident_count else 0 end) as malware_incidents,
+        sum(case when attack_type = 'DDoS' then incident_count else 0 end) as ddos_incidents,
+        sum(case when attack_type = 'Intrusion' then incident_count else 0 end) as intrusion_incidents
+        
+    from time_series_data
+    group by hour_of_day
+),
+
+daily_patterns as (
+    select
+        case day_of_week
+            when 0 then 'Sunday'
+            when 1 then 'Monday'
+            when 2 then 'Tuesday'
+            when 3 then 'Wednesday'
+            when 4 then 'Thursday'
+            when 5 then 'Friday'
+            when 6 then 'Saturday'
+        end as day_name,
+        day_of_week,
+        sum(incident_count) as total_incidents,
+        avg(avg_severity) as avg_daily_severity,
+        count(distinct customer_id) as customers_affected
+        
+    from time_series_data
+    group by day_of_week
+),
+
+monthly_patterns as (
+    select
+        case month_of_year
+            when 1 then 'January' when 2 then 'February' when 3 then 'March'
+            when 4 then 'April' when 5 then 'May' when 6 then 'June'
+            when 7 then 'July' when 8 then 'August' when 9 then 'September'
+            when 10 then 'October' when 11 then 'November' when 12 then 'December'
+        end as month_name,
+        month_of_year,
+        sum(incident_count) as total_incidents,
+        avg(avg_severity) as avg_monthly_severity,
+        count(distinct customer_id) as customers_affected
+        
+    from time_series_data
+    group by month_of_year
+),
+
+quarterly_trends as (
+    select
+        quarter,
+        sum(incident_count) as total_incidents,
+        avg(avg_severity) as avg_quarterly_severity,
+        count(distinct customer_id) as customers_affected,
+        
+        -- Calculate quarter-over-quarter growth
+        lag(sum(incident_count)) over (order by quarter) as prev_quarter_incidents,
+        case 
+            when lag(sum(incident_count)) over (order by quarter) > 0 then
+                round(((sum(incident_count) - lag(sum(incident_count)) over (order by quarter))::float / 
+                       lag(sum(incident_count)) over (order by quarter)::float) * 100, 2)
+            else null
+        end as qoq_growth_pct
+        
+    from time_series_data
+    group by quarter
+),
+
+peak_analysis as (
+    select
+        'Hourly' as time_dimension,
+        (select hour_of_day from hourly_patterns order by total_incidents desc limit 1) as peak_time,
+        (select total_incidents from hourly_patterns order by total_incidents desc limit 1) as peak_incidents,
+        'Peak attack hour' as description
+    
+    union all
+    
+    select
+        'Daily' as time_dimension,
+        (select day_name from daily_patterns order by total_incidents desc limit 1) as peak_time,
+        (select total_incidents from daily_patterns order by total_incidents desc limit 1) as peak_incidents,
+        'Peak attack day' as description
+    
+    union all
+    
+    select
+        'Monthly' as time_dimension,
+        (select month_name from monthly_patterns order by total_incidents desc limit 1) as peak_time,
+        (select total_incidents from monthly_patterns order by total_incidents desc limit 1) as peak_incidents,
+        'Peak attack month' as description
+)
+
+-- Final output combining all patterns
+select
+    'Summary' as analysis_type,
+    json_object(
+        'peak_hour', (select peak_time from peak_analysis where time_dimension = 'Hourly'),
+        'peak_day', (select peak_time from peak_analysis where time_dimension = 'Daily'),
+        'peak_month', (select peak_time from peak_analysis where time_dimension = 'Monthly'),
+        'total_incidents', (select sum(total_incidents) from hourly_patterns),
+        'avg_severity', (select round(avg(avg_hourly_severity), 2) from hourly_patterns)
+    ) as trend_summary,
+    current_timestamp as analysis_timestamp
+
+union all
+
+select
+    'Hourly Distribution' as analysis_type,
+    json_object(
+        'hour', hour_of_day,
+        'incidents', total_incidents,
+        'severity', round(avg_hourly_severity, 2),
+        'customers', customers_affected
+    ) as trend_summary,
+    current_timestamp as analysis_timestamp
+from hourly_patterns
+order by 
+    case when analysis_type = 'Summary' then 0 else 1 end,
+    trend_summary
+    );
+  
+  
+[0m13:10:37.573652 [debug] [Thread-3 (]: DuckDB adapter: Rolling back transaction.
+[0m13:10:37.573652 [debug] [Thread-3 (]: On model.cybersec_health.security_seasonal_trends: ROLLBACK
+[0m13:10:37.575651 [debug] [Thread-3 (]: Failed to rollback 'model.cybersec_health.security_seasonal_trends'
+[0m13:10:37.575651 [debug] [Thread-3 (]: On model.cybersec_health.security_seasonal_trends: Close
+[0m13:10:37.578263 [debug] [Thread-3 (]: Runtime Error in model security_seasonal_trends (models\marts\security_seasonal_trends.sql)
+  Binder Error: Could not ORDER BY column "CASE  WHEN ((analysis_type = 'Summary')) THEN (0) ELSE 1 END": add the expression/function to every SELECT, or move the UNION into a FROM clause.
+[0m13:10:37.578263 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3503fca0-a639-4a22-bf25-1cda9d9c81df', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820BD179D0>]}
+[0m13:10:37.578263 [error] [Thread-3 (]: 12 of 12 ERROR creating sql table model main.security_seasonal_trends .......... [[31mERROR[0m in 0.15s]
+[0m13:10:37.579908 [debug] [Thread-3 (]: Finished running node model.cybersec_health.security_seasonal_trends
+[0m13:10:37.579908 [debug] [Thread-7 (]: Marking all children of 'model.cybersec_health.security_seasonal_trends' to be skipped because of status 'error'.  Reason: Runtime Error in model security_seasonal_trends (models\marts\security_seasonal_trends.sql)
+  Binder Error: Could not ORDER BY column "CASE  WHEN ((analysis_type = 'Summary')) THEN (0) ELSE 1 END": add the expression/function to every SELECT, or move the UNION into a FROM clause..
+[0m13:10:37.581594 [debug] [MainThread]: Using duckdb connection "master"
+[0m13:10:37.582714 [debug] [MainThread]: On master: BEGIN
+[0m13:10:37.582714 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:10:37.583714 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m13:10:37.583714 [debug] [MainThread]: On master: COMMIT
+[0m13:10:37.583714 [debug] [MainThread]: Using duckdb connection "master"
+[0m13:10:37.584713 [debug] [MainThread]: On master: COMMIT
+[0m13:10:37.584713 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m13:10:37.584713 [debug] [MainThread]: On master: Close
+[0m13:10:37.585755 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:10:37.586358 [debug] [MainThread]: Connection 'create_cybersec_health_dbt_main' was properly closed.
+[0m13:10:37.586358 [debug] [MainThread]: Connection 'list_cybersec_health_dbt_main' was properly closed.
+[0m13:10:37.586358 [debug] [MainThread]: Connection 'model.cybersec_health.security_kpi_dashboard' was properly closed.
+[0m13:10:37.586358 [debug] [MainThread]: Connection 'model.cybersec_health.security_ip_analysis' was properly closed.
+[0m13:10:37.587499 [debug] [MainThread]: Connection 'model.cybersec_health.security_seasonal_trends' was properly closed.
+[0m13:10:37.587499 [debug] [MainThread]: Connection 'model.cybersec_health.security_predictive_analytics' was properly closed.
+[0m13:10:37.587499 [info ] [MainThread]: 
+[0m13:10:37.588563 [info ] [MainThread]: Finished running 10 table models, 2 view models in 0 hours 0 minutes and 1.04 seconds (1.04s).
+[0m13:10:37.589573 [debug] [MainThread]: Command end result
+[0m13:10:37.603392 [debug] [MainThread]: Wrote artifact WritableManifest to c:\Users\pearc\cyberproject\cybersec-customer-health-pipeline\dbt\target\manifest.json
+[0m13:10:37.611018 [debug] [MainThread]: Wrote artifact SemanticManifest to c:\Users\pearc\cyberproject\cybersec-customer-health-pipeline\dbt\target\semantic_manifest.json
+[0m13:10:37.616824 [debug] [MainThread]: Wrote artifact RunExecutionResult to c:\Users\pearc\cyberproject\cybersec-customer-health-pipeline\dbt\target\run_results.json
+[0m13:10:37.617824 [info ] [MainThread]: 
+[0m13:10:37.617824 [info ] [MainThread]: [31mCompleted with 4 errors, 0 partial successes, and 0 warnings:[0m
+[0m13:10:37.618858 [info ] [MainThread]: 
+[0m13:10:37.618858 [error] [MainThread]: [31mFailure in model stg_customers (models\staging\stg_customers.sql)[0m
+[0m13:10:37.619588 [error] [MainThread]:   Runtime Error in model stg_customers (models\staging\stg_customers.sql)
+  Binder Error: Referenced column "customer_name" not found in FROM clause!
+  Candidate bindings: "customer_id", "company_name", "contract_start_date", "license_utilization", "industry"
+  
+  LINE 7:     customer_name,
+              ^
+[0m13:10:37.619588 [info ] [MainThread]: 
+[0m13:10:37.619588 [info ] [MainThread]:   compiled code at target\compiled\cybersec_health\models\staging\stg_customers.sql
+[0m13:10:37.620776 [info ] [MainThread]: 
+[0m13:10:37.620776 [error] [MainThread]: [31mFailure in model security_network_analysis (models\marts\security_network_analysis.sql)[0m
+[0m13:10:37.621288 [error] [MainThread]:   Runtime Error in model security_network_analysis (models\marts\security_network_analysis.sql)
+  Binder Error: Referenced column "medium_pct" not found in FROM clause!
+  Candidate bindings: "medium_count", "udp_incidents", "malware_count", "intrusion_count", "ddos_count"
+  
+  LINE 103:         when (critical_pct + high_pct + medium_pct) > 50 then 'Medium'
+                                                    ^
+[0m13:10:37.621288 [info ] [MainThread]: 
+[0m13:10:37.621288 [info ] [MainThread]:   compiled code at target\compiled\cybersec_health\models\marts\security_network_analysis.sql
+[0m13:10:37.622296 [info ] [MainThread]: 
+[0m13:10:37.622296 [error] [MainThread]: [31mFailure in model security_kpi_dashboard (models\marts\security_kpi_dashboard.sql)[0m
+[0m13:10:37.623329 [error] [MainThread]:   Runtime Error in model security_kpi_dashboard (models\marts\security_kpi_dashboard.sql)
+  Binder Error: Referenced column "alert_triggered" not found in FROM clause!
+  Candidate bindings: "alerted_incidents", "total_incidents", "total_customers"
+  
+  LINE 39:         avg(case when alert_triggered then 15 else 45 end) as mttr_minutes,
+                                 ^
+[0m13:10:37.623329 [info ] [MainThread]: 
+[0m13:10:37.623329 [info ] [MainThread]:   compiled code at target\compiled\cybersec_health\models\marts\security_kpi_dashboard.sql
+[0m13:10:37.624327 [info ] [MainThread]: 
+[0m13:10:37.624327 [error] [MainThread]: [31mFailure in model security_seasonal_trends (models\marts\security_seasonal_trends.sql)[0m
+[0m13:10:37.624327 [error] [MainThread]:   Runtime Error in model security_seasonal_trends (models\marts\security_seasonal_trends.sql)
+  Binder Error: Could not ORDER BY column "CASE  WHEN ((analysis_type = 'Summary')) THEN (0) ELSE 1 END": add the expression/function to every SELECT, or move the UNION into a FROM clause.
+[0m13:10:37.625326 [info ] [MainThread]: 
+[0m13:10:37.625326 [info ] [MainThread]:   compiled code at target\compiled\cybersec_health\models\marts\security_seasonal_trends.sql
+[0m13:10:37.625326 [info ] [MainThread]: 
+[0m13:10:37.626344 [info ] [MainThread]: Done. PASS=7 WARN=0 ERROR=4 SKIP=1 NO-OP=0 TOTAL=12
+[0m13:10:37.627329 [debug] [MainThread]: Command `-c run` failed at 13:10:37.626344 after 2.29 seconds
+[0m13:10:37.627329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820C599F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002820B218C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028208F58A50>]}
+[0m13:10:37.628070 [debug] [MainThread]: Flushing usage events
+[0m13:10:38.063892 [debug] [MainThread]: An error was encountered while trying to flush usage events

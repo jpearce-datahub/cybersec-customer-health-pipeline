@@ -1,6 +1,7 @@
 cybersec_health:
+  target: dev
   outputs:
     dev:
       type: duckdb
-      path: '../data/processed/cybersec_health.duckdb'
-  target: dev
+      path: '../data/cybersec_health_dbt.duckdb'
+      threads: 4
