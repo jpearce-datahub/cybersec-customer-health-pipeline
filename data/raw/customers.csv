@@ -74,3 +74,428 @@ CUST_072,Company_072,Manufacturing,12174,low,2025-07-04,0.55
 CUST_073,Company_073,Real Estate,11168,medium,2025-02-17,0.91
 CUST_074,Company_074,Healthcare,7755,low,2024-11-11,0.85
 CUST_075,Company_075,Real Estate,14143,medium,2025-02-05,0.49
+CUST_076,Company_076,IT Services,7267,medium,2024-06-23,0.46
+CUST_077,Company_077,Education,6728,low,2025-02-26,0.46
+CUST_078,Company_078,Manufacturing,7528,low,2025-08-07,0.98
+CUST_079,Company_079,Finance,6753,medium,2024-09-03,0.78
+CUST_080,Company_080,Legal,1452,low,2025-01-23,0.42
+CUST_081,Company_081,Finance,1626,low,2024-07-30,0.54
+CUST_082,Company_082,Legal,8149,medium,2024-05-12,0.38
+CUST_083,Company_083,Manufacturing,5173,low,2024-07-28,0.3
+CUST_084,Company_084,Manufacturing,6967,low,2023-12-07,0.94
+CUST_085,Company_085,Legal,11868,medium,2024-12-14,0.65
+CUST_086,Company_086,Real Estate,6344,low,2024-12-19,0.69
+CUST_087,Company_087,Manufacturing,7888,medium,2024-09-24,0.77
+CUST_088,Company_088,Healthcare,11084,low,2024-08-28,0.68
+CUST_089,Company_089,Retail,5978,low,2024-08-03,0.85
+CUST_090,Company_090,Legal,8618,low,2023-11-26,0.45
+CUST_091,Company_091,Education,14004,high,2025-04-27,0.76
+CUST_092,Company_092,Finance,9445,medium,2024-01-22,0.53
+CUST_093,Company_093,Manufacturing,12023,low,2025-03-28,0.4
+CUST_094,Company_094,Retail,5011,high,2024-01-31,0.89
+CUST_095,Company_095,IT Services,8461,low,2024-01-12,0.7
+CUST_096,Company_096,Real Estate,9099,low,2025-05-19,0.76
+CUST_097,Company_097,Retail,13303,medium,2025-06-30,0.84
+CUST_098,Company_098,Manufacturing,3881,medium,2024-05-05,0.63
+CUST_099,Company_099,Manufacturing,14899,low,2025-06-03,0.86
+CUST_100,Company_100,Legal,13374,medium,2024-01-29,0.87
+CUST_101,Company_101,Real Estate,14608,high,2024-07-18,0.93
+CUST_102,Company_102,Education,8373,low,2025-02-06,0.89
+CUST_103,Company_103,Finance,13547,medium,2024-06-08,0.74
+CUST_104,Company_104,Finance,8206,low,2024-12-29,0.46
+CUST_105,Company_105,Legal,6238,medium,2025-07-27,0.4
+CUST_106,Company_106,Manufacturing,7275,medium,2025-03-12,0.34
+CUST_107,Company_107,Real Estate,6421,low,2024-08-18,0.34
+CUST_108,Company_108,Real Estate,7381,high,2024-02-27,0.96
+CUST_109,Company_109,Retail,13543,low,2024-06-16,0.3
+CUST_110,Company_110,Legal,5892,medium,2024-08-14,0.68
+CUST_111,Company_111,Manufacturing,8999,low,2024-07-28,0.64
+CUST_112,Company_112,Real Estate,6507,medium,2024-08-29,0.81
+CUST_113,Company_113,Education,3091,high,2024-04-19,0.32
+CUST_114,Company_114,Real Estate,10697,low,2025-09-20,0.36
+CUST_115,Company_115,Real Estate,3223,medium,2025-04-14,0.34
+CUST_116,Company_116,Real Estate,6363,low,2024-11-17,0.54
+CUST_117,Company_117,Real Estate,5558,medium,2024-08-12,0.48
+CUST_118,Company_118,IT Services,8705,low,2024-04-13,0.34
+CUST_119,Company_119,Legal,4673,medium,2023-12-20,0.33
+CUST_120,Company_120,Retail,5051,low,2025-09-27,0.73
+CUST_121,Company_121,Manufacturing,3068,low,2025-06-22,0.69
+CUST_122,Company_122,Manufacturing,8619,medium,2024-10-05,0.42
+CUST_123,Company_123,IT Services,13743,medium,2024-12-03,0.38
+CUST_124,Company_124,Retail,6111,low,2024-09-28,0.58
+CUST_125,Company_125,Manufacturing,2245,low,2024-01-14,0.47
+CUST_126,Company_126,Finance,14931,medium,2025-06-16,0.86
+CUST_127,Company_127,Retail,6688,low,2023-12-10,0.56
+CUST_128,Company_128,Legal,1207,medium,2024-06-03,0.37
+CUST_129,Company_129,Legal,11413,medium,2024-07-04,0.8
+CUST_130,Company_130,Real Estate,3885,medium,2023-12-21,0.49
+CUST_131,Company_131,Education,8616,low,2024-02-19,0.49
+CUST_132,Company_132,Manufacturing,14610,high,2025-01-05,0.92
+CUST_133,Company_133,Manufacturing,13295,low,2024-02-01,0.77
+CUST_134,Company_134,Legal,1470,low,2024-11-19,0.43
+CUST_135,Company_135,Manufacturing,6813,medium,2024-11-03,0.5
+CUST_136,Company_136,Finance,10106,low,2025-04-05,0.36
+CUST_137,Company_137,Real Estate,9004,low,2025-02-13,0.78
+CUST_138,Company_138,Education,8342,medium,2025-07-14,0.51
+CUST_139,Company_139,Real Estate,12334,low,2023-12-08,0.71
+CUST_140,Company_140,Education,10068,low,2024-08-08,1.0
+CUST_141,Company_141,Legal,6764,medium,2025-01-13,0.51
+CUST_142,Company_142,Manufacturing,2976,medium,2024-11-28,0.38
+CUST_143,Company_143,Healthcare,4138,low,2024-06-09,0.49
+CUST_144,Company_144,Finance,2647,medium,2024-12-18,0.46
+CUST_145,Company_145,Healthcare,5952,low,2024-04-19,0.39
+CUST_146,Company_146,Retail,1893,low,2025-06-10,0.75
+CUST_147,Company_147,Education,2680,medium,2024-03-09,0.5
+CUST_148,Company_148,Education,8216,low,2025-08-26,0.48
+CUST_149,Company_149,Education,2869,medium,2024-09-02,0.64
+CUST_150,Company_150,Retail,3485,low,2024-03-20,0.96
+CUST_151,Company_151,IT Services,5066,low,2024-08-17,0.72
+CUST_152,Company_152,Manufacturing,13708,low,2024-07-13,0.94
+CUST_153,Company_153,Finance,10642,high,2024-12-09,0.7
+CUST_154,Company_154,Retail,10988,high,2025-07-08,0.96
+CUST_155,Company_155,Manufacturing,11248,low,2023-12-11,0.36
+CUST_156,Company_156,Manufacturing,3847,low,2025-05-10,0.3
+CUST_157,Company_157,Education,12294,low,2024-12-23,0.32
+CUST_158,Company_158,Finance,12582,low,2024-07-10,0.35
+CUST_159,Company_159,Manufacturing,5334,medium,2024-01-16,0.71
+CUST_160,Company_160,Manufacturing,7965,low,2025-03-01,0.75
+CUST_161,Company_161,Finance,14543,low,2025-08-17,0.42
+CUST_162,Company_162,Finance,10749,medium,2024-03-14,0.94
+CUST_163,Company_163,Education,3037,low,2024-12-10,0.79
+CUST_164,Company_164,Finance,9199,low,2024-07-26,0.36
+CUST_165,Company_165,Retail,8078,medium,2024-02-07,0.48
+CUST_166,Company_166,IT Services,4750,high,2024-03-07,0.71
+CUST_167,Company_167,Retail,13529,medium,2025-01-15,0.7
+CUST_168,Company_168,Healthcare,8708,low,2024-07-22,0.94
+CUST_169,Company_169,Healthcare,10590,low,2024-06-01,0.98
+CUST_170,Company_170,Education,6700,low,2024-11-23,0.77
+CUST_171,Company_171,Healthcare,6403,low,2024-05-28,0.5
+CUST_172,Company_172,Real Estate,14329,medium,2025-09-10,0.62
+CUST_173,Company_173,Legal,5135,low,2024-08-30,0.91
+CUST_174,Company_174,Retail,11775,medium,2024-07-01,0.59
+CUST_175,Company_175,Manufacturing,9494,low,2024-05-25,0.74
+CUST_176,Company_176,Retail,4335,low,2025-06-05,0.95
+CUST_177,Company_177,Education,12440,low,2025-09-18,0.98
+CUST_178,Company_178,Manufacturing,12629,low,2024-04-01,0.31
+CUST_179,Company_179,Real Estate,2527,low,2025-06-23,0.62
+CUST_180,Company_180,IT Services,11612,medium,2024-05-25,0.95
+CUST_181,Company_181,Finance,9337,medium,2024-08-18,0.88
+CUST_182,Company_182,Education,4993,low,2025-05-22,0.57
+CUST_183,Company_183,Healthcare,2143,low,2024-08-19,0.54
+CUST_184,Company_184,Finance,14443,low,2024-12-16,0.89
+CUST_185,Company_185,Education,3434,low,2024-06-09,0.54
+CUST_186,Company_186,Real Estate,8460,high,2025-04-07,0.99
+CUST_187,Company_187,Manufacturing,10368,low,2024-08-23,0.33
+CUST_188,Company_188,Education,12554,high,2024-09-22,0.57
+CUST_189,Company_189,Healthcare,9115,high,2025-06-10,0.65
+CUST_190,Company_190,Legal,2644,medium,2024-07-24,0.37
+CUST_191,Company_191,Education,1251,medium,2024-08-24,0.91
+CUST_192,Company_192,Healthcare,2225,low,2025-01-19,0.54
+CUST_193,Company_193,Real Estate,11646,low,2024-11-15,0.9
+CUST_194,Company_194,Real Estate,6188,medium,2024-06-05,0.91
+CUST_195,Company_195,Retail,11116,low,2024-01-10,0.78
+CUST_196,Company_196,Finance,4727,medium,2024-07-30,0.98
+CUST_197,Company_197,IT Services,8269,low,2024-12-15,0.93
+CUST_198,Company_198,Retail,6314,medium,2024-12-21,0.55
+CUST_199,Company_199,Real Estate,3385,low,2024-08-22,0.7
+CUST_200,Company_200,Healthcare,3785,low,2024-02-01,0.91
+CUST_201,Company_201,Manufacturing,9153,high,2025-05-24,0.46
+CUST_202,Company_202,Finance,8529,low,2025-10-08,0.93
+CUST_203,Company_203,Education,5712,medium,2025-05-09,0.35
+CUST_204,Company_204,Legal,10626,low,2024-08-09,0.78
+CUST_205,Company_205,Education,14849,low,2024-09-19,0.9
+CUST_206,Company_206,IT Services,4886,low,2024-10-15,0.7
+CUST_207,Company_207,Finance,1359,high,2023-12-13,0.58
+CUST_208,Company_208,Retail,10272,medium,2025-08-28,0.94
+CUST_209,Company_209,Education,14645,high,2024-12-28,0.84
+CUST_210,Company_210,Manufacturing,10946,medium,2025-03-07,0.75
+CUST_211,Company_211,Finance,12104,medium,2023-12-12,0.78
+CUST_212,Company_212,Healthcare,11293,low,2024-01-14,0.75
+CUST_213,Company_213,Finance,13920,low,2024-03-03,0.56
+CUST_214,Company_214,Healthcare,2476,high,2024-11-17,0.82
+CUST_215,Company_215,Healthcare,4289,low,2024-04-13,0.91
+CUST_216,Company_216,Legal,9697,low,2025-01-11,0.88
+CUST_217,Company_217,Finance,14511,high,2024-12-19,0.82
+CUST_218,Company_218,Legal,14176,low,2025-08-01,0.4
+CUST_219,Company_219,Manufacturing,12080,medium,2024-09-06,0.98
+CUST_220,Company_220,Legal,2479,medium,2025-10-03,0.49
+CUST_221,Company_221,IT Services,8451,low,2023-11-29,0.48
+CUST_222,Company_222,Real Estate,14474,medium,2024-10-02,0.38
+CUST_223,Company_223,Manufacturing,8724,low,2024-03-22,0.53
+CUST_224,Company_224,Manufacturing,11611,low,2024-06-29,0.94
+CUST_225,Company_225,Finance,11637,low,2025-05-27,0.33
+CUST_226,Company_226,Retail,5986,high,2025-06-21,0.37
+CUST_227,Company_227,Healthcare,7367,low,2023-12-01,0.96
+CUST_228,Company_228,Real Estate,10622,medium,2025-05-12,0.92
+CUST_229,Company_229,IT Services,14659,low,2024-08-26,0.96
+CUST_230,Company_230,Finance,1536,medium,2025-03-09,0.61
+CUST_231,Company_231,Manufacturing,6942,low,2024-10-06,0.68
+CUST_232,Company_232,Legal,1992,low,2025-04-06,0.98
+CUST_233,Company_233,Education,2501,medium,2023-12-30,0.75
+CUST_234,Company_234,Retail,1828,medium,2025-02-10,0.99
+CUST_235,Company_235,Manufacturing,2124,medium,2024-03-29,0.45
+CUST_236,Company_236,Manufacturing,14321,medium,2024-11-15,0.84
+CUST_237,Company_237,Retail,5542,medium,2025-05-22,0.99
+CUST_238,Company_238,Finance,14082,low,2023-12-11,0.91
+CUST_239,Company_239,Healthcare,1243,low,2025-02-16,0.71
+CUST_240,Company_240,Retail,3854,low,2025-06-10,0.82
+CUST_241,Company_241,IT Services,13216,low,2024-07-15,0.84
+CUST_242,Company_242,IT Services,8405,low,2024-01-27,0.33
+CUST_243,Company_243,Finance,8504,medium,2025-09-16,0.34
+CUST_244,Company_244,Education,14882,low,2025-06-29,0.64
+CUST_245,Company_245,Education,2204,medium,2024-11-22,0.73
+CUST_246,Company_246,IT Services,3067,low,2024-01-08,0.71
+CUST_247,Company_247,Legal,7240,high,2024-04-22,0.51
+CUST_248,Company_248,Real Estate,2624,medium,2025-06-22,0.9
+CUST_249,Company_249,Manufacturing,8046,low,2025-02-26,0.59
+CUST_250,Company_250,Education,7532,low,2025-07-12,0.52
+CUST_251,Company_251,Legal,11897,low,2025-05-14,0.78
+CUST_252,Company_252,Education,2099,low,2025-07-22,0.37
+CUST_253,Company_253,IT Services,13199,medium,2025-06-06,0.69
+CUST_254,Company_254,Legal,11977,low,2024-10-20,0.91
+CUST_255,Company_255,Real Estate,12813,low,2024-12-27,0.72
+CUST_256,Company_256,Legal,2697,low,2025-03-14,0.41
+CUST_257,Company_257,Education,4674,medium,2024-10-24,0.89
+CUST_258,Company_258,Legal,2882,medium,2024-03-09,0.46
+CUST_259,Company_259,Real Estate,14847,low,2024-01-20,0.73
+CUST_260,Company_260,Retail,10977,high,2025-01-17,0.32
+CUST_261,Company_261,Finance,12513,medium,2024-11-04,0.55
+CUST_262,Company_262,Healthcare,3347,low,2024-09-02,0.35
+CUST_263,Company_263,Retail,2503,medium,2025-03-11,0.56
+CUST_264,Company_264,Education,6585,low,2024-12-02,0.81
+CUST_265,Company_265,IT Services,1861,low,2024-01-24,0.33
+CUST_266,Company_266,IT Services,5458,low,2024-08-09,0.64
+CUST_267,Company_267,Education,7785,low,2024-05-11,0.38
+CUST_268,Company_268,Real Estate,2816,low,2023-11-23,0.72
+CUST_269,Company_269,Finance,1744,low,2024-02-12,0.34
+CUST_270,Company_270,Manufacturing,5938,high,2025-05-30,0.83
+CUST_271,Company_271,Finance,6375,low,2024-05-26,0.82
+CUST_272,Company_272,Healthcare,3116,low,2025-02-24,0.65
+CUST_273,Company_273,Legal,2180,low,2025-09-04,0.61
+CUST_274,Company_274,Education,2275,medium,2024-03-07,0.6
+CUST_275,Company_275,Real Estate,12624,medium,2024-12-25,0.38
+CUST_276,Company_276,Retail,6321,low,2024-01-24,0.62
+CUST_277,Company_277,Legal,2443,low,2025-07-01,0.47
+CUST_278,Company_278,Real Estate,9584,low,2024-12-04,0.82
+CUST_279,Company_279,Manufacturing,6456,medium,2025-07-31,0.66
+CUST_280,Company_280,IT Services,9693,low,2024-10-25,0.55
+CUST_281,Company_281,Healthcare,4871,low,2025-01-28,0.44
+CUST_282,Company_282,Healthcare,13455,medium,2025-08-01,0.42
+CUST_283,Company_283,Education,8601,medium,2024-03-03,0.61
+CUST_284,Company_284,Legal,11276,low,2024-07-24,0.35
+CUST_285,Company_285,Education,11344,low,2025-01-09,0.71
+CUST_286,Company_286,Legal,9312,low,2024-07-02,0.62
+CUST_287,Company_287,Retail,7041,medium,2025-07-31,0.75
+CUST_288,Company_288,IT Services,11076,low,2024-09-19,0.62
+CUST_289,Company_289,Retail,8368,high,2024-03-11,0.76
+CUST_290,Company_290,Legal,10912,low,2025-05-16,0.97
+CUST_291,Company_291,Education,2695,medium,2024-10-31,0.99
+CUST_292,Company_292,IT Services,9266,medium,2025-09-07,0.47
+CUST_293,Company_293,Education,8199,low,2024-02-01,0.41
+CUST_294,Company_294,Legal,5634,low,2024-11-05,0.78
+CUST_295,Company_295,Retail,13930,medium,2024-11-09,0.35
+CUST_296,Company_296,IT Services,10141,medium,2024-12-31,0.48
+CUST_297,Company_297,Healthcare,6461,low,2023-12-08,0.4
+CUST_298,Company_298,Legal,6082,high,2023-12-09,0.57
+CUST_299,Company_299,IT Services,6072,low,2023-12-29,0.85
+CUST_300,Company_300,Healthcare,11979,medium,2024-04-26,0.37
+CUST_301,Company_301,Real Estate,9331,low,2024-10-11,0.52
+CUST_302,Company_302,Manufacturing,6598,high,2024-06-07,0.43
+CUST_303,Company_303,Healthcare,3538,low,2025-07-06,0.66
+CUST_304,Company_304,Retail,11845,low,2024-01-24,0.39
+CUST_305,Company_305,Real Estate,3527,low,2024-01-17,0.87
+CUST_306,Company_306,Healthcare,12815,low,2024-08-23,0.56
+CUST_307,Company_307,Manufacturing,8277,medium,2024-07-15,0.46
+CUST_308,Company_308,Manufacturing,6070,high,2024-06-24,0.93
+CUST_309,Company_309,Manufacturing,7026,medium,2024-03-12,0.99
+CUST_310,Company_310,Education,13606,low,2024-09-21,0.65
+CUST_311,Company_311,Real Estate,3655,medium,2024-02-06,0.4
+CUST_312,Company_312,Finance,1854,medium,2024-10-02,0.69
+CUST_313,Company_313,IT Services,12655,medium,2025-06-12,0.5
+CUST_314,Company_314,Healthcare,5469,low,2024-05-10,0.4
+CUST_315,Company_315,Real Estate,2502,high,2025-03-04,0.87
+CUST_316,Company_316,Legal,1436,low,2024-09-07,0.65
+CUST_317,Company_317,Manufacturing,7326,high,2024-09-29,0.46
+CUST_318,Company_318,Legal,2623,medium,2023-12-22,0.53
+CUST_319,Company_319,Healthcare,3254,low,2024-06-21,0.79
+CUST_320,Company_320,Healthcare,13432,medium,2024-07-15,0.73
+CUST_321,Company_321,IT Services,1311,low,2025-05-17,0.68
+CUST_322,Company_322,Real Estate,2821,medium,2025-02-16,0.51
+CUST_323,Company_323,Retail,4906,low,2024-01-19,0.62
+CUST_324,Company_324,IT Services,14708,high,2024-02-14,0.68
+CUST_325,Company_325,Manufacturing,12772,low,2024-08-04,0.3
+CUST_326,Company_326,Legal,4941,low,2025-04-09,0.77
+CUST_327,Company_327,IT Services,9576,high,2025-08-09,0.97
+CUST_328,Company_328,Retail,7397,medium,2025-09-03,0.74
+CUST_329,Company_329,Legal,5155,medium,2024-10-17,0.85
+CUST_330,Company_330,Legal,4950,medium,2024-01-13,0.37
+CUST_331,Company_331,Legal,3185,low,2024-04-06,0.54
+CUST_332,Company_332,Healthcare,14605,medium,2024-06-29,0.99
+CUST_333,Company_333,Education,11350,low,2025-06-01,0.34
+CUST_334,Company_334,Education,1605,low,2025-09-03,0.85
+CUST_335,Company_335,Retail,6170,high,2024-05-08,0.58
+CUST_336,Company_336,Education,5150,low,2023-12-25,0.43
+CUST_337,Company_337,Legal,13793,low,2023-12-16,0.53
+CUST_338,Company_338,IT Services,14096,low,2024-09-03,0.82
+CUST_339,Company_339,Real Estate,6554,high,2024-05-27,0.78
+CUST_340,Company_340,Legal,14062,low,2025-07-25,0.81
+CUST_341,Company_341,IT Services,8055,medium,2025-04-16,0.68
+CUST_342,Company_342,Legal,2680,low,2023-12-11,0.51
+CUST_343,Company_343,Education,10873,medium,2025-04-30,0.78
+CUST_344,Company_344,Legal,8325,low,2024-10-21,0.73
+CUST_345,Company_345,Real Estate,5498,medium,2025-08-20,0.35
+CUST_346,Company_346,Real Estate,6952,low,2023-11-22,0.41
+CUST_347,Company_347,Retail,3339,medium,2023-11-23,0.85
+CUST_348,Company_348,Retail,3068,low,2023-12-27,0.56
+CUST_349,Company_349,Real Estate,10293,low,2025-05-13,0.78
+CUST_350,Company_350,Legal,7095,low,2025-07-31,0.7
+CUST_351,Company_351,Legal,7521,low,2025-01-05,0.47
+CUST_352,Company_352,IT Services,1424,medium,2024-05-24,0.66
+CUST_353,Company_353,IT Services,5288,medium,2024-07-18,0.45
+CUST_354,Company_354,Finance,12370,high,2024-06-02,0.44
+CUST_355,Company_355,Healthcare,14972,low,2025-04-24,0.93
+CUST_356,Company_356,Education,2438,medium,2024-11-24,0.77
+CUST_357,Company_357,IT Services,10011,low,2024-12-14,0.9
+CUST_358,Company_358,Healthcare,14003,low,2025-03-02,0.38
+CUST_359,Company_359,Manufacturing,13977,low,2024-05-30,0.32
+CUST_360,Company_360,Legal,8657,medium,2024-04-01,0.39
+CUST_361,Company_361,IT Services,2077,low,2024-06-14,0.67
+CUST_362,Company_362,Real Estate,14489,low,2025-06-11,0.98
+CUST_363,Company_363,IT Services,8372,low,2024-05-06,0.54
+CUST_364,Company_364,Healthcare,13579,high,2024-07-31,0.65
+CUST_365,Company_365,Retail,14621,low,2025-05-14,0.51
+CUST_366,Company_366,Healthcare,6286,high,2025-03-01,0.54
+CUST_367,Company_367,Finance,14859,low,2025-03-30,0.74
+CUST_368,Company_368,Finance,3050,medium,2024-01-27,0.67
+CUST_369,Company_369,Healthcare,10696,high,2025-05-13,0.42
+CUST_370,Company_370,Legal,14804,high,2025-09-05,0.88
+CUST_371,Company_371,Retail,2330,low,2023-12-31,0.84
+CUST_372,Company_372,Finance,11668,low,2024-03-11,0.59
+CUST_373,Company_373,Retail,9159,medium,2024-04-07,0.5
+CUST_374,Company_374,Finance,8912,low,2024-08-28,0.51
+CUST_375,Company_375,IT Services,12282,low,2024-07-24,0.59
+CUST_376,Company_376,Education,4342,low,2025-05-23,0.52
+CUST_377,Company_377,Legal,13029,high,2024-10-29,0.98
+CUST_378,Company_378,Healthcare,13462,low,2024-03-21,0.37
+CUST_379,Company_379,Manufacturing,8642,low,2024-07-14,0.47
+CUST_380,Company_380,IT Services,1829,low,2024-09-19,0.9
+CUST_381,Company_381,Real Estate,5067,high,2025-05-07,0.87
+CUST_382,Company_382,Legal,4110,medium,2024-05-25,1.0
+CUST_383,Company_383,Education,9171,medium,2024-05-26,0.32
+CUST_384,Company_384,Real Estate,9281,low,2025-02-13,0.45
+CUST_385,Company_385,Legal,1797,low,2024-05-29,0.72
+CUST_386,Company_386,Education,5681,low,2025-06-29,0.6
+CUST_387,Company_387,Finance,12919,low,2024-08-31,0.56
+CUST_388,Company_388,Real Estate,1838,low,2025-04-01,0.55
+CUST_389,Company_389,Finance,2204,low,2024-07-13,0.84
+CUST_390,Company_390,Finance,14521,high,2023-11-21,0.73
+CUST_391,Company_391,Healthcare,2584,low,2024-11-04,0.69
+CUST_392,Company_392,Legal,13369,low,2024-02-09,0.66
+CUST_393,Company_393,Retail,1742,low,2024-11-10,0.86
+CUST_394,Company_394,Education,3440,medium,2024-05-08,0.4
+CUST_395,Company_395,Legal,3662,low,2024-01-25,0.82
+CUST_396,Company_396,Finance,10727,low,2024-05-14,0.67
+CUST_397,Company_397,Finance,8780,medium,2024-10-05,0.53
+CUST_398,Company_398,IT Services,7824,low,2024-01-12,0.32
+CUST_399,Company_399,Education,5350,high,2024-03-04,0.7
+CUST_400,Company_400,Retail,10560,low,2024-04-29,0.74
+CUST_401,Company_401,Real Estate,3421,medium,2025-02-11,0.32
+CUST_402,Company_402,IT Services,4125,low,2024-11-30,0.59
+CUST_403,Company_403,Real Estate,12313,low,2024-05-22,0.84
+CUST_404,Company_404,Education,14899,medium,2025-08-15,0.79
+CUST_405,Company_405,Manufacturing,10189,low,2023-12-09,0.63
+CUST_406,Company_406,Real Estate,6140,high,2024-07-04,0.94
+CUST_407,Company_407,Legal,9950,low,2023-11-20,0.75
+CUST_408,Company_408,Finance,10995,low,2025-02-07,0.5
+CUST_409,Company_409,Finance,4684,high,2024-12-17,0.84
+CUST_410,Company_410,Manufacturing,12308,medium,2024-11-27,0.64
+CUST_411,Company_411,Finance,5715,low,2023-11-25,0.68
+CUST_412,Company_412,Real Estate,14408,low,2025-05-21,0.5
+CUST_413,Company_413,Finance,12700,low,2024-07-22,0.76
+CUST_414,Company_414,Education,4505,low,2024-04-14,0.49
+CUST_415,Company_415,Finance,3249,low,2024-02-25,0.47
+CUST_416,Company_416,Retail,11974,high,2025-02-28,0.75
+CUST_417,Company_417,Retail,2641,low,2024-06-21,0.37
+CUST_418,Company_418,Healthcare,1084,high,2025-05-09,0.58
+CUST_419,Company_419,Education,8822,medium,2024-12-27,0.52
+CUST_420,Company_420,Retail,13594,low,2024-03-09,0.46
+CUST_421,Company_421,Retail,3868,low,2025-04-20,0.95
+CUST_422,Company_422,Retail,14700,low,2024-05-28,0.43
+CUST_423,Company_423,Finance,1613,low,2024-03-15,0.72
+CUST_424,Company_424,Legal,5662,low,2023-12-31,0.68
+CUST_425,Company_425,Education,3198,medium,2024-06-25,0.49
+CUST_426,Company_426,IT Services,6417,low,2024-07-05,0.75
+CUST_427,Company_427,Healthcare,1230,medium,2024-12-19,0.7
+CUST_428,Company_428,Manufacturing,3875,medium,2024-01-02,0.93
+CUST_429,Company_429,Real Estate,9442,low,2024-09-02,0.77
+CUST_430,Company_430,Healthcare,3303,low,2025-02-05,0.3
+CUST_431,Company_431,Real Estate,4858,low,2025-01-17,0.97
+CUST_432,Company_432,Finance,10543,medium,2025-10-06,0.48
+CUST_433,Company_433,Legal,12350,low,2023-12-04,0.38
+CUST_434,Company_434,Finance,3616,low,2024-05-21,0.95
+CUST_435,Company_435,Finance,12309,low,2024-12-19,0.56
+CUST_436,Company_436,Manufacturing,4590,high,2024-06-15,0.41
+CUST_437,Company_437,Legal,7813,medium,2024-06-22,0.83
+CUST_438,Company_438,Manufacturing,13482,low,2024-02-15,0.91
+CUST_439,Company_439,IT Services,9609,low,2024-10-12,0.35
+CUST_440,Company_440,IT Services,2011,medium,2024-05-18,0.44
+CUST_441,Company_441,Healthcare,3695,low,2024-05-03,0.61
+CUST_442,Company_442,Manufacturing,12745,low,2025-07-16,0.93
+CUST_443,Company_443,Education,14249,low,2025-06-04,0.66
+CUST_444,Company_444,Education,10239,low,2024-07-01,0.77
+CUST_445,Company_445,Finance,12850,low,2025-01-30,0.87
+CUST_446,Company_446,Manufacturing,10475,low,2024-08-10,0.54
+CUST_447,Company_447,IT Services,9866,high,2025-08-08,0.99
+CUST_448,Company_448,Education,1519,low,2025-04-16,0.84
+CUST_449,Company_449,Real Estate,7135,high,2024-09-21,0.61
+CUST_450,Company_450,Real Estate,7154,low,2023-12-10,0.91
+CUST_451,Company_451,Healthcare,11707,medium,2025-06-18,0.42
+CUST_452,Company_452,Real Estate,9664,low,2025-03-03,0.88
+CUST_453,Company_453,Retail,5888,low,2024-04-08,0.6
+CUST_454,Company_454,Real Estate,14489,low,2024-07-03,0.54
+CUST_455,Company_455,Finance,4088,high,2025-06-24,0.32
+CUST_456,Company_456,Real Estate,11074,medium,2025-10-01,0.47
+CUST_457,Company_457,IT Services,2653,low,2024-07-17,0.72
+CUST_458,Company_458,Retail,5009,medium,2024-09-01,0.61
+CUST_459,Company_459,Manufacturing,13359,medium,2025-08-21,0.4
+CUST_460,Company_460,Finance,4836,medium,2024-03-07,0.52
+CUST_461,Company_461,Legal,4881,low,2025-05-24,0.99
+CUST_462,Company_462,Manufacturing,7775,low,2025-08-16,0.69
+CUST_463,Company_463,Healthcare,11256,medium,2024-03-27,0.65
+CUST_464,Company_464,Legal,11540,medium,2024-04-28,0.52
+CUST_465,Company_465,Real Estate,7688,low,2024-09-27,0.43
+CUST_466,Company_466,Education,4948,medium,2024-12-14,0.9
+CUST_467,Company_467,Healthcare,14201,low,2025-08-19,0.69
+CUST_468,Company_468,Real Estate,10130,low,2024-09-15,0.47
+CUST_469,Company_469,Manufacturing,6411,medium,2024-07-14,0.89
+CUST_470,Company_470,IT Services,9775,medium,2025-04-05,0.34
+CUST_471,Company_471,Real Estate,12037,medium,2025-09-07,0.91
+CUST_472,Company_472,Manufacturing,14183,medium,2023-11-30,0.69
+CUST_473,Company_473,Education,4422,medium,2024-11-11,0.51
+CUST_474,Company_474,Retail,4470,high,2025-06-19,0.82
+CUST_475,Company_475,Education,4974,medium,2025-03-22,0.58
+CUST_476,Company_476,Manufacturing,10045,low,2025-01-01,0.57
+CUST_477,Company_477,Legal,6053,low,2024-05-10,0.92
+CUST_478,Company_478,Education,2615,medium,2024-06-24,0.83
+CUST_479,Company_479,Legal,4328,low,2024-08-20,0.33
+CUST_480,Company_480,Manufacturing,13144,low,2025-01-23,0.69
+CUST_481,Company_481,Real Estate,5836,low,2024-11-14,0.46
+CUST_482,Company_482,Manufacturing,9180,low,2024-11-06,0.48
+CUST_483,Company_483,Education,12854,medium,2024-06-02,0.62
+CUST_484,Company_484,Legal,3773,low,2024-04-06,0.64
+CUST_485,Company_485,Retail,9584,low,2025-08-02,0.96
+CUST_486,Company_486,Retail,13522,low,2025-05-30,0.89
+CUST_487,Company_487,Manufacturing,2113,medium,2025-10-08,0.45
+CUST_488,Company_488,Education,7114,low,2024-01-03,0.77
+CUST_489,Company_489,Education,11801,low,2025-10-11,0.67
+CUST_490,Company_490,Real Estate,1194,low,2025-01-09,0.68
+CUST_491,Company_491,Finance,1280,low,2023-11-27,0.6
+CUST_492,Company_492,Healthcare,2753,high,2024-04-29,0.4
+CUST_493,Company_493,Manufacturing,11154,low,2024-10-20,0.49
+CUST_494,Company_494,Real Estate,2294,low,2024-08-28,0.62
+CUST_495,Company_495,Manufacturing,12423,low,2023-11-17,0.88
+CUST_496,Company_496,IT Services,11710,high,2023-12-22,0.83
+CUST_497,Company_497,IT Services,7640,low,2024-03-31,0.63
+CUST_498,Company_498,Retail,12515,low,2024-05-24,0.89
+CUST_499,Company_499,Legal,10270,high,2025-07-12,0.93
+CUST_500,Company_500,Retail,4764,low,2024-03-16,0.63

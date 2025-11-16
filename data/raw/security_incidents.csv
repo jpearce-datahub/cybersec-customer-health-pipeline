@@ -1,151 +1,2501 @@
 incident_id,customer_id,severity,sla_minutes,worked_within_sla,incident_type,detection_time,status
-INC_0001,CUST_049,high,20,True,Malware,2025-09-16 10:25:41,In Progress
-INC_0002,CUST_059,low,,,Data Breach,2025-10-07 10:25:41,In Progress
-INC_0003,CUST_025,low,,,DDoS,2025-10-04 10:25:41,Resolved
-INC_0004,CUST_045,high,20,False,Unauthorized Access,2025-09-25 10:25:41,Resolved
-INC_0005,CUST_034,high,20,True,Phishing,2025-09-02 10:25:41,Resolved
-INC_0006,CUST_056,low,,,Data Breach,2025-10-06 10:25:41,Closed
-INC_0007,CUST_050,medium,60,True,Unauthorized Access,2025-10-22 10:25:41,Resolved
-INC_0008,CUST_056,low,,,Malware,2025-09-10 10:25:41,In Progress
-INC_0009,CUST_009,low,,,Data Breach,2025-08-28 10:25:41,Resolved
-INC_0010,CUST_039,medium,60,True,Unauthorized Access,2025-10-07 10:25:41,Closed
-INC_0011,CUST_038,low,,,Unauthorized Access,2025-10-30 10:25:41,In Progress
-INC_0012,CUST_023,medium,60,False,Unauthorized Access,2025-09-04 10:25:41,Resolved
-INC_0013,CUST_039,medium,60,True,Data Breach,2025-10-20 10:25:41,Closed
-INC_0014,CUST_060,high,20,False,DDoS,2025-09-20 10:25:41,In Progress
-INC_0015,CUST_011,medium,60,True,Data Breach,2025-09-11 10:25:41,Resolved
-INC_0016,CUST_031,low,,,Data Breach,2025-10-18 10:25:41,In Progress
-INC_0017,CUST_006,low,,,Phishing,2025-09-16 10:25:41,Open
-INC_0018,CUST_050,medium,60,True,DDoS,2025-09-25 10:25:41,In Progress
-INC_0019,CUST_001,low,,,Malware,2025-09-22 10:25:41,In Progress
-INC_0020,CUST_067,low,,,DDoS,2025-11-09 10:25:41,In Progress
-INC_0021,CUST_059,high,20,True,Phishing,2025-09-17 10:25:41,Resolved
-INC_0022,CUST_065,critical,5,False,DDoS,2025-09-06 10:25:41,Closed
-INC_0023,CUST_058,high,20,False,Data Breach,2025-10-15 10:25:41,Resolved
-INC_0024,CUST_031,high,20,False,Data Breach,2025-09-20 10:25:41,Open
-INC_0025,CUST_035,medium,60,True,Data Breach,2025-10-06 10:25:41,Open
-INC_0026,CUST_030,low,,,DDoS,2025-08-19 10:25:41,In Progress
-INC_0027,CUST_054,medium,60,True,DDoS,2025-10-04 10:25:41,Closed
-INC_0028,CUST_054,medium,60,True,DDoS,2025-09-02 10:25:41,Open
-INC_0029,CUST_062,high,20,False,Malware,2025-10-01 10:25:41,Resolved
-INC_0030,CUST_069,high,20,False,Unauthorized Access,2025-08-30 10:25:41,In Progress
-INC_0031,CUST_056,medium,60,False,DDoS,2025-11-12 10:25:41,Closed
-INC_0032,CUST_052,low,,,Phishing,2025-09-17 10:25:41,In Progress
-INC_0033,CUST_051,critical,5,True,Unauthorized Access,2025-09-04 10:25:41,Open
-INC_0034,CUST_055,low,,,Phishing,2025-09-17 10:25:41,In Progress
-INC_0035,CUST_049,low,,,Data Breach,2025-10-19 10:25:41,Closed
-INC_0036,CUST_049,low,,,Data Breach,2025-09-23 10:25:41,Resolved
-INC_0037,CUST_003,high,20,False,Unauthorized Access,2025-11-09 10:25:41,Resolved
-INC_0038,CUST_009,low,,,Malware,2025-11-12 10:25:41,In Progress
-INC_0039,CUST_003,low,,,Unauthorized Access,2025-10-27 10:25:41,In Progress
-INC_0040,CUST_015,low,,,Unauthorized Access,2025-10-19 10:25:41,Closed
-INC_0041,CUST_022,medium,60,False,Unauthorized Access,2025-08-30 10:25:41,Open
-INC_0042,CUST_040,high,20,True,Malware,2025-09-02 10:25:41,Open
-INC_0043,CUST_051,high,20,False,Phishing,2025-11-06 10:25:41,In Progress
-INC_0044,CUST_039,low,,,Unauthorized Access,2025-10-31 10:25:41,Open
-INC_0045,CUST_055,low,,,Data Breach,2025-11-07 10:25:41,Resolved
-INC_0046,CUST_054,low,,,DDoS,2025-11-02 10:25:41,Closed
-INC_0047,CUST_020,critical,5,False,DDoS,2025-10-24 10:25:41,Resolved
-INC_0048,CUST_060,medium,60,False,DDoS,2025-09-01 10:25:41,Resolved
-INC_0049,CUST_032,low,,,Malware,2025-10-11 10:25:41,Closed
-INC_0050,CUST_060,low,,,Unauthorized Access,2025-08-29 10:25:41,Closed
-INC_0051,CUST_064,low,,,Data Breach,2025-10-23 10:25:41,Closed
-INC_0052,CUST_034,low,,,Data Breach,2025-10-11 10:25:41,Resolved
-INC_0053,CUST_011,medium,60,True,Phishing,2025-09-24 10:25:41,Closed
-INC_0054,CUST_061,medium,60,True,DDoS,2025-09-19 10:25:41,Open
-INC_0055,CUST_029,low,,,DDoS,2025-08-19 10:25:41,In Progress
-INC_0056,CUST_075,low,,,Data Breach,2025-09-16 10:25:41,Resolved
-INC_0057,CUST_046,medium,60,False,DDoS,2025-10-12 10:25:41,Resolved
-INC_0058,CUST_016,low,,,Phishing,2025-10-06 10:25:41,Open
-INC_0059,CUST_025,medium,60,True,Phishing,2025-09-15 10:25:41,Resolved
-INC_0060,CUST_013,medium,60,False,Phishing,2025-10-09 10:25:41,In Progress
-INC_0061,CUST_039,low,,,Malware,2025-09-08 10:25:41,In Progress
-INC_0062,CUST_007,low,,,Unauthorized Access,2025-10-09 10:25:41,In Progress
-INC_0063,CUST_014,medium,60,False,Malware,2025-09-03 10:25:41,Resolved
-INC_0064,CUST_044,medium,60,False,Phishing,2025-11-09 10:25:41,Resolved
-INC_0065,CUST_015,high,20,False,Malware,2025-09-25 10:25:41,Closed
-INC_0066,CUST_007,low,,,Phishing,2025-10-27 10:25:41,Resolved
-INC_0067,CUST_032,low,,,Malware,2025-09-05 10:25:41,Closed
-INC_0068,CUST_067,medium,60,True,DDoS,2025-09-19 10:25:41,Closed
-INC_0069,CUST_055,low,,,Data Breach,2025-09-04 10:25:41,Open
-INC_0070,CUST_027,medium,60,True,Phishing,2025-10-13 10:25:41,Open
-INC_0071,CUST_023,low,,,Unauthorized Access,2025-11-06 10:25:41,In Progress
-INC_0072,CUST_058,low,,,Unauthorized Access,2025-09-16 10:25:41,Resolved
-INC_0073,CUST_037,low,,,Data Breach,2025-08-18 10:25:41,Closed
-INC_0074,CUST_030,low,,,Data Breach,2025-08-27 10:25:41,In Progress
-INC_0075,CUST_020,medium,60,True,Data Breach,2025-10-28 10:25:41,Open
-INC_0076,CUST_040,low,,,Unauthorized Access,2025-09-04 10:25:41,Resolved
-INC_0077,CUST_039,medium,60,False,DDoS,2025-10-12 10:25:41,Closed
-INC_0078,CUST_056,medium,60,True,Data Breach,2025-08-30 10:25:41,Resolved
-INC_0079,CUST_030,low,,,Unauthorized Access,2025-09-01 10:25:41,Open
-INC_0080,CUST_074,critical,5,False,Malware,2025-10-24 10:25:41,Closed
-INC_0081,CUST_036,medium,60,False,Phishing,2025-09-02 10:25:41,Closed
-INC_0082,CUST_012,medium,60,False,DDoS,2025-10-02 10:25:41,Closed
-INC_0083,CUST_014,low,,,Phishing,2025-10-04 10:25:41,Closed
-INC_0084,CUST_052,medium,60,False,Unauthorized Access,2025-11-11 10:25:41,Closed
-INC_0085,CUST_033,low,,,Data Breach,2025-11-01 10:25:41,Closed
-INC_0086,CUST_070,high,20,True,DDoS,2025-09-24 10:25:41,Open
-INC_0087,CUST_047,low,,,Unauthorized Access,2025-09-13 10:25:41,Closed
-INC_0088,CUST_035,high,20,True,Unauthorized Access,2025-10-30 10:25:41,Resolved
-INC_0089,CUST_016,medium,60,False,Malware,2025-08-27 10:25:41,In Progress
-INC_0090,CUST_071,medium,60,False,Malware,2025-09-06 10:25:41,Closed
-INC_0091,CUST_015,low,,,DDoS,2025-10-31 10:25:41,In Progress
-INC_0092,CUST_066,medium,60,False,Data Breach,2025-09-23 10:25:41,Closed
-INC_0093,CUST_059,critical,5,True,Unauthorized Access,2025-10-28 10:25:41,Closed
-INC_0094,CUST_066,low,,,Phishing,2025-11-07 10:25:41,Resolved
-INC_0095,CUST_044,high,20,False,Unauthorized Access,2025-10-12 10:25:41,Open
-INC_0096,CUST_039,low,,,Unauthorized Access,2025-09-02 10:25:41,Closed
-INC_0097,CUST_069,high,20,False,DDoS,2025-10-02 10:25:41,Resolved
-INC_0098,CUST_059,medium,60,False,Data Breach,2025-10-22 10:25:41,In Progress
-INC_0099,CUST_053,medium,60,True,Malware,2025-10-06 10:25:41,Closed
-INC_0100,CUST_050,medium,60,False,Phishing,2025-09-13 10:25:41,Open
-INC_0101,CUST_043,low,,,Malware,2025-09-20 10:25:41,Open
-INC_0102,CUST_002,medium,60,False,Phishing,2025-09-24 10:25:41,In Progress
-INC_0103,CUST_034,low,,,Data Breach,2025-08-28 10:25:41,Closed
-INC_0104,CUST_069,medium,60,False,DDoS,2025-10-06 10:25:41,Closed
-INC_0105,CUST_009,high,20,True,Phishing,2025-08-27 10:25:41,Resolved
-INC_0106,CUST_056,critical,5,True,Malware,2025-08-26 10:25:41,Open
-INC_0107,CUST_004,medium,60,False,Malware,2025-10-05 10:25:41,Open
-INC_0108,CUST_048,low,,,DDoS,2025-10-28 10:25:41,In Progress
-INC_0109,CUST_022,medium,60,True,Phishing,2025-11-05 10:25:41,Closed
-INC_0110,CUST_064,medium,60,True,Unauthorized Access,2025-10-28 10:25:41,In Progress
-INC_0111,CUST_059,medium,60,False,Data Breach,2025-08-22 10:25:41,Open
-INC_0112,CUST_037,high,20,False,Unauthorized Access,2025-10-26 10:25:41,Open
-INC_0113,CUST_039,medium,60,False,DDoS,2025-08-19 10:25:41,Resolved
-INC_0114,CUST_026,medium,60,False,DDoS,2025-09-15 10:25:41,Open
-INC_0115,CUST_074,low,,,Data Breach,2025-09-03 10:25:41,Resolved
-INC_0116,CUST_003,critical,5,False,DDoS,2025-10-11 10:25:41,Open
-INC_0117,CUST_064,medium,60,True,Data Breach,2025-10-17 10:25:41,Resolved
-INC_0118,CUST_025,low,,,Unauthorized Access,2025-10-14 10:25:41,In Progress
-INC_0119,CUST_040,medium,60,True,DDoS,2025-11-11 10:25:41,Resolved
-INC_0120,CUST_038,medium,60,True,Data Breach,2025-09-23 10:25:41,In Progress
-INC_0121,CUST_070,low,,,Data Breach,2025-09-09 10:25:41,Resolved
-INC_0122,CUST_062,high,20,False,Data Breach,2025-10-03 10:25:41,Open
-INC_0123,CUST_019,medium,60,True,Phishing,2025-08-21 10:25:41,Closed
-INC_0124,CUST_012,critical,5,False,DDoS,2025-11-14 10:25:41,Resolved
-INC_0125,CUST_048,medium,60,False,Data Breach,2025-09-02 10:25:41,Closed
-INC_0126,CUST_014,high,20,False,Phishing,2025-09-16 10:25:41,Open
-INC_0127,CUST_029,medium,60,False,Malware,2025-08-26 10:25:41,Closed
-INC_0128,CUST_053,high,20,False,Malware,2025-10-29 10:25:41,Open
-INC_0129,CUST_064,high,20,False,Malware,2025-11-03 10:25:41,In Progress
-INC_0130,CUST_050,high,20,True,DDoS,2025-09-29 10:25:41,Closed
-INC_0131,CUST_054,medium,60,True,Malware,2025-09-14 10:25:41,Closed
-INC_0132,CUST_005,high,20,False,Data Breach,2025-10-19 10:25:41,Closed
-INC_0133,CUST_047,medium,60,True,Malware,2025-08-20 10:25:41,Resolved
-INC_0134,CUST_008,medium,60,False,DDoS,2025-10-11 10:25:41,In Progress
-INC_0135,CUST_012,critical,5,False,Phishing,2025-08-25 10:25:41,Open
-INC_0136,CUST_043,low,,,Phishing,2025-10-30 10:25:41,In Progress
-INC_0137,CUST_071,low,,,Phishing,2025-09-01 10:25:41,In Progress
-INC_0138,CUST_043,high,20,True,Phishing,2025-08-31 10:25:41,Open
-INC_0139,CUST_019,low,,,Phishing,2025-09-07 10:25:41,Resolved
-INC_0140,CUST_004,high,20,True,Phishing,2025-11-14 10:25:41,Resolved
-INC_0141,CUST_042,high,20,True,Malware,2025-10-24 10:25:41,Resolved
-INC_0142,CUST_054,low,,,Unauthorized Access,2025-11-01 10:25:41,Open
-INC_0143,CUST_066,medium,60,False,Unauthorized Access,2025-11-02 10:25:41,Closed
-INC_0144,CUST_067,medium,60,True,Data Breach,2025-09-18 10:25:41,Open
-INC_0145,CUST_062,low,,,DDoS,2025-09-22 10:25:41,Open
-INC_0146,CUST_010,medium,60,False,Malware,2025-10-05 10:25:41,In Progress
-INC_0147,CUST_036,low,,,Unauthorized Access,2025-08-26 10:25:41,Resolved
-INC_0148,CUST_068,low,,,Data Breach,2025-09-18 10:25:41,Closed
-INC_0149,CUST_015,low,,,Unauthorized Access,2025-10-19 10:25:41,Closed
-INC_0150,CUST_053,medium,60,True,Data Breach,2025-09-18 10:25:41,Closed
+INC_0001,CUST_039,low,,,Data Breach,2025-09-07 10:36:44,Open
+INC_0002,CUST_436,low,,,Data Breach,2025-11-13 10:36:44,In Progress
+INC_0003,CUST_476,medium,60,False,Malware,2025-10-08 10:36:44,In Progress
+INC_0004,CUST_347,medium,60,False,Unauthorized Access,2025-10-04 10:36:44,Closed
+INC_0005,CUST_405,high,20,True,Malware,2025-09-12 10:36:44,Resolved
+INC_0006,CUST_224,low,,,Phishing,2025-11-06 10:36:44,Resolved
+INC_0007,CUST_497,medium,60,False,Data Breach,2025-11-12 10:36:44,Resolved
+INC_0008,CUST_252,high,20,False,Phishing,2025-10-01 10:36:44,Closed
+INC_0009,CUST_044,medium,60,False,Unauthorized Access,2025-10-09 10:36:44,In Progress
+INC_0010,CUST_138,medium,60,True,Phishing,2025-09-28 10:36:44,In Progress
+INC_0011,CUST_185,medium,60,False,Malware,2025-11-04 10:36:44,Open
+INC_0012,CUST_185,high,20,False,Data Breach,2025-11-02 10:36:44,In Progress
+INC_0013,CUST_221,low,,,DDoS,2025-09-05 10:36:44,Closed
+INC_0014,CUST_046,low,,,Data Breach,2025-09-06 10:36:44,Open
+INC_0015,CUST_443,medium,60,False,DDoS,2025-11-14 10:36:44,Resolved
+INC_0016,CUST_372,medium,60,True,Unauthorized Access,2025-10-15 10:36:44,In Progress
+INC_0017,CUST_072,medium,60,True,Data Breach,2025-10-08 10:36:44,Resolved
+INC_0018,CUST_086,medium,60,True,DDoS,2025-10-11 10:36:44,Closed
+INC_0019,CUST_401,low,,,Malware,2025-09-30 10:36:44,Resolved
+INC_0020,CUST_305,high,20,False,Unauthorized Access,2025-10-21 10:36:44,Closed
+INC_0021,CUST_156,low,,,Malware,2025-09-26 10:36:44,Resolved
+INC_0022,CUST_412,high,20,False,Data Breach,2025-09-20 10:36:44,Resolved
+INC_0023,CUST_154,medium,60,True,Data Breach,2025-08-30 10:36:44,In Progress
+INC_0024,CUST_494,medium,60,True,DDoS,2025-10-06 10:36:44,Resolved
+INC_0025,CUST_496,medium,60,False,Unauthorized Access,2025-10-15 10:36:44,Resolved
+INC_0026,CUST_419,low,,,DDoS,2025-09-30 10:36:44,Open
+INC_0027,CUST_304,high,20,True,Unauthorized Access,2025-10-23 10:36:44,Open
+INC_0028,CUST_483,critical,5,False,Phishing,2025-09-20 10:36:44,Resolved
+INC_0029,CUST_420,high,20,True,DDoS,2025-08-21 10:36:44,Closed
+INC_0030,CUST_156,low,,,Phishing,2025-10-14 10:36:44,In Progress
+INC_0031,CUST_038,medium,60,False,DDoS,2025-08-31 10:36:44,Closed
+INC_0032,CUST_279,medium,60,False,Malware,2025-09-30 10:36:44,Open
+INC_0033,CUST_128,low,,,Data Breach,2025-10-25 10:36:44,Open
+INC_0034,CUST_496,medium,60,False,Data Breach,2025-09-21 10:36:44,Open
+INC_0035,CUST_133,low,,,Phishing,2025-09-11 10:36:44,In Progress
+INC_0036,CUST_238,medium,60,False,Unauthorized Access,2025-08-19 10:36:44,In Progress
+INC_0037,CUST_013,low,,,DDoS,2025-11-02 10:36:44,Resolved
+INC_0038,CUST_060,medium,60,True,Phishing,2025-10-02 10:36:44,Resolved
+INC_0039,CUST_402,low,,,Phishing,2025-09-10 10:36:44,Closed
+INC_0040,CUST_050,low,,,DDoS,2025-08-18 10:36:44,Closed
+INC_0041,CUST_154,low,,,Malware,2025-11-01 10:36:44,Open
+INC_0042,CUST_347,high,20,True,Phishing,2025-10-15 10:36:44,In Progress
+INC_0043,CUST_287,medium,60,False,DDoS,2025-09-17 10:36:44,In Progress
+INC_0044,CUST_096,high,20,True,DDoS,2025-09-26 10:36:44,Open
+INC_0045,CUST_231,medium,60,True,Unauthorized Access,2025-09-22 10:36:44,Closed
+INC_0046,CUST_110,low,,,Phishing,2025-10-11 10:36:44,Open
+INC_0047,CUST_188,medium,60,True,Data Breach,2025-10-21 10:36:44,Closed
+INC_0048,CUST_344,low,,,DDoS,2025-09-09 10:36:44,Resolved
+INC_0049,CUST_301,medium,60,False,Malware,2025-10-02 10:36:44,Resolved
+INC_0050,CUST_417,high,20,True,Data Breach,2025-08-29 10:36:44,Open
+INC_0051,CUST_061,medium,60,False,Phishing,2025-10-07 10:36:44,Open
+INC_0052,CUST_356,low,,,Phishing,2025-09-11 10:36:44,Closed
+INC_0053,CUST_295,medium,60,True,DDoS,2025-09-22 10:36:44,In Progress
+INC_0054,CUST_285,medium,60,True,Phishing,2025-09-14 10:36:44,Resolved
+INC_0055,CUST_162,low,,,DDoS,2025-08-28 10:36:44,Open
+INC_0056,CUST_249,high,20,True,Phishing,2025-10-22 10:36:44,Closed
+INC_0057,CUST_210,critical,5,False,DDoS,2025-09-23 10:36:44,Closed
+INC_0058,CUST_290,medium,60,True,Malware,2025-10-18 10:36:44,Resolved
+INC_0059,CUST_116,low,,,Unauthorized Access,2025-10-10 10:36:44,In Progress
+INC_0060,CUST_282,high,20,False,Unauthorized Access,2025-11-01 10:36:44,Open
+INC_0061,CUST_279,low,,,Data Breach,2025-09-07 10:36:44,Open
+INC_0062,CUST_280,high,20,False,Phishing,2025-09-22 10:36:44,Open
+INC_0063,CUST_153,medium,60,True,Malware,2025-09-19 10:36:44,Resolved
+INC_0064,CUST_419,low,,,Malware,2025-09-20 10:36:44,Open
+INC_0065,CUST_108,high,20,True,Unauthorized Access,2025-08-19 10:36:44,Resolved
+INC_0066,CUST_085,high,20,False,Unauthorized Access,2025-10-29 10:36:44,In Progress
+INC_0067,CUST_292,high,20,True,Data Breach,2025-09-08 10:36:44,Resolved
+INC_0068,CUST_166,medium,60,True,Data Breach,2025-10-09 10:36:44,Resolved
+INC_0069,CUST_070,critical,5,True,DDoS,2025-11-08 10:36:44,Resolved
+INC_0070,CUST_360,high,20,True,Phishing,2025-10-15 10:36:44,In Progress
+INC_0071,CUST_390,medium,60,True,DDoS,2025-09-14 10:36:44,In Progress
+INC_0072,CUST_322,medium,60,False,DDoS,2025-09-28 10:36:44,Closed
+INC_0073,CUST_407,low,,,Malware,2025-09-25 10:36:44,Resolved
+INC_0074,CUST_233,medium,60,False,DDoS,2025-10-05 10:36:44,Open
+INC_0075,CUST_375,high,20,True,DDoS,2025-08-26 10:36:44,Resolved
+INC_0076,CUST_112,high,20,False,DDoS,2025-10-19 10:36:44,Closed
+INC_0077,CUST_425,low,,,Data Breach,2025-10-03 10:36:44,In Progress
+INC_0078,CUST_404,medium,60,False,Data Breach,2025-08-20 10:36:44,Open
+INC_0079,CUST_321,low,,,DDoS,2025-11-13 10:36:44,Open
+INC_0080,CUST_226,high,20,True,DDoS,2025-11-15 10:36:44,Closed
+INC_0081,CUST_353,low,,,Phishing,2025-08-24 10:36:44,Resolved
+INC_0082,CUST_478,low,,,Data Breach,2025-11-04 10:36:44,Resolved
+INC_0083,CUST_191,low,,,Phishing,2025-11-09 10:36:44,Closed
+INC_0084,CUST_220,medium,60,True,Malware,2025-11-03 10:36:44,Open
+INC_0085,CUST_040,low,,,Phishing,2025-09-01 10:36:44,In Progress
+INC_0086,CUST_005,medium,60,False,Malware,2025-08-18 10:36:44,Resolved
+INC_0087,CUST_356,high,20,False,Phishing,2025-09-15 10:36:44,Open
+INC_0088,CUST_046,low,,,Malware,2025-11-02 10:36:44,Resolved
+INC_0089,CUST_154,low,,,Phishing,2025-09-28 10:36:44,In Progress
+INC_0090,CUST_036,medium,60,True,Unauthorized Access,2025-09-04 10:36:44,Open
+INC_0091,CUST_226,medium,60,True,Data Breach,2025-10-19 10:36:44,In Progress
+INC_0092,CUST_441,high,20,False,Phishing,2025-11-04 10:36:44,Open
+INC_0093,CUST_064,low,,,Unauthorized Access,2025-09-27 10:36:44,Resolved
+INC_0094,CUST_406,critical,5,False,Phishing,2025-10-15 10:36:44,Resolved
+INC_0095,CUST_284,medium,60,True,Unauthorized Access,2025-08-31 10:36:44,Resolved
+INC_0096,CUST_435,high,20,True,Data Breach,2025-10-20 10:36:44,In Progress
+INC_0097,CUST_331,medium,60,False,Malware,2025-10-16 10:36:44,Closed
+INC_0098,CUST_124,low,,,DDoS,2025-08-26 10:36:44,Open
+INC_0099,CUST_185,medium,60,True,Data Breach,2025-10-30 10:36:44,Closed
+INC_0100,CUST_188,high,20,False,Unauthorized Access,2025-08-20 10:36:44,In Progress
+INC_0101,CUST_009,high,20,True,Unauthorized Access,2025-11-07 10:36:44,Open
+INC_0102,CUST_021,low,,,Malware,2025-09-26 10:36:44,Resolved
+INC_0103,CUST_217,medium,60,False,DDoS,2025-11-05 10:36:44,In Progress
+INC_0104,CUST_159,low,,,Malware,2025-09-11 10:36:44,In Progress
+INC_0105,CUST_275,critical,5,True,Data Breach,2025-09-26 10:36:44,Open
+INC_0106,CUST_224,low,,,Phishing,2025-11-08 10:36:44,In Progress
+INC_0107,CUST_223,low,,,Malware,2025-09-18 10:36:44,Open
+INC_0108,CUST_380,low,,,Phishing,2025-10-31 10:36:44,Open
+INC_0109,CUST_084,medium,60,True,DDoS,2025-10-02 10:36:44,Resolved
+INC_0110,CUST_065,low,,,Data Breach,2025-10-31 10:36:44,Open
+INC_0111,CUST_220,low,,,Data Breach,2025-09-09 10:36:44,Open
+INC_0112,CUST_500,low,,,Unauthorized Access,2025-08-27 10:36:44,Open
+INC_0113,CUST_029,medium,60,False,DDoS,2025-09-04 10:36:44,In Progress
+INC_0114,CUST_131,low,,,Malware,2025-09-03 10:36:44,Open
+INC_0115,CUST_261,low,,,Malware,2025-11-10 10:36:44,Open
+INC_0116,CUST_242,low,,,Data Breach,2025-09-27 10:36:44,In Progress
+INC_0117,CUST_492,low,,,Malware,2025-09-06 10:36:44,Closed
+INC_0118,CUST_128,low,,,DDoS,2025-10-06 10:36:44,Resolved
+INC_0119,CUST_062,high,20,False,Unauthorized Access,2025-08-21 10:36:44,Open
+INC_0120,CUST_412,low,,,Unauthorized Access,2025-11-10 10:36:44,Closed
+INC_0121,CUST_239,low,,,Data Breach,2025-10-07 10:36:44,Resolved
+INC_0122,CUST_234,low,,,Malware,2025-09-29 10:36:44,In Progress
+INC_0123,CUST_402,low,,,Data Breach,2025-08-28 10:36:44,In Progress
+INC_0124,CUST_396,medium,60,False,Phishing,2025-09-07 10:36:44,In Progress
+INC_0125,CUST_478,low,,,DDoS,2025-11-12 10:36:44,In Progress
+INC_0126,CUST_487,medium,60,True,Data Breach,2025-11-15 10:36:44,Closed
+INC_0127,CUST_054,high,20,False,Phishing,2025-09-09 10:36:44,In Progress
+INC_0128,CUST_498,medium,60,True,Phishing,2025-10-11 10:36:44,Open
+INC_0129,CUST_119,low,,,Unauthorized Access,2025-09-24 10:36:44,Resolved
+INC_0130,CUST_298,medium,60,True,Malware,2025-09-12 10:36:44,In Progress
+INC_0131,CUST_039,medium,60,False,Unauthorized Access,2025-09-04 10:36:44,Open
+INC_0132,CUST_122,medium,60,True,Data Breach,2025-10-13 10:36:44,Resolved
+INC_0133,CUST_359,high,20,False,Data Breach,2025-10-06 10:36:44,Closed
+INC_0134,CUST_039,low,,,Phishing,2025-10-29 10:36:44,Open
+INC_0135,CUST_085,low,,,DDoS,2025-09-17 10:36:44,Resolved
+INC_0136,CUST_494,medium,60,False,Phishing,2025-09-19 10:36:44,Resolved
+INC_0137,CUST_047,medium,60,True,Phishing,2025-08-20 10:36:44,Resolved
+INC_0138,CUST_111,high,20,True,Data Breach,2025-10-28 10:36:44,Open
+INC_0139,CUST_203,medium,60,False,Unauthorized Access,2025-11-09 10:36:44,Resolved
+INC_0140,CUST_090,low,,,Malware,2025-09-25 10:36:44,Closed
+INC_0141,CUST_049,medium,60,True,DDoS,2025-11-02 10:36:44,In Progress
+INC_0142,CUST_032,low,,,Phishing,2025-10-30 10:36:44,In Progress
+INC_0143,CUST_352,high,20,False,Malware,2025-09-02 10:36:44,Resolved
+INC_0144,CUST_012,high,20,True,Malware,2025-10-21 10:36:44,Closed
+INC_0145,CUST_464,high,20,True,Data Breach,2025-10-31 10:36:44,Open
+INC_0146,CUST_087,high,20,True,Unauthorized Access,2025-09-21 10:36:44,Closed
+INC_0147,CUST_350,medium,60,False,DDoS,2025-10-24 10:36:44,Resolved
+INC_0148,CUST_096,low,,,Data Breach,2025-10-11 10:36:44,Closed
+INC_0149,CUST_315,high,20,True,Unauthorized Access,2025-08-29 10:36:44,In Progress
+INC_0150,CUST_211,medium,60,False,Unauthorized Access,2025-09-15 10:36:44,Open
+INC_0151,CUST_197,low,,,Phishing,2025-09-23 10:36:44,In Progress
+INC_0152,CUST_323,medium,60,True,Unauthorized Access,2025-11-13 10:36:44,Closed
+INC_0153,CUST_246,high,20,False,Unauthorized Access,2025-09-14 10:36:44,Resolved
+INC_0154,CUST_199,high,20,False,Data Breach,2025-10-23 10:36:44,Open
+INC_0155,CUST_113,low,,,Malware,2025-10-11 10:36:44,Open
+INC_0156,CUST_272,high,20,False,Data Breach,2025-09-02 10:36:44,In Progress
+INC_0157,CUST_127,critical,5,True,Phishing,2025-10-12 10:36:44,Open
+INC_0158,CUST_295,high,20,True,DDoS,2025-10-01 10:36:44,In Progress
+INC_0159,CUST_304,low,,,Data Breach,2025-08-18 10:36:44,Resolved
+INC_0160,CUST_361,high,20,True,Data Breach,2025-09-04 10:36:44,In Progress
+INC_0161,CUST_429,medium,60,True,DDoS,2025-09-07 10:36:44,Resolved
+INC_0162,CUST_020,low,,,Malware,2025-11-08 10:36:44,In Progress
+INC_0163,CUST_270,medium,60,True,DDoS,2025-11-15 10:36:44,Resolved
+INC_0164,CUST_413,high,20,True,Phishing,2025-10-03 10:36:44,In Progress
+INC_0165,CUST_031,high,20,False,Malware,2025-10-28 10:36:44,In Progress
+INC_0166,CUST_492,high,20,False,Malware,2025-09-29 10:36:44,Closed
+INC_0167,CUST_155,medium,60,False,Data Breach,2025-10-29 10:36:44,In Progress
+INC_0168,CUST_406,medium,60,False,DDoS,2025-08-24 10:36:44,Resolved
+INC_0169,CUST_496,low,,,Unauthorized Access,2025-08-19 10:36:44,Resolved
+INC_0170,CUST_302,low,,,Phishing,2025-09-28 10:36:44,Resolved
+INC_0171,CUST_066,medium,60,False,Phishing,2025-11-15 10:36:44,Closed
+INC_0172,CUST_094,high,20,True,Unauthorized Access,2025-10-06 10:36:44,In Progress
+INC_0173,CUST_480,medium,60,True,DDoS,2025-10-28 10:36:44,Resolved
+INC_0174,CUST_178,medium,60,True,Data Breach,2025-10-25 10:36:44,Open
+INC_0175,CUST_229,high,20,False,Malware,2025-10-13 10:36:44,In Progress
+INC_0176,CUST_035,low,,,Data Breach,2025-10-14 10:36:44,Open
+INC_0177,CUST_198,medium,60,True,DDoS,2025-09-23 10:36:44,In Progress
+INC_0178,CUST_452,high,20,False,DDoS,2025-10-02 10:36:44,Closed
+INC_0179,CUST_246,low,,,Unauthorized Access,2025-08-24 10:36:44,In Progress
+INC_0180,CUST_038,low,,,Malware,2025-10-09 10:36:44,Open
+INC_0181,CUST_488,low,,,Malware,2025-11-06 10:36:44,Resolved
+INC_0182,CUST_193,low,,,Phishing,2025-11-06 10:36:44,Open
+INC_0183,CUST_315,low,,,DDoS,2025-11-12 10:36:44,Closed
+INC_0184,CUST_311,high,20,True,DDoS,2025-10-26 10:36:44,Open
+INC_0185,CUST_106,low,,,Phishing,2025-09-24 10:36:44,Resolved
+INC_0186,CUST_122,medium,60,False,Malware,2025-11-09 10:36:44,Closed
+INC_0187,CUST_079,medium,60,False,Malware,2025-09-30 10:36:44,Open
+INC_0188,CUST_422,medium,60,False,Unauthorized Access,2025-09-15 10:36:44,In Progress
+INC_0189,CUST_106,low,,,Phishing,2025-08-26 10:36:44,Resolved
+INC_0190,CUST_433,critical,5,False,Malware,2025-10-07 10:36:44,Closed
+INC_0191,CUST_047,medium,60,False,Unauthorized Access,2025-09-27 10:36:44,In Progress
+INC_0192,CUST_196,low,,,Data Breach,2025-10-23 10:36:44,Closed
+INC_0193,CUST_226,low,,,DDoS,2025-10-13 10:36:44,In Progress
+INC_0194,CUST_078,high,20,True,Malware,2025-11-05 10:36:44,Resolved
+INC_0195,CUST_498,high,20,False,Unauthorized Access,2025-10-17 10:36:44,Open
+INC_0196,CUST_495,high,20,False,Unauthorized Access,2025-08-20 10:36:44,Closed
+INC_0197,CUST_244,medium,60,True,Data Breach,2025-11-05 10:36:44,Closed
+INC_0198,CUST_258,high,20,True,Unauthorized Access,2025-09-10 10:36:44,In Progress
+INC_0199,CUST_388,low,,,DDoS,2025-10-24 10:36:44,In Progress
+INC_0200,CUST_065,critical,5,True,Malware,2025-09-22 10:36:44,Open
+INC_0201,CUST_104,critical,5,False,Phishing,2025-08-31 10:36:44,Resolved
+INC_0202,CUST_373,low,,,Malware,2025-11-04 10:36:44,Closed
+INC_0203,CUST_439,medium,60,False,Data Breach,2025-09-10 10:36:44,Closed
+INC_0204,CUST_403,high,20,True,Unauthorized Access,2025-09-01 10:36:44,Closed
+INC_0205,CUST_077,low,,,Phishing,2025-09-04 10:36:44,Open
+INC_0206,CUST_403,high,20,True,Data Breach,2025-09-08 10:36:44,Resolved
+INC_0207,CUST_197,high,20,False,DDoS,2025-09-03 10:36:44,Closed
+INC_0208,CUST_142,low,,,DDoS,2025-10-28 10:36:44,Closed
+INC_0209,CUST_456,low,,,Data Breach,2025-08-19 10:36:44,In Progress
+INC_0210,CUST_244,low,,,Data Breach,2025-09-29 10:36:44,Open
+INC_0211,CUST_407,low,,,Data Breach,2025-10-07 10:36:44,Resolved
+INC_0212,CUST_498,high,20,True,Phishing,2025-10-29 10:36:44,Resolved
+INC_0213,CUST_397,critical,5,False,Data Breach,2025-10-12 10:36:44,Closed
+INC_0214,CUST_097,medium,60,True,DDoS,2025-10-19 10:36:44,Closed
+INC_0215,CUST_421,medium,60,False,Malware,2025-09-11 10:36:44,In Progress
+INC_0216,CUST_364,low,,,Unauthorized Access,2025-09-25 10:36:44,In Progress
+INC_0217,CUST_089,high,20,True,Phishing,2025-10-21 10:36:44,Open
+INC_0218,CUST_234,low,,,Malware,2025-09-30 10:36:44,In Progress
+INC_0219,CUST_422,low,,,DDoS,2025-09-12 10:36:44,Closed
+INC_0220,CUST_349,medium,60,True,Malware,2025-10-16 10:36:44,Resolved
+INC_0221,CUST_091,medium,60,False,DDoS,2025-09-01 10:36:44,Resolved
+INC_0222,CUST_429,low,,,Data Breach,2025-08-19 10:36:44,Open
+INC_0223,CUST_198,low,,,Malware,2025-10-26 10:36:44,In Progress
+INC_0224,CUST_347,high,20,True,Phishing,2025-10-12 10:36:44,Closed
+INC_0225,CUST_243,medium,60,True,Phishing,2025-08-25 10:36:44,In Progress
+INC_0226,CUST_115,medium,60,True,Data Breach,2025-08-30 10:36:44,Resolved
+INC_0227,CUST_217,medium,60,False,DDoS,2025-10-02 10:36:44,Closed
+INC_0228,CUST_239,low,,,Data Breach,2025-08-21 10:36:44,Closed
+INC_0229,CUST_262,medium,60,True,Data Breach,2025-09-05 10:36:44,Resolved
+INC_0230,CUST_056,low,,,DDoS,2025-11-07 10:36:44,Resolved
+INC_0231,CUST_442,critical,5,False,Data Breach,2025-10-13 10:36:44,Resolved
+INC_0232,CUST_265,low,,,Phishing,2025-11-08 10:36:44,Closed
+INC_0233,CUST_370,medium,60,True,Malware,2025-08-24 10:36:44,Closed
+INC_0234,CUST_465,critical,5,False,DDoS,2025-09-25 10:36:44,Closed
+INC_0235,CUST_176,medium,60,True,Phishing,2025-08-20 10:36:44,Closed
+INC_0236,CUST_260,high,20,False,Data Breach,2025-10-25 10:36:44,In Progress
+INC_0237,CUST_242,low,,,Phishing,2025-10-13 10:36:44,In Progress
+INC_0238,CUST_336,high,20,False,Malware,2025-10-18 10:36:44,Resolved
+INC_0239,CUST_447,low,,,Data Breach,2025-09-23 10:36:44,Resolved
+INC_0240,CUST_300,low,,,Data Breach,2025-09-17 10:36:44,Open
+INC_0241,CUST_242,medium,60,True,Phishing,2025-09-12 10:36:44,Open
+INC_0242,CUST_272,high,20,False,Data Breach,2025-09-24 10:36:44,Open
+INC_0243,CUST_071,high,20,True,Phishing,2025-10-03 10:36:44,Closed
+INC_0244,CUST_074,critical,5,False,Data Breach,2025-10-23 10:36:44,Open
+INC_0245,CUST_161,medium,60,True,Malware,2025-11-15 10:36:44,Closed
+INC_0246,CUST_390,low,,,Phishing,2025-09-03 10:36:44,In Progress
+INC_0247,CUST_067,medium,60,True,Unauthorized Access,2025-09-21 10:36:44,Closed
+INC_0248,CUST_197,medium,60,False,Malware,2025-11-11 10:36:44,In Progress
+INC_0249,CUST_457,medium,60,True,Data Breach,2025-09-09 10:36:44,In Progress
+INC_0250,CUST_003,low,,,Phishing,2025-10-18 10:36:44,Resolved
+INC_0251,CUST_053,low,,,DDoS,2025-09-12 10:36:44,Resolved
+INC_0252,CUST_422,low,,,Malware,2025-10-08 10:36:44,Resolved
+INC_0253,CUST_223,medium,60,False,Phishing,2025-10-03 10:36:44,Closed
+INC_0254,CUST_097,low,,,Phishing,2025-09-25 10:36:44,Open
+INC_0255,CUST_373,low,,,Phishing,2025-10-19 10:36:44,Open
+INC_0256,CUST_064,medium,60,True,Data Breach,2025-08-24 10:36:44,Open
+INC_0257,CUST_328,low,,,Data Breach,2025-09-08 10:36:44,Open
+INC_0258,CUST_339,medium,60,True,Malware,2025-08-24 10:36:44,Open
+INC_0259,CUST_060,low,,,DDoS,2025-09-20 10:36:44,Closed
+INC_0260,CUST_130,low,,,DDoS,2025-08-18 10:36:44,In Progress
+INC_0261,CUST_352,low,,,Malware,2025-10-08 10:36:44,Closed
+INC_0262,CUST_319,medium,60,False,Unauthorized Access,2025-08-18 10:36:44,In Progress
+INC_0263,CUST_262,medium,60,True,Unauthorized Access,2025-10-31 10:36:44,Resolved
+INC_0264,CUST_055,low,,,DDoS,2025-10-21 10:36:44,In Progress
+INC_0265,CUST_184,high,20,True,DDoS,2025-10-09 10:36:44,In Progress
+INC_0266,CUST_255,low,,,Phishing,2025-08-19 10:36:44,Closed
+INC_0267,CUST_002,low,,,Malware,2025-08-22 10:36:44,Open
+INC_0268,CUST_077,high,20,False,Malware,2025-09-11 10:36:44,Open
+INC_0269,CUST_464,medium,60,True,Data Breach,2025-08-25 10:36:44,In Progress
+INC_0270,CUST_136,medium,60,False,DDoS,2025-11-09 10:36:44,Open
+INC_0271,CUST_437,high,20,True,Data Breach,2025-09-30 10:36:44,Resolved
+INC_0272,CUST_049,medium,60,True,Malware,2025-11-14 10:36:44,In Progress
+INC_0273,CUST_169,medium,60,True,Data Breach,2025-09-20 10:36:44,Resolved
+INC_0274,CUST_191,high,20,True,Data Breach,2025-10-23 10:36:44,Open
+INC_0275,CUST_140,medium,60,False,DDoS,2025-08-19 10:36:44,Closed
+INC_0276,CUST_058,high,20,True,Phishing,2025-08-18 10:36:44,Open
+INC_0277,CUST_054,critical,5,True,DDoS,2025-09-01 10:36:44,Closed
+INC_0278,CUST_093,high,20,False,Unauthorized Access,2025-09-28 10:36:44,Resolved
+INC_0279,CUST_248,medium,60,True,DDoS,2025-11-01 10:36:44,Closed
+INC_0280,CUST_134,medium,60,True,Data Breach,2025-11-14 10:36:44,In Progress
+INC_0281,CUST_266,critical,5,False,Unauthorized Access,2025-08-19 10:36:44,Open
+INC_0282,CUST_247,medium,60,True,Data Breach,2025-08-23 10:36:44,Closed
+INC_0283,CUST_424,low,,,Unauthorized Access,2025-08-29 10:36:44,Open
+INC_0284,CUST_479,low,,,Phishing,2025-09-12 10:36:44,Closed
+INC_0285,CUST_039,high,20,True,DDoS,2025-10-05 10:36:44,In Progress
+INC_0286,CUST_143,low,,,Malware,2025-09-12 10:36:44,In Progress
+INC_0287,CUST_207,medium,60,False,Phishing,2025-11-05 10:36:44,Closed
+INC_0288,CUST_046,medium,60,False,DDoS,2025-09-19 10:36:44,Resolved
+INC_0289,CUST_255,low,,,Malware,2025-11-02 10:36:44,Closed
+INC_0290,CUST_423,medium,60,True,Malware,2025-08-30 10:36:44,Resolved
+INC_0291,CUST_336,high,20,True,DDoS,2025-10-03 10:36:44,Resolved
+INC_0292,CUST_433,high,20,True,DDoS,2025-10-04 10:36:44,Closed
+INC_0293,CUST_367,medium,60,False,DDoS,2025-11-01 10:36:44,Open
+INC_0294,CUST_002,high,20,True,Data Breach,2025-10-01 10:36:44,Resolved
+INC_0295,CUST_360,medium,60,False,Malware,2025-11-10 10:36:44,In Progress
+INC_0296,CUST_055,medium,60,False,Data Breach,2025-08-29 10:36:44,In Progress
+INC_0297,CUST_477,low,,,DDoS,2025-10-19 10:36:44,Closed
+INC_0298,CUST_367,high,20,True,Data Breach,2025-11-02 10:36:44,Closed
+INC_0299,CUST_325,low,,,Unauthorized Access,2025-10-31 10:36:44,Closed
+INC_0300,CUST_494,medium,60,True,DDoS,2025-11-15 10:36:44,Open
+INC_0301,CUST_430,medium,60,False,Unauthorized Access,2025-09-15 10:36:44,In Progress
+INC_0302,CUST_375,medium,60,True,Phishing,2025-11-02 10:36:44,Closed
+INC_0303,CUST_259,medium,60,False,DDoS,2025-09-23 10:36:44,In Progress
+INC_0304,CUST_494,low,,,Data Breach,2025-10-09 10:36:44,Closed
+INC_0305,CUST_212,high,20,True,Unauthorized Access,2025-08-18 10:36:44,Resolved
+INC_0306,CUST_365,high,20,False,Unauthorized Access,2025-08-27 10:36:44,In Progress
+INC_0307,CUST_320,low,,,Data Breach,2025-08-20 10:36:44,Resolved
+INC_0308,CUST_364,high,20,True,Phishing,2025-09-12 10:36:44,Resolved
+INC_0309,CUST_288,medium,60,False,DDoS,2025-09-02 10:36:44,Closed
+INC_0310,CUST_450,medium,60,False,DDoS,2025-11-14 10:36:44,Open
+INC_0311,CUST_075,low,,,Malware,2025-08-22 10:36:44,Open
+INC_0312,CUST_385,low,,,Phishing,2025-10-10 10:36:44,Resolved
+INC_0313,CUST_032,low,,,Data Breach,2025-10-20 10:36:44,Open
+INC_0314,CUST_232,low,,,Malware,2025-08-29 10:36:44,In Progress
+INC_0315,CUST_122,medium,60,False,Unauthorized Access,2025-08-18 10:36:44,Resolved
+INC_0316,CUST_475,medium,60,True,DDoS,2025-09-27 10:36:44,Closed
+INC_0317,CUST_495,critical,5,False,Unauthorized Access,2025-11-09 10:36:44,Open
+INC_0318,CUST_318,medium,60,True,DDoS,2025-10-18 10:36:44,Resolved
+INC_0319,CUST_398,high,20,True,Phishing,2025-10-09 10:36:44,Closed
+INC_0320,CUST_350,low,,,Malware,2025-10-23 10:36:44,In Progress
+INC_0321,CUST_194,medium,60,True,Malware,2025-09-22 10:36:44,Resolved
+INC_0322,CUST_083,medium,60,True,Unauthorized Access,2025-10-14 10:36:44,Open
+INC_0323,CUST_364,low,,,Phishing,2025-11-10 10:36:44,In Progress
+INC_0324,CUST_397,high,20,True,Unauthorized Access,2025-08-23 10:36:44,Resolved
+INC_0325,CUST_038,medium,60,False,Data Breach,2025-09-09 10:36:44,In Progress
+INC_0326,CUST_403,critical,5,True,Unauthorized Access,2025-10-26 10:36:44,Closed
+INC_0327,CUST_048,medium,60,False,Data Breach,2025-10-18 10:36:44,In Progress
+INC_0328,CUST_185,medium,60,False,Data Breach,2025-10-19 10:36:44,Closed
+INC_0329,CUST_059,critical,5,True,Data Breach,2025-09-19 10:36:44,In Progress
+INC_0330,CUST_491,high,20,True,Malware,2025-08-20 10:36:44,Resolved
+INC_0331,CUST_408,low,,,Malware,2025-09-27 10:36:44,Resolved
+INC_0332,CUST_013,medium,60,False,Unauthorized Access,2025-09-29 10:36:44,Closed
+INC_0333,CUST_460,medium,60,False,Phishing,2025-10-05 10:36:44,Open
+INC_0334,CUST_498,high,20,True,Unauthorized Access,2025-09-08 10:36:44,Open
+INC_0335,CUST_344,medium,60,True,Phishing,2025-08-20 10:36:44,Closed
+INC_0336,CUST_276,high,20,True,DDoS,2025-08-25 10:36:44,Open
+INC_0337,CUST_013,medium,60,True,DDoS,2025-10-04 10:36:44,Open
+INC_0338,CUST_028,low,,,Phishing,2025-10-14 10:36:44,Open
+INC_0339,CUST_467,medium,60,True,Data Breach,2025-09-24 10:36:44,Closed
+INC_0340,CUST_222,medium,60,False,Data Breach,2025-11-13 10:36:44,Closed
+INC_0341,CUST_329,medium,60,True,Unauthorized Access,2025-11-07 10:36:44,Open
+INC_0342,CUST_184,medium,60,True,Unauthorized Access,2025-11-02 10:36:44,Resolved
+INC_0343,CUST_311,high,20,False,Malware,2025-10-10 10:36:44,Closed
+INC_0344,CUST_421,low,,,Malware,2025-09-16 10:36:44,In Progress
+INC_0345,CUST_383,medium,60,True,DDoS,2025-09-07 10:36:44,Resolved
+INC_0346,CUST_153,critical,5,True,Data Breach,2025-11-14 10:36:44,In Progress
+INC_0347,CUST_003,low,,,Unauthorized Access,2025-08-31 10:36:44,Closed
+INC_0348,CUST_157,medium,60,True,Phishing,2025-10-02 10:36:44,In Progress
+INC_0349,CUST_083,medium,60,True,Phishing,2025-10-18 10:36:44,Resolved
+INC_0350,CUST_093,low,,,Unauthorized Access,2025-11-09 10:36:44,Closed
+INC_0351,CUST_149,medium,60,True,Malware,2025-10-14 10:36:44,Open
+INC_0352,CUST_298,low,,,DDoS,2025-10-04 10:36:44,Resolved
+INC_0353,CUST_336,low,,,Phishing,2025-11-03 10:36:44,Resolved
+INC_0354,CUST_163,medium,60,True,DDoS,2025-09-19 10:36:44,Resolved
+INC_0355,CUST_356,medium,60,False,Unauthorized Access,2025-10-27 10:36:44,Resolved
+INC_0356,CUST_087,high,20,False,Malware,2025-10-06 10:36:44,In Progress
+INC_0357,CUST_142,high,20,False,Data Breach,2025-10-29 10:36:44,Resolved
+INC_0358,CUST_229,high,20,False,Data Breach,2025-10-07 10:36:44,Closed
+INC_0359,CUST_331,medium,60,True,Unauthorized Access,2025-11-05 10:36:44,Resolved
+INC_0360,CUST_457,high,20,True,Unauthorized Access,2025-10-21 10:36:44,Resolved
+INC_0361,CUST_373,medium,60,True,Malware,2025-11-13 10:36:44,Open
+INC_0362,CUST_394,high,20,False,Unauthorized Access,2025-10-19 10:36:44,Open
+INC_0363,CUST_335,medium,60,False,Phishing,2025-09-30 10:36:44,Closed
+INC_0364,CUST_396,low,,,Unauthorized Access,2025-10-09 10:36:44,In Progress
+INC_0365,CUST_204,medium,60,True,Data Breach,2025-09-12 10:36:44,Open
+INC_0366,CUST_388,medium,60,True,Unauthorized Access,2025-10-29 10:36:44,Closed
+INC_0367,CUST_290,low,,,Unauthorized Access,2025-08-23 10:36:44,In Progress
+INC_0368,CUST_481,medium,60,False,Data Breach,2025-11-10 10:36:44,In Progress
+INC_0369,CUST_033,high,20,True,Data Breach,2025-09-29 10:36:44,In Progress
+INC_0370,CUST_106,low,,,Unauthorized Access,2025-09-30 10:36:44,Closed
+INC_0371,CUST_452,medium,60,False,Malware,2025-11-10 10:36:44,Resolved
+INC_0372,CUST_496,low,,,Unauthorized Access,2025-08-26 10:36:44,Resolved
+INC_0373,CUST_297,high,20,False,Unauthorized Access,2025-09-04 10:36:44,In Progress
+INC_0374,CUST_194,low,,,Data Breach,2025-09-01 10:36:44,Open
+INC_0375,CUST_499,medium,60,False,Phishing,2025-09-10 10:36:44,Closed
+INC_0376,CUST_445,low,,,Data Breach,2025-09-14 10:36:44,Closed
+INC_0377,CUST_257,high,20,True,Phishing,2025-09-20 10:36:44,In Progress
+INC_0378,CUST_264,low,,,Data Breach,2025-10-19 10:36:44,In Progress
+INC_0379,CUST_186,low,,,Unauthorized Access,2025-10-31 10:36:44,In Progress
+INC_0380,CUST_369,medium,60,False,Malware,2025-09-15 10:36:44,Closed
+INC_0381,CUST_332,medium,60,True,DDoS,2025-11-13 10:36:44,In Progress
+INC_0382,CUST_294,low,,,Unauthorized Access,2025-10-26 10:36:44,In Progress
+INC_0383,CUST_457,medium,60,True,Unauthorized Access,2025-10-28 10:36:44,Open
+INC_0384,CUST_473,low,,,Phishing,2025-09-10 10:36:44,Closed
+INC_0385,CUST_450,medium,60,True,Data Breach,2025-11-05 10:36:44,In Progress
+INC_0386,CUST_445,medium,60,False,DDoS,2025-10-25 10:36:44,In Progress
+INC_0387,CUST_407,high,20,True,Unauthorized Access,2025-10-23 10:36:44,Resolved
+INC_0388,CUST_352,low,,,Data Breach,2025-09-18 10:36:44,Open
+INC_0389,CUST_198,low,,,Phishing,2025-11-02 10:36:44,Open
+INC_0390,CUST_441,low,,,Unauthorized Access,2025-08-20 10:36:44,Closed
+INC_0391,CUST_091,high,20,True,DDoS,2025-08-29 10:36:44,Open
+INC_0392,CUST_048,high,20,True,DDoS,2025-08-23 10:36:44,In Progress
+INC_0393,CUST_460,high,20,True,DDoS,2025-09-10 10:36:44,Closed
+INC_0394,CUST_023,low,,,Unauthorized Access,2025-09-22 10:36:44,In Progress
+INC_0395,CUST_405,high,20,False,DDoS,2025-10-02 10:36:44,Open
+INC_0396,CUST_245,medium,60,False,Phishing,2025-11-05 10:36:44,Resolved
+INC_0397,CUST_132,medium,60,False,Phishing,2025-11-15 10:36:44,Open
+INC_0398,CUST_267,medium,60,True,Malware,2025-09-28 10:36:44,In Progress
+INC_0399,CUST_210,medium,60,False,Data Breach,2025-11-02 10:36:44,In Progress
+INC_0400,CUST_134,medium,60,False,Unauthorized Access,2025-09-22 10:36:44,Resolved
+INC_0401,CUST_387,medium,60,False,Phishing,2025-09-24 10:36:44,Closed
+INC_0402,CUST_287,low,,,Unauthorized Access,2025-09-15 10:36:44,Resolved
+INC_0403,CUST_397,critical,5,False,DDoS,2025-10-29 10:36:44,Open
+INC_0404,CUST_401,medium,60,False,Phishing,2025-11-03 10:36:44,In Progress
+INC_0405,CUST_411,medium,60,False,Unauthorized Access,2025-08-29 10:36:44,Open
+INC_0406,CUST_494,low,,,Malware,2025-11-04 10:36:44,In Progress
+INC_0407,CUST_046,medium,60,False,Malware,2025-10-13 10:36:44,In Progress
+INC_0408,CUST_312,low,,,Malware,2025-09-27 10:36:44,Closed
+INC_0409,CUST_365,medium,60,False,Unauthorized Access,2025-11-08 10:36:44,In Progress
+INC_0410,CUST_006,medium,60,False,Phishing,2025-08-23 10:36:44,Resolved
+INC_0411,CUST_402,low,,,Unauthorized Access,2025-09-11 10:36:44,In Progress
+INC_0412,CUST_185,medium,60,True,Phishing,2025-08-24 10:36:44,Open
+INC_0413,CUST_142,critical,5,True,DDoS,2025-10-01 10:36:44,Closed
+INC_0414,CUST_266,medium,60,True,Malware,2025-11-07 10:36:44,Open
+INC_0415,CUST_178,medium,60,False,Data Breach,2025-10-18 10:36:44,In Progress
+INC_0416,CUST_295,medium,60,False,Malware,2025-10-13 10:36:44,In Progress
+INC_0417,CUST_287,medium,60,True,Malware,2025-09-12 10:36:44,Resolved
+INC_0418,CUST_060,low,,,Unauthorized Access,2025-10-14 10:36:44,Resolved
+INC_0419,CUST_289,medium,60,False,DDoS,2025-10-15 10:36:44,Resolved
+INC_0420,CUST_349,critical,5,False,DDoS,2025-09-01 10:36:44,Open
+INC_0421,CUST_035,medium,60,False,DDoS,2025-08-26 10:36:44,In Progress
+INC_0422,CUST_410,medium,60,True,Data Breach,2025-09-24 10:36:44,Resolved
+INC_0423,CUST_359,medium,60,True,Data Breach,2025-10-15 10:36:44,Resolved
+INC_0424,CUST_345,low,,,Data Breach,2025-11-06 10:36:44,In Progress
+INC_0425,CUST_112,medium,60,False,Unauthorized Access,2025-10-12 10:36:44,In Progress
+INC_0426,CUST_256,high,20,True,Phishing,2025-10-16 10:36:44,In Progress
+INC_0427,CUST_118,high,20,True,Phishing,2025-10-15 10:36:44,Resolved
+INC_0428,CUST_055,low,,,Malware,2025-11-05 10:36:44,Closed
+INC_0429,CUST_435,medium,60,True,DDoS,2025-09-29 10:36:44,Resolved
+INC_0430,CUST_252,medium,60,False,Phishing,2025-09-11 10:36:44,Resolved
+INC_0431,CUST_385,low,,,Unauthorized Access,2025-10-30 10:36:44,Open
+INC_0432,CUST_245,medium,60,False,Unauthorized Access,2025-11-11 10:36:44,Resolved
+INC_0433,CUST_352,low,,,Phishing,2025-09-18 10:36:44,Open
+INC_0434,CUST_162,medium,60,False,Malware,2025-11-14 10:36:44,In Progress
+INC_0435,CUST_052,low,,,Data Breach,2025-09-30 10:36:44,Resolved
+INC_0436,CUST_135,low,,,Phishing,2025-10-12 10:36:44,Closed
+INC_0437,CUST_188,critical,5,False,Phishing,2025-09-13 10:36:44,Closed
+INC_0438,CUST_359,low,,,Data Breach,2025-09-30 10:36:44,Closed
+INC_0439,CUST_093,low,,,Unauthorized Access,2025-10-30 10:36:44,In Progress
+INC_0440,CUST_412,high,20,False,Phishing,2025-09-05 10:36:44,Closed
+INC_0441,CUST_075,high,20,True,Phishing,2025-09-16 10:36:44,Open
+INC_0442,CUST_256,low,,,Phishing,2025-08-27 10:36:44,Resolved
+INC_0443,CUST_129,high,20,False,Unauthorized Access,2025-09-04 10:36:44,Open
+INC_0444,CUST_354,low,,,Phishing,2025-11-08 10:36:44,In Progress
+INC_0445,CUST_430,high,20,False,Malware,2025-09-19 10:36:44,Resolved
+INC_0446,CUST_185,low,,,Unauthorized Access,2025-09-05 10:36:44,Resolved
+INC_0447,CUST_211,low,,,Malware,2025-10-02 10:36:44,In Progress
+INC_0448,CUST_400,medium,60,True,Data Breach,2025-10-01 10:36:44,Resolved
+INC_0449,CUST_397,medium,60,False,DDoS,2025-11-05 10:36:44,Closed
+INC_0450,CUST_324,medium,60,False,Phishing,2025-10-25 10:36:44,Resolved
+INC_0451,CUST_435,medium,60,False,Malware,2025-11-05 10:36:44,In Progress
+INC_0452,CUST_161,low,,,Data Breach,2025-08-24 10:36:44,Resolved
+INC_0453,CUST_139,medium,60,False,DDoS,2025-09-30 10:36:44,Closed
+INC_0454,CUST_438,medium,60,True,Malware,2025-10-30 10:36:44,In Progress
+INC_0455,CUST_108,medium,60,True,Phishing,2025-09-26 10:36:44,Open
+INC_0456,CUST_480,low,,,DDoS,2025-09-06 10:36:44,Open
+INC_0457,CUST_204,low,,,Unauthorized Access,2025-11-05 10:36:44,Open
+INC_0458,CUST_080,low,,,Malware,2025-08-24 10:36:44,Closed
+INC_0459,CUST_127,low,,,Data Breach,2025-09-20 10:36:44,In Progress
+INC_0460,CUST_430,low,,,Phishing,2025-11-12 10:36:44,Open
+INC_0461,CUST_443,medium,60,False,DDoS,2025-09-17 10:36:44,Resolved
+INC_0462,CUST_497,medium,60,True,Unauthorized Access,2025-10-24 10:36:44,Closed
+INC_0463,CUST_269,medium,60,False,Unauthorized Access,2025-10-07 10:36:44,Resolved
+INC_0464,CUST_413,medium,60,True,Malware,2025-09-20 10:36:44,Resolved
+INC_0465,CUST_134,low,,,Phishing,2025-10-08 10:36:44,Open
+INC_0466,CUST_418,low,,,Phishing,2025-10-02 10:36:44,Resolved
+INC_0467,CUST_353,medium,60,True,DDoS,2025-09-15 10:36:44,Resolved
+INC_0468,CUST_221,low,,,Data Breach,2025-08-31 10:36:44,In Progress
+INC_0469,CUST_097,high,20,False,DDoS,2025-09-05 10:36:44,Closed
+INC_0470,CUST_084,low,,,DDoS,2025-09-28 10:36:44,In Progress
+INC_0471,CUST_217,low,,,Phishing,2025-09-10 10:36:44,Resolved
+INC_0472,CUST_381,low,,,Unauthorized Access,2025-10-12 10:36:44,Closed
+INC_0473,CUST_036,low,,,Phishing,2025-10-29 10:36:44,Resolved
+INC_0474,CUST_234,low,,,Unauthorized Access,2025-09-19 10:36:44,Resolved
+INC_0475,CUST_097,medium,60,False,Data Breach,2025-11-13 10:36:44,In Progress
+INC_0476,CUST_274,low,,,Malware,2025-10-23 10:36:44,Open
+INC_0477,CUST_065,low,,,DDoS,2025-11-14 10:36:44,In Progress
+INC_0478,CUST_008,low,,,DDoS,2025-10-19 10:36:44,Resolved
+INC_0479,CUST_191,medium,60,False,DDoS,2025-08-18 10:36:44,Open
+INC_0480,CUST_432,low,,,Phishing,2025-11-08 10:36:44,Resolved
+INC_0481,CUST_279,high,20,True,DDoS,2025-10-23 10:36:44,In Progress
+INC_0482,CUST_419,high,20,False,DDoS,2025-11-14 10:36:44,Open
+INC_0483,CUST_198,critical,5,True,DDoS,2025-10-15 10:36:44,Open
+INC_0484,CUST_377,low,,,Malware,2025-09-10 10:36:44,In Progress
+INC_0485,CUST_480,medium,60,False,Data Breach,2025-10-26 10:36:44,Open
+INC_0486,CUST_130,medium,60,True,DDoS,2025-08-26 10:36:44,Resolved
+INC_0487,CUST_455,low,,,Malware,2025-08-22 10:36:44,In Progress
+INC_0488,CUST_325,critical,5,True,DDoS,2025-10-05 10:36:44,Open
+INC_0489,CUST_142,low,,,Unauthorized Access,2025-10-31 10:36:44,Closed
+INC_0490,CUST_497,high,20,True,Malware,2025-09-02 10:36:44,Closed
+INC_0491,CUST_191,medium,60,True,Malware,2025-10-15 10:36:44,In Progress
+INC_0492,CUST_477,medium,60,False,Malware,2025-11-08 10:36:44,Resolved
+INC_0493,CUST_065,medium,60,True,DDoS,2025-10-17 10:36:44,Resolved
+INC_0494,CUST_413,critical,5,False,DDoS,2025-10-22 10:36:44,Open
+INC_0495,CUST_371,medium,60,False,Phishing,2025-10-14 10:36:44,Open
+INC_0496,CUST_287,medium,60,False,Data Breach,2025-09-07 10:36:44,Closed
+INC_0497,CUST_096,low,,,Unauthorized Access,2025-10-02 10:36:44,Resolved
+INC_0498,CUST_445,medium,60,False,Unauthorized Access,2025-09-06 10:36:44,In Progress
+INC_0499,CUST_080,low,,,DDoS,2025-10-09 10:36:44,Resolved
+INC_0500,CUST_001,medium,60,False,Unauthorized Access,2025-09-28 10:36:44,In Progress
+INC_0501,CUST_398,high,20,False,Unauthorized Access,2025-10-16 10:36:44,Resolved
+INC_0502,CUST_098,medium,60,False,Unauthorized Access,2025-08-20 10:36:44,Closed
+INC_0503,CUST_314,high,20,True,Data Breach,2025-10-05 10:36:44,Closed
+INC_0504,CUST_050,medium,60,True,Unauthorized Access,2025-08-23 10:36:44,Open
+INC_0505,CUST_481,low,,,Phishing,2025-10-24 10:36:44,Open
+INC_0506,CUST_249,low,,,Phishing,2025-11-03 10:36:44,Open
+INC_0507,CUST_337,medium,60,False,DDoS,2025-09-09 10:36:44,Resolved
+INC_0508,CUST_114,low,,,Unauthorized Access,2025-11-06 10:36:44,Open
+INC_0509,CUST_336,high,20,True,DDoS,2025-11-05 10:36:44,Closed
+INC_0510,CUST_185,high,20,True,Unauthorized Access,2025-09-23 10:36:44,Resolved
+INC_0511,CUST_422,high,20,True,Unauthorized Access,2025-10-12 10:36:44,Open
+INC_0512,CUST_040,medium,60,False,Phishing,2025-09-10 10:36:44,Open
+INC_0513,CUST_119,low,,,Unauthorized Access,2025-09-27 10:36:44,In Progress
+INC_0514,CUST_337,low,,,Phishing,2025-09-04 10:36:44,In Progress
+INC_0515,CUST_383,medium,60,False,Malware,2025-08-26 10:36:44,Resolved
+INC_0516,CUST_453,medium,60,False,Malware,2025-10-25 10:36:44,In Progress
+INC_0517,CUST_337,medium,60,False,Phishing,2025-09-08 10:36:44,Closed
+INC_0518,CUST_282,high,20,False,Data Breach,2025-09-29 10:36:44,Closed
+INC_0519,CUST_423,high,20,False,Data Breach,2025-08-30 10:36:44,In Progress
+INC_0520,CUST_193,medium,60,True,Unauthorized Access,2025-10-14 10:36:44,Resolved
+INC_0521,CUST_492,critical,5,False,DDoS,2025-11-15 10:36:44,Open
+INC_0522,CUST_266,critical,5,True,Phishing,2025-10-08 10:36:44,Open
+INC_0523,CUST_114,low,,,Phishing,2025-10-06 10:36:44,Open
+INC_0524,CUST_471,high,20,False,Unauthorized Access,2025-09-11 10:36:44,In Progress
+INC_0525,CUST_236,low,,,Data Breach,2025-10-27 10:36:44,In Progress
+INC_0526,CUST_456,low,,,Unauthorized Access,2025-10-15 10:36:44,In Progress
+INC_0527,CUST_154,low,,,Malware,2025-09-03 10:36:44,Closed
+INC_0528,CUST_376,medium,60,True,Malware,2025-10-05 10:36:44,Closed
+INC_0529,CUST_423,low,,,Unauthorized Access,2025-11-03 10:36:44,Resolved
+INC_0530,CUST_414,low,,,Unauthorized Access,2025-09-28 10:36:44,Open
+INC_0531,CUST_179,high,20,False,DDoS,2025-09-23 10:36:44,Open
+INC_0532,CUST_383,high,20,True,Unauthorized Access,2025-11-14 10:36:44,Closed
+INC_0533,CUST_269,low,,,Malware,2025-10-06 10:36:44,In Progress
+INC_0534,CUST_358,low,,,Phishing,2025-10-27 10:36:44,Open
+INC_0535,CUST_498,medium,60,False,DDoS,2025-08-31 10:36:44,Open
+INC_0536,CUST_149,low,,,DDoS,2025-10-28 10:36:44,In Progress
+INC_0537,CUST_244,low,,,Unauthorized Access,2025-11-09 10:36:44,Closed
+INC_0538,CUST_205,low,,,Unauthorized Access,2025-09-21 10:36:44,In Progress
+INC_0539,CUST_287,high,20,False,Phishing,2025-09-14 10:36:44,Closed
+INC_0540,CUST_288,medium,60,True,Unauthorized Access,2025-09-09 10:36:44,In Progress
+INC_0541,CUST_137,low,,,DDoS,2025-10-05 10:36:44,Open
+INC_0542,CUST_212,low,,,DDoS,2025-09-30 10:36:44,Resolved
+INC_0543,CUST_177,low,,,Unauthorized Access,2025-08-24 10:36:44,Open
+INC_0544,CUST_180,high,20,True,Unauthorized Access,2025-09-20 10:36:44,In Progress
+INC_0545,CUST_103,medium,60,True,Data Breach,2025-10-27 10:36:44,Open
+INC_0546,CUST_028,low,,,Phishing,2025-08-28 10:36:44,In Progress
+INC_0547,CUST_008,high,20,False,Data Breach,2025-08-19 10:36:44,Open
+INC_0548,CUST_242,low,,,Malware,2025-10-04 10:36:44,In Progress
+INC_0549,CUST_105,medium,60,True,Unauthorized Access,2025-09-10 10:36:44,Resolved
+INC_0550,CUST_356,medium,60,True,Malware,2025-09-28 10:36:44,Open
+INC_0551,CUST_031,low,,,Data Breach,2025-10-21 10:36:44,Resolved
+INC_0552,CUST_336,low,,,Malware,2025-11-07 10:36:44,Closed
+INC_0553,CUST_443,medium,60,False,Malware,2025-11-13 10:36:44,Resolved
+INC_0554,CUST_119,high,20,False,DDoS,2025-09-11 10:36:44,Open
+INC_0555,CUST_444,high,20,False,Unauthorized Access,2025-09-08 10:36:44,Open
+INC_0556,CUST_257,low,,,DDoS,2025-09-05 10:36:44,Open
+INC_0557,CUST_473,low,,,Unauthorized Access,2025-10-07 10:36:44,Resolved
+INC_0558,CUST_010,medium,60,True,Data Breach,2025-08-20 10:36:44,Resolved
+INC_0559,CUST_155,low,,,Phishing,2025-09-12 10:36:44,Resolved
+INC_0560,CUST_450,high,20,False,DDoS,2025-11-12 10:36:44,Resolved
+INC_0561,CUST_175,low,,,DDoS,2025-08-23 10:36:44,In Progress
+INC_0562,CUST_196,low,,,Unauthorized Access,2025-08-21 10:36:44,In Progress
+INC_0563,CUST_219,medium,60,True,Data Breach,2025-08-30 10:36:44,Resolved
+INC_0564,CUST_106,medium,60,True,Phishing,2025-09-02 10:36:44,In Progress
+INC_0565,CUST_353,high,20,False,Unauthorized Access,2025-10-29 10:36:44,Closed
+INC_0566,CUST_336,critical,5,True,Unauthorized Access,2025-10-26 10:36:44,Resolved
+INC_0567,CUST_273,low,,,Malware,2025-10-23 10:36:44,Resolved
+INC_0568,CUST_373,high,20,True,Malware,2025-10-06 10:36:44,Closed
+INC_0569,CUST_227,critical,5,False,Data Breach,2025-10-27 10:36:44,In Progress
+INC_0570,CUST_095,low,,,Malware,2025-08-29 10:36:44,Resolved
+INC_0571,CUST_306,medium,60,True,Phishing,2025-10-17 10:36:44,Open
+INC_0572,CUST_353,low,,,DDoS,2025-10-29 10:36:44,Closed
+INC_0573,CUST_095,medium,60,False,DDoS,2025-09-14 10:36:44,Closed
+INC_0574,CUST_099,low,,,Phishing,2025-11-11 10:36:44,Closed
+INC_0575,CUST_474,high,20,True,Data Breach,2025-09-24 10:36:44,In Progress
+INC_0576,CUST_388,medium,60,True,Phishing,2025-11-07 10:36:44,In Progress
+INC_0577,CUST_444,high,20,False,Unauthorized Access,2025-09-14 10:36:44,Resolved
+INC_0578,CUST_219,high,20,True,DDoS,2025-11-10 10:36:44,Closed
+INC_0579,CUST_314,medium,60,False,Unauthorized Access,2025-08-31 10:36:44,Open
+INC_0580,CUST_234,medium,60,False,Malware,2025-10-15 10:36:44,Closed
+INC_0581,CUST_286,critical,5,True,DDoS,2025-09-10 10:36:44,Open
+INC_0582,CUST_226,low,,,DDoS,2025-10-08 10:36:44,Resolved
+INC_0583,CUST_151,medium,60,False,Unauthorized Access,2025-11-09 10:36:44,In Progress
+INC_0584,CUST_047,medium,60,False,Unauthorized Access,2025-11-01 10:36:44,In Progress
+INC_0585,CUST_202,high,20,True,DDoS,2025-10-05 10:36:44,Closed
+INC_0586,CUST_233,low,,,Unauthorized Access,2025-10-21 10:36:44,Closed
+INC_0587,CUST_166,low,,,Phishing,2025-10-31 10:36:44,Open
+INC_0588,CUST_231,low,,,Data Breach,2025-11-05 10:36:44,Closed
+INC_0589,CUST_194,medium,60,True,Unauthorized Access,2025-09-28 10:36:44,Open
+INC_0590,CUST_290,high,20,False,Phishing,2025-10-26 10:36:44,In Progress
+INC_0591,CUST_365,low,,,Malware,2025-09-23 10:36:44,Resolved
+INC_0592,CUST_394,low,,,DDoS,2025-10-10 10:36:44,In Progress
+INC_0593,CUST_068,low,,,Phishing,2025-11-15 10:36:44,Resolved
+INC_0594,CUST_255,low,,,DDoS,2025-09-07 10:36:44,Open
+INC_0595,CUST_122,medium,60,False,Phishing,2025-09-01 10:36:44,Closed
+INC_0596,CUST_041,medium,60,False,Unauthorized Access,2025-08-31 10:36:44,Open
+INC_0597,CUST_281,low,,,Data Breach,2025-08-28 10:36:44,In Progress
+INC_0598,CUST_076,low,,,Malware,2025-08-24 10:36:44,Resolved
+INC_0599,CUST_438,low,,,Malware,2025-08-22 10:36:44,Resolved
+INC_0600,CUST_045,low,,,Malware,2025-11-02 10:36:44,Closed
+INC_0601,CUST_345,critical,5,True,Data Breach,2025-08-29 10:36:44,In Progress
+INC_0602,CUST_477,critical,5,False,Malware,2025-11-04 10:36:44,Resolved
+INC_0603,CUST_460,low,,,DDoS,2025-11-07 10:36:44,Closed
+INC_0604,CUST_150,high,20,True,DDoS,2025-10-29 10:36:44,Open
+INC_0605,CUST_169,medium,60,False,Unauthorized Access,2025-09-24 10:36:44,In Progress
+INC_0606,CUST_056,medium,60,True,Unauthorized Access,2025-08-27 10:36:44,Open
+INC_0607,CUST_219,medium,60,False,Unauthorized Access,2025-10-06 10:36:44,Resolved
+INC_0608,CUST_475,medium,60,False,Phishing,2025-08-29 10:36:44,Closed
+INC_0609,CUST_253,medium,60,False,Phishing,2025-08-29 10:36:44,In Progress
+INC_0610,CUST_001,medium,60,True,Malware,2025-11-12 10:36:44,Closed
+INC_0611,CUST_378,medium,60,True,Phishing,2025-08-29 10:36:44,Closed
+INC_0612,CUST_180,medium,60,False,Unauthorized Access,2025-08-26 10:36:44,In Progress
+INC_0613,CUST_104,low,,,Data Breach,2025-10-14 10:36:44,Open
+INC_0614,CUST_260,low,,,Unauthorized Access,2025-10-05 10:36:44,Open
+INC_0615,CUST_171,low,,,Data Breach,2025-09-26 10:36:44,Open
+INC_0616,CUST_170,high,20,True,Data Breach,2025-08-21 10:36:44,Closed
+INC_0617,CUST_331,high,20,True,Phishing,2025-09-15 10:36:44,In Progress
+INC_0618,CUST_237,medium,60,False,DDoS,2025-11-08 10:36:44,Resolved
+INC_0619,CUST_285,medium,60,False,Unauthorized Access,2025-11-13 10:36:44,In Progress
+INC_0620,CUST_410,medium,60,False,Data Breach,2025-11-07 10:36:44,In Progress
+INC_0621,CUST_016,low,,,Data Breach,2025-09-28 10:36:44,In Progress
+INC_0622,CUST_096,medium,60,False,Unauthorized Access,2025-11-01 10:36:44,Resolved
+INC_0623,CUST_364,medium,60,False,Malware,2025-10-12 10:36:44,Closed
+INC_0624,CUST_450,low,,,Phishing,2025-09-29 10:36:44,Closed
+INC_0625,CUST_111,high,20,False,Unauthorized Access,2025-10-08 10:36:44,In Progress
+INC_0626,CUST_402,low,,,Malware,2025-10-21 10:36:44,Open
+INC_0627,CUST_410,medium,60,True,DDoS,2025-09-12 10:36:44,In Progress
+INC_0628,CUST_473,low,,,DDoS,2025-09-09 10:36:44,Resolved
+INC_0629,CUST_394,high,20,True,Malware,2025-09-10 10:36:44,In Progress
+INC_0630,CUST_019,low,,,DDoS,2025-09-27 10:36:44,Open
+INC_0631,CUST_478,low,,,Malware,2025-08-20 10:36:44,Open
+INC_0632,CUST_456,low,,,Malware,2025-11-02 10:36:44,Resolved
+INC_0633,CUST_389,low,,,Data Breach,2025-08-26 10:36:44,In Progress
+INC_0634,CUST_099,low,,,Data Breach,2025-10-11 10:36:44,Resolved
+INC_0635,CUST_140,high,20,True,Phishing,2025-10-26 10:36:44,Resolved
+INC_0636,CUST_491,low,,,Unauthorized Access,2025-09-05 10:36:44,Open
+INC_0637,CUST_180,low,,,Unauthorized Access,2025-10-06 10:36:44,Resolved
+INC_0638,CUST_361,low,,,Data Breach,2025-09-03 10:36:44,In Progress
+INC_0639,CUST_160,low,,,Unauthorized Access,2025-10-03 10:36:44,Closed
+INC_0640,CUST_015,low,,,DDoS,2025-08-21 10:36:44,Open
+INC_0641,CUST_028,low,,,Malware,2025-09-22 10:36:44,Closed
+INC_0642,CUST_306,low,,,Unauthorized Access,2025-08-27 10:36:44,Closed
+INC_0643,CUST_171,medium,60,False,Phishing,2025-08-22 10:36:44,Open
+INC_0644,CUST_291,critical,5,False,Phishing,2025-11-04 10:36:44,Closed
+INC_0645,CUST_159,low,,,DDoS,2025-09-16 10:36:44,In Progress
+INC_0646,CUST_441,high,20,True,Unauthorized Access,2025-10-13 10:36:44,Resolved
+INC_0647,CUST_359,low,,,Data Breach,2025-10-05 10:36:44,Closed
+INC_0648,CUST_244,medium,60,True,Malware,2025-10-02 10:36:44,Closed
+INC_0649,CUST_145,medium,60,True,Data Breach,2025-08-30 10:36:44,In Progress
+INC_0650,CUST_419,medium,60,False,Malware,2025-10-05 10:36:44,Open
+INC_0651,CUST_206,high,20,False,Unauthorized Access,2025-09-24 10:36:44,In Progress
+INC_0652,CUST_499,medium,60,True,DDoS,2025-09-27 10:36:44,Open
+INC_0653,CUST_417,low,,,Unauthorized Access,2025-09-21 10:36:44,Closed
+INC_0654,CUST_279,medium,60,False,Phishing,2025-10-24 10:36:44,Open
+INC_0655,CUST_059,medium,60,False,Unauthorized Access,2025-08-31 10:36:44,Closed
+INC_0656,CUST_050,low,,,DDoS,2025-10-24 10:36:44,Resolved
+INC_0657,CUST_307,critical,5,True,Malware,2025-08-20 10:36:44,Closed
+INC_0658,CUST_331,low,,,Malware,2025-11-04 10:36:44,In Progress
+INC_0659,CUST_388,high,20,True,Phishing,2025-08-23 10:36:44,In Progress
+INC_0660,CUST_200,medium,60,False,Unauthorized Access,2025-09-03 10:36:44,Closed
+INC_0661,CUST_349,low,,,Data Breach,2025-10-08 10:36:44,Resolved
+INC_0662,CUST_368,high,20,False,Data Breach,2025-11-04 10:36:44,Open
+INC_0663,CUST_434,medium,60,False,Phishing,2025-10-09 10:36:44,Open
+INC_0664,CUST_282,low,,,Malware,2025-11-15 10:36:44,Resolved
+INC_0665,CUST_145,low,,,Malware,2025-10-16 10:36:44,Closed
+INC_0666,CUST_321,medium,60,False,Data Breach,2025-09-28 10:36:44,Closed
+INC_0667,CUST_280,low,,,Phishing,2025-08-23 10:36:44,In Progress
+INC_0668,CUST_285,medium,60,True,DDoS,2025-09-30 10:36:44,Closed
+INC_0669,CUST_447,low,,,Phishing,2025-10-29 10:36:44,Open
+INC_0670,CUST_009,low,,,Phishing,2025-09-14 10:36:44,Closed
+INC_0671,CUST_044,critical,5,True,Phishing,2025-08-25 10:36:44,Closed
+INC_0672,CUST_320,high,20,False,Phishing,2025-09-18 10:36:44,Closed
+INC_0673,CUST_197,medium,60,False,Data Breach,2025-10-18 10:36:44,In Progress
+INC_0674,CUST_296,medium,60,True,DDoS,2025-10-16 10:36:44,Resolved
+INC_0675,CUST_018,medium,60,False,Malware,2025-09-04 10:36:44,Closed
+INC_0676,CUST_298,medium,60,True,DDoS,2025-08-19 10:36:44,Open
+INC_0677,CUST_375,low,,,Unauthorized Access,2025-10-11 10:36:44,Closed
+INC_0678,CUST_126,medium,60,True,DDoS,2025-08-27 10:36:44,Open
+INC_0679,CUST_314,medium,60,False,Malware,2025-10-03 10:36:44,Open
+INC_0680,CUST_294,medium,60,False,Data Breach,2025-09-23 10:36:44,Resolved
+INC_0681,CUST_149,critical,5,False,Phishing,2025-11-11 10:36:44,Resolved
+INC_0682,CUST_032,medium,60,False,DDoS,2025-09-02 10:36:44,In Progress
+INC_0683,CUST_415,medium,60,False,Unauthorized Access,2025-11-12 10:36:44,Resolved
+INC_0684,CUST_259,medium,60,True,Malware,2025-10-11 10:36:44,Resolved
+INC_0685,CUST_144,low,,,Data Breach,2025-10-14 10:36:44,Open
+INC_0686,CUST_466,medium,60,True,Unauthorized Access,2025-10-27 10:36:44,Closed
+INC_0687,CUST_090,low,,,Data Breach,2025-08-18 10:36:44,In Progress
+INC_0688,CUST_176,medium,60,True,Malware,2025-10-28 10:36:44,In Progress
+INC_0689,CUST_395,high,20,False,DDoS,2025-10-16 10:36:44,Closed
+INC_0690,CUST_108,medium,60,True,Unauthorized Access,2025-10-02 10:36:44,Open
+INC_0691,CUST_027,medium,60,True,Phishing,2025-09-17 10:36:44,Closed
+INC_0692,CUST_383,medium,60,False,Unauthorized Access,2025-10-17 10:36:44,Closed
+INC_0693,CUST_243,medium,60,False,Data Breach,2025-10-28 10:36:44,Closed
+INC_0694,CUST_475,low,,,DDoS,2025-09-28 10:36:44,Resolved
+INC_0695,CUST_050,critical,5,True,Unauthorized Access,2025-08-26 10:36:44,Resolved
+INC_0696,CUST_313,critical,5,False,Data Breach,2025-10-04 10:36:44,Resolved
+INC_0697,CUST_051,low,,,Data Breach,2025-08-24 10:36:44,Closed
+INC_0698,CUST_376,medium,60,True,Unauthorized Access,2025-10-22 10:36:44,Resolved
+INC_0699,CUST_161,medium,60,True,Unauthorized Access,2025-11-14 10:36:44,Open
+INC_0700,CUST_211,high,20,True,Malware,2025-09-09 10:36:44,Open
+INC_0701,CUST_113,medium,60,False,Data Breach,2025-10-14 10:36:44,In Progress
+INC_0702,CUST_318,low,,,Malware,2025-11-08 10:36:44,In Progress
+INC_0703,CUST_363,critical,5,True,Malware,2025-11-04 10:36:44,In Progress
+INC_0704,CUST_392,low,,,Unauthorized Access,2025-10-23 10:36:44,Open
+INC_0705,CUST_151,medium,60,False,DDoS,2025-08-23 10:36:44,Open
+INC_0706,CUST_394,medium,60,False,DDoS,2025-08-19 10:36:44,Resolved
+INC_0707,CUST_400,low,,,Malware,2025-10-11 10:36:44,Open
+INC_0708,CUST_171,low,,,Malware,2025-10-13 10:36:44,Resolved
+INC_0709,CUST_036,low,,,DDoS,2025-10-21 10:36:44,Closed
+INC_0710,CUST_252,low,,,Malware,2025-10-28 10:36:44,Closed
+INC_0711,CUST_330,low,,,Malware,2025-09-20 10:36:44,Resolved
+INC_0712,CUST_038,low,,,Malware,2025-09-03 10:36:44,Resolved
+INC_0713,CUST_460,high,20,True,DDoS,2025-10-27 10:36:44,Open
+INC_0714,CUST_137,high,20,False,Phishing,2025-08-18 10:36:44,Resolved
+INC_0715,CUST_264,high,20,True,DDoS,2025-09-15 10:36:44,Closed
+INC_0716,CUST_277,medium,60,True,Phishing,2025-11-15 10:36:44,Closed
+INC_0717,CUST_063,critical,5,False,Unauthorized Access,2025-09-08 10:36:44,Resolved
+INC_0718,CUST_156,low,,,DDoS,2025-11-08 10:36:44,Open
+INC_0719,CUST_437,low,,,Data Breach,2025-11-05 10:36:44,Closed
+INC_0720,CUST_332,high,20,False,Phishing,2025-10-24 10:36:44,Open
+INC_0721,CUST_154,critical,5,True,DDoS,2025-11-02 10:36:44,Resolved
+INC_0722,CUST_377,medium,60,False,Phishing,2025-10-29 10:36:44,Open
+INC_0723,CUST_369,low,,,Unauthorized Access,2025-10-16 10:36:44,Closed
+INC_0724,CUST_406,low,,,Unauthorized Access,2025-08-25 10:36:44,Resolved
+INC_0725,CUST_495,medium,60,False,Malware,2025-11-11 10:36:44,Resolved
+INC_0726,CUST_404,low,,,Malware,2025-09-25 10:36:44,Open
+INC_0727,CUST_335,low,,,Unauthorized Access,2025-09-18 10:36:44,In Progress
+INC_0728,CUST_474,medium,60,True,Malware,2025-11-11 10:36:44,In Progress
+INC_0729,CUST_242,medium,60,True,Unauthorized Access,2025-11-10 10:36:44,In Progress
+INC_0730,CUST_008,medium,60,True,Phishing,2025-08-27 10:36:44,Open
+INC_0731,CUST_234,high,20,True,Unauthorized Access,2025-10-25 10:36:44,Open
+INC_0732,CUST_059,high,20,True,DDoS,2025-08-31 10:36:44,In Progress
+INC_0733,CUST_104,low,,,DDoS,2025-10-03 10:36:44,Closed
+INC_0734,CUST_500,low,,,Unauthorized Access,2025-09-07 10:36:44,In Progress
+INC_0735,CUST_494,low,,,Phishing,2025-11-10 10:36:44,In Progress
+INC_0736,CUST_062,low,,,Data Breach,2025-10-28 10:36:44,Closed
+INC_0737,CUST_190,low,,,Unauthorized Access,2025-10-25 10:36:44,Closed
+INC_0738,CUST_298,low,,,Malware,2025-10-29 10:36:44,Open
+INC_0739,CUST_399,high,20,False,Phishing,2025-11-13 10:36:44,Closed
+INC_0740,CUST_004,low,,,Phishing,2025-11-04 10:36:44,Resolved
+INC_0741,CUST_355,medium,60,False,Phishing,2025-10-20 10:36:44,In Progress
+INC_0742,CUST_211,medium,60,False,Phishing,2025-10-24 10:36:44,Open
+INC_0743,CUST_314,medium,60,False,Malware,2025-08-27 10:36:44,Resolved
+INC_0744,CUST_003,low,,,Unauthorized Access,2025-10-16 10:36:44,In Progress
+INC_0745,CUST_272,low,,,Malware,2025-08-28 10:36:44,Resolved
+INC_0746,CUST_238,high,20,True,Phishing,2025-10-11 10:36:44,Open
+INC_0747,CUST_408,low,,,Phishing,2025-08-20 10:36:44,Closed
+INC_0748,CUST_344,medium,60,True,Malware,2025-11-09 10:36:44,Resolved
+INC_0749,CUST_223,low,,,Data Breach,2025-10-04 10:36:44,Closed
+INC_0750,CUST_380,low,,,Malware,2025-09-08 10:36:44,In Progress
+INC_0751,CUST_015,low,,,DDoS,2025-09-11 10:36:44,Open
+INC_0752,CUST_121,low,,,DDoS,2025-09-01 10:36:44,Resolved
+INC_0753,CUST_118,medium,60,False,Malware,2025-10-05 10:36:44,In Progress
+INC_0754,CUST_378,low,,,DDoS,2025-10-21 10:36:44,Closed
+INC_0755,CUST_242,high,20,True,Unauthorized Access,2025-09-14 10:36:44,Open
+INC_0756,CUST_111,high,20,True,Unauthorized Access,2025-09-18 10:36:44,In Progress
+INC_0757,CUST_070,low,,,DDoS,2025-10-22 10:36:44,Resolved
+INC_0758,CUST_172,critical,5,True,Phishing,2025-11-11 10:36:44,Open
+INC_0759,CUST_057,low,,,DDoS,2025-09-18 10:36:44,Closed
+INC_0760,CUST_176,low,,,Phishing,2025-10-09 10:36:44,In Progress
+INC_0761,CUST_296,high,20,True,Unauthorized Access,2025-10-17 10:36:44,Open
+INC_0762,CUST_442,medium,60,False,Phishing,2025-09-01 10:36:44,Closed
+INC_0763,CUST_008,high,20,False,DDoS,2025-10-15 10:36:44,In Progress
+INC_0764,CUST_297,low,,,Phishing,2025-09-01 10:36:44,In Progress
+INC_0765,CUST_214,high,20,True,Malware,2025-11-10 10:36:44,Closed
+INC_0766,CUST_218,medium,60,True,Unauthorized Access,2025-09-26 10:36:44,Closed
+INC_0767,CUST_232,high,20,True,DDoS,2025-10-16 10:36:44,Open
+INC_0768,CUST_355,medium,60,True,DDoS,2025-10-19 10:36:44,In Progress
+INC_0769,CUST_123,low,,,Malware,2025-11-13 10:36:44,Closed
+INC_0770,CUST_361,medium,60,True,DDoS,2025-09-03 10:36:44,Open
+INC_0771,CUST_396,critical,5,False,Phishing,2025-09-25 10:36:44,In Progress
+INC_0772,CUST_321,high,20,False,DDoS,2025-08-26 10:36:44,Open
+INC_0773,CUST_198,high,20,True,Data Breach,2025-09-09 10:36:44,Open
+INC_0774,CUST_386,low,,,Data Breach,2025-08-18 10:36:44,In Progress
+INC_0775,CUST_318,high,20,True,Data Breach,2025-11-08 10:36:44,Resolved
+INC_0776,CUST_197,high,20,True,Data Breach,2025-09-17 10:36:44,Open
+INC_0777,CUST_090,low,,,Unauthorized Access,2025-11-07 10:36:44,In Progress
+INC_0778,CUST_172,low,,,Phishing,2025-09-07 10:36:44,Open
+INC_0779,CUST_386,medium,60,True,Phishing,2025-10-05 10:36:44,Resolved
+INC_0780,CUST_142,high,20,False,Malware,2025-11-07 10:36:44,Resolved
+INC_0781,CUST_249,low,,,Unauthorized Access,2025-09-09 10:36:44,Open
+INC_0782,CUST_232,medium,60,False,Unauthorized Access,2025-09-29 10:36:44,Open
+INC_0783,CUST_453,low,,,DDoS,2025-11-04 10:36:44,Open
+INC_0784,CUST_092,low,,,Data Breach,2025-11-06 10:36:44,Open
+INC_0785,CUST_058,low,,,Phishing,2025-09-13 10:36:44,In Progress
+INC_0786,CUST_151,high,20,True,DDoS,2025-08-20 10:36:44,In Progress
+INC_0787,CUST_228,medium,60,False,Malware,2025-10-09 10:36:44,In Progress
+INC_0788,CUST_447,low,,,Phishing,2025-09-10 10:36:44,Resolved
+INC_0789,CUST_336,medium,60,False,Data Breach,2025-09-14 10:36:44,Closed
+INC_0790,CUST_460,medium,60,True,Data Breach,2025-10-25 10:36:44,Resolved
+INC_0791,CUST_191,low,,,Data Breach,2025-11-09 10:36:44,In Progress
+INC_0792,CUST_234,low,,,Phishing,2025-08-28 10:36:44,In Progress
+INC_0793,CUST_094,medium,60,False,Phishing,2025-08-19 10:36:44,In Progress
+INC_0794,CUST_060,low,,,Malware,2025-10-06 10:36:44,In Progress
+INC_0795,CUST_095,medium,60,False,Phishing,2025-09-05 10:36:44,Open
+INC_0796,CUST_076,medium,60,False,Data Breach,2025-09-19 10:36:44,In Progress
+INC_0797,CUST_472,medium,60,True,Malware,2025-09-25 10:36:44,Closed
+INC_0798,CUST_476,high,20,False,Data Breach,2025-10-27 10:36:44,Open
+INC_0799,CUST_332,critical,5,False,Data Breach,2025-09-16 10:36:44,Resolved
+INC_0800,CUST_410,critical,5,True,Unauthorized Access,2025-09-20 10:36:44,Resolved
+INC_0801,CUST_461,medium,60,False,Malware,2025-10-29 10:36:44,Open
+INC_0802,CUST_206,low,,,Unauthorized Access,2025-10-18 10:36:44,Closed
+INC_0803,CUST_168,low,,,Malware,2025-08-30 10:36:44,In Progress
+INC_0804,CUST_401,medium,60,True,Data Breach,2025-10-21 10:36:44,Open
+INC_0805,CUST_435,low,,,DDoS,2025-08-21 10:36:44,Open
+INC_0806,CUST_100,critical,5,False,DDoS,2025-10-06 10:36:44,Open
+INC_0807,CUST_204,high,20,False,Phishing,2025-09-22 10:36:44,Resolved
+INC_0808,CUST_007,low,,,Data Breach,2025-10-02 10:36:44,Resolved
+INC_0809,CUST_229,low,,,Unauthorized Access,2025-11-04 10:36:44,In Progress
+INC_0810,CUST_380,medium,60,False,DDoS,2025-09-20 10:36:44,Resolved
+INC_0811,CUST_373,low,,,DDoS,2025-09-23 10:36:44,In Progress
+INC_0812,CUST_074,high,20,True,Phishing,2025-10-08 10:36:44,Closed
+INC_0813,CUST_034,critical,5,False,Unauthorized Access,2025-09-28 10:36:44,Open
+INC_0814,CUST_328,low,,,Data Breach,2025-09-23 10:36:44,In Progress
+INC_0815,CUST_103,medium,60,True,Phishing,2025-09-28 10:36:44,Resolved
+INC_0816,CUST_422,medium,60,True,Data Breach,2025-09-02 10:36:44,Resolved
+INC_0817,CUST_115,medium,60,False,Malware,2025-11-15 10:36:44,In Progress
+INC_0818,CUST_490,low,,,DDoS,2025-10-31 10:36:44,Resolved
+INC_0819,CUST_465,medium,60,False,Phishing,2025-11-12 10:36:44,Open
+INC_0820,CUST_497,high,20,False,Malware,2025-08-31 10:36:44,Resolved
+INC_0821,CUST_445,medium,60,False,Data Breach,2025-08-27 10:36:44,Closed
+INC_0822,CUST_192,critical,5,True,Unauthorized Access,2025-09-03 10:36:44,Open
+INC_0823,CUST_298,high,20,True,Malware,2025-10-28 10:36:44,Resolved
+INC_0824,CUST_183,medium,60,True,Phishing,2025-11-09 10:36:44,Resolved
+INC_0825,CUST_326,low,,,Data Breach,2025-11-09 10:36:44,Resolved
+INC_0826,CUST_328,low,,,Malware,2025-09-11 10:36:44,In Progress
+INC_0827,CUST_392,high,20,True,Malware,2025-08-31 10:36:44,In Progress
+INC_0828,CUST_424,medium,60,False,Data Breach,2025-10-12 10:36:44,Resolved
+INC_0829,CUST_297,low,,,Data Breach,2025-10-28 10:36:44,Open
+INC_0830,CUST_145,low,,,Data Breach,2025-09-14 10:36:44,Closed
+INC_0831,CUST_467,low,,,Phishing,2025-11-02 10:36:44,In Progress
+INC_0832,CUST_114,low,,,Phishing,2025-09-05 10:36:44,Open
+INC_0833,CUST_060,medium,60,True,Phishing,2025-11-13 10:36:44,Closed
+INC_0834,CUST_354,low,,,Data Breach,2025-10-29 10:36:44,Closed
+INC_0835,CUST_089,high,20,False,Data Breach,2025-11-12 10:36:44,Open
+INC_0836,CUST_439,low,,,Phishing,2025-08-19 10:36:44,In Progress
+INC_0837,CUST_108,low,,,Phishing,2025-11-05 10:36:44,Closed
+INC_0838,CUST_040,medium,60,True,Malware,2025-09-15 10:36:44,Closed
+INC_0839,CUST_056,low,,,Malware,2025-08-23 10:36:44,Open
+INC_0840,CUST_023,medium,60,False,Malware,2025-10-08 10:36:44,Open
+INC_0841,CUST_472,high,20,True,Unauthorized Access,2025-10-20 10:36:44,In Progress
+INC_0842,CUST_180,low,,,Malware,2025-11-04 10:36:44,In Progress
+INC_0843,CUST_486,high,20,False,Unauthorized Access,2025-10-02 10:36:44,Resolved
+INC_0844,CUST_257,low,,,Unauthorized Access,2025-10-16 10:36:44,Open
+INC_0845,CUST_297,low,,,Malware,2025-09-09 10:36:44,In Progress
+INC_0846,CUST_088,medium,60,False,Unauthorized Access,2025-11-15 10:36:44,Open
+INC_0847,CUST_188,high,20,False,Unauthorized Access,2025-10-23 10:36:44,Closed
+INC_0848,CUST_093,medium,60,True,Data Breach,2025-09-28 10:36:44,Closed
+INC_0849,CUST_117,low,,,DDoS,2025-11-01 10:36:44,Resolved
+INC_0850,CUST_057,low,,,Unauthorized Access,2025-10-29 10:36:44,Closed
+INC_0851,CUST_286,high,20,False,Malware,2025-11-05 10:36:44,Resolved
+INC_0852,CUST_146,medium,60,False,DDoS,2025-08-31 10:36:44,Resolved
+INC_0853,CUST_116,medium,60,False,Unauthorized Access,2025-09-24 10:36:44,Resolved
+INC_0854,CUST_097,critical,5,False,Malware,2025-09-16 10:36:44,Resolved
+INC_0855,CUST_346,low,,,DDoS,2025-08-21 10:36:44,Open
+INC_0856,CUST_268,low,,,Malware,2025-10-31 10:36:44,In Progress
+INC_0857,CUST_356,low,,,Unauthorized Access,2025-11-02 10:36:44,In Progress
+INC_0858,CUST_500,low,,,Phishing,2025-10-03 10:36:44,In Progress
+INC_0859,CUST_063,medium,60,False,Phishing,2025-09-22 10:36:44,Closed
+INC_0860,CUST_366,low,,,Unauthorized Access,2025-09-01 10:36:44,Resolved
+INC_0861,CUST_183,high,20,False,DDoS,2025-08-22 10:36:44,Closed
+INC_0862,CUST_076,critical,5,False,DDoS,2025-11-02 10:36:44,Open
+INC_0863,CUST_255,low,,,Phishing,2025-08-27 10:36:44,In Progress
+INC_0864,CUST_378,low,,,Malware,2025-11-07 10:36:44,Closed
+INC_0865,CUST_196,medium,60,True,Unauthorized Access,2025-08-21 10:36:44,Resolved
+INC_0866,CUST_319,low,,,Unauthorized Access,2025-11-03 10:36:44,Open
+INC_0867,CUST_406,medium,60,False,DDoS,2025-10-21 10:36:44,Resolved
+INC_0868,CUST_259,medium,60,False,Data Breach,2025-09-07 10:36:44,Resolved
+INC_0869,CUST_488,high,20,True,Malware,2025-09-21 10:36:44,Open
+INC_0870,CUST_162,low,,,DDoS,2025-09-20 10:36:44,Closed
+INC_0871,CUST_091,low,,,Unauthorized Access,2025-08-23 10:36:44,Resolved
+INC_0872,CUST_252,high,20,True,DDoS,2025-10-29 10:36:44,Resolved
+INC_0873,CUST_392,medium,60,False,Malware,2025-09-04 10:36:44,Closed
+INC_0874,CUST_244,medium,60,False,Unauthorized Access,2025-10-26 10:36:44,Open
+INC_0875,CUST_254,low,,,Unauthorized Access,2025-09-28 10:36:44,Resolved
+INC_0876,CUST_165,high,20,False,Malware,2025-11-12 10:36:44,Open
+INC_0877,CUST_188,low,,,Data Breach,2025-09-02 10:36:44,Open
+INC_0878,CUST_195,high,20,False,Malware,2025-09-22 10:36:44,Resolved
+INC_0879,CUST_180,critical,5,False,Malware,2025-08-23 10:36:44,In Progress
+INC_0880,CUST_332,low,,,Data Breach,2025-09-01 10:36:44,Open
+INC_0881,CUST_445,high,20,True,Data Breach,2025-11-01 10:36:44,Resolved
+INC_0882,CUST_276,low,,,Data Breach,2025-11-11 10:36:44,Closed
+INC_0883,CUST_291,medium,60,False,Unauthorized Access,2025-09-23 10:36:44,Resolved
+INC_0884,CUST_241,low,,,Unauthorized Access,2025-11-13 10:36:44,Resolved
+INC_0885,CUST_200,low,,,Data Breach,2025-09-03 10:36:44,Open
+INC_0886,CUST_354,high,20,True,Phishing,2025-10-03 10:36:44,Closed
+INC_0887,CUST_086,medium,60,False,Unauthorized Access,2025-10-08 10:36:44,Resolved
+INC_0888,CUST_255,critical,5,True,Malware,2025-09-08 10:36:44,In Progress
+INC_0889,CUST_025,low,,,Data Breach,2025-09-03 10:36:44,Closed
+INC_0890,CUST_368,high,20,True,Unauthorized Access,2025-11-03 10:36:44,Resolved
+INC_0891,CUST_291,low,,,Unauthorized Access,2025-09-16 10:36:44,Closed
+INC_0892,CUST_408,low,,,Malware,2025-08-24 10:36:44,Resolved
+INC_0893,CUST_222,medium,60,False,Unauthorized Access,2025-10-06 10:36:44,In Progress
+INC_0894,CUST_320,medium,60,False,Unauthorized Access,2025-09-18 10:36:44,In Progress
+INC_0895,CUST_296,high,20,True,DDoS,2025-10-19 10:36:44,Closed
+INC_0896,CUST_327,low,,,Unauthorized Access,2025-08-29 10:36:44,Closed
+INC_0897,CUST_268,high,20,True,Phishing,2025-09-30 10:36:44,Closed
+INC_0898,CUST_078,low,,,Data Breach,2025-09-21 10:36:44,Closed
+INC_0899,CUST_426,low,,,Malware,2025-08-26 10:36:44,In Progress
+INC_0900,CUST_422,high,20,False,Data Breach,2025-08-25 10:36:44,In Progress
+INC_0901,CUST_308,low,,,Phishing,2025-09-25 10:36:44,In Progress
+INC_0902,CUST_099,low,,,Malware,2025-10-15 10:36:44,Resolved
+INC_0903,CUST_217,medium,60,False,Malware,2025-10-21 10:36:44,In Progress
+INC_0904,CUST_015,low,,,Data Breach,2025-10-11 10:36:44,In Progress
+INC_0905,CUST_494,medium,60,True,DDoS,2025-11-13 10:36:44,Open
+INC_0906,CUST_161,high,20,True,Unauthorized Access,2025-10-08 10:36:44,Open
+INC_0907,CUST_460,high,20,False,Data Breach,2025-08-22 10:36:44,Open
+INC_0908,CUST_430,low,,,Phishing,2025-10-16 10:36:44,Open
+INC_0909,CUST_268,medium,60,True,Unauthorized Access,2025-09-09 10:36:44,Resolved
+INC_0910,CUST_122,medium,60,True,Unauthorized Access,2025-10-31 10:36:44,Resolved
+INC_0911,CUST_300,low,,,DDoS,2025-10-16 10:36:44,Closed
+INC_0912,CUST_055,low,,,Phishing,2025-10-19 10:36:44,Resolved
+INC_0913,CUST_442,medium,60,False,Unauthorized Access,2025-11-08 10:36:44,Closed
+INC_0914,CUST_163,medium,60,True,Unauthorized Access,2025-09-22 10:36:44,Closed
+INC_0915,CUST_451,medium,60,False,Phishing,2025-09-30 10:36:44,Closed
+INC_0916,CUST_011,medium,60,False,Unauthorized Access,2025-11-11 10:36:44,Open
+INC_0917,CUST_130,medium,60,True,Unauthorized Access,2025-09-27 10:36:44,Resolved
+INC_0918,CUST_463,medium,60,False,Malware,2025-09-08 10:36:44,In Progress
+INC_0919,CUST_005,high,20,False,DDoS,2025-10-14 10:36:44,Resolved
+INC_0920,CUST_422,low,,,Phishing,2025-10-08 10:36:44,In Progress
+INC_0921,CUST_469,high,20,True,DDoS,2025-08-27 10:36:44,Resolved
+INC_0922,CUST_405,high,20,False,Malware,2025-10-11 10:36:44,Open
+INC_0923,CUST_242,high,20,False,DDoS,2025-10-04 10:36:44,Closed
+INC_0924,CUST_423,high,20,True,Phishing,2025-08-18 10:36:44,Resolved
+INC_0925,CUST_216,medium,60,False,Unauthorized Access,2025-09-06 10:36:44,Resolved
+INC_0926,CUST_391,medium,60,True,Malware,2025-08-25 10:36:44,In Progress
+INC_0927,CUST_002,medium,60,True,DDoS,2025-10-21 10:36:44,Resolved
+INC_0928,CUST_043,low,,,Malware,2025-10-26 10:36:44,In Progress
+INC_0929,CUST_434,medium,60,True,Unauthorized Access,2025-08-20 10:36:44,Closed
+INC_0930,CUST_232,high,20,False,DDoS,2025-10-29 10:36:44,Resolved
+INC_0931,CUST_304,low,,,Data Breach,2025-10-10 10:36:44,In Progress
+INC_0932,CUST_189,low,,,Phishing,2025-09-26 10:36:44,Closed
+INC_0933,CUST_011,high,20,True,Malware,2025-09-05 10:36:44,In Progress
+INC_0934,CUST_102,high,20,False,Data Breach,2025-08-18 10:36:44,In Progress
+INC_0935,CUST_317,low,,,DDoS,2025-08-31 10:36:44,Resolved
+INC_0936,CUST_491,low,,,Data Breach,2025-10-25 10:36:44,Open
+INC_0937,CUST_270,low,,,DDoS,2025-09-18 10:36:44,Closed
+INC_0938,CUST_366,low,,,Phishing,2025-10-22 10:36:44,Resolved
+INC_0939,CUST_254,low,,,DDoS,2025-10-30 10:36:44,Closed
+INC_0940,CUST_422,high,20,True,Data Breach,2025-08-21 10:36:44,In Progress
+INC_0941,CUST_406,medium,60,False,Phishing,2025-11-12 10:36:44,Resolved
+INC_0942,CUST_317,critical,5,True,DDoS,2025-10-15 10:36:44,Resolved
+INC_0943,CUST_044,medium,60,False,Malware,2025-09-16 10:36:44,In Progress
+INC_0944,CUST_352,high,20,False,Phishing,2025-09-27 10:36:44,Closed
+INC_0945,CUST_038,medium,60,False,Malware,2025-09-05 10:36:44,Open
+INC_0946,CUST_477,low,,,Phishing,2025-09-16 10:36:44,Resolved
+INC_0947,CUST_003,critical,5,True,Data Breach,2025-09-12 10:36:44,Closed
+INC_0948,CUST_203,low,,,Data Breach,2025-10-30 10:36:44,Open
+INC_0949,CUST_087,medium,60,False,Unauthorized Access,2025-09-13 10:36:44,Resolved
+INC_0950,CUST_046,high,20,True,Data Breach,2025-09-09 10:36:44,Closed
+INC_0951,CUST_060,low,,,Data Breach,2025-11-10 10:36:44,In Progress
+INC_0952,CUST_383,medium,60,False,Data Breach,2025-09-21 10:36:44,Resolved
+INC_0953,CUST_314,high,20,False,Data Breach,2025-09-10 10:36:44,Resolved
+INC_0954,CUST_162,medium,60,True,DDoS,2025-10-27 10:36:44,Closed
+INC_0955,CUST_077,low,,,Malware,2025-10-17 10:36:44,In Progress
+INC_0956,CUST_134,low,,,Phishing,2025-09-17 10:36:44,Closed
+INC_0957,CUST_459,low,,,DDoS,2025-11-10 10:36:44,Closed
+INC_0958,CUST_364,low,,,Unauthorized Access,2025-09-14 10:36:44,Closed
+INC_0959,CUST_064,medium,60,True,Data Breach,2025-11-04 10:36:44,In Progress
+INC_0960,CUST_428,high,20,True,Phishing,2025-09-11 10:36:44,Resolved
+INC_0961,CUST_299,medium,60,True,Malware,2025-09-09 10:36:44,In Progress
+INC_0962,CUST_127,medium,60,True,DDoS,2025-08-21 10:36:44,Open
+INC_0963,CUST_146,high,20,True,Malware,2025-09-26 10:36:44,Resolved
+INC_0964,CUST_429,medium,60,True,Data Breach,2025-10-27 10:36:44,Open
+INC_0965,CUST_426,low,,,DDoS,2025-09-18 10:36:44,Resolved
+INC_0966,CUST_169,medium,60,True,Malware,2025-08-24 10:36:44,Closed
+INC_0967,CUST_375,low,,,Unauthorized Access,2025-10-30 10:36:44,In Progress
+INC_0968,CUST_166,high,20,False,Malware,2025-11-06 10:36:44,Closed
+INC_0969,CUST_131,low,,,Phishing,2025-10-16 10:36:44,Closed
+INC_0970,CUST_437,low,,,Phishing,2025-10-26 10:36:44,Closed
+INC_0971,CUST_332,high,20,False,Phishing,2025-10-31 10:36:44,Resolved
+INC_0972,CUST_377,medium,60,False,Data Breach,2025-08-20 10:36:44,In Progress
+INC_0973,CUST_050,low,,,Data Breach,2025-09-11 10:36:44,In Progress
+INC_0974,CUST_244,medium,60,False,Data Breach,2025-09-04 10:36:44,Closed
+INC_0975,CUST_217,low,,,Data Breach,2025-08-29 10:36:44,In Progress
+INC_0976,CUST_048,medium,60,False,Malware,2025-09-11 10:36:44,Resolved
+INC_0977,CUST_332,critical,5,True,Phishing,2025-09-13 10:36:44,Open
+INC_0978,CUST_224,low,,,Malware,2025-09-15 10:36:44,Resolved
+INC_0979,CUST_066,low,,,Data Breach,2025-10-15 10:36:44,Closed
+INC_0980,CUST_025,low,,,Unauthorized Access,2025-11-06 10:36:44,Open
+INC_0981,CUST_212,medium,60,False,Malware,2025-09-17 10:36:44,Resolved
+INC_0982,CUST_300,low,,,Malware,2025-09-12 10:36:44,Open
+INC_0983,CUST_339,low,,,DDoS,2025-10-24 10:36:44,In Progress
+INC_0984,CUST_043,high,20,True,DDoS,2025-10-08 10:36:44,Resolved
+INC_0985,CUST_388,medium,60,False,DDoS,2025-08-28 10:36:44,Resolved
+INC_0986,CUST_471,low,,,Phishing,2025-10-19 10:36:44,In Progress
+INC_0987,CUST_310,low,,,Data Breach,2025-08-21 10:36:44,Open
+INC_0988,CUST_003,medium,60,True,DDoS,2025-11-01 10:36:44,Open
+INC_0989,CUST_245,low,,,DDoS,2025-08-19 10:36:44,Closed
+INC_0990,CUST_156,high,20,False,Unauthorized Access,2025-08-29 10:36:44,Resolved
+INC_0991,CUST_412,medium,60,False,Data Breach,2025-11-04 10:36:44,In Progress
+INC_0992,CUST_098,low,,,Malware,2025-11-13 10:36:44,In Progress
+INC_0993,CUST_247,high,20,True,Phishing,2025-08-24 10:36:44,In Progress
+INC_0994,CUST_045,medium,60,True,Data Breach,2025-09-17 10:36:44,In Progress
+INC_0995,CUST_060,medium,60,True,Phishing,2025-10-27 10:36:44,Closed
+INC_0996,CUST_011,critical,5,False,DDoS,2025-09-02 10:36:44,In Progress
+INC_0997,CUST_292,low,,,DDoS,2025-11-09 10:36:44,Resolved
+INC_0998,CUST_323,low,,,DDoS,2025-09-23 10:36:44,Closed
+INC_0999,CUST_019,medium,60,False,DDoS,2025-09-25 10:36:44,Closed
+INC_1000,CUST_119,medium,60,False,Malware,2025-09-09 10:36:44,Open
+INC_1001,CUST_284,medium,60,False,Malware,2025-10-12 10:36:44,Closed
+INC_1002,CUST_254,high,20,True,Unauthorized Access,2025-08-25 10:36:44,Resolved
+INC_1003,CUST_011,medium,60,False,Phishing,2025-10-10 10:36:44,In Progress
+INC_1004,CUST_119,medium,60,False,Unauthorized Access,2025-10-18 10:36:44,Resolved
+INC_1005,CUST_068,high,20,False,Data Breach,2025-09-27 10:36:44,Closed
+INC_1006,CUST_408,high,20,False,DDoS,2025-10-26 10:36:44,In Progress
+INC_1007,CUST_384,low,,,Malware,2025-08-22 10:36:44,Closed
+INC_1008,CUST_103,low,,,Phishing,2025-08-30 10:36:44,Closed
+INC_1009,CUST_213,low,,,DDoS,2025-10-08 10:36:44,In Progress
+INC_1010,CUST_025,low,,,Malware,2025-10-01 10:36:44,Resolved
+INC_1011,CUST_082,low,,,Phishing,2025-09-12 10:36:44,Open
+INC_1012,CUST_221,high,20,False,Malware,2025-08-28 10:36:44,In Progress
+INC_1013,CUST_115,low,,,DDoS,2025-10-13 10:36:44,Resolved
+INC_1014,CUST_395,high,20,True,Unauthorized Access,2025-10-12 10:36:44,In Progress
+INC_1015,CUST_362,high,20,True,Malware,2025-09-20 10:36:44,Closed
+INC_1016,CUST_500,critical,5,True,Malware,2025-08-29 10:36:44,Open
+INC_1017,CUST_260,high,20,True,Malware,2025-10-25 10:36:44,Open
+INC_1018,CUST_081,high,20,False,Data Breach,2025-09-20 10:36:44,Closed
+INC_1019,CUST_079,medium,60,True,Data Breach,2025-10-04 10:36:44,In Progress
+INC_1020,CUST_104,low,,,DDoS,2025-09-23 10:36:44,Open
+INC_1021,CUST_415,low,,,DDoS,2025-10-03 10:36:44,Resolved
+INC_1022,CUST_137,medium,60,True,Data Breach,2025-09-23 10:36:44,Resolved
+INC_1023,CUST_078,medium,60,True,Unauthorized Access,2025-09-23 10:36:44,In Progress
+INC_1024,CUST_220,low,,,DDoS,2025-09-24 10:36:44,Closed
+INC_1025,CUST_484,critical,5,False,Malware,2025-09-20 10:36:44,In Progress
+INC_1026,CUST_044,high,20,True,Data Breach,2025-10-06 10:36:44,Closed
+INC_1027,CUST_223,critical,5,True,Malware,2025-09-26 10:36:44,Open
+INC_1028,CUST_463,medium,60,True,Unauthorized Access,2025-11-08 10:36:44,Resolved
+INC_1029,CUST_370,medium,60,False,Data Breach,2025-10-02 10:36:44,Open
+INC_1030,CUST_359,high,20,True,DDoS,2025-09-19 10:36:44,In Progress
+INC_1031,CUST_358,high,20,False,Data Breach,2025-08-24 10:36:44,Closed
+INC_1032,CUST_044,high,20,False,Malware,2025-09-08 10:36:44,Resolved
+INC_1033,CUST_369,low,,,Phishing,2025-09-10 10:36:44,Resolved
+INC_1034,CUST_262,low,,,Unauthorized Access,2025-10-07 10:36:44,Resolved
+INC_1035,CUST_012,high,20,True,Malware,2025-09-07 10:36:44,Resolved
+INC_1036,CUST_397,low,,,Data Breach,2025-09-22 10:36:44,Open
+INC_1037,CUST_133,medium,60,False,Unauthorized Access,2025-10-01 10:36:44,Open
+INC_1038,CUST_334,low,,,Malware,2025-09-19 10:36:44,Resolved
+INC_1039,CUST_233,medium,60,True,Data Breach,2025-10-16 10:36:44,In Progress
+INC_1040,CUST_146,low,,,Unauthorized Access,2025-08-21 10:36:44,In Progress
+INC_1041,CUST_054,medium,60,True,Data Breach,2025-09-10 10:36:44,In Progress
+INC_1042,CUST_233,high,20,False,Malware,2025-10-28 10:36:44,Closed
+INC_1043,CUST_048,high,20,True,Malware,2025-09-22 10:36:44,In Progress
+INC_1044,CUST_040,medium,60,False,Data Breach,2025-08-21 10:36:44,Closed
+INC_1045,CUST_447,medium,60,False,Data Breach,2025-09-02 10:36:44,Closed
+INC_1046,CUST_353,medium,60,False,DDoS,2025-09-23 10:36:44,In Progress
+INC_1047,CUST_066,low,,,DDoS,2025-09-18 10:36:44,In Progress
+INC_1048,CUST_356,critical,5,True,Phishing,2025-09-18 10:36:44,Closed
+INC_1049,CUST_081,low,,,Unauthorized Access,2025-09-29 10:36:44,Open
+INC_1050,CUST_057,medium,60,False,Malware,2025-09-29 10:36:44,Resolved
+INC_1051,CUST_079,low,,,Malware,2025-09-29 10:36:44,Resolved
+INC_1052,CUST_151,critical,5,False,DDoS,2025-11-12 10:36:44,In Progress
+INC_1053,CUST_302,low,,,DDoS,2025-11-09 10:36:44,Resolved
+INC_1054,CUST_094,high,20,True,DDoS,2025-11-15 10:36:44,Open
+INC_1055,CUST_446,medium,60,True,Malware,2025-09-23 10:36:44,Closed
+INC_1056,CUST_461,medium,60,False,Data Breach,2025-09-28 10:36:44,Closed
+INC_1057,CUST_391,high,20,True,Phishing,2025-09-12 10:36:44,Closed
+INC_1058,CUST_077,high,20,False,Data Breach,2025-11-04 10:36:44,Closed
+INC_1059,CUST_461,low,,,DDoS,2025-10-03 10:36:44,Open
+INC_1060,CUST_377,critical,5,False,Data Breach,2025-08-25 10:36:44,Open
+INC_1061,CUST_293,high,20,True,Data Breach,2025-09-05 10:36:44,Open
+INC_1062,CUST_099,medium,60,True,Unauthorized Access,2025-09-07 10:36:44,Open
+INC_1063,CUST_385,critical,5,True,DDoS,2025-09-12 10:36:44,Open
+INC_1064,CUST_480,low,,,Unauthorized Access,2025-10-23 10:36:44,Open
+INC_1065,CUST_106,low,,,Phishing,2025-09-02 10:36:44,Closed
+INC_1066,CUST_274,low,,,Unauthorized Access,2025-10-05 10:36:44,Closed
+INC_1067,CUST_442,medium,60,False,Malware,2025-10-03 10:36:44,Closed
+INC_1068,CUST_013,low,,,Unauthorized Access,2025-10-06 10:36:44,Closed
+INC_1069,CUST_059,low,,,Malware,2025-09-07 10:36:44,In Progress
+INC_1070,CUST_094,low,,,Data Breach,2025-11-04 10:36:44,In Progress
+INC_1071,CUST_209,low,,,Phishing,2025-11-08 10:36:44,Resolved
+INC_1072,CUST_366,low,,,Malware,2025-10-08 10:36:44,Closed
+INC_1073,CUST_073,low,,,DDoS,2025-10-05 10:36:44,Resolved
+INC_1074,CUST_424,low,,,Malware,2025-11-09 10:36:44,In Progress
+INC_1075,CUST_306,low,,,Unauthorized Access,2025-10-16 10:36:44,Closed
+INC_1076,CUST_487,medium,60,False,Malware,2025-10-12 10:36:44,Open
+INC_1077,CUST_284,low,,,DDoS,2025-11-07 10:36:44,Closed
+INC_1078,CUST_325,low,,,Phishing,2025-11-13 10:36:44,Resolved
+INC_1079,CUST_127,medium,60,True,Unauthorized Access,2025-08-24 10:36:44,In Progress
+INC_1080,CUST_209,low,,,DDoS,2025-11-05 10:36:44,In Progress
+INC_1081,CUST_192,high,20,True,Unauthorized Access,2025-10-25 10:36:44,In Progress
+INC_1082,CUST_493,medium,60,False,Unauthorized Access,2025-09-19 10:36:44,Open
+INC_1083,CUST_238,low,,,Unauthorized Access,2025-10-09 10:36:44,In Progress
+INC_1084,CUST_478,low,,,DDoS,2025-10-12 10:36:44,Resolved
+INC_1085,CUST_180,high,20,False,Phishing,2025-09-02 10:36:44,Resolved
+INC_1086,CUST_379,low,,,Unauthorized Access,2025-09-04 10:36:44,Open
+INC_1087,CUST_203,low,,,Malware,2025-10-29 10:36:44,Resolved
+INC_1088,CUST_313,high,20,True,Unauthorized Access,2025-10-06 10:36:44,Resolved
+INC_1089,CUST_140,medium,60,False,Phishing,2025-08-23 10:36:44,Resolved
+INC_1090,CUST_236,low,,,Unauthorized Access,2025-10-04 10:36:44,Open
+INC_1091,CUST_331,high,20,True,Malware,2025-08-30 10:36:44,Closed
+INC_1092,CUST_005,low,,,Phishing,2025-09-24 10:36:44,Closed
+INC_1093,CUST_404,high,20,True,Malware,2025-09-08 10:36:44,Open
+INC_1094,CUST_345,high,20,False,Malware,2025-10-01 10:36:44,Closed
+INC_1095,CUST_199,high,20,False,Phishing,2025-08-18 10:36:44,Open
+INC_1096,CUST_190,low,,,Phishing,2025-09-20 10:36:44,Open
+INC_1097,CUST_011,low,,,Data Breach,2025-08-20 10:36:44,Resolved
+INC_1098,CUST_418,low,,,Unauthorized Access,2025-08-27 10:36:44,Resolved
+INC_1099,CUST_120,high,20,True,DDoS,2025-09-30 10:36:44,Open
+INC_1100,CUST_464,low,,,Unauthorized Access,2025-10-20 10:36:44,Open
+INC_1101,CUST_421,low,,,DDoS,2025-11-01 10:36:44,Resolved
+INC_1102,CUST_088,medium,60,False,Unauthorized Access,2025-10-22 10:36:44,In Progress
+INC_1103,CUST_066,low,,,Malware,2025-10-30 10:36:44,Resolved
+INC_1104,CUST_452,high,20,True,Unauthorized Access,2025-10-11 10:36:44,In Progress
+INC_1105,CUST_497,high,20,True,Unauthorized Access,2025-08-29 10:36:44,Resolved
+INC_1106,CUST_002,medium,60,False,DDoS,2025-08-25 10:36:44,Open
+INC_1107,CUST_222,high,20,False,DDoS,2025-10-11 10:36:44,Open
+INC_1108,CUST_254,medium,60,False,Data Breach,2025-09-10 10:36:44,Open
+INC_1109,CUST_025,high,20,True,Data Breach,2025-09-23 10:36:44,Closed
+INC_1110,CUST_201,low,,,Phishing,2025-10-04 10:36:44,Open
+INC_1111,CUST_378,high,20,True,Phishing,2025-08-19 10:36:44,Closed
+INC_1112,CUST_101,critical,5,True,Phishing,2025-10-04 10:36:44,Resolved
+INC_1113,CUST_321,low,,,Malware,2025-11-12 10:36:44,Closed
+INC_1114,CUST_304,medium,60,True,Data Breach,2025-10-14 10:36:44,In Progress
+INC_1115,CUST_123,low,,,Data Breach,2025-11-09 10:36:44,Resolved
+INC_1116,CUST_484,medium,60,True,Malware,2025-08-31 10:36:44,Closed
+INC_1117,CUST_297,high,20,False,Malware,2025-11-05 10:36:44,Open
+INC_1118,CUST_161,high,20,False,Malware,2025-10-30 10:36:44,Open
+INC_1119,CUST_029,high,20,False,Data Breach,2025-08-29 10:36:44,Closed
+INC_1120,CUST_347,low,,,Malware,2025-09-05 10:36:44,Open
+INC_1121,CUST_196,low,,,DDoS,2025-11-03 10:36:44,Closed
+INC_1122,CUST_307,low,,,Unauthorized Access,2025-11-14 10:36:44,Closed
+INC_1123,CUST_408,low,,,DDoS,2025-08-28 10:36:44,Open
+INC_1124,CUST_481,low,,,Malware,2025-09-18 10:36:44,Resolved
+INC_1125,CUST_053,medium,60,True,Malware,2025-08-31 10:36:44,Open
+INC_1126,CUST_464,medium,60,True,Unauthorized Access,2025-10-30 10:36:44,Resolved
+INC_1127,CUST_247,low,,,Unauthorized Access,2025-09-20 10:36:44,In Progress
+INC_1128,CUST_409,low,,,Malware,2025-11-08 10:36:44,In Progress
+INC_1129,CUST_224,low,,,Unauthorized Access,2025-08-24 10:36:44,Resolved
+INC_1130,CUST_454,low,,,Unauthorized Access,2025-10-28 10:36:44,In Progress
+INC_1131,CUST_150,medium,60,False,Data Breach,2025-11-14 10:36:44,In Progress
+INC_1132,CUST_260,low,,,Unauthorized Access,2025-11-09 10:36:44,Closed
+INC_1133,CUST_500,low,,,Phishing,2025-08-26 10:36:44,In Progress
+INC_1134,CUST_097,high,20,False,DDoS,2025-08-19 10:36:44,Closed
+INC_1135,CUST_437,medium,60,False,Unauthorized Access,2025-09-04 10:36:44,Resolved
+INC_1136,CUST_169,medium,60,False,Phishing,2025-11-02 10:36:44,Closed
+INC_1137,CUST_254,high,20,True,Phishing,2025-11-15 10:36:44,In Progress
+INC_1138,CUST_320,medium,60,False,Phishing,2025-10-16 10:36:44,Closed
+INC_1139,CUST_414,medium,60,False,DDoS,2025-10-20 10:36:44,Closed
+INC_1140,CUST_004,low,,,Data Breach,2025-11-14 10:36:44,Open
+INC_1141,CUST_285,low,,,Malware,2025-10-28 10:36:44,Resolved
+INC_1142,CUST_023,medium,60,False,Malware,2025-10-21 10:36:44,In Progress
+INC_1143,CUST_113,low,,,Data Breach,2025-10-24 10:36:44,Resolved
+INC_1144,CUST_092,high,20,True,Phishing,2025-11-13 10:36:44,In Progress
+INC_1145,CUST_011,high,20,True,Phishing,2025-09-28 10:36:44,Open
+INC_1146,CUST_108,low,,,Data Breach,2025-09-18 10:36:44,In Progress
+INC_1147,CUST_191,low,,,Phishing,2025-09-09 10:36:44,Closed
+INC_1148,CUST_061,high,20,True,Phishing,2025-10-30 10:36:44,In Progress
+INC_1149,CUST_194,low,,,Data Breach,2025-10-06 10:36:44,Closed
+INC_1150,CUST_472,critical,5,True,Malware,2025-08-29 10:36:44,In Progress
+INC_1151,CUST_405,high,20,False,Phishing,2025-10-05 10:36:44,In Progress
+INC_1152,CUST_408,low,,,Data Breach,2025-10-30 10:36:44,Closed
+INC_1153,CUST_042,low,,,DDoS,2025-08-23 10:36:44,Open
+INC_1154,CUST_199,low,,,Unauthorized Access,2025-09-29 10:36:44,Closed
+INC_1155,CUST_165,medium,60,True,Data Breach,2025-09-09 10:36:44,Closed
+INC_1156,CUST_243,medium,60,False,Data Breach,2025-09-02 10:36:44,Closed
+INC_1157,CUST_107,medium,60,True,Phishing,2025-10-21 10:36:44,Closed
+INC_1158,CUST_112,high,20,False,Data Breach,2025-09-22 10:36:44,Closed
+INC_1159,CUST_131,medium,60,False,Unauthorized Access,2025-11-05 10:36:44,In Progress
+INC_1160,CUST_228,high,20,False,Unauthorized Access,2025-10-01 10:36:44,In Progress
+INC_1161,CUST_263,medium,60,False,Unauthorized Access,2025-10-03 10:36:44,Closed
+INC_1162,CUST_210,medium,60,False,Data Breach,2025-09-13 10:36:44,Resolved
+INC_1163,CUST_013,low,,,Phishing,2025-09-20 10:36:44,In Progress
+INC_1164,CUST_039,low,,,Data Breach,2025-11-05 10:36:44,Resolved
+INC_1165,CUST_403,high,20,True,Data Breach,2025-10-17 10:36:44,Open
+INC_1166,CUST_185,low,,,Malware,2025-09-07 10:36:44,In Progress
+INC_1167,CUST_346,low,,,Data Breach,2025-10-14 10:36:44,Resolved
+INC_1168,CUST_098,medium,60,False,Unauthorized Access,2025-10-29 10:36:44,Resolved
+INC_1169,CUST_154,low,,,Data Breach,2025-10-02 10:36:44,Closed
+INC_1170,CUST_242,high,20,True,Unauthorized Access,2025-10-27 10:36:44,Closed
+INC_1171,CUST_371,low,,,Phishing,2025-09-16 10:36:44,In Progress
+INC_1172,CUST_370,medium,60,False,DDoS,2025-10-03 10:36:44,Open
+INC_1173,CUST_097,low,,,DDoS,2025-08-18 10:36:44,Closed
+INC_1174,CUST_231,low,,,Unauthorized Access,2025-11-12 10:36:44,Resolved
+INC_1175,CUST_448,low,,,Phishing,2025-10-07 10:36:44,Open
+INC_1176,CUST_174,medium,60,False,Phishing,2025-09-23 10:36:44,Closed
+INC_1177,CUST_391,medium,60,False,Unauthorized Access,2025-10-08 10:36:44,Resolved
+INC_1178,CUST_473,medium,60,True,Phishing,2025-10-27 10:36:44,Resolved
+INC_1179,CUST_196,medium,60,False,Phishing,2025-09-26 10:36:44,Open
+INC_1180,CUST_244,medium,60,True,Malware,2025-10-04 10:36:44,Closed
+INC_1181,CUST_048,medium,60,False,Phishing,2025-11-02 10:36:44,In Progress
+INC_1182,CUST_353,low,,,Unauthorized Access,2025-09-14 10:36:44,Open
+INC_1183,CUST_036,low,,,DDoS,2025-10-10 10:36:44,In Progress
+INC_1184,CUST_338,low,,,Unauthorized Access,2025-11-07 10:36:44,Closed
+INC_1185,CUST_266,low,,,Malware,2025-10-25 10:36:44,Resolved
+INC_1186,CUST_201,high,20,False,Phishing,2025-11-01 10:36:44,In Progress
+INC_1187,CUST_381,medium,60,False,Malware,2025-09-27 10:36:44,In Progress
+INC_1188,CUST_106,low,,,Data Breach,2025-09-21 10:36:44,Closed
+INC_1189,CUST_295,low,,,Data Breach,2025-09-01 10:36:44,In Progress
+INC_1190,CUST_142,medium,60,False,Phishing,2025-11-15 10:36:44,In Progress
+INC_1191,CUST_310,medium,60,False,Phishing,2025-09-09 10:36:44,Resolved
+INC_1192,CUST_236,high,20,False,DDoS,2025-09-03 10:36:44,Open
+INC_1193,CUST_331,medium,60,False,DDoS,2025-10-02 10:36:44,Resolved
+INC_1194,CUST_422,low,,,Phishing,2025-09-23 10:36:44,In Progress
+INC_1195,CUST_317,low,,,DDoS,2025-09-18 10:36:44,Closed
+INC_1196,CUST_358,high,20,True,Unauthorized Access,2025-11-03 10:36:44,Closed
+INC_1197,CUST_123,medium,60,True,Phishing,2025-10-11 10:36:44,Resolved
+INC_1198,CUST_358,medium,60,True,Phishing,2025-09-13 10:36:44,Closed
+INC_1199,CUST_189,critical,5,True,Malware,2025-11-02 10:36:44,Resolved
+INC_1200,CUST_130,medium,60,True,Phishing,2025-09-12 10:36:44,Open
+INC_1201,CUST_328,medium,60,True,DDoS,2025-09-28 10:36:44,Resolved
+INC_1202,CUST_204,medium,60,True,Malware,2025-11-14 10:36:44,Resolved
+INC_1203,CUST_470,low,,,Phishing,2025-10-05 10:36:44,Closed
+INC_1204,CUST_043,medium,60,True,Unauthorized Access,2025-08-23 10:36:44,In Progress
+INC_1205,CUST_072,medium,60,False,DDoS,2025-10-11 10:36:44,In Progress
+INC_1206,CUST_010,low,,,Unauthorized Access,2025-11-03 10:36:44,In Progress
+INC_1207,CUST_274,low,,,DDoS,2025-10-25 10:36:44,Open
+INC_1208,CUST_347,medium,60,True,Data Breach,2025-10-27 10:36:44,Closed
+INC_1209,CUST_111,low,,,Malware,2025-08-21 10:36:44,In Progress
+INC_1210,CUST_429,medium,60,True,Unauthorized Access,2025-08-25 10:36:44,Open
+INC_1211,CUST_158,low,,,DDoS,2025-11-09 10:36:44,Open
+INC_1212,CUST_194,low,,,Phishing,2025-10-15 10:36:44,Resolved
+INC_1213,CUST_047,high,20,True,Malware,2025-09-23 10:36:44,Open
+INC_1214,CUST_421,critical,5,False,Phishing,2025-08-20 10:36:44,Open
+INC_1215,CUST_452,low,,,Malware,2025-08-22 10:36:44,In Progress
+INC_1216,CUST_213,medium,60,True,Unauthorized Access,2025-11-02 10:36:44,Resolved
+INC_1217,CUST_321,low,,,Phishing,2025-08-28 10:36:44,In Progress
+INC_1218,CUST_481,high,20,False,DDoS,2025-10-31 10:36:44,In Progress
+INC_1219,CUST_183,low,,,Data Breach,2025-10-24 10:36:44,Open
+INC_1220,CUST_007,medium,60,False,DDoS,2025-10-19 10:36:44,Closed
+INC_1221,CUST_337,low,,,Data Breach,2025-08-24 10:36:44,Resolved
+INC_1222,CUST_454,low,,,Phishing,2025-09-24 10:36:44,Resolved
+INC_1223,CUST_053,high,20,False,Unauthorized Access,2025-09-04 10:36:44,In Progress
+INC_1224,CUST_049,low,,,Unauthorized Access,2025-10-05 10:36:44,Closed
+INC_1225,CUST_171,medium,60,True,Phishing,2025-08-26 10:36:44,Resolved
+INC_1226,CUST_035,critical,5,False,Data Breach,2025-11-13 10:36:44,Closed
+INC_1227,CUST_328,low,,,Phishing,2025-09-12 10:36:44,Open
+INC_1228,CUST_316,low,,,Malware,2025-10-07 10:36:44,In Progress
+INC_1229,CUST_318,medium,60,True,Malware,2025-11-08 10:36:44,In Progress
+INC_1230,CUST_152,low,,,Phishing,2025-10-27 10:36:44,Closed
+INC_1231,CUST_020,low,,,Phishing,2025-08-31 10:36:44,Closed
+INC_1232,CUST_069,medium,60,False,Data Breach,2025-10-06 10:36:44,Open
+INC_1233,CUST_332,medium,60,False,Data Breach,2025-11-12 10:36:44,In Progress
+INC_1234,CUST_176,high,20,False,Phishing,2025-10-20 10:36:44,Open
+INC_1235,CUST_411,high,20,True,Phishing,2025-08-30 10:36:44,Closed
+INC_1236,CUST_227,medium,60,True,Malware,2025-11-07 10:36:44,Closed
+INC_1237,CUST_099,low,,,Malware,2025-08-26 10:36:44,In Progress
+INC_1238,CUST_047,high,20,True,Phishing,2025-09-01 10:36:44,In Progress
+INC_1239,CUST_041,low,,,DDoS,2025-09-17 10:36:44,Resolved
+INC_1240,CUST_102,low,,,Phishing,2025-09-22 10:36:44,In Progress
+INC_1241,CUST_147,medium,60,False,Unauthorized Access,2025-09-19 10:36:44,In Progress
+INC_1242,CUST_401,low,,,DDoS,2025-11-05 10:36:44,Resolved
+INC_1243,CUST_086,low,,,DDoS,2025-09-20 10:36:44,Closed
+INC_1244,CUST_390,medium,60,False,Phishing,2025-09-15 10:36:44,Open
+INC_1245,CUST_438,high,20,False,Malware,2025-10-08 10:36:44,In Progress
+INC_1246,CUST_132,medium,60,True,DDoS,2025-09-17 10:36:44,Resolved
+INC_1247,CUST_288,medium,60,False,Unauthorized Access,2025-09-15 10:36:44,Open
+INC_1248,CUST_367,low,,,DDoS,2025-10-21 10:36:44,In Progress
+INC_1249,CUST_007,high,20,True,Unauthorized Access,2025-09-29 10:36:44,Closed
+INC_1250,CUST_482,medium,60,False,DDoS,2025-09-29 10:36:44,Closed
+INC_1251,CUST_210,medium,60,True,Malware,2025-10-31 10:36:44,Closed
+INC_1252,CUST_100,high,20,True,DDoS,2025-10-14 10:36:44,Resolved
+INC_1253,CUST_326,medium,60,False,Data Breach,2025-08-18 10:36:44,Open
+INC_1254,CUST_377,medium,60,False,Phishing,2025-10-15 10:36:44,Closed
+INC_1255,CUST_417,low,,,Data Breach,2025-08-27 10:36:44,Open
+INC_1256,CUST_134,medium,60,True,Unauthorized Access,2025-09-18 10:36:44,In Progress
+INC_1257,CUST_309,low,,,Unauthorized Access,2025-08-23 10:36:44,In Progress
+INC_1258,CUST_395,low,,,Malware,2025-08-25 10:36:44,Closed
+INC_1259,CUST_301,low,,,Malware,2025-09-10 10:36:44,In Progress
+INC_1260,CUST_425,high,20,True,DDoS,2025-10-14 10:36:44,Resolved
+INC_1261,CUST_301,medium,60,False,Data Breach,2025-09-24 10:36:44,Open
+INC_1262,CUST_294,low,,,Data Breach,2025-10-28 10:36:44,Resolved
+INC_1263,CUST_358,medium,60,False,Data Breach,2025-11-15 10:36:44,In Progress
+INC_1264,CUST_050,high,20,True,Malware,2025-08-18 10:36:44,Closed
+INC_1265,CUST_376,medium,60,False,DDoS,2025-10-25 10:36:44,In Progress
+INC_1266,CUST_361,low,,,Phishing,2025-10-21 10:36:44,Closed
+INC_1267,CUST_486,low,,,Malware,2025-09-19 10:36:44,In Progress
+INC_1268,CUST_031,low,,,Phishing,2025-10-22 10:36:44,Resolved
+INC_1269,CUST_226,critical,5,False,Unauthorized Access,2025-11-02 10:36:44,In Progress
+INC_1270,CUST_044,low,,,DDoS,2025-10-31 10:36:44,Resolved
+INC_1271,CUST_016,low,,,Unauthorized Access,2025-10-16 10:36:44,Closed
+INC_1272,CUST_005,medium,60,True,Malware,2025-10-12 10:36:44,Open
+INC_1273,CUST_050,medium,60,True,Phishing,2025-09-10 10:36:44,Open
+INC_1274,CUST_267,low,,,Data Breach,2025-09-14 10:36:44,Closed
+INC_1275,CUST_173,high,20,False,Data Breach,2025-08-20 10:36:44,Resolved
+INC_1276,CUST_482,critical,5,True,Data Breach,2025-08-22 10:36:44,Closed
+INC_1277,CUST_030,low,,,Data Breach,2025-10-04 10:36:44,Open
+INC_1278,CUST_446,low,,,DDoS,2025-10-29 10:36:44,Open
+INC_1279,CUST_487,medium,60,False,Phishing,2025-09-29 10:36:44,Closed
+INC_1280,CUST_264,medium,60,False,DDoS,2025-08-23 10:36:44,In Progress
+INC_1281,CUST_327,low,,,Data Breach,2025-11-13 10:36:44,Resolved
+INC_1282,CUST_348,high,20,False,DDoS,2025-10-17 10:36:44,Closed
+INC_1283,CUST_179,medium,60,True,DDoS,2025-09-16 10:36:44,Open
+INC_1284,CUST_311,medium,60,False,Phishing,2025-10-28 10:36:44,Open
+INC_1285,CUST_408,low,,,Malware,2025-10-08 10:36:44,Closed
+INC_1286,CUST_229,low,,,Malware,2025-09-15 10:36:44,In Progress
+INC_1287,CUST_088,low,,,Malware,2025-11-02 10:36:44,Closed
+INC_1288,CUST_083,critical,5,True,Data Breach,2025-09-27 10:36:44,Resolved
+INC_1289,CUST_132,low,,,DDoS,2025-08-22 10:36:44,Open
+INC_1290,CUST_047,medium,60,False,Data Breach,2025-10-18 10:36:44,Open
+INC_1291,CUST_467,medium,60,False,DDoS,2025-08-24 10:36:44,Closed
+INC_1292,CUST_133,high,20,True,Malware,2025-10-09 10:36:44,Open
+INC_1293,CUST_175,low,,,Unauthorized Access,2025-10-22 10:36:44,Open
+INC_1294,CUST_437,medium,60,True,Data Breach,2025-09-28 10:36:44,Open
+INC_1295,CUST_303,low,,,Unauthorized Access,2025-10-22 10:36:44,Closed
+INC_1296,CUST_395,critical,5,False,Data Breach,2025-08-21 10:36:44,In Progress
+INC_1297,CUST_055,medium,60,True,DDoS,2025-11-14 10:36:44,Closed
+INC_1298,CUST_418,low,,,Data Breach,2025-10-18 10:36:44,Closed
+INC_1299,CUST_308,medium,60,True,Data Breach,2025-10-28 10:36:44,Open
+INC_1300,CUST_258,medium,60,False,Malware,2025-10-11 10:36:44,Closed
+INC_1301,CUST_254,medium,60,True,Data Breach,2025-09-28 10:36:44,Open
+INC_1302,CUST_079,critical,5,False,Phishing,2025-10-18 10:36:44,Open
+INC_1303,CUST_439,high,20,True,DDoS,2025-09-26 10:36:44,Resolved
+INC_1304,CUST_012,critical,5,True,Unauthorized Access,2025-09-26 10:36:44,Resolved
+INC_1305,CUST_179,medium,60,False,DDoS,2025-09-26 10:36:44,Open
+INC_1306,CUST_145,medium,60,False,Phishing,2025-08-18 10:36:44,Closed
+INC_1307,CUST_166,low,,,Unauthorized Access,2025-11-09 10:36:44,Resolved
+INC_1308,CUST_296,medium,60,True,Phishing,2025-09-20 10:36:44,Closed
+INC_1309,CUST_075,low,,,Phishing,2025-10-19 10:36:44,In Progress
+INC_1310,CUST_186,medium,60,True,Unauthorized Access,2025-11-02 10:36:44,In Progress
+INC_1311,CUST_219,low,,,Phishing,2025-11-08 10:36:44,Open
+INC_1312,CUST_243,low,,,Phishing,2025-11-09 10:36:44,Open
+INC_1313,CUST_304,critical,5,False,DDoS,2025-10-27 10:36:44,Closed
+INC_1314,CUST_061,low,,,Phishing,2025-09-26 10:36:44,Closed
+INC_1315,CUST_306,low,,,Phishing,2025-08-24 10:36:44,Closed
+INC_1316,CUST_399,high,20,True,DDoS,2025-08-24 10:36:44,Closed
+INC_1317,CUST_335,low,,,DDoS,2025-09-29 10:36:44,Open
+INC_1318,CUST_043,low,,,Malware,2025-09-14 10:36:44,In Progress
+INC_1319,CUST_294,low,,,Unauthorized Access,2025-09-15 10:36:44,Resolved
+INC_1320,CUST_407,medium,60,True,Unauthorized Access,2025-10-23 10:36:44,Closed
+INC_1321,CUST_153,medium,60,False,Unauthorized Access,2025-10-30 10:36:44,Open
+INC_1322,CUST_366,low,,,Unauthorized Access,2025-10-23 10:36:44,Closed
+INC_1323,CUST_202,high,20,True,Unauthorized Access,2025-09-08 10:36:44,Closed
+INC_1324,CUST_429,low,,,Unauthorized Access,2025-09-08 10:36:44,Open
+INC_1325,CUST_495,high,20,True,Malware,2025-10-23 10:36:44,In Progress
+INC_1326,CUST_229,low,,,Data Breach,2025-10-31 10:36:44,Open
+INC_1327,CUST_106,low,,,Phishing,2025-11-04 10:36:44,Resolved
+INC_1328,CUST_044,high,20,True,Malware,2025-09-12 10:36:44,Resolved
+INC_1329,CUST_279,low,,,Phishing,2025-09-22 10:36:44,Open
+INC_1330,CUST_024,low,,,Unauthorized Access,2025-10-09 10:36:44,Closed
+INC_1331,CUST_252,low,,,Data Breach,2025-09-10 10:36:44,Resolved
+INC_1332,CUST_353,medium,60,True,Malware,2025-08-23 10:36:44,Open
+INC_1333,CUST_097,low,,,Phishing,2025-10-08 10:36:44,In Progress
+INC_1334,CUST_303,critical,5,True,Data Breach,2025-10-11 10:36:44,In Progress
+INC_1335,CUST_039,medium,60,False,Unauthorized Access,2025-10-14 10:36:44,Resolved
+INC_1336,CUST_463,low,,,Phishing,2025-09-25 10:36:44,Closed
+INC_1337,CUST_131,low,,,DDoS,2025-08-19 10:36:44,In Progress
+INC_1338,CUST_323,medium,60,True,Data Breach,2025-08-26 10:36:44,In Progress
+INC_1339,CUST_215,medium,60,True,Phishing,2025-10-06 10:36:44,Closed
+INC_1340,CUST_494,low,,,Unauthorized Access,2025-10-15 10:36:44,Open
+INC_1341,CUST_273,low,,,Malware,2025-08-20 10:36:44,Closed
+INC_1342,CUST_328,low,,,Malware,2025-09-30 10:36:44,Resolved
+INC_1343,CUST_445,high,20,True,Phishing,2025-10-11 10:36:44,Open
+INC_1344,CUST_497,low,,,Phishing,2025-09-28 10:36:44,Open
+INC_1345,CUST_090,high,20,True,Unauthorized Access,2025-10-07 10:36:44,Closed
+INC_1346,CUST_179,low,,,Unauthorized Access,2025-10-10 10:36:44,Resolved
+INC_1347,CUST_088,medium,60,True,Data Breach,2025-09-27 10:36:44,In Progress
+INC_1348,CUST_380,low,,,Unauthorized Access,2025-09-06 10:36:44,Closed
+INC_1349,CUST_133,medium,60,True,Malware,2025-08-20 10:36:44,In Progress
+INC_1350,CUST_194,medium,60,True,Unauthorized Access,2025-10-12 10:36:44,Open
+INC_1351,CUST_363,high,20,False,Phishing,2025-08-21 10:36:44,Closed
+INC_1352,CUST_225,medium,60,True,Data Breach,2025-09-17 10:36:44,Resolved
+INC_1353,CUST_220,low,,,Unauthorized Access,2025-10-17 10:36:44,Resolved
+INC_1354,CUST_486,medium,60,True,Data Breach,2025-09-24 10:36:44,Resolved
+INC_1355,CUST_040,high,20,True,Phishing,2025-11-04 10:36:44,In Progress
+INC_1356,CUST_381,medium,60,True,Data Breach,2025-09-06 10:36:44,Closed
+INC_1357,CUST_493,high,20,True,DDoS,2025-08-21 10:36:44,In Progress
+INC_1358,CUST_208,medium,60,True,Malware,2025-08-29 10:36:44,In Progress
+INC_1359,CUST_366,high,20,True,DDoS,2025-08-18 10:36:44,Resolved
+INC_1360,CUST_379,low,,,Unauthorized Access,2025-08-20 10:36:44,Open
+INC_1361,CUST_346,medium,60,True,Unauthorized Access,2025-10-18 10:36:44,In Progress
+INC_1362,CUST_430,low,,,Phishing,2025-09-11 10:36:44,Resolved
+INC_1363,CUST_254,critical,5,False,DDoS,2025-10-25 10:36:44,Resolved
+INC_1364,CUST_468,critical,5,False,Phishing,2025-09-07 10:36:44,Open
+INC_1365,CUST_248,low,,,Data Breach,2025-10-13 10:36:44,In Progress
+INC_1366,CUST_324,low,,,Unauthorized Access,2025-09-26 10:36:44,In Progress
+INC_1367,CUST_479,high,20,True,DDoS,2025-08-28 10:36:44,Closed
+INC_1368,CUST_004,low,,,Unauthorized Access,2025-09-18 10:36:44,Resolved
+INC_1369,CUST_055,low,,,Malware,2025-10-02 10:36:44,In Progress
+INC_1370,CUST_052,medium,60,True,DDoS,2025-09-14 10:36:44,In Progress
+INC_1371,CUST_264,low,,,Phishing,2025-09-24 10:36:44,Open
+INC_1372,CUST_080,high,20,True,Data Breach,2025-10-18 10:36:44,Closed
+INC_1373,CUST_154,low,,,Data Breach,2025-09-22 10:36:44,In Progress
+INC_1374,CUST_056,medium,60,False,DDoS,2025-08-23 10:36:44,Closed
+INC_1375,CUST_182,low,,,DDoS,2025-11-15 10:36:44,Resolved
+INC_1376,CUST_057,high,20,True,Phishing,2025-10-10 10:36:44,Open
+INC_1377,CUST_216,low,,,Data Breach,2025-11-11 10:36:44,In Progress
+INC_1378,CUST_492,medium,60,False,Data Breach,2025-10-31 10:36:44,Closed
+INC_1379,CUST_410,medium,60,False,Phishing,2025-10-05 10:36:44,Closed
+INC_1380,CUST_068,medium,60,False,Malware,2025-11-02 10:36:44,Open
+INC_1381,CUST_177,low,,,Unauthorized Access,2025-11-14 10:36:44,In Progress
+INC_1382,CUST_425,low,,,Data Breach,2025-09-22 10:36:44,Open
+INC_1383,CUST_145,medium,60,False,DDoS,2025-11-05 10:36:44,Closed
+INC_1384,CUST_079,low,,,Unauthorized Access,2025-10-23 10:36:44,In Progress
+INC_1385,CUST_059,low,,,Data Breach,2025-08-18 10:36:44,In Progress
+INC_1386,CUST_102,medium,60,False,DDoS,2025-11-02 10:36:44,In Progress
+INC_1387,CUST_438,low,,,Unauthorized Access,2025-08-27 10:36:44,In Progress
+INC_1388,CUST_068,low,,,DDoS,2025-11-11 10:36:44,Resolved
+INC_1389,CUST_219,critical,5,True,Malware,2025-08-29 10:36:44,In Progress
+INC_1390,CUST_027,low,,,DDoS,2025-09-24 10:36:44,Resolved
+INC_1391,CUST_114,medium,60,True,Data Breach,2025-09-22 10:36:44,Closed
+INC_1392,CUST_219,low,,,Malware,2025-10-08 10:36:44,Open
+INC_1393,CUST_144,low,,,Data Breach,2025-09-23 10:36:44,In Progress
+INC_1394,CUST_025,low,,,Phishing,2025-11-10 10:36:44,Open
+INC_1395,CUST_382,low,,,Data Breach,2025-10-19 10:36:44,Resolved
+INC_1396,CUST_221,medium,60,True,Phishing,2025-10-14 10:36:44,Closed
+INC_1397,CUST_156,low,,,Malware,2025-11-03 10:36:44,Open
+INC_1398,CUST_170,medium,60,True,Data Breach,2025-09-30 10:36:44,Resolved
+INC_1399,CUST_142,low,,,Phishing,2025-09-02 10:36:44,Closed
+INC_1400,CUST_055,low,,,Phishing,2025-08-27 10:36:44,Open
+INC_1401,CUST_496,low,,,Phishing,2025-10-22 10:36:44,Closed
+INC_1402,CUST_483,high,20,True,Unauthorized Access,2025-08-28 10:36:44,Resolved
+INC_1403,CUST_243,low,,,Phishing,2025-09-08 10:36:44,In Progress
+INC_1404,CUST_099,low,,,DDoS,2025-09-06 10:36:44,Resolved
+INC_1405,CUST_459,high,20,False,Data Breach,2025-09-19 10:36:44,Open
+INC_1406,CUST_248,high,20,True,DDoS,2025-09-09 10:36:44,Open
+INC_1407,CUST_141,low,,,Phishing,2025-10-09 10:36:44,Open
+INC_1408,CUST_407,critical,5,True,Phishing,2025-09-26 10:36:44,Closed
+INC_1409,CUST_085,medium,60,True,DDoS,2025-09-11 10:36:44,Closed
+INC_1410,CUST_206,medium,60,False,Unauthorized Access,2025-10-12 10:36:44,In Progress
+INC_1411,CUST_082,low,,,Unauthorized Access,2025-10-19 10:36:44,Open
+INC_1412,CUST_258,high,20,False,Unauthorized Access,2025-10-13 10:36:44,Resolved
+INC_1413,CUST_363,high,20,False,Data Breach,2025-09-06 10:36:44,Open
+INC_1414,CUST_024,low,,,Unauthorized Access,2025-10-16 10:36:44,Resolved
+INC_1415,CUST_076,low,,,Data Breach,2025-10-29 10:36:44,Resolved
+INC_1416,CUST_329,high,20,True,Phishing,2025-10-20 10:36:44,Open
+INC_1417,CUST_178,low,,,Unauthorized Access,2025-09-29 10:36:44,Resolved
+INC_1418,CUST_362,low,,,Unauthorized Access,2025-10-13 10:36:44,In Progress
+INC_1419,CUST_167,medium,60,False,Malware,2025-08-27 10:36:44,Open
+INC_1420,CUST_375,high,20,True,Data Breach,2025-10-24 10:36:44,Resolved
+INC_1421,CUST_370,critical,5,True,DDoS,2025-08-24 10:36:44,Resolved
+INC_1422,CUST_419,high,20,True,DDoS,2025-10-18 10:36:44,Resolved
+INC_1423,CUST_298,low,,,DDoS,2025-10-27 10:36:44,Closed
+INC_1424,CUST_372,low,,,DDoS,2025-09-29 10:36:44,In Progress
+INC_1425,CUST_254,high,20,True,Phishing,2025-09-18 10:36:44,In Progress
+INC_1426,CUST_097,high,20,True,Unauthorized Access,2025-09-14 10:36:44,In Progress
+INC_1427,CUST_159,medium,60,True,Phishing,2025-10-24 10:36:44,Closed
+INC_1428,CUST_036,medium,60,True,Phishing,2025-11-06 10:36:44,Closed
+INC_1429,CUST_466,low,,,DDoS,2025-11-03 10:36:44,In Progress
+INC_1430,CUST_309,medium,60,True,Malware,2025-09-28 10:36:44,Closed
+INC_1431,CUST_424,low,,,Malware,2025-08-25 10:36:44,Open
+INC_1432,CUST_395,low,,,Malware,2025-10-12 10:36:44,In Progress
+INC_1433,CUST_406,high,20,True,Malware,2025-11-02 10:36:44,Resolved
+INC_1434,CUST_104,high,20,True,Phishing,2025-09-15 10:36:44,Closed
+INC_1435,CUST_170,high,20,False,DDoS,2025-10-27 10:36:44,In Progress
+INC_1436,CUST_355,low,,,Data Breach,2025-08-27 10:36:44,Open
+INC_1437,CUST_023,low,,,Malware,2025-09-07 10:36:44,Resolved
+INC_1438,CUST_454,low,,,DDoS,2025-10-28 10:36:44,Open
+INC_1439,CUST_117,high,20,True,DDoS,2025-09-27 10:36:44,In Progress
+INC_1440,CUST_147,low,,,Phishing,2025-08-20 10:36:44,Closed
+INC_1441,CUST_252,medium,60,True,Phishing,2025-11-01 10:36:44,In Progress
+INC_1442,CUST_490,low,,,Data Breach,2025-10-01 10:36:44,Open
+INC_1443,CUST_185,medium,60,True,Malware,2025-11-10 10:36:44,In Progress
+INC_1444,CUST_272,low,,,Data Breach,2025-08-31 10:36:44,In Progress
+INC_1445,CUST_458,medium,60,True,Data Breach,2025-08-28 10:36:44,Resolved
+INC_1446,CUST_054,low,,,Data Breach,2025-09-13 10:36:44,Resolved
+INC_1447,CUST_404,high,20,True,Malware,2025-10-27 10:36:44,In Progress
+INC_1448,CUST_200,low,,,DDoS,2025-09-15 10:36:44,Open
+INC_1449,CUST_219,low,,,Data Breach,2025-10-28 10:36:44,Open
+INC_1450,CUST_066,low,,,Phishing,2025-09-27 10:36:44,Resolved
+INC_1451,CUST_218,low,,,DDoS,2025-08-19 10:36:44,Closed
+INC_1452,CUST_071,medium,60,False,Phishing,2025-09-27 10:36:44,Closed
+INC_1453,CUST_273,medium,60,False,Unauthorized Access,2025-10-17 10:36:44,Closed
+INC_1454,CUST_367,low,,,DDoS,2025-09-09 10:36:44,In Progress
+INC_1455,CUST_186,medium,60,True,Malware,2025-10-20 10:36:44,Open
+INC_1456,CUST_243,low,,,Phishing,2025-11-01 10:36:44,Open
+INC_1457,CUST_435,high,20,False,Phishing,2025-10-09 10:36:44,Closed
+INC_1458,CUST_437,low,,,Unauthorized Access,2025-09-23 10:36:44,In Progress
+INC_1459,CUST_115,low,,,Malware,2025-10-29 10:36:44,Open
+INC_1460,CUST_194,critical,5,True,Malware,2025-08-18 10:36:44,Closed
+INC_1461,CUST_360,low,,,Malware,2025-08-23 10:36:44,Open
+INC_1462,CUST_016,medium,60,True,Phishing,2025-09-30 10:36:44,In Progress
+INC_1463,CUST_040,low,,,Malware,2025-09-04 10:36:44,Closed
+INC_1464,CUST_094,low,,,DDoS,2025-10-29 10:36:44,Resolved
+INC_1465,CUST_228,medium,60,False,Malware,2025-10-10 10:36:44,Open
+INC_1466,CUST_452,low,,,Malware,2025-08-30 10:36:44,In Progress
+INC_1467,CUST_203,medium,60,True,DDoS,2025-08-20 10:36:44,Closed
+INC_1468,CUST_471,medium,60,False,Unauthorized Access,2025-09-12 10:36:44,Resolved
+INC_1469,CUST_477,medium,60,False,Phishing,2025-10-12 10:36:44,Open
+INC_1470,CUST_381,medium,60,True,Phishing,2025-09-25 10:36:44,Open
+INC_1471,CUST_095,low,,,Unauthorized Access,2025-08-30 10:36:44,Open
+INC_1472,CUST_245,high,20,False,Data Breach,2025-08-24 10:36:44,Closed
+INC_1473,CUST_028,high,20,True,Data Breach,2025-08-25 10:36:44,Closed
+INC_1474,CUST_056,low,,,Malware,2025-11-06 10:36:44,Resolved
+INC_1475,CUST_015,medium,60,False,Phishing,2025-10-10 10:36:44,In Progress
+INC_1476,CUST_109,medium,60,True,Unauthorized Access,2025-11-14 10:36:44,Resolved
+INC_1477,CUST_104,low,,,Malware,2025-10-16 10:36:44,Resolved
+INC_1478,CUST_292,low,,,Unauthorized Access,2025-11-10 10:36:44,Closed
+INC_1479,CUST_162,low,,,Malware,2025-10-07 10:36:44,Open
+INC_1480,CUST_491,critical,5,False,DDoS,2025-09-12 10:36:44,In Progress
+INC_1481,CUST_201,low,,,Data Breach,2025-10-30 10:36:44,Open
+INC_1482,CUST_460,low,,,Unauthorized Access,2025-11-03 10:36:44,In Progress
+INC_1483,CUST_408,low,,,DDoS,2025-09-15 10:36:44,Open
+INC_1484,CUST_078,low,,,DDoS,2025-11-05 10:36:44,Open
+INC_1485,CUST_453,critical,5,True,Phishing,2025-08-20 10:36:44,In Progress
+INC_1486,CUST_494,high,20,True,Unauthorized Access,2025-09-10 10:36:44,Resolved
+INC_1487,CUST_174,medium,60,True,Data Breach,2025-09-30 10:36:44,Closed
+INC_1488,CUST_365,low,,,DDoS,2025-10-16 10:36:44,In Progress
+INC_1489,CUST_491,critical,5,True,Phishing,2025-09-04 10:36:44,Closed
+INC_1490,CUST_008,low,,,Phishing,2025-10-07 10:36:44,Open
+INC_1491,CUST_161,medium,60,False,Phishing,2025-10-09 10:36:44,In Progress
+INC_1492,CUST_296,low,,,Data Breach,2025-10-01 10:36:44,Open
+INC_1493,CUST_364,low,,,DDoS,2025-10-13 10:36:44,Closed
+INC_1494,CUST_333,critical,5,False,Phishing,2025-10-31 10:36:44,Closed
+INC_1495,CUST_440,low,,,Data Breach,2025-09-25 10:36:44,Closed
+INC_1496,CUST_226,high,20,True,Data Breach,2025-09-11 10:36:44,Resolved
+INC_1497,CUST_350,low,,,DDoS,2025-09-12 10:36:44,Closed
+INC_1498,CUST_449,low,,,Malware,2025-08-28 10:36:44,Open
+INC_1499,CUST_359,medium,60,True,Unauthorized Access,2025-11-14 10:36:44,In Progress
+INC_1500,CUST_193,high,20,False,Phishing,2025-09-04 10:36:44,Closed
+INC_1501,CUST_199,high,20,True,DDoS,2025-08-22 10:36:44,Open
+INC_1502,CUST_240,low,,,Unauthorized Access,2025-09-17 10:36:44,Open
+INC_1503,CUST_375,low,,,Malware,2025-09-26 10:36:44,Closed
+INC_1504,CUST_169,low,,,Malware,2025-10-06 10:36:44,Resolved
+INC_1505,CUST_109,critical,5,False,DDoS,2025-11-01 10:36:44,Resolved
+INC_1506,CUST_486,medium,60,True,DDoS,2025-10-28 10:36:44,In Progress
+INC_1507,CUST_017,low,,,Unauthorized Access,2025-09-28 10:36:44,Open
+INC_1508,CUST_405,high,20,False,DDoS,2025-09-16 10:36:44,In Progress
+INC_1509,CUST_445,low,,,Malware,2025-08-20 10:36:44,Closed
+INC_1510,CUST_326,low,,,Phishing,2025-11-05 10:36:44,In Progress
+INC_1511,CUST_208,low,,,Malware,2025-10-08 10:36:44,Closed
+INC_1512,CUST_343,high,20,True,Data Breach,2025-10-23 10:36:44,Open
+INC_1513,CUST_462,low,,,DDoS,2025-10-03 10:36:44,Resolved
+INC_1514,CUST_179,low,,,DDoS,2025-09-15 10:36:44,Closed
+INC_1515,CUST_495,medium,60,True,DDoS,2025-10-01 10:36:44,Closed
+INC_1516,CUST_040,high,20,True,Unauthorized Access,2025-08-29 10:36:44,In Progress
+INC_1517,CUST_422,low,,,Data Breach,2025-11-14 10:36:44,In Progress
+INC_1518,CUST_256,high,20,True,Data Breach,2025-11-01 10:36:44,Closed
+INC_1519,CUST_370,low,,,Malware,2025-09-19 10:36:44,In Progress
+INC_1520,CUST_019,medium,60,True,Phishing,2025-10-22 10:36:44,Closed
+INC_1521,CUST_308,medium,60,True,DDoS,2025-10-19 10:36:44,Resolved
+INC_1522,CUST_098,low,,,Unauthorized Access,2025-11-14 10:36:44,Resolved
+INC_1523,CUST_155,high,20,True,Data Breach,2025-09-12 10:36:44,Open
+INC_1524,CUST_212,medium,60,False,DDoS,2025-10-01 10:36:44,Resolved
+INC_1525,CUST_268,high,20,False,Data Breach,2025-11-01 10:36:44,In Progress
+INC_1526,CUST_091,medium,60,False,Unauthorized Access,2025-08-31 10:36:44,In Progress
+INC_1527,CUST_146,medium,60,False,DDoS,2025-08-26 10:36:44,Resolved
+INC_1528,CUST_045,medium,60,True,Malware,2025-11-04 10:36:44,Open
+INC_1529,CUST_054,medium,60,False,DDoS,2025-08-28 10:36:44,Open
+INC_1530,CUST_342,medium,60,True,Data Breach,2025-09-23 10:36:44,In Progress
+INC_1531,CUST_233,low,,,Unauthorized Access,2025-09-28 10:36:44,Open
+INC_1532,CUST_241,low,,,Malware,2025-10-02 10:36:44,Closed
+INC_1533,CUST_004,medium,60,False,Data Breach,2025-10-18 10:36:44,Resolved
+INC_1534,CUST_338,low,,,Data Breach,2025-10-07 10:36:44,Closed
+INC_1535,CUST_461,medium,60,True,DDoS,2025-11-11 10:36:44,Open
+INC_1536,CUST_405,low,,,Data Breach,2025-09-10 10:36:44,Resolved
+INC_1537,CUST_492,low,,,Unauthorized Access,2025-09-21 10:36:44,In Progress
+INC_1538,CUST_099,medium,60,False,Unauthorized Access,2025-08-25 10:36:44,Closed
+INC_1539,CUST_066,high,20,False,DDoS,2025-10-24 10:36:44,Closed
+INC_1540,CUST_224,high,20,True,Phishing,2025-11-03 10:36:44,In Progress
+INC_1541,CUST_432,medium,60,False,Data Breach,2025-09-06 10:36:44,In Progress
+INC_1542,CUST_048,high,20,True,Malware,2025-11-12 10:36:44,Closed
+INC_1543,CUST_395,low,,,Unauthorized Access,2025-10-27 10:36:44,Open
+INC_1544,CUST_293,medium,60,True,DDoS,2025-11-12 10:36:44,In Progress
+INC_1545,CUST_096,critical,5,False,Phishing,2025-08-24 10:36:44,In Progress
+INC_1546,CUST_275,low,,,Phishing,2025-09-28 10:36:44,Resolved
+INC_1547,CUST_043,medium,60,False,Phishing,2025-08-27 10:36:44,Open
+INC_1548,CUST_057,medium,60,True,DDoS,2025-08-31 10:36:44,Open
+INC_1549,CUST_145,low,,,Data Breach,2025-10-23 10:36:44,Open
+INC_1550,CUST_433,low,,,Data Breach,2025-10-20 10:36:44,Closed
+INC_1551,CUST_408,low,,,Malware,2025-09-24 10:36:44,Open
+INC_1552,CUST_108,medium,60,True,DDoS,2025-09-28 10:36:44,Resolved
+INC_1553,CUST_414,medium,60,False,Phishing,2025-10-23 10:36:44,Resolved
+INC_1554,CUST_092,low,,,Unauthorized Access,2025-08-27 10:36:44,Open
+INC_1555,CUST_176,low,,,Data Breach,2025-09-15 10:36:44,Open
+INC_1556,CUST_380,low,,,Data Breach,2025-10-31 10:36:44,In Progress
+INC_1557,CUST_266,medium,60,True,Unauthorized Access,2025-10-27 10:36:44,In Progress
+INC_1558,CUST_461,high,20,True,Phishing,2025-11-12 10:36:44,Resolved
+INC_1559,CUST_043,low,,,Phishing,2025-10-12 10:36:44,Resolved
+INC_1560,CUST_179,medium,60,True,Unauthorized Access,2025-08-24 10:36:44,Resolved
+INC_1561,CUST_224,medium,60,False,Unauthorized Access,2025-09-25 10:36:44,In Progress
+INC_1562,CUST_102,low,,,Data Breach,2025-09-26 10:36:44,Open
+INC_1563,CUST_085,medium,60,False,Phishing,2025-09-14 10:36:44,Closed
+INC_1564,CUST_306,high,20,False,Data Breach,2025-10-06 10:36:44,Open
+INC_1565,CUST_103,medium,60,False,Unauthorized Access,2025-10-01 10:36:44,Resolved
+INC_1566,CUST_231,high,20,True,Phishing,2025-11-11 10:36:44,Resolved
+INC_1567,CUST_310,medium,60,False,Unauthorized Access,2025-10-01 10:36:44,Closed
+INC_1568,CUST_093,low,,,Data Breach,2025-09-22 10:36:44,In Progress
+INC_1569,CUST_038,low,,,Phishing,2025-08-23 10:36:44,Resolved
+INC_1570,CUST_400,low,,,Data Breach,2025-10-31 10:36:44,Open
+INC_1571,CUST_006,low,,,Data Breach,2025-10-19 10:36:44,Closed
+INC_1572,CUST_461,medium,60,False,Phishing,2025-09-05 10:36:44,Open
+INC_1573,CUST_309,low,,,Phishing,2025-09-09 10:36:44,In Progress
+INC_1574,CUST_143,low,,,Unauthorized Access,2025-08-22 10:36:44,Open
+INC_1575,CUST_350,medium,60,False,DDoS,2025-10-06 10:36:44,Resolved
+INC_1576,CUST_026,low,,,DDoS,2025-09-13 10:36:44,Open
+INC_1577,CUST_062,critical,5,False,Malware,2025-09-19 10:36:44,In Progress
+INC_1578,CUST_122,medium,60,False,Unauthorized Access,2025-11-13 10:36:44,Resolved
+INC_1579,CUST_402,low,,,Unauthorized Access,2025-11-15 10:36:44,Closed
+INC_1580,CUST_431,low,,,DDoS,2025-11-11 10:36:44,Open
+INC_1581,CUST_009,low,,,Malware,2025-09-16 10:36:44,Open
+INC_1582,CUST_371,high,20,False,Data Breach,2025-10-11 10:36:44,Resolved
+INC_1583,CUST_041,high,20,False,Unauthorized Access,2025-10-06 10:36:44,Closed
+INC_1584,CUST_153,medium,60,False,DDoS,2025-09-13 10:36:44,Open
+INC_1585,CUST_015,high,20,True,Phishing,2025-11-09 10:36:44,Open
+INC_1586,CUST_166,low,,,DDoS,2025-10-18 10:36:44,In Progress
+INC_1587,CUST_371,low,,,Data Breach,2025-09-08 10:36:44,Open
+INC_1588,CUST_133,high,20,True,Malware,2025-11-01 10:36:44,Open
+INC_1589,CUST_136,high,20,True,Data Breach,2025-08-19 10:36:44,Closed
+INC_1590,CUST_088,low,,,Phishing,2025-09-02 10:36:44,Closed
+INC_1591,CUST_164,low,,,Phishing,2025-09-02 10:36:44,Closed
+INC_1592,CUST_268,medium,60,True,Unauthorized Access,2025-10-16 10:36:44,Closed
+INC_1593,CUST_165,medium,60,False,DDoS,2025-10-18 10:36:44,Open
+INC_1594,CUST_152,low,,,Malware,2025-10-01 10:36:44,In Progress
+INC_1595,CUST_356,medium,60,True,Malware,2025-11-06 10:36:44,Closed
+INC_1596,CUST_007,low,,,Phishing,2025-09-17 10:36:44,Closed
+INC_1597,CUST_054,low,,,Data Breach,2025-10-20 10:36:44,Resolved
+INC_1598,CUST_363,high,20,False,DDoS,2025-08-24 10:36:44,In Progress
+INC_1599,CUST_469,high,20,True,Phishing,2025-10-18 10:36:44,Resolved
+INC_1600,CUST_232,low,,,Unauthorized Access,2025-09-11 10:36:44,In Progress
+INC_1601,CUST_036,high,20,True,Data Breach,2025-09-22 10:36:44,In Progress
+INC_1602,CUST_076,medium,60,True,DDoS,2025-11-02 10:36:44,Open
+INC_1603,CUST_458,low,,,DDoS,2025-10-23 10:36:44,Resolved
+INC_1604,CUST_339,low,,,Unauthorized Access,2025-09-19 10:36:44,Resolved
+INC_1605,CUST_475,low,,,Unauthorized Access,2025-11-05 10:36:44,Resolved
+INC_1606,CUST_204,medium,60,True,Unauthorized Access,2025-09-21 10:36:44,Resolved
+INC_1607,CUST_140,low,,,Data Breach,2025-11-03 10:36:44,Open
+INC_1608,CUST_100,medium,60,False,Data Breach,2025-10-22 10:36:44,Closed
+INC_1609,CUST_142,low,,,Unauthorized Access,2025-08-30 10:36:44,Closed
+INC_1610,CUST_349,medium,60,True,Malware,2025-08-25 10:36:44,In Progress
+INC_1611,CUST_059,critical,5,True,Malware,2025-11-11 10:36:44,Resolved
+INC_1612,CUST_273,low,,,Malware,2025-10-11 10:36:44,In Progress
+INC_1613,CUST_201,high,20,False,DDoS,2025-11-03 10:36:44,In Progress
+INC_1614,CUST_254,medium,60,False,Phishing,2025-10-25 10:36:44,In Progress
+INC_1615,CUST_148,low,,,Unauthorized Access,2025-10-10 10:36:44,Open
+INC_1616,CUST_258,low,,,Unauthorized Access,2025-09-15 10:36:44,Resolved
+INC_1617,CUST_088,high,20,True,Data Breach,2025-08-20 10:36:44,Open
+INC_1618,CUST_171,low,,,DDoS,2025-10-28 10:36:44,Open
+INC_1619,CUST_172,medium,60,False,Malware,2025-10-24 10:36:44,Resolved
+INC_1620,CUST_348,high,20,True,Malware,2025-08-31 10:36:44,Resolved
+INC_1621,CUST_251,critical,5,True,Phishing,2025-09-16 10:36:44,Open
+INC_1622,CUST_009,low,,,Unauthorized Access,2025-08-20 10:36:44,Resolved
+INC_1623,CUST_387,high,20,True,Phishing,2025-11-03 10:36:44,Open
+INC_1624,CUST_377,low,,,Data Breach,2025-09-19 10:36:44,Closed
+INC_1625,CUST_340,medium,60,False,DDoS,2025-10-14 10:36:44,Resolved
+INC_1626,CUST_155,medium,60,False,Data Breach,2025-09-10 10:36:44,Closed
+INC_1627,CUST_352,low,,,Unauthorized Access,2025-08-26 10:36:44,Open
+INC_1628,CUST_211,low,,,Phishing,2025-08-23 10:36:44,In Progress
+INC_1629,CUST_016,low,,,Phishing,2025-09-03 10:36:44,Closed
+INC_1630,CUST_382,low,,,Malware,2025-10-22 10:36:44,Closed
+INC_1631,CUST_450,medium,60,False,Unauthorized Access,2025-09-19 10:36:44,In Progress
+INC_1632,CUST_348,low,,,Data Breach,2025-10-04 10:36:44,Closed
+INC_1633,CUST_159,medium,60,False,Phishing,2025-11-10 10:36:44,Resolved
+INC_1634,CUST_222,high,20,True,DDoS,2025-09-04 10:36:44,Resolved
+INC_1635,CUST_497,low,,,Malware,2025-09-13 10:36:44,In Progress
+INC_1636,CUST_268,medium,60,True,Data Breach,2025-08-28 10:36:44,In Progress
+INC_1637,CUST_148,low,,,Malware,2025-10-09 10:36:44,Open
+INC_1638,CUST_145,medium,60,True,Unauthorized Access,2025-10-31 10:36:44,Open
+INC_1639,CUST_221,medium,60,True,Data Breach,2025-08-23 10:36:44,Open
+INC_1640,CUST_071,low,,,Data Breach,2025-10-10 10:36:44,In Progress
+INC_1641,CUST_074,critical,5,False,Phishing,2025-09-21 10:36:44,Open
+INC_1642,CUST_017,low,,,DDoS,2025-10-01 10:36:44,In Progress
+INC_1643,CUST_217,high,20,False,DDoS,2025-11-03 10:36:44,Resolved
+INC_1644,CUST_089,high,20,False,Unauthorized Access,2025-09-21 10:36:44,Resolved
+INC_1645,CUST_350,high,20,True,Phishing,2025-10-14 10:36:44,In Progress
+INC_1646,CUST_155,medium,60,True,Data Breach,2025-11-05 10:36:44,Resolved
+INC_1647,CUST_280,medium,60,False,Phishing,2025-09-28 10:36:44,Closed
+INC_1648,CUST_270,low,,,DDoS,2025-08-19 10:36:44,Resolved
+INC_1649,CUST_240,medium,60,False,Data Breach,2025-09-22 10:36:44,Closed
+INC_1650,CUST_237,medium,60,False,Malware,2025-09-05 10:36:44,Open
+INC_1651,CUST_046,critical,5,False,Phishing,2025-08-29 10:36:44,Resolved
+INC_1652,CUST_066,high,20,False,Unauthorized Access,2025-09-07 10:36:44,Resolved
+INC_1653,CUST_433,low,,,DDoS,2025-10-30 10:36:44,Closed
+INC_1654,CUST_414,medium,60,False,Unauthorized Access,2025-09-18 10:36:44,Open
+INC_1655,CUST_139,low,,,Malware,2025-10-04 10:36:44,Open
+INC_1656,CUST_354,high,20,False,Data Breach,2025-11-08 10:36:44,Open
+INC_1657,CUST_360,medium,60,True,Phishing,2025-09-10 10:36:44,In Progress
+INC_1658,CUST_070,medium,60,False,Phishing,2025-08-21 10:36:44,In Progress
+INC_1659,CUST_160,low,,,Malware,2025-09-14 10:36:44,In Progress
+INC_1660,CUST_001,low,,,Phishing,2025-08-30 10:36:44,Open
+INC_1661,CUST_105,medium,60,True,Malware,2025-09-16 10:36:44,Open
+INC_1662,CUST_201,high,20,False,Malware,2025-10-31 10:36:44,Resolved
+INC_1663,CUST_420,medium,60,True,Phishing,2025-09-07 10:36:44,Resolved
+INC_1664,CUST_440,high,20,False,Unauthorized Access,2025-10-31 10:36:44,Closed
+INC_1665,CUST_012,low,,,Phishing,2025-10-28 10:36:44,In Progress
+INC_1666,CUST_380,low,,,Unauthorized Access,2025-10-21 10:36:44,Closed
+INC_1667,CUST_342,medium,60,False,Malware,2025-09-01 10:36:44,Closed
+INC_1668,CUST_141,low,,,DDoS,2025-09-27 10:36:44,Open
+INC_1669,CUST_076,medium,60,False,Malware,2025-10-10 10:36:44,Closed
+INC_1670,CUST_200,low,,,Malware,2025-09-02 10:36:44,Resolved
+INC_1671,CUST_334,low,,,Unauthorized Access,2025-09-20 10:36:44,Open
+INC_1672,CUST_493,high,20,False,Phishing,2025-09-17 10:36:44,Closed
+INC_1673,CUST_082,low,,,Data Breach,2025-09-12 10:36:44,In Progress
+INC_1674,CUST_362,low,,,Unauthorized Access,2025-09-27 10:36:44,Open
+INC_1675,CUST_078,low,,,Data Breach,2025-08-24 10:36:44,Resolved
+INC_1676,CUST_143,medium,60,True,Data Breach,2025-09-26 10:36:44,Open
+INC_1677,CUST_193,high,20,False,DDoS,2025-08-30 10:36:44,In Progress
+INC_1678,CUST_067,medium,60,False,Data Breach,2025-09-01 10:36:44,Resolved
+INC_1679,CUST_035,medium,60,False,Malware,2025-11-12 10:36:44,In Progress
+INC_1680,CUST_341,low,,,Malware,2025-09-13 10:36:44,Closed
+INC_1681,CUST_119,low,,,Phishing,2025-11-02 10:36:44,In Progress
+INC_1682,CUST_387,medium,60,False,DDoS,2025-11-07 10:36:44,Open
+INC_1683,CUST_020,medium,60,True,Malware,2025-09-20 10:36:44,Resolved
+INC_1684,CUST_473,medium,60,True,Phishing,2025-10-05 10:36:44,Open
+INC_1685,CUST_069,medium,60,False,Unauthorized Access,2025-09-05 10:36:44,In Progress
+INC_1686,CUST_252,low,,,DDoS,2025-08-21 10:36:44,Resolved
+INC_1687,CUST_380,low,,,Phishing,2025-09-21 10:36:44,In Progress
+INC_1688,CUST_013,low,,,Malware,2025-10-20 10:36:44,Open
+INC_1689,CUST_185,high,20,True,DDoS,2025-09-04 10:36:44,Open
+INC_1690,CUST_350,low,,,Unauthorized Access,2025-09-13 10:36:44,In Progress
+INC_1691,CUST_257,high,20,False,Data Breach,2025-10-01 10:36:44,In Progress
+INC_1692,CUST_219,high,20,False,DDoS,2025-11-06 10:36:44,Open
+INC_1693,CUST_265,low,,,Data Breach,2025-11-03 10:36:44,Open
+INC_1694,CUST_308,medium,60,True,Unauthorized Access,2025-10-04 10:36:44,Open
+INC_1695,CUST_482,low,,,Data Breach,2025-10-14 10:36:44,Closed
+INC_1696,CUST_447,medium,60,True,Phishing,2025-10-10 10:36:44,Open
+INC_1697,CUST_437,medium,60,True,Unauthorized Access,2025-08-29 10:36:44,Resolved
+INC_1698,CUST_030,low,,,Unauthorized Access,2025-08-18 10:36:44,Open
+INC_1699,CUST_335,medium,60,False,Malware,2025-11-11 10:36:44,Resolved
+INC_1700,CUST_172,medium,60,True,Malware,2025-10-29 10:36:44,In Progress
+INC_1701,CUST_474,medium,60,False,Malware,2025-10-16 10:36:44,Closed
+INC_1702,CUST_486,low,,,Unauthorized Access,2025-08-29 10:36:44,Open
+INC_1703,CUST_037,low,,,DDoS,2025-08-31 10:36:44,Open
+INC_1704,CUST_485,high,20,False,Phishing,2025-10-12 10:36:44,Open
+INC_1705,CUST_255,low,,,Unauthorized Access,2025-10-18 10:36:44,Resolved
+INC_1706,CUST_401,medium,60,False,Phishing,2025-11-13 10:36:44,Open
+INC_1707,CUST_401,low,,,Phishing,2025-09-08 10:36:44,Closed
+INC_1708,CUST_283,medium,60,True,DDoS,2025-11-09 10:36:44,Closed
+INC_1709,CUST_221,high,20,True,DDoS,2025-09-06 10:36:44,In Progress
+INC_1710,CUST_061,low,,,Unauthorized Access,2025-09-29 10:36:44,Resolved
+INC_1711,CUST_224,low,,,Malware,2025-10-16 10:36:44,In Progress
+INC_1712,CUST_006,low,,,Phishing,2025-09-24 10:36:44,Open
+INC_1713,CUST_448,critical,5,True,Phishing,2025-11-08 10:36:44,Open
+INC_1714,CUST_225,low,,,Phishing,2025-10-10 10:36:44,Open
+INC_1715,CUST_309,low,,,Phishing,2025-10-09 10:36:44,In Progress
+INC_1716,CUST_337,medium,60,False,Malware,2025-08-23 10:36:44,Open
+INC_1717,CUST_481,low,,,Unauthorized Access,2025-10-20 10:36:44,Closed
+INC_1718,CUST_460,medium,60,False,Phishing,2025-09-20 10:36:44,Resolved
+INC_1719,CUST_445,high,20,False,Phishing,2025-09-09 10:36:44,Resolved
+INC_1720,CUST_278,low,,,Unauthorized Access,2025-11-02 10:36:44,Open
+INC_1721,CUST_211,low,,,Unauthorized Access,2025-09-14 10:36:44,Resolved
+INC_1722,CUST_467,low,,,Phishing,2025-09-10 10:36:44,In Progress
+INC_1723,CUST_284,low,,,Phishing,2025-10-31 10:36:44,Resolved
+INC_1724,CUST_019,medium,60,True,Phishing,2025-08-18 10:36:44,Closed
+INC_1725,CUST_488,medium,60,False,Malware,2025-11-13 10:36:44,Closed
+INC_1726,CUST_143,high,20,False,Unauthorized Access,2025-09-27 10:36:44,Resolved
+INC_1727,CUST_031,high,20,True,Data Breach,2025-08-29 10:36:44,Closed
+INC_1728,CUST_197,medium,60,False,DDoS,2025-11-10 10:36:44,In Progress
+INC_1729,CUST_095,low,,,DDoS,2025-09-08 10:36:44,Open
+INC_1730,CUST_278,medium,60,True,Data Breach,2025-11-12 10:36:44,Resolved
+INC_1731,CUST_415,high,20,False,Unauthorized Access,2025-10-19 10:36:44,Open
+INC_1732,CUST_425,low,,,Unauthorized Access,2025-09-21 10:36:44,Closed
+INC_1733,CUST_414,high,20,True,Malware,2025-09-06 10:36:44,Closed
+INC_1734,CUST_440,critical,5,False,Unauthorized Access,2025-09-17 10:36:44,Closed
+INC_1735,CUST_084,medium,60,False,DDoS,2025-09-17 10:36:44,In Progress
+INC_1736,CUST_008,low,,,Data Breach,2025-08-20 10:36:44,Resolved
+INC_1737,CUST_128,low,,,Unauthorized Access,2025-10-09 10:36:44,Resolved
+INC_1738,CUST_316,medium,60,True,Data Breach,2025-09-30 10:36:44,Resolved
+INC_1739,CUST_064,medium,60,True,Data Breach,2025-09-04 10:36:44,Resolved
+INC_1740,CUST_228,high,20,True,DDoS,2025-11-13 10:36:44,Closed
+INC_1741,CUST_019,low,,,Data Breach,2025-09-15 10:36:44,In Progress
+INC_1742,CUST_142,medium,60,True,Unauthorized Access,2025-09-06 10:36:44,Resolved
+INC_1743,CUST_093,critical,5,False,Data Breach,2025-10-11 10:36:44,Resolved
+INC_1744,CUST_117,high,20,True,Phishing,2025-10-28 10:36:44,Open
+INC_1745,CUST_336,low,,,Malware,2025-10-23 10:36:44,Closed
+INC_1746,CUST_284,medium,60,True,Phishing,2025-11-08 10:36:44,Resolved
+INC_1747,CUST_348,critical,5,True,Data Breach,2025-09-07 10:36:44,Open
+INC_1748,CUST_056,medium,60,False,Malware,2025-09-12 10:36:44,Closed
+INC_1749,CUST_040,low,,,Phishing,2025-10-20 10:36:44,Resolved
+INC_1750,CUST_037,medium,60,False,DDoS,2025-10-10 10:36:44,In Progress
+INC_1751,CUST_311,low,,,Data Breach,2025-10-04 10:36:44,Closed
+INC_1752,CUST_241,high,20,False,Data Breach,2025-08-28 10:36:44,Open
+INC_1753,CUST_023,low,,,Data Breach,2025-10-27 10:36:44,Open
+INC_1754,CUST_109,low,,,Data Breach,2025-09-11 10:36:44,Resolved
+INC_1755,CUST_426,high,20,False,Unauthorized Access,2025-11-11 10:36:44,In Progress
+INC_1756,CUST_333,low,,,Malware,2025-11-06 10:36:44,In Progress
+INC_1757,CUST_276,medium,60,False,Malware,2025-09-09 10:36:44,Open
+INC_1758,CUST_163,medium,60,False,Data Breach,2025-10-22 10:36:44,Resolved
+INC_1759,CUST_125,high,20,False,Data Breach,2025-10-17 10:36:44,Closed
+INC_1760,CUST_498,low,,,Malware,2025-08-19 10:36:44,In Progress
+INC_1761,CUST_186,medium,60,False,Malware,2025-10-01 10:36:44,Open
+INC_1762,CUST_310,high,20,False,Phishing,2025-09-19 10:36:44,Closed
+INC_1763,CUST_424,low,,,Phishing,2025-09-08 10:36:44,In Progress
+INC_1764,CUST_346,high,20,False,Unauthorized Access,2025-08-22 10:36:44,In Progress
+INC_1765,CUST_175,medium,60,False,Data Breach,2025-10-31 10:36:44,Open
+INC_1766,CUST_295,medium,60,True,DDoS,2025-08-27 10:36:44,In Progress
+INC_1767,CUST_008,high,20,False,Phishing,2025-10-31 10:36:44,Closed
+INC_1768,CUST_284,low,,,DDoS,2025-11-03 10:36:44,In Progress
+INC_1769,CUST_013,high,20,False,Phishing,2025-11-06 10:36:44,In Progress
+INC_1770,CUST_463,medium,60,False,DDoS,2025-10-01 10:36:44,In Progress
+INC_1771,CUST_365,medium,60,True,Data Breach,2025-10-31 10:36:44,Resolved
+INC_1772,CUST_303,high,20,False,Unauthorized Access,2025-08-29 10:36:44,Open
+INC_1773,CUST_038,critical,5,True,Data Breach,2025-09-19 10:36:44,Closed
+INC_1774,CUST_149,medium,60,False,DDoS,2025-08-18 10:36:44,In Progress
+INC_1775,CUST_078,medium,60,True,Malware,2025-09-01 10:36:44,Resolved
+INC_1776,CUST_195,medium,60,False,Data Breach,2025-09-20 10:36:44,In Progress
+INC_1777,CUST_484,medium,60,False,Malware,2025-10-17 10:36:44,Resolved
+INC_1778,CUST_289,medium,60,True,Unauthorized Access,2025-09-09 10:36:44,Closed
+INC_1779,CUST_197,low,,,Data Breach,2025-10-24 10:36:44,In Progress
+INC_1780,CUST_484,low,,,Phishing,2025-09-21 10:36:44,Resolved
+INC_1781,CUST_051,medium,60,False,Data Breach,2025-10-10 10:36:44,In Progress
+INC_1782,CUST_141,low,,,DDoS,2025-09-20 10:36:44,In Progress
+INC_1783,CUST_481,high,20,False,Data Breach,2025-08-30 10:36:44,Open
+INC_1784,CUST_073,high,20,False,Malware,2025-10-20 10:36:44,In Progress
+INC_1785,CUST_463,low,,,Malware,2025-09-07 10:36:44,In Progress
+INC_1786,CUST_427,low,,,Malware,2025-09-29 10:36:44,In Progress
+INC_1787,CUST_486,low,,,Unauthorized Access,2025-09-22 10:36:44,Closed
+INC_1788,CUST_152,medium,60,False,Malware,2025-10-31 10:36:44,Closed
+INC_1789,CUST_135,high,20,False,Malware,2025-10-29 10:36:44,Resolved
+INC_1790,CUST_496,medium,60,True,Data Breach,2025-11-05 10:36:44,In Progress
+INC_1791,CUST_081,medium,60,False,Unauthorized Access,2025-10-04 10:36:44,Resolved
+INC_1792,CUST_362,medium,60,True,Data Breach,2025-11-11 10:36:44,Closed
+INC_1793,CUST_362,low,,,Unauthorized Access,2025-10-06 10:36:44,In Progress
+INC_1794,CUST_486,high,20,True,Malware,2025-10-15 10:36:44,In Progress
+INC_1795,CUST_345,medium,60,True,Phishing,2025-10-13 10:36:44,Closed
+INC_1796,CUST_417,low,,,Phishing,2025-09-13 10:36:44,Resolved
+INC_1797,CUST_326,low,,,Malware,2025-09-10 10:36:44,In Progress
+INC_1798,CUST_035,low,,,DDoS,2025-09-05 10:36:44,In Progress
+INC_1799,CUST_215,medium,60,True,Data Breach,2025-08-29 10:36:44,Closed
+INC_1800,CUST_327,medium,60,True,Data Breach,2025-09-15 10:36:44,In Progress
+INC_1801,CUST_449,high,20,True,Data Breach,2025-08-22 10:36:44,Closed
+INC_1802,CUST_307,medium,60,False,Data Breach,2025-09-07 10:36:44,Closed
+INC_1803,CUST_113,low,,,Malware,2025-10-10 10:36:44,Closed
+INC_1804,CUST_127,critical,5,False,DDoS,2025-11-01 10:36:44,In Progress
+INC_1805,CUST_339,medium,60,False,Malware,2025-10-02 10:36:44,Closed
+INC_1806,CUST_431,medium,60,False,DDoS,2025-08-31 10:36:44,Closed
+INC_1807,CUST_149,medium,60,True,Data Breach,2025-09-12 10:36:44,In Progress
+INC_1808,CUST_032,high,20,False,Unauthorized Access,2025-10-05 10:36:44,Resolved
+INC_1809,CUST_201,medium,60,False,DDoS,2025-09-22 10:36:44,Closed
+INC_1810,CUST_028,low,,,Data Breach,2025-09-14 10:36:44,In Progress
+INC_1811,CUST_420,low,,,Malware,2025-10-07 10:36:44,Closed
+INC_1812,CUST_275,medium,60,True,Phishing,2025-08-27 10:36:44,Open
+INC_1813,CUST_067,high,20,False,Unauthorized Access,2025-09-07 10:36:44,Open
+INC_1814,CUST_411,critical,5,True,DDoS,2025-11-04 10:36:44,Resolved
+INC_1815,CUST_336,high,20,True,Malware,2025-09-10 10:36:44,In Progress
+INC_1816,CUST_102,low,,,Phishing,2025-09-08 10:36:44,Closed
+INC_1817,CUST_149,high,20,True,Phishing,2025-09-29 10:36:44,Resolved
+INC_1818,CUST_482,medium,60,True,Malware,2025-11-11 10:36:44,Open
+INC_1819,CUST_257,high,20,True,DDoS,2025-09-14 10:36:44,Open
+INC_1820,CUST_155,low,,,Malware,2025-10-17 10:36:44,In Progress
+INC_1821,CUST_384,low,,,Malware,2025-09-28 10:36:44,Closed
+INC_1822,CUST_380,low,,,Data Breach,2025-11-05 10:36:44,Open
+INC_1823,CUST_370,low,,,DDoS,2025-11-13 10:36:44,Open
+INC_1824,CUST_049,medium,60,True,Unauthorized Access,2025-09-26 10:36:44,In Progress
+INC_1825,CUST_402,high,20,False,Data Breach,2025-09-22 10:36:44,Open
+INC_1826,CUST_235,low,,,Phishing,2025-11-03 10:36:44,Resolved
+INC_1827,CUST_193,critical,5,False,Data Breach,2025-09-22 10:36:44,Open
+INC_1828,CUST_209,low,,,Unauthorized Access,2025-10-11 10:36:44,Closed
+INC_1829,CUST_360,low,,,Unauthorized Access,2025-09-12 10:36:44,In Progress
+INC_1830,CUST_255,low,,,DDoS,2025-09-29 10:36:44,Open
+INC_1831,CUST_204,medium,60,True,Phishing,2025-09-19 10:36:44,Resolved
+INC_1832,CUST_330,medium,60,True,Data Breach,2025-10-04 10:36:44,In Progress
+INC_1833,CUST_049,high,20,True,Unauthorized Access,2025-10-25 10:36:44,In Progress
+INC_1834,CUST_304,high,20,False,Phishing,2025-11-05 10:36:44,In Progress
+INC_1835,CUST_268,medium,60,False,Unauthorized Access,2025-10-17 10:36:44,Open
+INC_1836,CUST_211,high,20,False,Data Breach,2025-10-03 10:36:44,In Progress
+INC_1837,CUST_353,low,,,Unauthorized Access,2025-08-31 10:36:44,Closed
+INC_1838,CUST_354,high,20,False,Phishing,2025-09-05 10:36:44,Closed
+INC_1839,CUST_492,medium,60,False,Phishing,2025-10-05 10:36:44,Closed
+INC_1840,CUST_472,medium,60,True,Malware,2025-09-22 10:36:44,Open
+INC_1841,CUST_388,low,,,Malware,2025-10-26 10:36:44,Open
+INC_1842,CUST_225,low,,,Malware,2025-11-11 10:36:44,Closed
+INC_1843,CUST_072,medium,60,False,Unauthorized Access,2025-09-23 10:36:44,Closed
+INC_1844,CUST_061,low,,,DDoS,2025-10-09 10:36:44,Resolved
+INC_1845,CUST_289,medium,60,False,Phishing,2025-10-28 10:36:44,Resolved
+INC_1846,CUST_412,medium,60,True,Unauthorized Access,2025-09-29 10:36:44,Resolved
+INC_1847,CUST_480,medium,60,True,Data Breach,2025-10-29 10:36:44,In Progress
+INC_1848,CUST_006,medium,60,False,Data Breach,2025-09-23 10:36:44,In Progress
+INC_1849,CUST_035,low,,,Malware,2025-10-07 10:36:44,In Progress
+INC_1850,CUST_049,low,,,Unauthorized Access,2025-09-18 10:36:44,Resolved
+INC_1851,CUST_320,low,,,DDoS,2025-08-31 10:36:44,In Progress
+INC_1852,CUST_326,low,,,Unauthorized Access,2025-10-18 10:36:44,Resolved
+INC_1853,CUST_141,medium,60,True,Data Breach,2025-09-22 10:36:44,Resolved
+INC_1854,CUST_393,low,,,DDoS,2025-10-14 10:36:44,In Progress
+INC_1855,CUST_079,low,,,Malware,2025-10-19 10:36:44,Resolved
+INC_1856,CUST_289,low,,,Malware,2025-10-30 10:36:44,Closed
+INC_1857,CUST_396,low,,,Unauthorized Access,2025-08-30 10:36:44,Resolved
+INC_1858,CUST_108,critical,5,False,Phishing,2025-11-15 10:36:44,In Progress
+INC_1859,CUST_476,critical,5,True,Unauthorized Access,2025-10-28 10:36:44,In Progress
+INC_1860,CUST_448,low,,,Malware,2025-10-05 10:36:44,Open
+INC_1861,CUST_071,high,20,True,Unauthorized Access,2025-09-20 10:36:44,Closed
+INC_1862,CUST_155,medium,60,False,Unauthorized Access,2025-10-31 10:36:44,In Progress
+INC_1863,CUST_397,medium,60,False,DDoS,2025-09-16 10:36:44,Resolved
+INC_1864,CUST_268,low,,,Data Breach,2025-09-09 10:36:44,Open
+INC_1865,CUST_490,high,20,True,Phishing,2025-08-26 10:36:44,Resolved
+INC_1866,CUST_287,medium,60,False,DDoS,2025-09-14 10:36:44,Resolved
+INC_1867,CUST_334,medium,60,False,Data Breach,2025-10-24 10:36:44,Open
+INC_1868,CUST_395,high,20,False,Data Breach,2025-09-22 10:36:44,In Progress
+INC_1869,CUST_196,medium,60,True,Data Breach,2025-10-24 10:36:44,Open
+INC_1870,CUST_185,low,,,Unauthorized Access,2025-10-22 10:36:44,Open
+INC_1871,CUST_049,medium,60,False,Data Breach,2025-10-14 10:36:44,Open
+INC_1872,CUST_332,medium,60,True,Data Breach,2025-08-25 10:36:44,Closed
+INC_1873,CUST_357,low,,,Data Breach,2025-10-11 10:36:44,Open
+INC_1874,CUST_442,critical,5,True,DDoS,2025-08-30 10:36:44,Closed
+INC_1875,CUST_384,medium,60,False,Unauthorized Access,2025-11-02 10:36:44,Open
+INC_1876,CUST_314,low,,,Phishing,2025-10-24 10:36:44,In Progress
+INC_1877,CUST_428,low,,,Malware,2025-11-08 10:36:44,Closed
+INC_1878,CUST_161,medium,60,True,Malware,2025-09-07 10:36:44,Resolved
+INC_1879,CUST_336,critical,5,True,Unauthorized Access,2025-11-13 10:36:44,Resolved
+INC_1880,CUST_460,high,20,False,Phishing,2025-09-01 10:36:44,Resolved
+INC_1881,CUST_214,medium,60,False,Malware,2025-11-07 10:36:44,In Progress
+INC_1882,CUST_374,high,20,True,Data Breach,2025-11-05 10:36:44,In Progress
+INC_1883,CUST_312,medium,60,False,Phishing,2025-08-19 10:36:44,Closed
+INC_1884,CUST_383,low,,,Malware,2025-10-07 10:36:44,Resolved
+INC_1885,CUST_175,medium,60,True,DDoS,2025-09-04 10:36:44,Open
+INC_1886,CUST_046,medium,60,False,Malware,2025-11-04 10:36:44,In Progress
+INC_1887,CUST_163,medium,60,True,Unauthorized Access,2025-08-27 10:36:44,Open
+INC_1888,CUST_112,high,20,True,Data Breach,2025-09-18 10:36:44,Open
+INC_1889,CUST_158,high,20,True,Phishing,2025-10-30 10:36:44,Resolved
+INC_1890,CUST_362,low,,,Data Breach,2025-10-24 10:36:44,Resolved
+INC_1891,CUST_162,low,,,DDoS,2025-10-18 10:36:44,In Progress
+INC_1892,CUST_103,low,,,Phishing,2025-10-09 10:36:44,Resolved
+INC_1893,CUST_048,medium,60,False,DDoS,2025-10-01 10:36:44,Resolved
+INC_1894,CUST_329,low,,,Unauthorized Access,2025-09-19 10:36:44,In Progress
+INC_1895,CUST_428,low,,,Unauthorized Access,2025-09-27 10:36:44,In Progress
+INC_1896,CUST_360,medium,60,True,DDoS,2025-10-02 10:36:44,Resolved
+INC_1897,CUST_359,low,,,Unauthorized Access,2025-09-06 10:36:44,Resolved
+INC_1898,CUST_396,low,,,Phishing,2025-10-13 10:36:44,In Progress
+INC_1899,CUST_473,medium,60,True,Malware,2025-09-10 10:36:44,In Progress
+INC_1900,CUST_301,medium,60,False,Data Breach,2025-09-29 10:36:44,Closed
+INC_1901,CUST_166,medium,60,True,Malware,2025-08-27 10:36:44,Resolved
+INC_1902,CUST_082,high,20,True,DDoS,2025-09-16 10:36:44,Resolved
+INC_1903,CUST_463,low,,,Malware,2025-10-23 10:36:44,Resolved
+INC_1904,CUST_240,low,,,Unauthorized Access,2025-10-23 10:36:44,Open
+INC_1905,CUST_304,medium,60,False,Unauthorized Access,2025-08-19 10:36:44,Closed
+INC_1906,CUST_428,medium,60,False,Phishing,2025-10-14 10:36:44,Resolved
+INC_1907,CUST_348,medium,60,False,DDoS,2025-10-08 10:36:44,Open
+INC_1908,CUST_391,critical,5,True,Unauthorized Access,2025-11-02 10:36:44,Closed
+INC_1909,CUST_489,medium,60,False,Unauthorized Access,2025-09-25 10:36:44,Open
+INC_1910,CUST_086,low,,,Data Breach,2025-08-31 10:36:44,In Progress
+INC_1911,CUST_067,critical,5,True,Data Breach,2025-11-09 10:36:44,Open
+INC_1912,CUST_393,low,,,Phishing,2025-10-02 10:36:44,Closed
+INC_1913,CUST_236,low,,,Malware,2025-08-23 10:36:44,In Progress
+INC_1914,CUST_089,low,,,Data Breach,2025-10-07 10:36:44,Open
+INC_1915,CUST_440,low,,,Phishing,2025-09-21 10:36:44,Open
+INC_1916,CUST_351,medium,60,True,Unauthorized Access,2025-09-29 10:36:44,Open
+INC_1917,CUST_052,medium,60,False,DDoS,2025-09-06 10:36:44,Closed
+INC_1918,CUST_343,medium,60,False,DDoS,2025-09-17 10:36:44,In Progress
+INC_1919,CUST_199,high,20,True,Phishing,2025-10-06 10:36:44,In Progress
+INC_1920,CUST_168,low,,,Data Breach,2025-08-21 10:36:44,Closed
+INC_1921,CUST_178,medium,60,True,DDoS,2025-08-22 10:36:44,Open
+INC_1922,CUST_312,low,,,Phishing,2025-10-16 10:36:44,Resolved
+INC_1923,CUST_257,low,,,Malware,2025-08-29 10:36:44,Closed
+INC_1924,CUST_071,high,20,True,DDoS,2025-10-22 10:36:44,Open
+INC_1925,CUST_223,low,,,Malware,2025-10-03 10:36:44,Closed
+INC_1926,CUST_078,medium,60,False,Data Breach,2025-10-07 10:36:44,Closed
+INC_1927,CUST_018,medium,60,False,Data Breach,2025-09-23 10:36:44,In Progress
+INC_1928,CUST_350,low,,,Unauthorized Access,2025-11-02 10:36:44,Closed
+INC_1929,CUST_352,high,20,False,Malware,2025-08-24 10:36:44,Closed
+INC_1930,CUST_083,high,20,True,Data Breach,2025-10-30 10:36:44,Closed
+INC_1931,CUST_249,medium,60,True,DDoS,2025-09-22 10:36:44,Open
+INC_1932,CUST_133,low,,,Malware,2025-08-30 10:36:44,Closed
+INC_1933,CUST_365,medium,60,False,Data Breach,2025-09-08 10:36:44,Resolved
+INC_1934,CUST_092,low,,,DDoS,2025-09-08 10:36:44,Closed
+INC_1935,CUST_077,high,20,True,Malware,2025-10-03 10:36:44,Resolved
+INC_1936,CUST_417,low,,,Unauthorized Access,2025-09-18 10:36:44,Closed
+INC_1937,CUST_145,low,,,Malware,2025-10-31 10:36:44,Closed
+INC_1938,CUST_456,medium,60,True,Unauthorized Access,2025-08-20 10:36:44,Resolved
+INC_1939,CUST_173,low,,,Data Breach,2025-11-12 10:36:44,Resolved
+INC_1940,CUST_183,low,,,DDoS,2025-11-13 10:36:44,Closed
+INC_1941,CUST_326,low,,,Malware,2025-08-31 10:36:44,Open
+INC_1942,CUST_019,low,,,Unauthorized Access,2025-09-26 10:36:44,In Progress
+INC_1943,CUST_274,low,,,Malware,2025-10-30 10:36:44,In Progress
+INC_1944,CUST_458,medium,60,False,Data Breach,2025-10-02 10:36:44,Closed
+INC_1945,CUST_471,medium,60,True,Unauthorized Access,2025-09-04 10:36:44,Closed
+INC_1946,CUST_168,low,,,Data Breach,2025-11-11 10:36:44,In Progress
+INC_1947,CUST_196,medium,60,True,Unauthorized Access,2025-11-05 10:36:44,Resolved
+INC_1948,CUST_217,high,20,False,DDoS,2025-11-13 10:36:44,In Progress
+INC_1949,CUST_370,critical,5,False,Malware,2025-09-21 10:36:44,Open
+INC_1950,CUST_156,high,20,False,Unauthorized Access,2025-09-11 10:36:44,In Progress
+INC_1951,CUST_192,medium,60,True,Unauthorized Access,2025-09-16 10:36:44,In Progress
+INC_1952,CUST_141,high,20,False,Phishing,2025-10-11 10:36:44,Open
+INC_1953,CUST_348,medium,60,True,Data Breach,2025-10-12 10:36:44,Open
+INC_1954,CUST_401,medium,60,True,DDoS,2025-08-23 10:36:44,In Progress
+INC_1955,CUST_237,low,,,Unauthorized Access,2025-08-26 10:36:44,Resolved
+INC_1956,CUST_116,low,,,Malware,2025-10-05 10:36:44,In Progress
+INC_1957,CUST_148,low,,,Unauthorized Access,2025-09-18 10:36:44,Closed
+INC_1958,CUST_278,medium,60,False,DDoS,2025-09-16 10:36:44,Open
+INC_1959,CUST_164,low,,,Data Breach,2025-09-20 10:36:44,In Progress
+INC_1960,CUST_108,medium,60,False,Unauthorized Access,2025-08-18 10:36:44,In Progress
+INC_1961,CUST_207,medium,60,False,Malware,2025-08-23 10:36:44,Open
+INC_1962,CUST_043,medium,60,False,Phishing,2025-09-09 10:36:44,Resolved
+INC_1963,CUST_385,low,,,Data Breach,2025-09-19 10:36:44,Closed
+INC_1964,CUST_320,low,,,Unauthorized Access,2025-10-25 10:36:44,Resolved
+INC_1965,CUST_392,medium,60,False,Malware,2025-10-10 10:36:44,Closed
+INC_1966,CUST_472,critical,5,False,Unauthorized Access,2025-10-30 10:36:44,Closed
+INC_1967,CUST_050,medium,60,True,DDoS,2025-10-19 10:36:44,In Progress
+INC_1968,CUST_092,critical,5,False,Phishing,2025-09-25 10:36:44,Closed
+INC_1969,CUST_112,low,,,DDoS,2025-08-31 10:36:44,Resolved
+INC_1970,CUST_186,low,,,Malware,2025-08-22 10:36:44,Resolved
+INC_1971,CUST_116,medium,60,False,DDoS,2025-09-13 10:36:44,Closed
+INC_1972,CUST_474,low,,,DDoS,2025-10-26 10:36:44,In Progress
+INC_1973,CUST_273,medium,60,True,Data Breach,2025-09-17 10:36:44,In Progress
+INC_1974,CUST_197,medium,60,True,Unauthorized Access,2025-08-24 10:36:44,Closed
+INC_1975,CUST_097,critical,5,False,Malware,2025-08-28 10:36:44,In Progress
+INC_1976,CUST_318,low,,,Unauthorized Access,2025-11-05 10:36:44,Closed
+INC_1977,CUST_313,high,20,False,Phishing,2025-10-25 10:36:44,Closed
+INC_1978,CUST_012,medium,60,False,Unauthorized Access,2025-08-24 10:36:44,Closed
+INC_1979,CUST_436,medium,60,True,Phishing,2025-09-18 10:36:44,Resolved
+INC_1980,CUST_090,medium,60,True,DDoS,2025-10-21 10:36:44,Resolved
+INC_1981,CUST_034,low,,,Malware,2025-10-20 10:36:44,Closed
+INC_1982,CUST_124,medium,60,False,Phishing,2025-09-17 10:36:44,Open
+INC_1983,CUST_447,high,20,False,Phishing,2025-10-15 10:36:44,Closed
+INC_1984,CUST_004,medium,60,True,Malware,2025-08-20 10:36:44,Closed
+INC_1985,CUST_442,high,20,False,DDoS,2025-11-06 10:36:44,Closed
+INC_1986,CUST_367,critical,5,True,Unauthorized Access,2025-08-25 10:36:44,Open
+INC_1987,CUST_150,medium,60,True,DDoS,2025-11-10 10:36:44,Resolved
+INC_1988,CUST_475,low,,,Unauthorized Access,2025-08-27 10:36:44,Closed
+INC_1989,CUST_054,medium,60,True,Phishing,2025-10-13 10:36:44,Open
+INC_1990,CUST_212,medium,60,False,Data Breach,2025-10-28 10:36:44,In Progress
+INC_1991,CUST_136,high,20,True,Malware,2025-10-04 10:36:44,Open
+INC_1992,CUST_386,medium,60,False,Phishing,2025-10-13 10:36:44,Resolved
+INC_1993,CUST_228,low,,,Data Breach,2025-09-19 10:36:44,Resolved
+INC_1994,CUST_390,medium,60,True,Phishing,2025-10-28 10:36:44,Resolved
+INC_1995,CUST_451,low,,,Data Breach,2025-09-04 10:36:44,Resolved
+INC_1996,CUST_484,medium,60,False,Phishing,2025-09-04 10:36:44,Resolved
+INC_1997,CUST_345,medium,60,False,Data Breach,2025-10-27 10:36:44,In Progress
+INC_1998,CUST_150,low,,,DDoS,2025-10-14 10:36:44,In Progress
+INC_1999,CUST_109,low,,,Unauthorized Access,2025-10-08 10:36:44,In Progress
+INC_2000,CUST_187,medium,60,False,Unauthorized Access,2025-09-10 10:36:44,Closed
+INC_2001,CUST_498,medium,60,True,Data Breach,2025-08-25 10:36:44,In Progress
+INC_2002,CUST_268,medium,60,False,Data Breach,2025-09-28 10:36:44,Closed
+INC_2003,CUST_090,medium,60,False,DDoS,2025-09-28 10:36:44,Open
+INC_2004,CUST_176,medium,60,True,Phishing,2025-10-07 10:36:44,In Progress
+INC_2005,CUST_143,low,,,Unauthorized Access,2025-10-31 10:36:44,In Progress
+INC_2006,CUST_236,low,,,Unauthorized Access,2025-08-26 10:36:44,Open
+INC_2007,CUST_380,high,20,True,Phishing,2025-09-30 10:36:44,Open
+INC_2008,CUST_051,low,,,Data Breach,2025-09-12 10:36:44,Open
+INC_2009,CUST_493,low,,,Unauthorized Access,2025-09-08 10:36:44,Open
+INC_2010,CUST_229,critical,5,True,Unauthorized Access,2025-09-10 10:36:44,In Progress
+INC_2011,CUST_409,low,,,Phishing,2025-08-19 10:36:44,In Progress
+INC_2012,CUST_368,low,,,DDoS,2025-10-24 10:36:44,Open
+INC_2013,CUST_283,critical,5,False,Data Breach,2025-11-04 10:36:44,In Progress
+INC_2014,CUST_464,medium,60,True,Phishing,2025-09-10 10:36:44,Resolved
+INC_2015,CUST_117,low,,,Phishing,2025-09-02 10:36:44,Closed
+INC_2016,CUST_164,medium,60,True,Malware,2025-10-21 10:36:44,Closed
+INC_2017,CUST_043,low,,,DDoS,2025-10-21 10:36:44,Open
+INC_2018,CUST_307,medium,60,True,DDoS,2025-10-08 10:36:44,Open
+INC_2019,CUST_369,medium,60,True,DDoS,2025-08-25 10:36:44,In Progress
+INC_2020,CUST_001,medium,60,False,Data Breach,2025-09-24 10:36:44,Resolved
+INC_2021,CUST_169,medium,60,True,Unauthorized Access,2025-09-15 10:36:44,Resolved
+INC_2022,CUST_136,critical,5,False,Unauthorized Access,2025-10-15 10:36:44,Resolved
+INC_2023,CUST_288,low,,,Unauthorized Access,2025-10-07 10:36:44,Closed
+INC_2024,CUST_388,low,,,Phishing,2025-09-14 10:36:44,Open
+INC_2025,CUST_499,low,,,Unauthorized Access,2025-09-16 10:36:44,Closed
+INC_2026,CUST_034,low,,,DDoS,2025-08-21 10:36:44,Resolved
+INC_2027,CUST_442,low,,,DDoS,2025-10-03 10:36:44,In Progress
+INC_2028,CUST_056,low,,,Phishing,2025-10-19 10:36:44,Resolved
+INC_2029,CUST_393,medium,60,False,Unauthorized Access,2025-09-16 10:36:44,Open
+INC_2030,CUST_293,medium,60,True,Phishing,2025-10-05 10:36:44,In Progress
+INC_2031,CUST_203,low,,,Phishing,2025-10-26 10:36:44,In Progress
+INC_2032,CUST_265,low,,,DDoS,2025-08-24 10:36:44,Closed
+INC_2033,CUST_118,high,20,False,Data Breach,2025-09-16 10:36:44,Resolved
+INC_2034,CUST_157,low,,,Data Breach,2025-10-01 10:36:44,Resolved
+INC_2035,CUST_289,medium,60,False,DDoS,2025-09-23 10:36:44,Open
+INC_2036,CUST_029,high,20,False,DDoS,2025-10-01 10:36:44,In Progress
+INC_2037,CUST_010,critical,5,False,Phishing,2025-10-20 10:36:44,Resolved
+INC_2038,CUST_192,low,,,Malware,2025-10-05 10:36:44,Closed
+INC_2039,CUST_286,high,20,False,Unauthorized Access,2025-10-21 10:36:44,In Progress
+INC_2040,CUST_439,medium,60,False,Data Breach,2025-11-02 10:36:44,Open
+INC_2041,CUST_167,low,,,DDoS,2025-09-01 10:36:44,Closed
+INC_2042,CUST_400,critical,5,True,DDoS,2025-08-19 10:36:44,Closed
+INC_2043,CUST_311,low,,,Unauthorized Access,2025-09-28 10:36:44,Open
+INC_2044,CUST_328,low,,,Data Breach,2025-10-11 10:36:44,Resolved
+INC_2045,CUST_057,medium,60,False,DDoS,2025-10-29 10:36:44,Open
+INC_2046,CUST_397,low,,,DDoS,2025-10-27 10:36:44,In Progress
+INC_2047,CUST_288,medium,60,True,Malware,2025-09-20 10:36:44,In Progress
+INC_2048,CUST_280,low,,,Data Breach,2025-09-05 10:36:44,Resolved
+INC_2049,CUST_396,medium,60,True,Malware,2025-08-18 10:36:44,Resolved
+INC_2050,CUST_464,critical,5,False,DDoS,2025-10-19 10:36:44,In Progress
+INC_2051,CUST_117,low,,,DDoS,2025-09-30 10:36:44,Resolved
+INC_2052,CUST_498,low,,,Data Breach,2025-10-14 10:36:44,Open
+INC_2053,CUST_329,low,,,DDoS,2025-09-22 10:36:44,Closed
+INC_2054,CUST_426,high,20,True,Unauthorized Access,2025-11-08 10:36:44,Resolved
+INC_2055,CUST_224,low,,,Malware,2025-09-12 10:36:44,Resolved
+INC_2056,CUST_145,high,20,False,Unauthorized Access,2025-10-04 10:36:44,Open
+INC_2057,CUST_499,medium,60,True,Unauthorized Access,2025-11-01 10:36:44,In Progress
+INC_2058,CUST_294,high,20,True,DDoS,2025-08-29 10:36:44,In Progress
+INC_2059,CUST_419,high,20,False,Data Breach,2025-09-17 10:36:44,Closed
+INC_2060,CUST_334,high,20,True,Data Breach,2025-11-06 10:36:44,In Progress
+INC_2061,CUST_233,medium,60,False,Unauthorized Access,2025-08-19 10:36:44,Closed
+INC_2062,CUST_295,high,20,False,Data Breach,2025-11-15 10:36:44,Closed
+INC_2063,CUST_116,low,,,Data Breach,2025-09-22 10:36:44,In Progress
+INC_2064,CUST_115,low,,,Unauthorized Access,2025-08-21 10:36:44,Resolved
+INC_2065,CUST_395,medium,60,True,Unauthorized Access,2025-10-01 10:36:44,In Progress
+INC_2066,CUST_076,low,,,Phishing,2025-10-07 10:36:44,In Progress
+INC_2067,CUST_274,low,,,Unauthorized Access,2025-11-10 10:36:44,In Progress
+INC_2068,CUST_168,medium,60,True,Data Breach,2025-10-17 10:36:44,In Progress
+INC_2069,CUST_084,low,,,DDoS,2025-10-12 10:36:44,In Progress
+INC_2070,CUST_396,high,20,True,Data Breach,2025-11-12 10:36:44,In Progress
+INC_2071,CUST_064,high,20,False,DDoS,2025-11-12 10:36:44,Closed
+INC_2072,CUST_195,high,20,True,Malware,2025-09-19 10:36:44,Closed
+INC_2073,CUST_106,low,,,DDoS,2025-09-01 10:36:44,Open
+INC_2074,CUST_090,low,,,Unauthorized Access,2025-09-02 10:36:44,Open
+INC_2075,CUST_108,low,,,Malware,2025-09-14 10:36:44,Resolved
+INC_2076,CUST_213,medium,60,False,Phishing,2025-10-20 10:36:44,Open
+INC_2077,CUST_245,high,20,False,Data Breach,2025-09-11 10:36:44,Open
+INC_2078,CUST_004,high,20,True,DDoS,2025-09-23 10:36:44,Closed
+INC_2079,CUST_182,critical,5,True,Data Breach,2025-10-07 10:36:44,Open
+INC_2080,CUST_118,medium,60,False,Malware,2025-08-24 10:36:44,Closed
+INC_2081,CUST_488,high,20,True,Data Breach,2025-08-25 10:36:44,Resolved
+INC_2082,CUST_434,low,,,Phishing,2025-10-24 10:36:44,Open
+INC_2083,CUST_080,low,,,Phishing,2025-08-19 10:36:44,Closed
+INC_2084,CUST_306,high,20,True,Phishing,2025-08-23 10:36:44,Resolved
+INC_2085,CUST_213,low,,,Phishing,2025-09-23 10:36:44,In Progress
+INC_2086,CUST_266,low,,,Phishing,2025-08-22 10:36:44,In Progress
+INC_2087,CUST_474,low,,,Malware,2025-10-26 10:36:44,Open
+INC_2088,CUST_207,medium,60,False,Data Breach,2025-10-13 10:36:44,Resolved
+INC_2089,CUST_014,low,,,Data Breach,2025-11-12 10:36:44,Closed
+INC_2090,CUST_447,low,,,Phishing,2025-09-24 10:36:44,Open
+INC_2091,CUST_081,medium,60,True,Malware,2025-11-14 10:36:44,Resolved
+INC_2092,CUST_215,high,20,True,Malware,2025-11-01 10:36:44,Closed
+INC_2093,CUST_439,medium,60,False,Unauthorized Access,2025-09-20 10:36:44,In Progress
+INC_2094,CUST_160,high,20,True,DDoS,2025-09-16 10:36:44,Resolved
+INC_2095,CUST_337,low,,,Unauthorized Access,2025-09-30 10:36:44,Open
+INC_2096,CUST_065,medium,60,True,Phishing,2025-09-11 10:36:44,In Progress
+INC_2097,CUST_116,high,20,True,Malware,2025-11-03 10:36:44,Closed
+INC_2098,CUST_315,low,,,Malware,2025-10-15 10:36:44,In Progress
+INC_2099,CUST_374,low,,,Data Breach,2025-10-04 10:36:44,Closed
+INC_2100,CUST_390,medium,60,False,Phishing,2025-10-05 10:36:44,Closed
+INC_2101,CUST_075,low,,,Unauthorized Access,2025-11-11 10:36:44,Closed
+INC_2102,CUST_094,medium,60,True,Malware,2025-10-28 10:36:44,Open
+INC_2103,CUST_083,high,20,True,DDoS,2025-10-05 10:36:44,Open
+INC_2104,CUST_440,medium,60,False,Data Breach,2025-10-22 10:36:44,Closed
+INC_2105,CUST_233,medium,60,True,Unauthorized Access,2025-10-13 10:36:44,Closed
+INC_2106,CUST_144,low,,,Unauthorized Access,2025-10-03 10:36:44,Resolved
+INC_2107,CUST_131,critical,5,True,Data Breach,2025-09-14 10:36:44,Closed
+INC_2108,CUST_391,medium,60,False,Unauthorized Access,2025-10-13 10:36:44,Open
+INC_2109,CUST_329,high,20,False,Malware,2025-09-07 10:36:44,In Progress
+INC_2110,CUST_500,low,,,DDoS,2025-11-01 10:36:44,Open
+INC_2111,CUST_065,medium,60,False,Data Breach,2025-10-07 10:36:44,Closed
+INC_2112,CUST_495,medium,60,True,Unauthorized Access,2025-10-23 10:36:44,Closed
+INC_2113,CUST_073,high,20,True,Phishing,2025-11-13 10:36:44,In Progress
+INC_2114,CUST_270,medium,60,False,Unauthorized Access,2025-10-27 10:36:44,Open
+INC_2115,CUST_277,high,20,False,Phishing,2025-08-19 10:36:44,In Progress
+INC_2116,CUST_052,low,,,Phishing,2025-08-26 10:36:44,In Progress
+INC_2117,CUST_277,high,20,True,Unauthorized Access,2025-09-22 10:36:44,In Progress
+INC_2118,CUST_492,low,,,DDoS,2025-10-09 10:36:44,Closed
+INC_2119,CUST_458,high,20,False,DDoS,2025-09-17 10:36:44,Resolved
+INC_2120,CUST_481,low,,,Data Breach,2025-11-15 10:36:44,Open
+INC_2121,CUST_285,low,,,Data Breach,2025-10-20 10:36:44,Open
+INC_2122,CUST_211,low,,,Phishing,2025-10-28 10:36:44,Closed
+INC_2123,CUST_201,high,20,True,Phishing,2025-08-25 10:36:44,Closed
+INC_2124,CUST_100,low,,,Phishing,2025-10-02 10:36:44,Open
+INC_2125,CUST_486,low,,,Data Breach,2025-10-29 10:36:44,Closed
+INC_2126,CUST_379,low,,,Unauthorized Access,2025-08-21 10:36:44,In Progress
+INC_2127,CUST_073,low,,,Data Breach,2025-10-05 10:36:44,Open
+INC_2128,CUST_269,medium,60,False,Malware,2025-08-27 10:36:44,Closed
+INC_2129,CUST_225,low,,,Data Breach,2025-10-31 10:36:44,Closed
+INC_2130,CUST_451,low,,,Data Breach,2025-10-12 10:36:44,Open
+INC_2131,CUST_457,low,,,Data Breach,2025-11-01 10:36:44,Closed
+INC_2132,CUST_449,medium,60,True,DDoS,2025-10-09 10:36:44,In Progress
+INC_2133,CUST_375,medium,60,True,Unauthorized Access,2025-08-31 10:36:44,Resolved
+INC_2134,CUST_436,low,,,DDoS,2025-08-18 10:36:44,Closed
+INC_2135,CUST_443,medium,60,True,Data Breach,2025-10-11 10:36:44,Resolved
+INC_2136,CUST_215,medium,60,False,Data Breach,2025-10-01 10:36:44,Open
+INC_2137,CUST_366,low,,,DDoS,2025-10-15 10:36:44,Closed
+INC_2138,CUST_223,low,,,Data Breach,2025-11-02 10:36:44,Closed
+INC_2139,CUST_311,medium,60,False,Unauthorized Access,2025-08-22 10:36:44,Closed
+INC_2140,CUST_056,low,,,Unauthorized Access,2025-08-25 10:36:44,Open
+INC_2141,CUST_495,medium,60,True,Phishing,2025-09-30 10:36:44,Closed
+INC_2142,CUST_178,high,20,True,DDoS,2025-09-18 10:36:44,Open
+INC_2143,CUST_343,high,20,False,Malware,2025-10-19 10:36:44,In Progress
+INC_2144,CUST_485,low,,,Data Breach,2025-11-03 10:36:44,Resolved
+INC_2145,CUST_374,high,20,True,DDoS,2025-10-14 10:36:44,Resolved
+INC_2146,CUST_181,high,20,False,Phishing,2025-10-11 10:36:44,Closed
+INC_2147,CUST_235,high,20,False,Data Breach,2025-10-26 10:36:44,In Progress
+INC_2148,CUST_380,medium,60,False,DDoS,2025-10-02 10:36:44,In Progress
+INC_2149,CUST_171,high,20,True,Data Breach,2025-08-29 10:36:44,In Progress
+INC_2150,CUST_157,low,,,Malware,2025-11-04 10:36:44,Closed
+INC_2151,CUST_255,low,,,Phishing,2025-09-28 10:36:44,In Progress
+INC_2152,CUST_363,low,,,DDoS,2025-10-02 10:36:44,Resolved
+INC_2153,CUST_387,high,20,False,Phishing,2025-10-25 10:36:44,Resolved
+INC_2154,CUST_098,low,,,Unauthorized Access,2025-10-07 10:36:44,Resolved
+INC_2155,CUST_204,high,20,True,Unauthorized Access,2025-08-18 10:36:44,Open
+INC_2156,CUST_047,low,,,Unauthorized Access,2025-08-23 10:36:44,Closed
+INC_2157,CUST_367,high,20,True,Data Breach,2025-09-08 10:36:44,Resolved
+INC_2158,CUST_472,low,,,DDoS,2025-11-02 10:36:44,Resolved
+INC_2159,CUST_166,medium,60,True,Phishing,2025-09-20 10:36:44,Open
+INC_2160,CUST_080,low,,,Data Breach,2025-11-12 10:36:44,Closed
+INC_2161,CUST_356,low,,,Phishing,2025-10-15 10:36:44,In Progress
+INC_2162,CUST_075,medium,60,True,Malware,2025-10-09 10:36:44,In Progress
+INC_2163,CUST_430,critical,5,False,DDoS,2025-09-23 10:36:44,In Progress
+INC_2164,CUST_322,medium,60,False,Unauthorized Access,2025-09-27 10:36:44,Resolved
+INC_2165,CUST_412,medium,60,False,Data Breach,2025-09-21 10:36:44,Resolved
+INC_2166,CUST_474,low,,,Phishing,2025-10-06 10:36:44,Resolved
+INC_2167,CUST_355,low,,,Phishing,2025-10-05 10:36:44,In Progress
+INC_2168,CUST_050,high,20,True,Unauthorized Access,2025-09-16 10:36:44,Resolved
+INC_2169,CUST_424,low,,,Unauthorized Access,2025-10-17 10:36:44,Resolved
+INC_2170,CUST_239,medium,60,True,Data Breach,2025-09-03 10:36:44,Open
+INC_2171,CUST_255,medium,60,False,Unauthorized Access,2025-09-21 10:36:44,Open
+INC_2172,CUST_012,critical,5,True,Unauthorized Access,2025-09-19 10:36:44,Open
+INC_2173,CUST_445,high,20,False,Phishing,2025-11-07 10:36:44,Resolved
+INC_2174,CUST_369,low,,,Data Breach,2025-09-04 10:36:44,Resolved
+INC_2175,CUST_366,high,20,True,Unauthorized Access,2025-09-14 10:36:44,Closed
+INC_2176,CUST_203,medium,60,True,Phishing,2025-08-23 10:36:44,Closed
+INC_2177,CUST_357,low,,,Data Breach,2025-10-04 10:36:44,In Progress
+INC_2178,CUST_074,medium,60,False,Unauthorized Access,2025-08-20 10:36:44,Resolved
+INC_2179,CUST_365,high,20,True,Data Breach,2025-09-01 10:36:44,Open
+INC_2180,CUST_315,high,20,True,Malware,2025-09-09 10:36:44,Closed
+INC_2181,CUST_128,medium,60,True,Unauthorized Access,2025-10-24 10:36:44,In Progress
+INC_2182,CUST_476,low,,,DDoS,2025-10-31 10:36:44,Resolved
+INC_2183,CUST_485,low,,,DDoS,2025-09-03 10:36:44,Closed
+INC_2184,CUST_357,high,20,False,DDoS,2025-10-29 10:36:44,Resolved
+INC_2185,CUST_160,low,,,Data Breach,2025-10-24 10:36:44,Closed
+INC_2186,CUST_047,high,20,False,Phishing,2025-10-13 10:36:44,Closed
+INC_2187,CUST_180,low,,,Malware,2025-10-03 10:36:44,Closed
+INC_2188,CUST_011,high,20,False,Unauthorized Access,2025-11-08 10:36:44,Open
+INC_2189,CUST_087,medium,60,True,Malware,2025-09-09 10:36:44,Open
+INC_2190,CUST_197,low,,,Data Breach,2025-11-12 10:36:44,Resolved
+INC_2191,CUST_097,high,20,True,Unauthorized Access,2025-09-13 10:36:44,In Progress
+INC_2192,CUST_050,medium,60,False,Phishing,2025-08-31 10:36:44,Resolved
+INC_2193,CUST_362,medium,60,False,Phishing,2025-09-12 10:36:44,In Progress
+INC_2194,CUST_016,high,20,False,Unauthorized Access,2025-11-11 10:36:44,Open
+INC_2195,CUST_479,high,20,False,Data Breach,2025-11-02 10:36:44,Resolved
+INC_2196,CUST_461,medium,60,True,Malware,2025-09-13 10:36:44,In Progress
+INC_2197,CUST_481,medium,60,False,DDoS,2025-08-23 10:36:44,Closed
+INC_2198,CUST_343,high,20,True,Unauthorized Access,2025-11-07 10:36:44,Resolved
+INC_2199,CUST_073,low,,,Phishing,2025-09-14 10:36:44,In Progress
+INC_2200,CUST_184,high,20,True,Malware,2025-09-15 10:36:44,Open
+INC_2201,CUST_340,high,20,True,Data Breach,2025-09-09 10:36:44,Closed
+INC_2202,CUST_145,high,20,True,Data Breach,2025-10-29 10:36:44,Closed
+INC_2203,CUST_484,high,20,False,DDoS,2025-09-25 10:36:44,Closed
+INC_2204,CUST_252,low,,,Malware,2025-09-14 10:36:44,Open
+INC_2205,CUST_248,low,,,Unauthorized Access,2025-09-27 10:36:44,Resolved
+INC_2206,CUST_395,medium,60,False,Malware,2025-09-09 10:36:44,Open
+INC_2207,CUST_046,low,,,Data Breach,2025-09-01 10:36:44,In Progress
+INC_2208,CUST_274,medium,60,True,Malware,2025-11-09 10:36:44,Resolved
+INC_2209,CUST_181,low,,,Unauthorized Access,2025-11-09 10:36:44,Closed
+INC_2210,CUST_261,medium,60,True,Data Breach,2025-08-20 10:36:44,Open
+INC_2211,CUST_235,high,20,True,Phishing,2025-10-18 10:36:44,Resolved
+INC_2212,CUST_105,low,,,DDoS,2025-10-20 10:36:44,Open
+INC_2213,CUST_196,low,,,Phishing,2025-08-19 10:36:44,Open
+INC_2214,CUST_464,high,20,True,Phishing,2025-08-23 10:36:44,Resolved
+INC_2215,CUST_424,critical,5,False,Phishing,2025-09-29 10:36:44,Closed
+INC_2216,CUST_073,low,,,Unauthorized Access,2025-10-15 10:36:44,Resolved
+INC_2217,CUST_349,high,20,False,Unauthorized Access,2025-08-27 10:36:44,Resolved
+INC_2218,CUST_450,low,,,Data Breach,2025-09-24 10:36:44,Open
+INC_2219,CUST_194,medium,60,False,Data Breach,2025-10-22 10:36:44,Closed
+INC_2220,CUST_006,low,,,DDoS,2025-11-10 10:36:44,Closed
+INC_2221,CUST_354,low,,,Phishing,2025-11-06 10:36:44,Open
+INC_2222,CUST_462,low,,,DDoS,2025-11-07 10:36:44,In Progress
+INC_2223,CUST_484,medium,60,True,Data Breach,2025-08-20 10:36:44,Closed
+INC_2224,CUST_147,low,,,Data Breach,2025-09-04 10:36:44,Resolved
+INC_2225,CUST_062,low,,,DDoS,2025-10-21 10:36:44,Open
+INC_2226,CUST_103,medium,60,False,Phishing,2025-09-10 10:36:44,Open
+INC_2227,CUST_058,medium,60,True,Phishing,2025-11-11 10:36:44,Closed
+INC_2228,CUST_391,low,,,Malware,2025-10-16 10:36:44,Closed
+INC_2229,CUST_379,medium,60,False,Phishing,2025-09-20 10:36:44,Open
+INC_2230,CUST_394,medium,60,True,Phishing,2025-10-06 10:36:44,Open
+INC_2231,CUST_175,medium,60,True,Data Breach,2025-10-24 10:36:44,Resolved
+INC_2232,CUST_201,medium,60,True,DDoS,2025-10-27 10:36:44,Resolved
+INC_2233,CUST_095,medium,60,True,Phishing,2025-10-04 10:36:44,Closed
+INC_2234,CUST_226,low,,,Malware,2025-10-15 10:36:44,Resolved
+INC_2235,CUST_281,medium,60,True,Data Breach,2025-11-08 10:36:44,Open
+INC_2236,CUST_266,medium,60,False,Unauthorized Access,2025-11-13 10:36:44,In Progress
+INC_2237,CUST_190,medium,60,False,Malware,2025-10-28 10:36:44,Open
+INC_2238,CUST_196,medium,60,True,Malware,2025-09-04 10:36:44,Open
+INC_2239,CUST_439,high,20,True,Phishing,2025-08-27 10:36:44,Open
+INC_2240,CUST_011,medium,60,True,DDoS,2025-09-03 10:36:44,Closed
+INC_2241,CUST_316,low,,,DDoS,2025-09-19 10:36:44,In Progress
+INC_2242,CUST_177,medium,60,False,DDoS,2025-09-15 10:36:44,In Progress
+INC_2243,CUST_115,medium,60,False,Phishing,2025-10-10 10:36:44,In Progress
+INC_2244,CUST_132,critical,5,False,Phishing,2025-09-29 10:36:44,Open
+INC_2245,CUST_074,medium,60,False,Malware,2025-09-18 10:36:44,Closed
+INC_2246,CUST_206,medium,60,True,Phishing,2025-08-27 10:36:44,Resolved
+INC_2247,CUST_208,low,,,DDoS,2025-09-23 10:36:44,Closed
+INC_2248,CUST_488,medium,60,False,DDoS,2025-09-17 10:36:44,Resolved
+INC_2249,CUST_341,low,,,DDoS,2025-10-29 10:36:44,In Progress
+INC_2250,CUST_365,low,,,Phishing,2025-09-04 10:36:44,In Progress
+INC_2251,CUST_461,high,20,False,DDoS,2025-09-06 10:36:44,Closed
+INC_2252,CUST_158,low,,,Phishing,2025-09-26 10:36:44,In Progress
+INC_2253,CUST_154,medium,60,False,Unauthorized Access,2025-09-24 10:36:44,Open
+INC_2254,CUST_173,low,,,Unauthorized Access,2025-10-26 10:36:44,Closed
+INC_2255,CUST_093,high,20,False,DDoS,2025-11-12 10:36:44,In Progress
+INC_2256,CUST_342,low,,,Phishing,2025-10-12 10:36:44,In Progress
+INC_2257,CUST_078,medium,60,True,DDoS,2025-10-06 10:36:44,Closed
+INC_2258,CUST_379,low,,,Phishing,2025-09-14 10:36:44,Resolved
+INC_2259,CUST_347,medium,60,True,Malware,2025-11-07 10:36:44,Open
+INC_2260,CUST_472,low,,,Malware,2025-10-04 10:36:44,Open
+INC_2261,CUST_462,low,,,Data Breach,2025-10-21 10:36:44,In Progress
+INC_2262,CUST_431,critical,5,False,Malware,2025-09-30 10:36:44,Resolved
+INC_2263,CUST_244,medium,60,False,Data Breach,2025-10-24 10:36:44,Resolved
+INC_2264,CUST_411,low,,,Unauthorized Access,2025-10-26 10:36:44,In Progress
+INC_2265,CUST_061,low,,,Unauthorized Access,2025-08-28 10:36:44,Closed
+INC_2266,CUST_283,low,,,DDoS,2025-08-18 10:36:44,Resolved
+INC_2267,CUST_500,medium,60,True,Malware,2025-08-23 10:36:44,In Progress
+INC_2268,CUST_387,high,20,True,Malware,2025-10-29 10:36:44,Closed
+INC_2269,CUST_088,medium,60,False,Malware,2025-09-01 10:36:44,Resolved
+INC_2270,CUST_230,high,20,True,Malware,2025-09-14 10:36:44,Resolved
+INC_2271,CUST_454,high,20,True,Data Breach,2025-11-07 10:36:44,In Progress
+INC_2272,CUST_154,low,,,DDoS,2025-10-27 10:36:44,Open
+INC_2273,CUST_493,critical,5,True,Data Breach,2025-10-09 10:36:44,Open
+INC_2274,CUST_410,low,,,DDoS,2025-11-13 10:36:44,Closed
+INC_2275,CUST_436,critical,5,False,Data Breach,2025-10-22 10:36:44,Resolved
+INC_2276,CUST_251,critical,5,True,Data Breach,2025-10-25 10:36:44,Open
+INC_2277,CUST_135,medium,60,False,DDoS,2025-09-21 10:36:44,Resolved
+INC_2278,CUST_384,low,,,DDoS,2025-08-23 10:36:44,Open
+INC_2279,CUST_017,low,,,Phishing,2025-08-28 10:36:44,Open
+INC_2280,CUST_155,medium,60,True,DDoS,2025-10-21 10:36:44,Closed
+INC_2281,CUST_019,low,,,Data Breach,2025-08-18 10:36:44,Closed
+INC_2282,CUST_412,low,,,Unauthorized Access,2025-09-22 10:36:44,Closed
+INC_2283,CUST_483,medium,60,True,Data Breach,2025-10-13 10:36:44,In Progress
+INC_2284,CUST_043,medium,60,False,DDoS,2025-08-22 10:36:44,Open
+INC_2285,CUST_442,high,20,False,Unauthorized Access,2025-11-01 10:36:44,Open
+INC_2286,CUST_125,high,20,True,Malware,2025-10-24 10:36:44,Resolved
+INC_2287,CUST_293,low,,,Phishing,2025-11-04 10:36:44,Open
+INC_2288,CUST_007,low,,,Data Breach,2025-08-28 10:36:44,Open
+INC_2289,CUST_321,low,,,DDoS,2025-08-27 10:36:44,Resolved
+INC_2290,CUST_314,high,20,True,Malware,2025-11-08 10:36:44,In Progress
+INC_2291,CUST_382,low,,,Malware,2025-10-23 10:36:44,Open
+INC_2292,CUST_002,medium,60,True,DDoS,2025-08-20 10:36:44,In Progress
+INC_2293,CUST_368,low,,,Malware,2025-09-27 10:36:44,Resolved
+INC_2294,CUST_244,medium,60,True,Phishing,2025-09-13 10:36:44,In Progress
+INC_2295,CUST_227,medium,60,True,Phishing,2025-09-12 10:36:44,Open
+INC_2296,CUST_499,low,,,Phishing,2025-10-13 10:36:44,In Progress
+INC_2297,CUST_359,high,20,True,Malware,2025-08-18 10:36:44,Open
+INC_2298,CUST_435,low,,,Data Breach,2025-10-17 10:36:44,In Progress
+INC_2299,CUST_429,low,,,Unauthorized Access,2025-10-09 10:36:44,Closed
+INC_2300,CUST_112,medium,60,False,DDoS,2025-10-14 10:36:44,Resolved
+INC_2301,CUST_336,medium,60,True,Data Breach,2025-10-10 10:36:44,In Progress
+INC_2302,CUST_033,low,,,DDoS,2025-10-02 10:36:44,Open
+INC_2303,CUST_041,medium,60,False,DDoS,2025-11-14 10:36:44,Open
+INC_2304,CUST_395,low,,,Data Breach,2025-08-18 10:36:44,Open
+INC_2305,CUST_231,medium,60,False,Data Breach,2025-09-15 10:36:44,Resolved
+INC_2306,CUST_161,medium,60,False,Unauthorized Access,2025-10-22 10:36:44,In Progress
+INC_2307,CUST_354,medium,60,True,Data Breach,2025-09-24 10:36:44,Closed
+INC_2308,CUST_473,high,20,False,DDoS,2025-09-17 10:36:44,Closed
+INC_2309,CUST_378,medium,60,True,DDoS,2025-09-23 10:36:44,Open
+INC_2310,CUST_196,high,20,False,Phishing,2025-09-25 10:36:44,Resolved
+INC_2311,CUST_406,low,,,Phishing,2025-10-27 10:36:44,In Progress
+INC_2312,CUST_009,low,,,DDoS,2025-09-16 10:36:44,In Progress
+INC_2313,CUST_102,low,,,Malware,2025-09-13 10:36:44,Closed
+INC_2314,CUST_425,low,,,Unauthorized Access,2025-10-11 10:36:44,In Progress
+INC_2315,CUST_311,low,,,DDoS,2025-09-21 10:36:44,Closed
+INC_2316,CUST_250,high,20,True,Malware,2025-10-01 10:36:44,Open
+INC_2317,CUST_166,low,,,DDoS,2025-08-30 10:36:44,Resolved
+INC_2318,CUST_266,low,,,DDoS,2025-10-19 10:36:44,Closed
+INC_2319,CUST_324,medium,60,False,Phishing,2025-10-03 10:36:44,Resolved
+INC_2320,CUST_314,medium,60,False,Malware,2025-08-31 10:36:44,In Progress
+INC_2321,CUST_372,medium,60,False,Data Breach,2025-08-19 10:36:44,In Progress
+INC_2322,CUST_497,low,,,DDoS,2025-11-07 10:36:44,Open
+INC_2323,CUST_127,medium,60,False,Phishing,2025-10-05 10:36:44,In Progress
+INC_2324,CUST_325,high,20,False,DDoS,2025-10-11 10:36:44,Resolved
+INC_2325,CUST_358,medium,60,False,Phishing,2025-10-30 10:36:44,Resolved
+INC_2326,CUST_363,high,20,True,Unauthorized Access,2025-08-29 10:36:44,In Progress
+INC_2327,CUST_251,high,20,True,Unauthorized Access,2025-09-16 10:36:44,Open
+INC_2328,CUST_451,low,,,Malware,2025-09-27 10:36:44,In Progress
+INC_2329,CUST_271,medium,60,True,DDoS,2025-09-17 10:36:44,Resolved
+INC_2330,CUST_200,low,,,Phishing,2025-10-11 10:36:44,In Progress
+INC_2331,CUST_399,low,,,Malware,2025-09-16 10:36:44,In Progress
+INC_2332,CUST_002,low,,,Data Breach,2025-10-01 10:36:44,Closed
+INC_2333,CUST_490,medium,60,False,Data Breach,2025-09-14 10:36:44,Resolved
+INC_2334,CUST_422,medium,60,True,Phishing,2025-08-31 10:36:44,Open
+INC_2335,CUST_032,low,,,Phishing,2025-09-09 10:36:44,Resolved
+INC_2336,CUST_193,low,,,DDoS,2025-08-18 10:36:44,Open
+INC_2337,CUST_105,low,,,Phishing,2025-10-09 10:36:44,Open
+INC_2338,CUST_330,low,,,DDoS,2025-11-05 10:36:44,Resolved
+INC_2339,CUST_229,medium,60,True,DDoS,2025-09-05 10:36:44,In Progress
+INC_2340,CUST_056,medium,60,False,Data Breach,2025-09-18 10:36:44,Resolved
+INC_2341,CUST_311,low,,,DDoS,2025-10-10 10:36:44,In Progress
+INC_2342,CUST_490,medium,60,False,Malware,2025-10-31 10:36:44,Open
+INC_2343,CUST_189,high,20,False,Phishing,2025-10-06 10:36:44,Closed
+INC_2344,CUST_331,medium,60,False,Data Breach,2025-09-26 10:36:44,In Progress
+INC_2345,CUST_429,low,,,Malware,2025-08-25 10:36:44,Resolved
+INC_2346,CUST_388,low,,,Unauthorized Access,2025-11-10 10:36:44,Open
+INC_2347,CUST_255,medium,60,True,Malware,2025-11-07 10:36:44,In Progress
+INC_2348,CUST_268,low,,,Phishing,2025-10-16 10:36:44,Open
+INC_2349,CUST_174,high,20,False,Malware,2025-09-24 10:36:44,Resolved
+INC_2350,CUST_206,high,20,False,Unauthorized Access,2025-11-08 10:36:44,Closed
+INC_2351,CUST_356,medium,60,False,Phishing,2025-09-06 10:36:44,Open
+INC_2352,CUST_082,high,20,False,Malware,2025-10-13 10:36:44,In Progress
+INC_2353,CUST_331,low,,,Unauthorized Access,2025-11-12 10:36:44,Open
+INC_2354,CUST_246,medium,60,True,Malware,2025-11-10 10:36:44,In Progress
+INC_2355,CUST_489,high,20,True,Phishing,2025-09-12 10:36:44,Resolved
+INC_2356,CUST_388,low,,,DDoS,2025-11-13 10:36:44,Resolved
+INC_2357,CUST_282,medium,60,False,Malware,2025-11-10 10:36:44,In Progress
+INC_2358,CUST_118,medium,60,True,Unauthorized Access,2025-09-14 10:36:44,Open
+INC_2359,CUST_042,low,,,Unauthorized Access,2025-09-29 10:36:44,In Progress
+INC_2360,CUST_078,low,,,Unauthorized Access,2025-11-15 10:36:44,Resolved
+INC_2361,CUST_192,low,,,Unauthorized Access,2025-09-27 10:36:44,In Progress
+INC_2362,CUST_172,high,20,False,Phishing,2025-10-05 10:36:44,Resolved
+INC_2363,CUST_334,low,,,Data Breach,2025-09-19 10:36:44,Open
+INC_2364,CUST_105,medium,60,False,Phishing,2025-11-01 10:36:44,Open
+INC_2365,CUST_055,low,,,Phishing,2025-10-21 10:36:44,Resolved
+INC_2366,CUST_454,high,20,True,Unauthorized Access,2025-10-08 10:36:44,Resolved
+INC_2367,CUST_291,medium,60,True,Data Breach,2025-10-19 10:36:44,Open
+INC_2368,CUST_111,low,,,Phishing,2025-10-04 10:36:44,In Progress
+INC_2369,CUST_369,medium,60,False,Data Breach,2025-09-18 10:36:44,Closed
+INC_2370,CUST_472,medium,60,True,DDoS,2025-09-15 10:36:44,Resolved
+INC_2371,CUST_040,high,20,True,Unauthorized Access,2025-11-02 10:36:44,Open
+INC_2372,CUST_439,high,20,True,Malware,2025-10-11 10:36:44,Open
+INC_2373,CUST_196,low,,,Unauthorized Access,2025-10-26 10:36:44,Open
+INC_2374,CUST_111,low,,,Phishing,2025-09-22 10:36:44,Resolved
+INC_2375,CUST_214,low,,,Malware,2025-10-08 10:36:44,Open
+INC_2376,CUST_073,high,20,False,Data Breach,2025-09-18 10:36:44,In Progress
+INC_2377,CUST_326,low,,,Malware,2025-09-16 10:36:44,In Progress
+INC_2378,CUST_045,low,,,Phishing,2025-09-18 10:36:44,Resolved
+INC_2379,CUST_360,low,,,Unauthorized Access,2025-09-15 10:36:44,Open
+INC_2380,CUST_111,medium,60,True,Malware,2025-09-26 10:36:44,Closed
+INC_2381,CUST_255,low,,,DDoS,2025-09-17 10:36:44,Closed
+INC_2382,CUST_007,low,,,Unauthorized Access,2025-11-10 10:36:44,Open
+INC_2383,CUST_364,critical,5,False,Data Breach,2025-09-15 10:36:44,In Progress
+INC_2384,CUST_344,high,20,True,Data Breach,2025-10-22 10:36:44,In Progress
+INC_2385,CUST_333,medium,60,True,Malware,2025-09-04 10:36:44,Closed
+INC_2386,CUST_406,medium,60,False,Phishing,2025-11-09 10:36:44,Resolved
+INC_2387,CUST_307,low,,,Data Breach,2025-09-18 10:36:44,Closed
+INC_2388,CUST_338,medium,60,False,Data Breach,2025-09-06 10:36:44,In Progress
+INC_2389,CUST_328,low,,,Data Breach,2025-09-24 10:36:44,In Progress
+INC_2390,CUST_240,medium,60,False,Data Breach,2025-10-09 10:36:44,In Progress
+INC_2391,CUST_346,high,20,False,Unauthorized Access,2025-09-24 10:36:44,Resolved
+INC_2392,CUST_309,critical,5,True,Data Breach,2025-10-29 10:36:44,Resolved
+INC_2393,CUST_231,high,20,False,Unauthorized Access,2025-08-20 10:36:44,In Progress
+INC_2394,CUST_260,high,20,False,Phishing,2025-08-31 10:36:44,Resolved
+INC_2395,CUST_436,medium,60,True,Unauthorized Access,2025-10-29 10:36:44,In Progress
+INC_2396,CUST_042,high,20,False,DDoS,2025-11-01 10:36:44,Open
+INC_2397,CUST_131,medium,60,True,Unauthorized Access,2025-08-22 10:36:44,In Progress
+INC_2398,CUST_251,medium,60,False,Malware,2025-10-05 10:36:44,Resolved
+INC_2399,CUST_268,medium,60,False,DDoS,2025-10-18 10:36:44,Resolved
+INC_2400,CUST_116,medium,60,True,DDoS,2025-10-27 10:36:44,In Progress
+INC_2401,CUST_254,medium,60,True,Phishing,2025-11-06 10:36:44,Resolved
+INC_2402,CUST_208,low,,,Data Breach,2025-10-20 10:36:44,Open
+INC_2403,CUST_013,critical,5,True,Malware,2025-11-12 10:36:44,Resolved
+INC_2404,CUST_096,low,,,Malware,2025-11-07 10:36:44,Resolved
+INC_2405,CUST_217,medium,60,True,Data Breach,2025-08-23 10:36:44,Closed
+INC_2406,CUST_306,low,,,Data Breach,2025-10-03 10:36:44,Closed
+INC_2407,CUST_156,low,,,DDoS,2025-08-28 10:36:44,Closed
+INC_2408,CUST_348,medium,60,True,DDoS,2025-11-11 10:36:44,Closed
+INC_2409,CUST_016,low,,,Data Breach,2025-08-18 10:36:44,Closed
+INC_2410,CUST_386,high,20,False,Unauthorized Access,2025-11-03 10:36:44,Closed
+INC_2411,CUST_486,medium,60,False,DDoS,2025-11-12 10:36:44,Closed
+INC_2412,CUST_250,low,,,Malware,2025-09-16 10:36:44,Resolved
+INC_2413,CUST_126,medium,60,True,Malware,2025-09-18 10:36:44,Closed
+INC_2414,CUST_310,medium,60,True,DDoS,2025-11-11 10:36:44,Resolved
+INC_2415,CUST_398,low,,,DDoS,2025-10-19 10:36:44,Closed
+INC_2416,CUST_351,low,,,Phishing,2025-09-01 10:36:44,Open
+INC_2417,CUST_036,high,20,False,Unauthorized Access,2025-10-23 10:36:44,Closed
+INC_2418,CUST_290,low,,,DDoS,2025-09-08 10:36:44,Open
+INC_2419,CUST_061,low,,,Unauthorized Access,2025-09-14 10:36:44,In Progress
+INC_2420,CUST_438,high,20,False,Phishing,2025-11-10 10:36:44,Resolved
+INC_2421,CUST_057,medium,60,False,Phishing,2025-11-06 10:36:44,In Progress
+INC_2422,CUST_003,medium,60,True,DDoS,2025-08-24 10:36:44,In Progress
+INC_2423,CUST_155,high,20,True,Phishing,2025-10-18 10:36:44,Resolved
+INC_2424,CUST_118,high,20,False,DDoS,2025-08-18 10:36:44,Open
+INC_2425,CUST_072,low,,,Phishing,2025-08-30 10:36:44,Open
+INC_2426,CUST_407,medium,60,False,DDoS,2025-11-13 10:36:44,Resolved
+INC_2427,CUST_215,medium,60,True,DDoS,2025-11-11 10:36:44,Resolved
+INC_2428,CUST_035,medium,60,False,Malware,2025-11-04 10:36:44,Resolved
+INC_2429,CUST_244,high,20,False,DDoS,2025-09-12 10:36:44,In Progress
+INC_2430,CUST_062,high,20,True,Malware,2025-10-26 10:36:44,Open
+INC_2431,CUST_229,medium,60,True,Unauthorized Access,2025-09-29 10:36:44,Resolved
+INC_2432,CUST_299,medium,60,True,DDoS,2025-11-01 10:36:44,Open
+INC_2433,CUST_076,low,,,Data Breach,2025-10-29 10:36:44,Closed
+INC_2434,CUST_031,low,,,Unauthorized Access,2025-11-14 10:36:44,Open
+INC_2435,CUST_300,medium,60,False,Unauthorized Access,2025-11-14 10:36:44,Resolved
+INC_2436,CUST_164,high,20,True,Phishing,2025-09-15 10:36:44,In Progress
+INC_2437,CUST_244,low,,,DDoS,2025-09-15 10:36:44,In Progress
+INC_2438,CUST_199,low,,,Unauthorized Access,2025-08-26 10:36:44,Open
+INC_2439,CUST_066,low,,,Unauthorized Access,2025-10-28 10:36:44,Open
+INC_2440,CUST_290,medium,60,True,Phishing,2025-10-15 10:36:44,Closed
+INC_2441,CUST_481,high,20,False,Phishing,2025-10-13 10:36:44,Closed
+INC_2442,CUST_222,low,,,Malware,2025-10-05 10:36:44,Closed
+INC_2443,CUST_344,low,,,Data Breach,2025-09-26 10:36:44,Closed
+INC_2444,CUST_384,medium,60,True,Phishing,2025-09-15 10:36:44,Closed
+INC_2445,CUST_124,medium,60,True,Unauthorized Access,2025-09-10 10:36:44,Resolved
+INC_2446,CUST_222,medium,60,True,Unauthorized Access,2025-11-12 10:36:44,Closed
+INC_2447,CUST_044,low,,,Phishing,2025-08-25 10:36:44,Open
+INC_2448,CUST_202,low,,,Data Breach,2025-09-17 10:36:44,Resolved
+INC_2449,CUST_275,low,,,Unauthorized Access,2025-10-05 10:36:44,Resolved
+INC_2450,CUST_262,high,20,False,DDoS,2025-09-27 10:36:44,In Progress
+INC_2451,CUST_355,medium,60,True,DDoS,2025-10-03 10:36:44,Open
+INC_2452,CUST_138,low,,,Data Breach,2025-10-10 10:36:44,In Progress
+INC_2453,CUST_464,low,,,Data Breach,2025-10-16 10:36:44,In Progress
+INC_2454,CUST_157,low,,,Phishing,2025-10-04 10:36:44,Closed
+INC_2455,CUST_307,low,,,DDoS,2025-08-22 10:36:44,In Progress
+INC_2456,CUST_411,high,20,True,Data Breach,2025-10-22 10:36:44,Resolved
+INC_2457,CUST_105,medium,60,False,DDoS,2025-09-02 10:36:44,In Progress
+INC_2458,CUST_371,low,,,Data Breach,2025-08-26 10:36:44,In Progress
+INC_2459,CUST_405,low,,,Data Breach,2025-10-23 10:36:44,Closed
+INC_2460,CUST_201,low,,,DDoS,2025-10-12 10:36:44,Closed
+INC_2461,CUST_131,medium,60,True,Unauthorized Access,2025-11-06 10:36:44,Resolved
+INC_2462,CUST_193,low,,,Unauthorized Access,2025-09-26 10:36:44,Open
+INC_2463,CUST_416,low,,,Data Breach,2025-09-13 10:36:44,Closed
+INC_2464,CUST_262,high,20,False,Unauthorized Access,2025-09-23 10:36:44,In Progress
+INC_2465,CUST_219,low,,,DDoS,2025-08-31 10:36:44,Open
+INC_2466,CUST_161,medium,60,False,Malware,2025-10-29 10:36:44,In Progress
+INC_2467,CUST_390,low,,,Malware,2025-11-10 10:36:44,Open
+INC_2468,CUST_281,low,,,Unauthorized Access,2025-10-12 10:36:44,In Progress
+INC_2469,CUST_105,high,20,False,Malware,2025-08-23 10:36:44,Open
+INC_2470,CUST_173,low,,,Unauthorized Access,2025-10-11 10:36:44,Resolved
+INC_2471,CUST_113,medium,60,True,Unauthorized Access,2025-08-30 10:36:44,Resolved
+INC_2472,CUST_431,high,20,False,Phishing,2025-10-27 10:36:44,Open
+INC_2473,CUST_391,medium,60,False,Phishing,2025-10-25 10:36:44,Closed
+INC_2474,CUST_316,low,,,Malware,2025-10-26 10:36:44,Open
+INC_2475,CUST_415,medium,60,False,DDoS,2025-10-31 10:36:44,Open
+INC_2476,CUST_209,low,,,Phishing,2025-10-16 10:36:44,Closed
+INC_2477,CUST_470,medium,60,True,Phishing,2025-10-11 10:36:44,Open
+INC_2478,CUST_344,low,,,Data Breach,2025-09-21 10:36:44,Closed
+INC_2479,CUST_052,medium,60,True,Malware,2025-09-24 10:36:44,Closed
+INC_2480,CUST_436,medium,60,False,Unauthorized Access,2025-09-28 10:36:44,Open
+INC_2481,CUST_106,medium,60,False,DDoS,2025-09-21 10:36:44,Resolved
+INC_2482,CUST_256,low,,,Unauthorized Access,2025-08-29 10:36:44,Closed
+INC_2483,CUST_191,high,20,True,Phishing,2025-11-06 10:36:44,Closed
+INC_2484,CUST_207,low,,,Phishing,2025-10-19 10:36:44,Resolved
+INC_2485,CUST_141,low,,,Phishing,2025-10-09 10:36:44,In Progress
+INC_2486,CUST_450,low,,,DDoS,2025-11-12 10:36:44,In Progress
+INC_2487,CUST_232,medium,60,True,Malware,2025-09-27 10:36:44,Resolved
+INC_2488,CUST_011,low,,,DDoS,2025-09-21 10:36:44,Closed
+INC_2489,CUST_224,high,20,True,Data Breach,2025-10-02 10:36:44,In Progress
+INC_2490,CUST_467,low,,,Data Breach,2025-09-15 10:36:44,In Progress
+INC_2491,CUST_438,low,,,Unauthorized Access,2025-08-25 10:36:44,In Progress
+INC_2492,CUST_187,high,20,False,Malware,2025-10-17 10:36:44,Open
+INC_2493,CUST_048,medium,60,True,Unauthorized Access,2025-08-18 10:36:44,Open
+INC_2494,CUST_269,low,,,Data Breach,2025-09-19 10:36:44,In Progress
+INC_2495,CUST_440,low,,,DDoS,2025-10-11 10:36:44,In Progress
+INC_2496,CUST_160,low,,,Phishing,2025-09-10 10:36:44,Open
+INC_2497,CUST_048,low,,,Unauthorized Access,2025-11-09 10:36:44,In Progress
+INC_2498,CUST_241,low,,,DDoS,2025-10-25 10:36:44,In Progress
+INC_2499,CUST_493,low,,,Phishing,2025-08-30 10:36:44,Open
+INC_2500,CUST_052,low,,,Data Breach,2025-10-24 10:36:44,Open

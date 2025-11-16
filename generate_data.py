@@ -6,9 +6,9 @@ random.seed(42)
 
 industries = ['Retail', 'IT Services', 'Healthcare', 'Manufacturing', 'Finance', 'Legal', 'Real Estate', 'Education']
 
-# Generate 75 customers
+# Generate 500 customers
 customers_data = []
-for i in range(1, 76):
+for i in range(1, 501):
     customers_data.append({
         'customer_id': f"CUST_{i:03d}",
         'company_name': f"Company_{i:03d}",
@@ -24,7 +24,7 @@ incidents_data = []
 severities = ['low', 'medium', 'high', 'critical']
 sla_map = {'low': '', 'medium': 60, 'high': 20, 'critical': 5}
 
-for i in range(1, 151):
+for i in range(1, 2501):
     severity = random.choices(severities, weights=[40, 35, 20, 5])[0]
     sla_minutes = sla_map[severity]
     
@@ -47,7 +47,7 @@ for i in range(1, 151):
 tickets_data = []
 
 # Customer generated tickets
-for i in range(1, 201):
+for i in range(1, 3001):
     tickets_data.append({
         'ticket_id': f"TKT_{i:04d}",
         'customer_id': random.choice([c['customer_id'] for c in customers_data]),
