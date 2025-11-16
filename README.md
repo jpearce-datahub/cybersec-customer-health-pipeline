@@ -1,6 +1,6 @@
 # Cybersecurity Customer Health Analytics Pipeline
 
-A comprehensive data pipeline for tracking customer health analytics at a managed cybersecurity solutions provider. This system transforms complex operational data into actionable insights for customer journey mapping, support optimization, and churn prevention.
+A comprehensive data pipeline for tracking customer health analytics. This system transforms complex operational data into actionable insights for customer journey mapping, support optimization, and churn prevention.
 
 ## Overview
 - **Customer Health Scoring**: Composite metrics combining usage, support, security, and satisfaction data
