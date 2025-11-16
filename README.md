@@ -122,6 +122,9 @@ dbt run --profiles-dir .
 - **Interactive Charts**: Customer journey, security analytics, threat intelligence
 - **Clickable Metrics**: Detailed information modals for each metric
 
+<img width="1008" height="1292" alt="image" src="https://github.com/user-attachments/assets/8cc79383-e7ea-4995-a49e-9d9b006dea9a" />
+
+
 ## DBeaver Integration
 
 Connect to dual databases:
