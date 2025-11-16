@@ -45,33 +45,40 @@ def generate_executive_dashboard():
     return insights
 
 def print_dashboard(insights):
-    """Print formatted dashboard"""
-    print("=" * 60)
-    print("CYBERSECURITY CUSTOMER HEALTH DASHBOARD")
-    print("=" * 60)
+    """Print formatted dashboard with GitHub dark theme colors"""
+    # GitHub dark theme colors
+    GREEN = '\033[38;2;35;134;54m'  # GitHub green
+    WHITE = '\033[38;2;240;246;252m'  # GitHub light text
+    GRAY = '\033[38;2;139;148;158m'  # GitHub muted text
+    RED = '\033[38;2;248;81;73m'  # GitHub red
+    RESET = '\033[0m'
     
-    print(f"\n📊 CUSTOMER HEALTH OVERVIEW")
-    print(f"Total Customers: {insights['total_customers']}")
-    print(f"Average Health Score: {insights['avg_health_score']:.1f}/100")
-    print(f"At Risk Customers: {insights['at_risk_customers']} ({insights['at_risk_customers']/insights['total_customers']*100:.1f}%)")
-    print(f"Champion Customers: {insights['champion_customers']} ({insights['champion_customers']/insights['total_customers']*100:.1f}%)")
+    print(f"{GREEN}{'=' * 60}{RESET}")
+    print(f"{WHITE}CYBERSECURITY CUSTOMER HEALTH DASHBOARD{RESET}")
+    print(f"{GREEN}{'=' * 60}{RESET}")
     
-    print(f"\n💰 REVENUE METRICS")
-    print(f"Revenue at Risk: ${insights['revenue_at_risk']:,} ({insights['revenue_at_risk_pct']:.1f}%)")
+    print(f"\n{GREEN}📊 CUSTOMER HEALTH OVERVIEW{RESET}")
+    print(f"{WHITE}Total Customers: {GREEN}{insights['total_customers']}{RESET}")
+    print(f"{WHITE}Average Health Score: {GREEN}{insights['avg_health_score']:.1f}/100{RESET}")
+    print(f"{WHITE}At Risk Customers: {RED}{insights['at_risk_customers']}{RESET} {GRAY}({insights['at_risk_customers']/insights['total_customers']*100:.1f}%){RESET}")
+    print(f"{WHITE}Champion Customers: {GREEN}{insights['champion_customers']}{RESET} {GRAY}({insights['champion_customers']/insights['total_customers']*100:.1f}%){RESET}")
     
-    print(f"\n🎧 SUPPORT PERFORMANCE")
-    print(f"Average Resolution Time: {insights['avg_resolution_time']:.1f} hours")
-    print(f"Escalation Rate: {insights['escalation_rate']:.1f}%")
-    print(f"Average Satisfaction: {insights['avg_satisfaction']:.1f}/5")
+    print(f"\n{GREEN}💰 REVENUE METRICS{RESET}")
+    print(f"{WHITE}Revenue at Risk: {RED}${insights['revenue_at_risk']:,}{RESET} {GRAY}({insights['revenue_at_risk_pct']:.1f}%){RESET}")
     
-    print(f"\n🔒 SECURITY OPERATIONS")
-    print(f"Average Detection Time: {insights['avg_detection_time']:.1f} minutes")
-    print(f"Average Response Time: {insights['avg_response_time']:.1f} minutes")
-    print(f"False Positive Rate: {insights['false_positive_rate']:.1f}%")
+    print(f"\n{GREEN}🎧 SUPPORT PERFORMANCE{RESET}")
+    print(f"{WHITE}Average Resolution Time: {GREEN}{insights['avg_resolution_time']:.1f} hours{RESET}")
+    print(f"{WHITE}Escalation Rate: {RED}{insights['escalation_rate']:.1f}%{RESET}")
+    print(f"{WHITE}Average Satisfaction: {GREEN}{insights['avg_satisfaction']:.1f}/5{RESET}")
     
-    print(f"\n📈 PRODUCT ADOPTION")
-    print(f"Average Feature Adoption: {insights['avg_feature_adoption']:.1f}%")
-    print(f"Average License Utilization: {insights['avg_license_utilization']:.1f}%")
+    print(f"\n{GREEN}🔒 SECURITY OPERATIONS{RESET}")
+    print(f"{WHITE}Average Detection Time: {GREEN}{insights['avg_detection_time']:.1f} minutes{RESET}")
+    print(f"{WHITE}Average Response Time: {GREEN}{insights['avg_response_time']:.1f} minutes{RESET}")
+    print(f"{WHITE}False Positive Rate: {RED}{insights['false_positive_rate']:.1f}%{RESET}")
+    
+    print(f"\n{GREEN}📈 PRODUCT ADOPTION{RESET}")
+    print(f"{WHITE}Average Feature Adoption: {GREEN}{insights['avg_feature_adoption']:.1f}%{RESET}")
+    print(f"{WHITE}Average License Utilization: {GREEN}{insights['avg_license_utilization']:.1f}%{RESET}")
 
 if __name__ == "__main__":
     insights = generate_executive_dashboard()
