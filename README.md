@@ -121,6 +121,7 @@ dbt run --profiles-dir .
   - Incident Effectiveness: Response time, SLA adherence
 - **Interactive Charts**: Customer journey, security analytics, threat intelligence
 - **Clickable Metrics**: Detailed information modals for each metric
+- **AI Assistant**: AI Chatbot 
 
 <img width="1008" height="1292" alt="image" src="https://github.com/user-attachments/assets/8cc79383-e7ea-4995-a49e-9d9b006dea9a" />
 
