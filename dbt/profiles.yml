@@ -1,0 +1,6 @@
+cybersec_health:
+  outputs:
+    dev:
+      type: duckdb
+      path: '../data/processed/cybersec_health.duckdb'
+  target: dev
