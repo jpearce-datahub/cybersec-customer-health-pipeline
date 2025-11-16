@@ -2,6 +2,8 @@
 
 A comprehensive data pipeline for tracking customer health analytics with interactive web dashboard and dbt transformations.
 
+<img width="641" height="224" alt="image" src="https://github.com/user-attachments/assets/67b9956f-c7b4-43c9-897a-4b32ddb9fef5" />
+
 ## Features
 - **dbt Data Transformations**: Staging and mart models for advanced analytics
 - **DBeaver Integration**: Dual database setup for raw and transformed data
