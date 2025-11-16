@@ -18,11 +18,11 @@ A comprehensive data pipeline for tracking customer health analytics. This syste
 - Net Promoter Score (NPS) and renewal likelihood
 
 ### Operational KPIs
-- Average resolution time: 16.7 hours
-- Escalation rate: 40%
-- Critical incident rate: 20%
-- Customer satisfaction: 7.2/10 NPS
-- Revenue at risk: 20% of customers
+- Average resolution time
+- Escalation rate
+- Critical incident rate
+- Customer satisfaction
+- Revenue at risk
 
 ## Project Structure
 
