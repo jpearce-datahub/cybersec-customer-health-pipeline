@@ -1,0 +1,11 @@
+event_id,customer_id,event_date,event_type,event_details,impact_on_health,revenue_impact
+EVT001,CUST001,2024-01-05,Contract Renewal,Renewed for 1 year,Positive,15000
+EVT002,CUST004,2024-01-10,Downgrade,Reduced from Professional to Standard,Negative,-5000
+EVT003,CUST002,2024-01-12,Upsell,Added premium features,Positive,10000
+EVT004,CUST007,2024-01-15,Payment Delay,30 days overdue,Negative,0
+EVT005,CUST005,2024-01-18,Expansion,Added 200 more licenses,Positive,12000
+EVT006,CUST003,2024-01-20,Contract Extension,Extended by 6 months,Positive,12500
+EVT007,CUST008,2024-01-22,Churn Risk,Expressed interest in competitor,Negative,0
+EVT008,CUST006,2024-01-25,Upgrade,Moved to Enterprise tier,Positive,15000
+EVT009,CUST009,2024-01-27,Satisfaction Increase,Positive feedback from exec team,Positive,0
+EVT010,CUST010,2024-01-30,Budget Approval,Approved for multi-year contract,Positive,0
