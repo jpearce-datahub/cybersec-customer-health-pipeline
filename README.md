@@ -125,7 +125,6 @@ dbt run --profiles-dir .
 - **Clickable Metrics**: Detailed information modals for each metric
 - **AI Assistant**: AI Chatbot 
 
-<img width="1008" height="1292" alt="image" src="https://github.com/user-attachments/assets/8cc79383-e7ea-4995-a49e-9d9b006dea9a" />
 
 
 ## DBeaver Integration
