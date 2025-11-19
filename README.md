@@ -3,11 +3,13 @@
 A comprehensive data pipeline for tracking customer health analytics with interactive web dashboard and dbt transformations.
 
 ## Features
-- **dbt Data Transformations**: Staging and mart models for advanced analytics
+- **dbt Data Transformations**: Staging and mart models for advanced security analytics
 - **DBeaver Integration**: Dual database setup for raw and transformed data
 - **Customer Health Scoring**: Composite metrics combining usage, support, security, and satisfaction data
+- **Machine Learning Pipeline**: Churn prediction and comprehensive health scoring
+- **Alert System**: Automated alerting for at-risk customers and security incidents
 - **Support Operations Analytics**: Ticket resolution times, escalation rates, and satisfaction tracking
-- **Security Operations Metrics**: Incident response times, detection efficiency, and false positive rates
+- **Security Operations Metrics**: Incident response times, detection efficiency, and threat analysis
 - **Customer Journey Insights**: Renewal likelihood, churn risk, and expansion opportunities
 
 ## Key Metrics Tracked
@@ -39,6 +41,19 @@ A comprehensive data pipeline for tracking customer health analytics with intera
   load.py               # Data loading and processing
   simple_dashboard.py   # Console dashboard with GitHub dark theme
   dashboard_insights.py # Executive dashboard insights
+  alert_system.py       # Automated alerting system
+  churn_predictor.py    # Machine learning churn prediction
+  comprehensive_health_score.py # Advanced health scoring
+  run_ml_pipeline.py    # ML pipeline orchestration
+/scripts
+  generate_data.py      # Data generation utilities
+  run_pipeline.py       # Pipeline orchestration
+  run_dbt.py           # dbt execution wrapper
+  sql_interface.py     # Database interface utilities
+  transform_data.py    # Data transformation scripts
+  view_data.py         # Data viewing utilities
+  github_to_duckdb.py  # GitHub data integration
+  create_permanent_tables.py # Database table creation
 /webapp
   public/
     index.html          # Interactive web dashboard
@@ -150,10 +165,16 @@ The pipeline integrates data from:
 - `stg_security_incidents` - Enhanced security incident data
 
 ### Mart Models
+- `customer_health_scores` - Customer health scoring and metrics
 - `security_attack_patterns` - Attack pattern analysis
 - `security_incident_analytics` - Incident metrics and KPIs
+- `security_incidents_daily` - Daily incident aggregations
 - `security_ip_analysis` - IP threat analysis
+- `security_network_analysis` - Network security analytics
 - `security_predictive_analytics` - Predictive modeling
+- `security_clustering_analysis` - Incident clustering analysis
+- `security_seasonal_trends` - Seasonal security trend analysis
+- `security_kpi_dashboard` - Security KPI dashboard data
 
 ## Data Flow
 **Key Components**:
@@ -167,10 +188,25 @@ The pipeline integrates data from:
 **Data Flow Path**:
 Sources → Extract Scripts → Raw DuckDB → dbt Models → Analytics DuckDB → Outputs
 
+## Machine Learning Features
+
+- **Churn Prediction**: ML models to identify customers at risk of churning
+- **Health Score Modeling**: Comprehensive scoring combining multiple data sources
+- **Alert System**: Automated notifications for critical events and at-risk customers
+- **Predictive Analytics**: Advanced forecasting for security incidents and customer behavior
+
+## Additional Components
+
+- **Config Management**: JSON-based alert configuration
+- **Data Generation**: Synthetic data generation for testing and development
+- **Pipeline Orchestration**: Automated ETL and ML pipeline execution
+- **Database Management**: Utilities for DuckDB database operations
+- **GitHub Integration**: Direct integration with GitHub data sources
+
 ## Next Steps
 
 - Implement real-time data ingestion
-- Add predictive churn modeling
-- Create automated alerting for at-risk customers
+- Enhance ML model accuracy and coverage
+- Add more sophisticated anomaly detection
 - Integrate with CRM and customer success platforms
-- Expand dbt model coverage
+- Expand security analytics capabilities
