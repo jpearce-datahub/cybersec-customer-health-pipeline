@@ -4,6 +4,8 @@ config-version: 2
 
 profile: 'cybersec_health'
 
+require-dbt-version: ">=1.0.0"
+
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
