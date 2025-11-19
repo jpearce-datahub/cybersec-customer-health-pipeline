@@ -28,7 +28,6 @@ A comprehensive data pipeline for tracking customer health analytics with intera
 - Customer satisfaction
 - Revenue at risk
 
-<img width="641" height="224" alt="image" src="https://github.com/user-attachments/assets/67b9956f-c7b4-43c9-897a-4b32ddb9fef5" />
 
 ## Project Structure
 
@@ -84,50 +83,6 @@ setup_dbt_db.py      # Database setup script
 /.github/workflows/ci.yml
 ```
 
-## Quick Start
-
-### Console Dashboard
-1. Install Python dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-2. Run console dashboard:
-```bash
-cd src
-python simple_dashboard.py
-```
-
-### Web Dashboard
-1. Install Node.js dependencies:
-```bash
-cd webapp
-npm install
-```
-
-2. Start the web server:
-```bash
-node server.js
-```
-
-3. Open browser to `http://localhost:3000`
-
-### dbt Setup
-1. Install dbt:
-```bash
-pip install dbt-core dbt-duckdb
-```
-
-2. Setup databases:
-```bash
-python setup_dbt_db.py
-```
-
-3. Run dbt models:
-```bash
-cd dbt
-dbt run --profiles-dir .
-```
 
 ## Web Dashboard Features
 
